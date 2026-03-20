@@ -1,4 +1,6 @@
 <script lang="ts">
+    import { onMount } from "svelte";
+
     export interface WordDef {
         primaryText: string;
         alterativeText: string;
@@ -23,19 +25,19 @@
 
     let { definition, useDefault = true, index }: Props = $props();
 
-    let showDetail = $state(false);
+    let showDetail = $state(true);
+    let contentHeight = $state(0);
+
+    let content = $state<HTMLDivElement>();
 </script>
 
 <div class="container">
+    <span>Height {contentHeight}</span>
     <div class="hor">
         <div class="ver">
-            <div class="hor">
-                <!-- title -->
-                <span>
+            <div class="hor" style="gap:1rem; align-items: center;">
+                <span class="title">
                     {index}.
-                </span>
-
-                <span>
                     {#if useDefault}
                         {definition.primaryText}
                     {:else}
@@ -43,7 +45,7 @@
                     {/if}
                 </span>
 
-                <span>
+                <span class="wordType">
                     [{definition.wordType}]
                 </span>
                 <!-- end title row -->
@@ -78,15 +80,43 @@
             <button class="iconBtn">
                 <img src="/icons/photo.svg" alt=" icon button" />
             </button>
-            <button class="iconBtn">
-                <img src="/icons/plus.svg" alt="press to show more info" />
+            <button
+                class="iconBtn"
+                onclick={() => {
+                    showDetail = !showDetail;
+                }}
+            >
+                {#if !showDetail}
+                    <img src="/icons/plus.svg" alt="press to show more info" />
+                {:else}
+                    <img src="/icons/minus.svg" alt="press to hide more info" />
+                {/if}
             </button>
             <!-- end side buttons -->
         </div>
     </div>
 
-    <div class="detailContainer">
-        <div class="detailContent"></div>
+    <!-- <h2 bind:clientHeight={contentHeight}>Tester</h2> -->
+
+    <div class="detailContainer" style:--contentHeight={contentHeight} class:showDetail>
+        <div class="detailContent" bind:clientHeight={contentHeight} bind:this={content}>
+            <div class="divider"></div>
+            <span>{definition.detailWord_Ling}</span>
+
+            <div class="morphsContainer">
+                <div class="morphCol" style="align-items: flex-end;">
+                    {#each definition.morphs as morph}
+                        <span>{morph.description}</span>
+                    {/each}
+                </div>
+
+                <div class="morphCol" style="align-items: flex-start;">
+                    {#each definition.morphs as morph}
+                        <span>{morph.word}</span>
+                    {/each}
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -99,9 +129,57 @@
         max-width: 350px;
     }
 
+    .title {
+        font-size: larger;
+    }
+
+    .wordType {
+        font-size: smaller;
+    }
+
     .sideBtns {
         margin-left: auto;
         gap: 0.25rem;
+    }
+
+    .divider {
+        width: auto;
+        height: 2px;
+        background-color: var(--black);
+        margin: 0.25rem 0;
+    }
+
+    .detailContent {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding-top: 0.5rem;
+    }
+
+    .detailContainer {
+        height: fit-content;
+        max-height: 0;
+
+        transition: max-height 200ms ease-out;
+        overflow: hidden;
+    }
+
+    .detailContainer.showDetail {
+        max-height: calc(var(--contentHeight) * 1px);
+    }
+
+    .morphsContainer {
+        display: flex;
+        font-size: smaller;
+        gap: 1.25rem;
+        justify-content: center;
+
+        margin-top: 0.5rem;
+    }
+
+    .morphCol {
+        display: flex;
+        flex-direction: column;
     }
 
     button {

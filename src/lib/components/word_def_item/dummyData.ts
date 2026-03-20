@@ -15,7 +15,7 @@ export const testCreeWordDef: WordDef = {
     detailWord_Ling: "VAI (Verb Animate Intransitive)",
     morphs: [
         { description: "Verb stem (to sleep)", word: "nipâ-" },
-        { description: "3rd person singular indicative suffix", word: "-w" }
+        { description: "3rd person singular suffix", word: "-w" }
     ],
     alternativeMorphs: [
         { description: "Verb stem (to sleep)", word: "ᓂᐹ-" },
