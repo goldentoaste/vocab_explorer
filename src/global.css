@@ -1,0 +1,44 @@
+button {
+    cursor: pointer;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    overflow-x: hidden;
+
+    --black: #242424;
+    --white: #f2f2f2;
+    --lightGrey: #d9dce2;
+    --grey: #57585b;
+
+
+    font-family: "Mona Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "width" 100;
+
+    min-height: 100dvh;
+}
+
+
+
+.hor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ver {
+    display: flex;
+    flex-direction: column;
+}
