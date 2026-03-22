@@ -42,7 +42,6 @@
         flex-direction: column;
         align-items: center;
 
-        padding: 2rem;
     }
 
     h3 {

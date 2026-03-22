@@ -28,7 +28,6 @@
     nav {
         pointer-events: all;
 
-
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -41,6 +40,7 @@
         padding: 0.25rem;
 
         border-top: 2px solid var(--black);
+        background-color: var(--white);
     }
 
     a.navLink {

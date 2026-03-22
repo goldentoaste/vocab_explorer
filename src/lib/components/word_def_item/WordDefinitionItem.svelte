@@ -22,11 +22,11 @@
 
     let { definition, index }: Props = $props();
 
-    let showDetail = $state(true);
+    let showDetail = $state(false);
     let contentHeight = $state(0);
 </script>
 
-<div class="container">
+<div class="container" class:cree={UserPref.format === "Syllabics"}>
     <div class="hor">
         <div class="ver">
             <div class="hor" style="gap:1rem; align-items: center;">
@@ -111,11 +111,16 @@
 </div>
 
 <style>
+    .cree {
+        font-family: CanadianSyllabic;
+    }
+
     .container {
         padding: 0.75rem;
         border: 2px solid var(--black);
         border-radius: 6px;
 
+        width: 100%;
         max-width: 350px;
     }
 

@@ -116,6 +116,7 @@ function SRO2Syllabic(sro: string) {
                 break;
             }
 
+            let finalMatched = false;
             // text is not a match yet, lets try matching finals at the beginning
             for (let i = maxFinalPrefixLength; i >= 1; i--) {
                 if (start + i > length) {
@@ -126,11 +127,16 @@ function SRO2Syllabic(sro: string) {
                 if (finalMatch) {
                     out.push(finalMatch);
                     start += i;
+                    finalMatched = true;
                     break;
                 }
             }
 
-            out.push(sro[start]);
+            if (!finalMatched) {
+                console.log(start, idx);
+                out.push(sro[start]);
+                start += 1;
+            }
         }
 
 
@@ -182,7 +188,7 @@ const finals = new Map<string, string>([
     ['hk', 'ᕽ']
 ]);
 
-const maxFinalPrefixLength = Math.max(...(finals.keys().map(key => parseInt(key.length))));
+const maxFinalPrefixLength = Math.max(...(finals.keys().map(key => (key.length))));
 
 const conversionTable = new Map<string, string>([
     // vowels
@@ -200,8 +206,8 @@ const conversionTable = new Map<string, string>([
     ['wî', 'ᐑ'],
     ['wo', 'ᐓ'],
     ['wô', 'ᐕ'],
-    ['wa', 'ᐗ'],
-    ['wâ', 'ᐙ'],
+    ['wa', 'ᐘ'],
+    ['wâ', 'ᐚ'],
 
     // P prefix
     ['pê', 'ᐯ'],

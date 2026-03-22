@@ -52,6 +52,8 @@
 		overflow-y: auto;
 
 		background-color: var(--white);
+
+		padding: 2rem;
 	}
 
 	.navContainer {
@@ -67,5 +69,7 @@
 		transform: translate(-50%, -50%);
 
 		pointer-events: none;
+
+		z-index: 100000;
 	}
 </style>

@@ -138,3 +138,9 @@ export const englishWords: Word[] = [
     { text: "clean", translations: ["limpio", "propre"] },
     { text: "dirty", translations: ["sucio", "sale"] }
 ];
+
+
+const wordSet = new Set(englishWords.map(w => w.text));
+export function isEnglishWord(word: string) {
+    return wordSet.has(word)
+}

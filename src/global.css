@@ -42,3 +42,39 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+
+
+
+.iconBtn {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: fit-content;
+
+    border: 1px solid var(--lightGrey);
+    transition: border-color 200ms ease-out;
+    background-color: transparent;
+
+    padding: 0.25rem;
+}
+
+.iconBtn:hover {
+    border-color: var(--black);
+}
+
+.iconBtn>img {
+    height: auto;
+    width: 1.25rem;
+}
+
+.iconBtn {
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
+
+@font-face {
+    font-family: CanadianSyllabic;
+    src: url("/font/NotoSansCanadianSyllabic_Regular.ttf");
+}
