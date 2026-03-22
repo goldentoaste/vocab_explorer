@@ -1,17 +1,15 @@
 <script lang="ts">
-    import { onMount } from "svelte";
+    import { CreeFormatTranslate } from "$lib/assets/cree_util/cree_format_translate";
+    import { UserPref } from "$lib/assets/shared_states/userPref.svelte";
 
     export interface WordDef {
         primaryText: string;
-        alterativeText: string;
         wordType: "None" | "Verb";
 
         descriptions: string[];
-        alternativeDescription: string[];
 
         detailWord_Ling: string;
         morphs: { description: string; word: string }[];
-        alternativeMorphs: { description: string; word: string }[];
 
         audioKey?: string;
         imageSrc?: string[];
@@ -20,29 +18,23 @@
     interface Props {
         index: number;
         definition: WordDef;
-        useDefault?: boolean;
     }
 
-    let { definition, useDefault = true, index }: Props = $props();
+    let { definition, index }: Props = $props();
 
     let showDetail = $state(true);
     let contentHeight = $state(0);
-
-    let content = $state<HTMLDivElement>();
 </script>
 
 <div class="container">
-    <span>Height {contentHeight}</span>
     <div class="hor">
         <div class="ver">
             <div class="hor" style="gap:1rem; align-items: center;">
                 <span class="title">
                     {index}.
-                    {#if useDefault}
-                        {definition.primaryText}
-                    {:else}
-                        {definition.alterativeText}
-                    {/if}
+                    {CreeFormatTranslate(definition.primaryText, {
+                        ...UserPref,
+                    })}
                 </span>
 
                 <span class="wordType">
@@ -54,15 +46,9 @@
             <div class="ver description">
                 <!-- description -->
                 <ul>
-                    {#if useDefault}
-                        {#each definition.descriptions as desc}
-                            <li>{desc}</li>
-                        {/each}
-                    {:else}
-                        {#each definition.alternativeDescription as desc}
-                            <li>{desc}</li>
-                        {/each}
-                    {/if}
+                    {#each definition.descriptions as desc}
+                        <li>{desc}</li>
+                    {/each}
                 </ul>
                 <!-- end description -->
             </div>
@@ -99,7 +85,7 @@
     <!-- <h2 bind:clientHeight={contentHeight}>Tester</h2> -->
 
     <div class="detailContainer" style:--contentHeight={contentHeight} class:showDetail>
-        <div class="detailContent" bind:clientHeight={contentHeight} bind:this={content}>
+        <div class="detailContent" bind:clientHeight={contentHeight}>
             <div class="divider"></div>
             <span>{definition.detailWord_Ling}</span>
 
@@ -112,7 +98,11 @@
 
                 <div class="morphCol" style="align-items: flex-start;">
                     {#each definition.morphs as morph}
-                        <span>{morph.word}</span>
+                        <span
+                            >{CreeFormatTranslate(morph.word, {
+                                ...UserPref,
+                            })}</span
+                        >
                     {/each}
                 </div>
             </div>
