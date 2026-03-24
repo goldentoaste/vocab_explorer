@@ -12,7 +12,11 @@ export class Vector2 {
     static of(x: number, y: number) {
         return new Vector2(x, y);
     }
-    
+
+    static from({ x, y }: { x: number, y: number }) {
+        return new Vector2(x, y);
+    }
+
 
     /**
      * returns the mid point between the 2 vectors.

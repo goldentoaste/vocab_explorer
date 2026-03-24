@@ -1,20 +1,20 @@
 import { createSubscriber } from "svelte/reactivity";
 
 export class ManualReactiveMap<K, V> {
-    array: Map<K, V> = new Map<K, V>();
+    _data: Map<K, V> = new Map<K, V>();
     #subscribe;
     #forceUpdate: (() => void) | undefined;
 
-    constructor(arr: Array<T>) {
-        this.array = arr;
+    constructor(map: Map<K,V>) {
+        this._data = map;
         this.#subscribe = createSubscriber((update) => {
             this.#forceUpdate = update;
         });
     }
 
-    get arr() {
+    get data() {
         this.#subscribe();
-        return this.array;
+        return this._data;
     }
 
     update() {

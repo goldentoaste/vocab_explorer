@@ -69,7 +69,7 @@ export class BarnesHutQuadTree {
     }
 
     insert(p: Vector2) {
-        if (!this.boundary.containsPoint(p)) {
+        if (!this.boundary.containsPoint(p) || (this.point && this.point.eq(p))) {
             return false;
         }
 
@@ -89,10 +89,10 @@ export class BarnesHutQuadTree {
             this.totalMass += 1;
 
             // recursively insert the actual point to children
-            if (this.NE!.insert(p)) return;
-            if (this.NW!.insert(p)) return;
-            if (this.SE!.insert(p)) return;
-            if (this.SW!.insert(p)) return;
+            if (this.NE!.insert(p)) return true;
+            if (this.NW!.insert(p)) return true;
+            if (this.SE!.insert(p)) return true;
+            if (this.SW!.insert(p)) return true;
         }
 
         // external node. Has a point => no children.
@@ -117,7 +117,7 @@ export class BarnesHutQuadTree {
             return true;
         }
 
-        throw Error("This should never happen.");
+        throw Error(`This should never happen. Point ${this.point}, AABB: ${this.boundary}, NE: ${this.NE}`);
 
     }
 }
