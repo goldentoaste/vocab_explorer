@@ -11,6 +11,8 @@ export class GraphController {
     connections: Map<string, string[]> = new Map();
 
     focusedItem?: SimObj;
+    hoveredItem?: SimObj;
+    hoveredElement?: HTMLElement;
 
     items = $state.raw<Items>({});
     lines = $state.raw<Lines>({});
@@ -23,6 +25,7 @@ export class GraphController {
     physicsDT = 1 / this.physicsFps;
 
     camera = $state({ x: 0, y: 0 });
+
     get cameraCenter() {
         return Vector2.of(this.camera.x + this.width / 2, this.camera.y + this.height / 2);
     }
@@ -35,8 +38,10 @@ export class GraphController {
     mutationObserver?: MutationObserver;
 
     pauseSim = false;
+    startingFrame = -1;
 
     constructor() {
+
     }
 
     start() {
@@ -46,6 +51,7 @@ export class GraphController {
         }
 
         this.animationId = requestAnimationFrame(this.update.bind(this));
+        this.startingFrame = -1;
     }
 
     init(container: HTMLElement) {
@@ -79,9 +85,43 @@ export class GraphController {
         this.container = undefined;
     }
 
+
+    lastPoint = Vector2.ONE;
+
+
+    setHover(element: HTMLElement) {
+        if (this.hoveredElement) {
+            this.clearHover();
+        }
+
+        const obj = this.objs.get(element.id);
+        if (obj) {
+            this.hoveredItem = obj;
+            this.hoveredElement = element;
+
+            const rect = element.getBoundingClientRect();
+            obj.radius = (rect.width + rect.height) / 4;
+            this.pauseSim = false;
+        }
+    }
+
+    clearHover() {
+        if (!this.hoveredElement || !this.hoveredItem) {
+            return;
+        }
+        this.hoveredElement = undefined;
+        this.hoveredItem.radius = this.hoveredItem.originalRad;
+        this.hoveredItem = undefined;
+        this.pauseSim = false;
+    }
+
+    
+
     initEvents() {
         this.container?.addEventListener("pointerdown", (e) => {
+            this.lastPoint = Vector2.of(e.screenX, e.screenY);
             if (e.target == this.container) {
+                this.clearHover();
                 return;
             }
 
@@ -91,41 +131,56 @@ export class GraphController {
             if (obj) {
                 this.focusedItem = obj;
                 obj.static = true;
-
-                console.log(obj);
-
             }
-
         })
 
 
         this.container?.addEventListener("pointermove", (e) => {
-            console.log(e.movementX, e.movementY, e.buttons, e.);
+
+            const current = Vector2.of(e.screenX, e.screenY);
+            const dx = current.x - this.lastPoint.x;
+            const dy = current.y - this.lastPoint.y;
 
             if (e.buttons != 1) {
+
+                if (e.buttons === 0 && e.target !== this.container) {
+                    const element = e.target as HTMLElement;
+
+                    this.setHover(element);
+                }
                 return;
             }
 
             if (!this.focusedItem) {
-                this.camera.x -= e.movementX;
-                this.camera.y -= e.movementY;
+                this.camera.x -= dx;
+                this.camera.y -= dy;
             } else {
-                this.focusedItem.pos.addip(e.movementX, e.movementY);
+                this.focusedItem.pos.addip(dx, dy);
                 this.pauseSim = false; // important!
             }
+
+            this.lastPoint = current;
         });
 
         this.container?.addEventListener("pointerup", (e) => {
             if (this.focusedItem) {
                 this.focusedItem.static = false;
+                this.focusedItem.radius = this.focusedItem.originalRad;
                 this.focusedItem = undefined;
             }
+            this.lastPoint = Vector2.ZERO;
         })
 
     }
 
 
     update(t: number) {
+
+        if (this.startingFrame = -1) {
+            this.startingFrame = t;
+        }
+
+
         this.deltaTime = (t - this.lastFrame) / 1000;
 
         if (this.deltaTime > this.physicsDT * 3 || this.pauseSim) {
@@ -145,7 +200,7 @@ export class GraphController {
         const movement = updateObjs(this.objs);
 
         // pause the sim when it reach equilibrium
-        if (movement < 0.2 && this.lastFrame > 2000) {
+        if (movement < 0.2 && (t - this.startingFrame) > 2000) {
             this.pauseSim = true;
         }
 

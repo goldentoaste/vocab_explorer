@@ -15,11 +15,13 @@ export class SimObj {
     vel: Vector2;
 
     radius: number; // pretend each obj is spherical for simplicity.
+    originalRad : number;
     mass: number;
 
     static: boolean = false;
 
     constructor(pos: Vector2, vel: Vector2, radius: number, id: string, mass: number) {
+        this.originalRad = radius;
         this.pos = pos;
         this.vel = vel;
         this.radius = radius;

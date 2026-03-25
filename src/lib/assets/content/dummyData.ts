@@ -27,7 +27,7 @@ export const testCreeWordDef: WordDef = {
 
 export const seeDefinitions: WordDef[] = [
     {
-        primaryText: "wâpiw",
+        primaryText: "miyupimaatisiiun",
         wordType: "Verb",
         descriptions: ["He/she sees", "He/she has eyesight", "He/she can see"],
         detailWord_Ling: "VAI (Verb Animate Intransitive)",
@@ -38,7 +38,7 @@ export const seeDefinitions: WordDef[] = [
         audioKey: "wapiw_01"
     },
     {
-        primaryText: "wâpahtam",
+        primaryText: "kisemanitôw",
         wordType: "Verb",
         descriptions: ["He/she sees it (inanimate)", "Looking at a book, a house, or the weather"],
         detailWord_Ling: "VTI (Verb Transitive Inanimate)",
@@ -50,7 +50,7 @@ export const seeDefinitions: WordDef[] = [
         audioKey: "wapahtam_01"
     },
     {
-        primaryText: "wâpamêw",
+        primaryText: "wâhkôtowin",
         wordType: "Verb",
         descriptions: ["He/she sees him/her (animate)", "Looking at a person, an animal, or the sun"],
         detailWord_Ling: "VTA (Verb Transitive Animate)",
@@ -64,8 +64,8 @@ export const seeDefinitions: WordDef[] = [
 ];
 
 export const creeWords: Record<string, WordConnectionItem> = {
-    'Miyupimaatisiiun': {
-        primaryText: "Miyupimaatisiiun",
+    'miyupimaatisiiun': {
+        primaryText: "miyupimaatisiiun",
         secondaryText: "The Good Life",
         description: [
             "A holistic concept of health and wellness.",
@@ -73,8 +73,8 @@ export const creeWords: Record<string, WordConnectionItem> = {
             "The central goal of communal and individual balance."
         ]
     },
-    'Wâhkôtowin': {
-        primaryText: "Wâhkôtowin",
+    'wâhkôtowin': {
+        primaryText: "wâhkôtowin",
         secondaryText: "Kinship / Interconnectedness",
         description: [
             "The law of relations that governs how we treat one another.",
@@ -82,8 +82,16 @@ export const creeWords: Record<string, WordConnectionItem> = {
             "The foundational 'glue' of Cree social structure."
         ]
     },
-    'Nîhithawîwin': {
-        primaryText: "Nîhithawîwin",
+    'nîhithawîwin': {
+        primaryText: "nîhithawîwin",
+        secondaryText: "The Cree Way / Language",
+        description: [
+            "Literally refers to the act of speaking Cree or the Cree identity.",
+            "Language is seen as the vessel for carrying culture and land-based knowledge."
+        ]
+    },
+    "kisemanitôw": {
+        primaryText: "kisemanitôw",
         secondaryText: "The Cree Way / Language",
         description: [
             "Literally refers to the act of speaking Cree or the Cree identity.",
@@ -93,7 +101,7 @@ export const creeWords: Record<string, WordConnectionItem> = {
 };
 
 export const dummyConnections: Record<string, string[]> = {
-    "Miyupimaatisiiun": ["Wâhkôtowin", "Nîhithawîwin"],
-    "Wâhkôtowin": ["Miyupimaatisiiun", "Kisemanitôw"],
-    "Nîhithawîwin": ["Miyupimaatisiiun"]
+    "miyupimaatisiiun": ["wâhkôtowin", "nîhithawîwin"],
+    "wâhkôtowin": ["miyupimaatisiiun", "kisemanitôw"],
+    "nîhithawîwin": ["miyupimaatisiiun"]
 };

@@ -12,47 +12,62 @@
 <script lang="ts">
     import { SimObj, simulate } from "$lib/components/graph/simulations.svelte";
     import { Vector2 } from "$lib/components/graph/vector2";
-    import {  untrack } from "svelte";
+    import { untrack } from "svelte";
 
     import type { PageProps } from "./$types";
 
     import { GraphController } from "$lib/components/graph/controller.svelte";
-    import { creeWords } from "$lib/assets/content/dummyData";
+    import { creeWords, dummyConnections } from "$lib/assets/content/dummyData";
     import { error } from "@sveltejs/kit";
 
     let { params }: PageProps = $props();
-
-
 
     let container = $state<HTMLElement>();
     let controller = new GraphController();
 
     $effect(() => {
         if (container !== undefined) {
-
-            if (!(params.word in creeWords)){
-                // error(404, {message:`Word ${params.word} is not found.`})
+            if (!(params.word in creeWords)) {
+                error(404, { message: `Word ${params.word} is not found.` });
             }
 
-            // debug
-            const a = new SimObj(Vector2.ZERO, Vector2.ZERO, 50, "1", 1);
-            const b = new SimObj(Vector2.ZERO, Vector2.ZERO, 50, "2", 1);
-            const c = new SimObj(Vector2.ZERO, Vector2.ZERO, 50, "3", 1);
-            const d = new SimObj(Vector2.ZERO, Vector2.ZERO, 50, "4", 1);
-            const e = new SimObj(Vector2.ZERO, Vector2.ZERO, 50, "5", 1);
+            controller.init(container!);
 
+            const wordObjMap: Record<string, SimObj> = {};
+
+            let queue = [params.word];
+            wordObjMap[params.word] = new SimObj(Vector2.ZERO, Vector2.ZERO, 50, params.word, 1);
             untrack(() => {
-                controller.init(container!);
-                controller.insertItem(a);
-                controller.insertItem(b, a);
-                controller.insertItem(c, a);
-                controller.insertItem(d, a);
-                controller.insertItem(e, d);
-
-                controller.insertItem(b, c);
-
-                controller.start();
+                controller.insertItem(wordObjMap[params.word]);
             });
+
+            let degreeOfSep = 2; // read branches 2 layers deep.
+            while (queue.length > 0 && degreeOfSep > 0) {
+                const copy = [...queue];
+                queue = [];
+
+                for (const wordId of copy) {
+                    const rootObj = wordObjMap[wordId];
+                    for (const connection of dummyConnections[rootObj.id] ?? []) {
+                        if (!(connection in wordObjMap)) {
+                            wordObjMap[connection] = new SimObj(
+                                Vector2.ZERO,
+                                Vector2.ZERO,
+                                50,
+                                connection,
+                                1,
+                            );
+                        }
+                        untrack(() => {
+                            controller.insertItem(wordObjMap[connection], rootObj);
+                        });
+                        queue.push(connection);
+                    }
+                }
+                degreeOfSep -= 1;
+            }
+
+            controller.start();
         }
 
         return () => {
@@ -77,8 +92,26 @@
         {/each}
 
         {#each Object.entries(controller.items) as [id, item] (id)}
+            {@const word = creeWords[id]}
             <div {id} class="square" style="--x: {item.x - cam.x}px; --y: {item.y - cam.y}px;">
-                Some testing text
+                <span class="primary" draggable="false">
+                    {word.primaryText}
+                </span>
+
+                <span class="secondary" draggable="false">
+                    {word.secondaryText}
+                </span>
+
+                <div class="desc" draggable="false">
+                    {#each word.description as desc}
+                        <span class="secondary">
+                            {desc}
+                        </span>
+                    {/each}
+                </div>
+                <a href="/def/{id}" draggable="false">
+                    <button>Read More</button>
+                </a>
             </div>
         {/each}
     {/if}
@@ -107,7 +140,6 @@
         width: 100%;
         height: 100%;
 
-        border: 2px solid red;
 
         overflow: hidden;
         position: relative;
@@ -133,10 +165,50 @@
         border: 2px solid var(--black);
         border-radius: 5px;
         padding: 0.5rem;
+
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+        .primary {
+        }
+
+        .secondary {
+            font-weight: lighter;
+            font-size: small;
+        }
+
+        .desc {
+            font-weight: lighter;
+            font-size: small;
+            padding: 0.25rem;
+            border-top: 1px solid var(--black);
+            display: none;
+        }
+
+        a {
+            display: none;
+            pointer-events: all;
+            align-self: flex-end;
+        }
     }
 
-    .square:hover::after {
-        content: "abc adada dasd asd asfewoifodj asod ";
+    .square > * {
+        user-select: none;
+        pointer-events: none;
+
+    }
+
+    .square:hover {
         z-index: 11;
+
+        .desc {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        a {
+            display: block;
+        }
     }
 </style>

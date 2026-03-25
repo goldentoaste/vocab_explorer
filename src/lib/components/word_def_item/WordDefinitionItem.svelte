@@ -4,7 +4,7 @@
 
     export interface WordDef {
         primaryText: string;
-        wordType: "None" | "Verb";
+        wordType: "Noun" | "Verb";
 
         descriptions: string[];
 
@@ -53,9 +53,11 @@
                 <!-- end description -->
             </div>
 
-            <button class="semantic">
-                <img src="/icons/map.svg" alt="" /> Semantics
-            </button>
+            <a href="/map/{definition.primaryText}">
+                <button class="semantic">
+                    <img src="/icons/map.svg" alt="" /> Semantics
+                </button>
+            </a>
         </div>
 
         <div class="ver sideBtns">

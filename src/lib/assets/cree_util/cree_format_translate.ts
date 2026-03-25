@@ -68,12 +68,12 @@ function translate(text: string, translation: Record<string, string>) {
  *
  * Logics used for conversion:
  * 0. Convert 1 syllable at a time.
- * 1. Find prefix, consume as many non-vowel character as possible.
- * 2. Vowel is always a single char.
- * 3. Combine prefix and vowel to look up in conversion table.
- *      + if no match, just return SRO as is.
- * 4. Finals, Consume as many chars as possible, as long as they are in finals table still.
- * 5. Join all syllables
+ * 1. Collect as many non-vowels as possible, then collect the next vowel char if possible.
+ * 2. Start from beginning, consume as many "finals" from beginning possible.
+ *      + Longer finals are checked first
+ * 3. Consume finals until a valid matching constance + vowel combo exist.
+ *      + If not possible, syntax error. (Return the character as is.)
+ * 4. Join all the syllables, we are done.
  */
 function SRO2Syllabic(sro: string) {
     // currently the system supports only to Plains Cree, but can be converted to other dialects.
@@ -87,22 +87,14 @@ function SRO2Syllabic(sro: string) {
     while (idx < length) {
         let start = idx;
 
-
         // match until not a vowel
         while (idx < length && !vowels.has(sro[idx])) {
             idx += 1;
         }
 
-        // if (idx === length) {
-        //     // this is unexpected, the given string probably has syntax error.
-        //     out.push(sro.slice(start, idx));
-        //     break; // so lets return as is.
-        // }
-
         if (idx !== length) {
             idx += 1;
         }
-
 
         // now, we have any number of consonances, and maybe end with vowel
         // lets try to check for finals and consume as many of them as possible
@@ -133,31 +125,10 @@ function SRO2Syllabic(sro: string) {
             }
 
             if (!finalMatched) {
-                console.log(start, idx);
                 out.push(sro[start]);
                 start += 1;
             }
         }
-
-
-
-
-
-        // start = idx;
-        // // now, consume as many as possible to get final.
-        // while (idx < length && finals.has(sro.slice(start, idx + 1))) {
-        //     idx += 1;
-        // }
-
-        // // now 2 final cases
-        // // idx = start => do nothing, no final match
-
-        // // idx > start => [start, idx) matches a finals
-        // if (idx > start) {
-        //     syllabic += finals.get(sro.slice(start, idx)) ?? sro.slice(start, idx);
-        // }
-
-        // done! Fully consumed a syllable.
     }
     return out.join("");
 }
