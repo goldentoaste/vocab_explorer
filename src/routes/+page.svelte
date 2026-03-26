@@ -1,7 +1,6 @@
 <script lang="ts">
     import { englishWords } from "$lib/assets/content/englishWords";
     import CreeSearchComp from "$lib/components/CreeSearchComp.svelte";
-    import Search from "$lib/components/Search.svelte";
     import Fuse from "fuse.js";
 
     const fuse = new Fuse(englishWords, {

@@ -16,8 +16,14 @@
 	<CreeSearchComp></CreeSearchComp>
 	<a href="/settings	">
 		<button class="iconBtn" style="width:2rem; height: 2rem;">
-				<img src="/icons/setting.svg" alt="settings button." />
+			<img src="/icons/setting.svg" alt="settings button." />
 		</button></a
+	>
+
+	<a href="/"
+		><button class="iconBtn" style="width:2rem; height: 2rem;"
+			><img src="/icons/home.svg" alt="Go home" /></button
+		></a
 	>
 </div>
 
