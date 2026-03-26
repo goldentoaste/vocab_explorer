@@ -13,7 +13,7 @@
 </script>
 
 <div class="mainLayout">
-    <h1>Better Iwaina?</h1>
+    <h1>Better <span class="mispell">Iwaina</span>?</h1>
     <CreeSearchComp/>
 
     {#if !text}
@@ -32,4 +32,8 @@
     h3 {
         color: var(--grey);
     }
+    .mispell {
+        text-decoration: red underline wavy;
+    }
+
 </style>
