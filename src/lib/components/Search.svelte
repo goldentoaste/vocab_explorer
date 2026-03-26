@@ -29,13 +29,20 @@
     }
 </script>
 
-<div class="wrapper" class:displayContent={showingOptions} {style}>
+<form
+    class="wrapper"
+    class:displayContent={showingOptions}
+    {style}
+    onsubmit={(e) => {
+        e.preventDefault();
+        onsubmit();
+    }}
+>
     <input
         placeholder="Search ..."
-        type="text"
+        type="search"
         bind:value={text}
         onsubmit={() => {
-            // focused = false;
             onsubmit();
         }}
         onfocus={() => {
@@ -70,7 +77,7 @@
     {/if}
 
     <img class="icon" src="/icons/search.svg" alt="" />
-</div>
+</form>
 
 <style>
     .wrapper {

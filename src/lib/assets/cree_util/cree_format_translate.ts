@@ -2,7 +2,7 @@
 
 export interface CreeFormatTransOpt {
     format: "SRO" | "Syllabics";
-    longVowelRep: "circumflex" | "macrons"; // Circumflex: angled/carrot, Macrons, flat bar
+    longVowelRep: "Circumflex" | "Macrons"; // Circumflex: angled/carrot, Macrons, flat bar
     useDialectMarker: boolean;
 }
 
@@ -13,7 +13,7 @@ export interface CreeFormatTransOpt {
  */
 export function CreeFormatTranslate(text: string, options: CreeFormatTransOpt) {
     if (options.format === "SRO") {
-        if (options.longVowelRep === "macrons") {
+        if (options.longVowelRep === "Macrons") {
             text = circumflexToMacrons(text);
         }
         if (options.useDialectMarker) {

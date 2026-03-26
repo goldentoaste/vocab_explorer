@@ -71,12 +71,17 @@
 </script>
 
 <!-- svelte-ignore a11y_no_static_element_interactions -->
-<div class="container" bind:this={container} style="background-position: {-controller.camera.x}px {-controller.camera.y}px;">
+<div
+    class="container"
+    bind:this={container}
+    style="background-position: {-controller.camera.x}px {-controller.camera.y}px;"
+>
     {#if controller}
         {@const cam = controller.camera}
 
         <span class="locationLabel"
-            >({controller.camera.x.toFixed(0)}, {controller.camera.y.toFixed(0)})</span
+            >({controller.camera.x.toFixed(0)}, {controller.camera.y.toFixed(0)}, Pause: {controller.pauseSim},
+            α: {controller.alpha.toFixed(5)})</span
         >
 
         {#each Object.entries(controller.lines) as [id, line] (id)}
@@ -91,7 +96,7 @@
         {/each}
 
         {#each Object.entries(controller.items) as [id, item] (id)}
-            {@const word = creeWords[id]}
+            {@const word = creeWords[id] || { descriptions: [], primaryText: "Missing lol" }}
             <div {id} class="square" style="--x: {item.x - cam.x}px; --y: {item.y - cam.y}px;">
                 <span class="primary" draggable="false">
                     {word.primaryText}
@@ -123,6 +128,9 @@
         top: 2rem;
 
         opacity: 0.2;
+        font-size: small;
+        user-select: none;
+        pointer-events: none;
     }
 
     .line {

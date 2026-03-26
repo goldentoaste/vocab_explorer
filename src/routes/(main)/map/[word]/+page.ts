@@ -1,7 +1,7 @@
 
 import { creeWords, englishWords } from "$lib/assets/content/itwewinaScrapedDictionary";
 import { error } from "@sveltejs/kit";
-import type { PageLoad } from "./$types";
+import type { PageLoad } from "../../$types";
 
 export const load: PageLoad = async ({ params }) => {
     const word = params.word;
@@ -17,3 +17,4 @@ export const load: PageLoad = async ({ params }) => {
         creeWord: creeWords[word]
     };
 };
+    

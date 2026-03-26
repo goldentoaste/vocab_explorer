@@ -17,7 +17,12 @@ const DICT = fs.readFileSync(
 	"utf8",
 );
 const creeOnly = DICT.split("export const itwewinaEnglishWords")[0];
-const valid = new Set([...creeOnly.matchAll(/"primaryText":\s*"([^"]+)"/g)].map((m) => m[1]));
+// The dictionary is generated as TS code, not JSON. It can contain either:
+// - JSON-ish: "primaryText": "mîci..."
+// - TS object: primaryText: "mîci..."
+const valid = new Set(
+	[...creeOnly.matchAll(/primaryText\s*:\s*"([^"]+)"/g)].map((m) => m[1]),
+);
 
 /** @type {string[][]} Thematic groups for dummy semantic map edges */
 const CLUSTERS = [
@@ -73,8 +78,16 @@ const CLUSTERS = [
 	["pîhtaw", "pîhtokamik", "itâpiw", "itâpatisiw", "nîkân"],
 ];
 
-/** Target neighbours ≈ existing clusters (~5–12); fully connect inside each batch */
+/** Target batch size for "fill in the gaps" connections */
 const ORPHAN_BATCH_SIZE = 10;
+/**
+ * Instead of making an N-clique (fully connected), connect each orphan to a
+ * ring neighbourhood to keep graphs sparse while preserving "enough" edges.
+ *
+ * For N=10, K=4 yields degree ~8 (vs clique degree 9) and avoids triangles
+ * between far-apart nodes, which reduces demo clutter.
+ */
+const ORPHAN_RING_K = 4;
 
 function vet(w) {
 	if (!valid.has(w)) console.warn(`Missing from dictionary: ${w}`);
@@ -110,11 +123,22 @@ if (batches.length && batches[batches.length - 1].length === 1) {
 }
 for (const batch of batches) {
 	if (batch.length < 2) continue;
-	for (const w of batch) {
-		for (const o of batch) {
-			if (o === w) continue;
-			if (!conn[w]) conn[w] = [];
-			if (!conn[w].includes(o)) conn[w].push(o);
+	const N = batch.length;
+	const k = Math.min(ORPHAN_RING_K, Math.floor((N - 1) / 2));
+	for (let i = 0; i < N; i++) {
+		const w = batch[i];
+
+		// Only add orphan edges for nodes that were previously "missing"
+		// (i.e., not keys created by thematic clusters).
+		if (conn[w] === undefined) conn[w] = [];
+
+		for (let t = 1; t <= k; t++) {
+			const jPlus = batch[(i + t) % N];
+			const jMinus = batch[(i - t + N) % N];
+
+			// Add edges symmetrically (both directions) by adding from w->neighbor.
+			if (jPlus !== w && !conn[w].includes(jPlus)) conn[w].push(jPlus);
+			if (jMinus !== w && !conn[w].includes(jMinus)) conn[w].push(jMinus);
 		}
 	}
 }

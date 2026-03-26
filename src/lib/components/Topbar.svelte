@@ -5,10 +5,18 @@
 </script>
 
 <div class="hor container" bind:clientHeight={UiStates.topbarHeight}>
+	<button
+		class="iconBtn"
+		onclick={() => {
+			history.back();
+		}}
+	>
+		<img src="/icons/back.svg" alt="" style="width: 1rem; height:auto;" />
+	</button>
 	<CreeSearchComp></CreeSearchComp>
 	<a href="/settings	">
 		<button class="iconBtn" style="width:2rem; height: 2rem;">
-			<img src="/icons/setting.svg" alt="settings button." />
+				<img src="/icons/setting.svg" alt="settings button." />
 		</button></a
 	>
 </div>

@@ -37,8 +37,10 @@ export class GraphController {
 
     mutationObserver?: MutationObserver;
 
-    pauseSim = false;
+    pauseSim = $state(false);
     startingFrame = -1;
+
+    alpha = $state(0);
 
     constructor() {
 
@@ -52,6 +54,7 @@ export class GraphController {
 
         this.animationId = requestAnimationFrame(this.update.bind(this));
         this.startingFrame = -1;
+
     }
 
     init(container: HTMLElement) {
@@ -167,8 +170,9 @@ export class GraphController {
     }
 
     update(t: number) {
-        if (this.startingFrame = -1) {
+        if (this.startingFrame === -1) {
             this.startingFrame = t;
+
         }
 
         this.deltaTime = (t - this.lastFrame) / 1000;
@@ -187,10 +191,10 @@ export class GraphController {
         }
 
         // always update positions each frame
-        const movement = updateObjs(this.objs);
+        this.alpha = updateObjs(this.objs) / this.objs.size;
 
         // pause the sim when it reach equilibrium
-        if (movement < 0.2 && (t - this.startingFrame) > 2000) {
+        if (this.alpha < 0.002 && (t - this.startingFrame) > 2000) {
             this.pauseSim = true;
         }
 

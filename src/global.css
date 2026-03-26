@@ -22,12 +22,14 @@ body {
     --grey: #57585b;
 
 
-    font-family: "Mona Sans", sans-serif;
+    font-family: "CanadianSyllabic", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings: "width" 100;
 
     min-height: 100dvh;
+
+
 }
 
 a {
@@ -84,3 +86,4 @@ a {
     font-family: CanadianSyllabic;
     src: url("/font/NotoSansCanadianSyllabic_Regular.ttf");
 }
+

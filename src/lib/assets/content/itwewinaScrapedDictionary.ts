@@ -8776,6 +8776,38 @@ export const creeWords: Record<string, CreeWord> = Object.fromEntries(
 				descriptions: ["in the sea"],
 				morphs: [],
 			},
+			{
+				primaryText: "miskât",
+				wordType: "Noun",
+				detailedWordType: "NDI-1",
+				descriptions: ["leg", "The leg."],
+				morphs: [
+					{
+						semantic: "only one — my",
+						creeMorph: "niskât",
+					},
+					{
+						semantic: "only one — your (one)",
+						creeMorph: "kiskât",
+					},
+					{
+						semantic: "only one — his/her",
+						creeMorph: "oskât",
+					},
+					{
+						semantic: "someone's — only one",
+						creeMorph: "miskât",
+					},
+					{
+						semantic: "someone's — two or more",
+						creeMorph: "miskâta",
+					},
+					{
+						semantic: "someone's — in/on/at / place",
+						creeMorph: "miskâtihk",
+					},
+				],
+			},
 		] as CreeWord[]
 	).map((w) => [w.primaryText, w]),
 );
@@ -10648,6 +10680,25 @@ export const englishWords: Record<string, EnglishWord> = Object.fromEntries(
 				wordType: "Noun",
 				descriptions: ["in the sea"],
 				creeWords: ["kihcikamîhk"],
+			},
+			{
+				primaryText: "body",
+				wordType: "Noun",
+				descriptions: [
+					"body",
+					"corpse, dead body",
+					"dead body, corpse",
+					"Your body.",
+					"In his body.",
+					"his/her body",
+					"his/her corpse, his/her dead body",
+					"my body hair",
+					"back, back of the body",
+					"body heat",
+					"upper half of the body (in reference to a corpse in a coffin)",
+					"fleshliness, being of the flesh, being of the body, carnal nature",
+				],
+				creeWords: ["miskât"],
 			},
 		] as EnglishWord[]
 	).map((w) => [w.primaryText, w]),
