@@ -100,7 +100,7 @@ export class GraphController {
             this.hoveredElement = element;
 
             const rect = element.getBoundingClientRect();
-            obj.radius = (rect.width + rect.height) / 4;
+            obj.radius = (rect.width + rect.height) / 3;
             this.pauseSim = false;
         }
     }
@@ -115,7 +115,7 @@ export class GraphController {
         this.pauseSim = false;
     }
 
-    
+
 
     initEvents() {
         this.container?.addEventListener("pointerdown", (e) => {
@@ -129,6 +129,7 @@ export class GraphController {
             const obj = this.objs.get(element.id);
 
             if (obj) {
+                this.setHover(element);
                 this.focusedItem = obj;
                 obj.static = true;
             }
@@ -145,7 +146,6 @@ export class GraphController {
 
                 if (e.buttons === 0 && e.target !== this.container) {
                     const element = e.target as HTMLElement;
-
                     this.setHover(element);
                 }
                 return;
@@ -165,21 +165,16 @@ export class GraphController {
         this.container?.addEventListener("pointerup", (e) => {
             if (this.focusedItem) {
                 this.focusedItem.static = false;
-                this.focusedItem.radius = this.focusedItem.originalRad;
                 this.focusedItem = undefined;
             }
             this.lastPoint = Vector2.ZERO;
         })
-
     }
 
-
     update(t: number) {
-
         if (this.startingFrame = -1) {
             this.startingFrame = t;
         }
-
 
         this.deltaTime = (t - this.lastFrame) / 1000;
 
@@ -266,6 +261,11 @@ export class GraphController {
 
 
         if (parent) {
+            if (this.connections.get(obj.id)?.includes(parent.id)) {
+                console.log(`Connection already exists between ${obj.id} and ${parent.id}. Ignoring the entry.`);
+                return;
+            }
+
             if (!this.objs.has(parent.id)) {
                 console.log(`Parent id not in collection: ${parent.id}. Ignoring the entry.`);
                 return;

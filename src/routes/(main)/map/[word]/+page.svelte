@@ -1,44 +1,38 @@
 <script lang="ts" module>
-    export interface WordConnectionItem {
-        primaryText: string;
-        secondaryText: string;
-
-        description: string[];
-    }
-
-    type WordGraphDesc = Omit<WordConnectionItem, "connections">;
 </script>
 
 <script lang="ts">
-    import { SimObj, simulate } from "$lib/components/graph/simulations.svelte";
+    import { SimObj } from "$lib/components/graph/simulations.svelte";
     import { Vector2 } from "$lib/components/graph/vector2";
     import { untrack } from "svelte";
 
     import type { PageProps } from "./$types";
 
     import { GraphController } from "$lib/components/graph/controller.svelte";
-    import { creeWords, dummyConnections } from "$lib/assets/content/dummyData";
-    import { error } from "@sveltejs/kit";
+    import { CreeWordConnections } from "$lib/assets/content/wordConnections";
+    import { creeWords } from "$lib/assets/content/itwewinaScrapedDictionary";
 
-    let { params }: PageProps = $props();
+    let { params, data }: PageProps = $props();
 
     let container = $state<HTMLElement>();
     let controller = new GraphController();
 
     $effect(() => {
         if (container !== undefined) {
-            if (!(params.word in creeWords)) {
-                error(404, { message: `Word ${params.word} is not found.` });
-            }
-
             controller.init(container!);
 
             const wordObjMap: Record<string, SimObj> = {};
 
-            let queue = [params.word];
-            wordObjMap[params.word] = new SimObj(Vector2.ZERO, Vector2.ZERO, 50, params.word, 1);
+            let queue = [data.creeWord.primaryText];
+            wordObjMap[data.creeWord.primaryText] = new SimObj(
+                Vector2.ZERO,
+                Vector2.ZERO,
+                50,
+                params.word,
+                1,
+            );
             untrack(() => {
-                controller.insertItem(wordObjMap[params.word]);
+                controller.insertItem(wordObjMap[data.creeWord.primaryText]);
             });
 
             let degreeOfSep = 2; // read branches 2 layers deep.
@@ -48,7 +42,7 @@
 
                 for (const wordId of copy) {
                     const rootObj = wordObjMap[wordId];
-                    for (const connection of dummyConnections[rootObj.id] ?? []) {
+                    for (const connection of CreeWordConnections[rootObj.id] ?? []) {
                         if (!(connection in wordObjMap)) {
                             wordObjMap[connection] = new SimObj(
                                 Vector2.ZERO,
@@ -77,9 +71,14 @@
 </script>
 
 <!-- svelte-ignore a11y_no_static_element_interactions -->
-<div class="container" bind:this={container}>
+<div class="container" bind:this={container} style="background-position: {-controller.camera.x}px {-controller.camera.y}px;">
     {#if controller}
         {@const cam = controller.camera}
+
+        <span class="locationLabel"
+            >({controller.camera.x.toFixed(0)}, {controller.camera.y.toFixed(0)})</span
+        >
+
         {#each Object.entries(controller.lines) as [id, line] (id)}
             <div
                 class="line"
@@ -99,11 +98,11 @@
                 </span>
 
                 <span class="secondary" draggable="false">
-                    {word.secondaryText}
+                    {word.descriptions[0] ?? ""}
                 </span>
 
                 <div class="desc" draggable="false">
-                    {#each word.description as desc}
+                    {#each word.descriptions as desc}
                         <span class="secondary">
                             {desc}
                         </span>
@@ -118,6 +117,14 @@
 </div>
 
 <style>
+    .locationLabel {
+        position: absolute;
+        left: 2rem;
+        top: 2rem;
+
+        opacity: 0.2;
+    }
+
     .line {
         background-color: var(--black);
 
@@ -138,13 +145,17 @@
 
     .container {
         width: 100%;
-        height: 100%;
-
+        height: auto;
+        flex: 1;
 
         overflow: hidden;
         position: relative;
         /* important! touch-action:none; disable browser's default touch handling. */
         touch-action: none;
+
+        background-size: 50px 50px;
+        background-image: linear-gradient(to right, rgba(128, 128, 128, 0.326) 1px, transparent 1px),
+            linear-gradient(to bottom, rgba(128, 128, 128, 0.329) 1px, transparent 1px);
     }
     .square {
         position: absolute;
@@ -195,7 +206,6 @@
     .square > * {
         user-select: none;
         pointer-events: none;
-
     }
 
     .square:hover {

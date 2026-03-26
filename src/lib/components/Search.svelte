@@ -3,38 +3,64 @@
         text?: string;
         autoCompleteProvider: (key: string) => string[];
         style?: string;
+        onsubmit?: () => void;
+        autoSubmit?: boolean;
     }
 
-    let { text = $bindable(""), autoCompleteProvider, style }: Props = $props();
+    let {
+        text = $bindable(""),
+        autoCompleteProvider,
+        onsubmit = () => {},
+        style,
+        autoSubmit = true,
+    }: Props = $props();
 
     let completeOptions = $derived(autoCompleteProvider(text));
-    let showingOptions = $derived(text.length > 0);
-
-    $effect(() => {
-        console.log(text);
-    });
+    let focused = $state(false);
+    let showingOptions = $derived(text.length > 0 && focused);
+    let searchContent = $state<HTMLDivElement>();
 
     function ItemSelected(key: string) {
         text = key;
+        focused = false;
+        if (autoSubmit) {
+            onsubmit();
+        }
     }
 </script>
 
 <div class="wrapper" class:displayContent={showingOptions} {style}>
-    <input type="text" bind:value={text} />
+    <input
+        placeholder="Search ..."
+        type="text"
+        bind:value={text}
+        onsubmit={() => {
+            // focused = false;
+            onsubmit();
+        }}
+        onfocus={() => {
+            focused = true;
+        }}
+        onfocusout={(e) => {
+            if (searchContent && searchContent.contains(e.relatedTarget as Node)) {
+                return;
+            }
+            focused = false;
+        }}
+    />
 
     {#if showingOptions}
-        <!-- content -->
-
-        <div class="searchContent">
+        <div class="searchContent" bind:this={searchContent}>
             {#if completeOptions.length === 0}
                 <span class="noRes">No results found.</span>
             {/if}
 
-            {#each completeOptions as item, index (item)}
+            {#each completeOptions as item (item)}
                 <button
                     class="searchItem"
                     onclick={() => {
                         ItemSelected(item);
+                        // console.log(item);
                     }}
                 >
                     {item}
@@ -60,7 +86,6 @@
     .wrapper.displayContent {
         border-radius: 10px 10px 0px 0px;
     }
-
     input {
         width: 100%;
         padding: 0.5rem;

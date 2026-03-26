@@ -1,5 +1,6 @@
 <script lang="ts">
     import { englishWords } from "$lib/assets/content/englishWords";
+    import CreeSearchComp from "$lib/components/CreeSearchComp.svelte";
     import Search from "$lib/components/Search.svelte";
     import Fuse from "fuse.js";
 
@@ -13,21 +14,7 @@
 
 <div class="mainLayout">
     <h1>Better Iwaina?</h1>
-    <Search
-        bind:text
-        style="min-width:60%;"
-        autoCompleteProvider={(key) => {
-            const searchRes = fuse.search(key, {
-                limit: 10,
-            });
-
-            return searchRes
-                .filter((item) => (item.score ?? 1) < 0.5)
-                .map((item) => {
-                    return item.item.text;
-                });
-        }}
-    />
+    <CreeSearchComp/>
 
     {#if !text}
         <h3>Search searching to get started!</h3>

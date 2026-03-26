@@ -5,11384 +5,10650 @@
 
 import type { CreeWord, EnglishWord } from "$lib/assets/content/dummy/types";
 
-export const itwewinaCreeWords: CreeWord[] = [
-	{
-		"primaryText": "pitamâ",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"first, first of all, prior to doing anything else",
-			"for a while, for now, just a while",
-			"in the meantime",
-			"Meanwhile.",
-			"For the present time."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "nistam",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"first",
-			"at first, before anything else",
-			"for the first time, initially, originally",
-			"At first.",
-			"The first.",
-			"the first time",
-			"initially",
-			"originally"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "mwêstas",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"after",
-			"another time",
-			"later",
-			"afterward",
-			"by and by"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "pêyakwâw",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"once, one time, once more",
-			"at one time",
-			"Once.",
-			"One more time.",
-			"once, one time, first time"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "aya",
-		"wordType": "Noun",
-		"detailedWordType": "NA-4",
-		"descriptions": [
-			"one, person"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "aya"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "ayak"
-			},
-			{
-				"semantic": "another / others",
-				"creeMorph": "aya"
-			},
-			{
-				"semantic": "smaller / younger — only one",
-				"creeMorph": "ayis"
-			},
-			{
-				"semantic": "whose / whom something belongs to — my",
-				"creeMorph": "nitayim"
-			},
-			{
-				"semantic": "whose / whom something belongs to — your (one)",
-				"creeMorph": "kitayim"
-			},
-			{
-				"semantic": "whose / whom something belongs to — his/her",
-				"creeMorph": "otayima"
-			}
-		]
-	},
-	{
-		"primaryText": "tahto_ayisiyiniw",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"Every person",
-			"Each person."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "oskâtis",
-		"wordType": "Noun",
-		"detailedWordType": "NA-1",
-		"descriptions": [
-			"young person"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "oskâtisiw",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he is a young person"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "pêyak-askiy",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"one year",
-			"for one year"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "pêyak-pipon",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"one winter, for one winter",
-			"one year, for one year"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "pêci-askiy",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"in a past year, in past years"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "tânima êwako askiy",
-		"wordType": "Noun",
-		"detailedWordType": "IPH",
-		"descriptions": [
-			"what year was it?"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "êkosi",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"so, thus, in that way",
-			"and so",
-			"right, alright",
-			"there, that's it, that is all",
-			"well",
-			"enough",
-			"later",
-			"That's it.",
-			"That's the end."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "nânitaw",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"simply, indifferently",
-			"something, anything",
-			"somewhere, anywhere, at some undetermined place",
-			"anyhow",
-			"in some way"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "mwâc",
-		"wordType": "Noun",
-		"detailedWordType": "IPJ",
-		"descriptions": [
-			"no!, no way!, not so!"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "ati-",
-		"wordType": "Noun",
-		"detailedWordType": "IPV",
-		"descriptions": [
-			"start to, begin to, beginning",
-			"progressively, gradually, proceed to, going on, progressing",
-			"on the way"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kîhtwâm",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"the next",
-			"next time [e.g. kîhtwâm ê-kîsikâk \"the next day\", kîhtwâm ê-wâpahk \"the next morning, the next day\"]"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kapê-kîsik",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"all day, all day long, throughout the day",
-			"all day"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "anohc kâ-kîsikâk",
-		"wordType": "Noun",
-		"detailedWordType": "N",
-		"descriptions": [
-			"This day",
-			"today."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "awasi-wâpahki",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"the day after tomorrow"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kîkway",
-		"wordType": "Noun",
-		"detailedWordType": "PR",
-		"descriptions": [
-			"something, thing",
-			"[in negative phrases:] anything, any"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "anima",
-		"wordType": "Noun",
-		"detailedWordType": "PrI",
-		"descriptions": [
-			"that, that one",
-			"That thing, there."
-		],
-		"morphs": [
-			{
-				"semantic": "One (awa word) — Here",
-				"creeMorph": "awa"
-			},
-			{
-				"semantic": "One (awa word) — There",
-				"creeMorph": "ana"
-			},
-			{
-				"semantic": "One (awa word) — Over yonder",
-				"creeMorph": "nâha"
-			},
-			{
-				"semantic": "Many (awa word) — Here",
-				"creeMorph": "ôki"
-			},
-			{
-				"semantic": "Many (awa word) — There",
-				"creeMorph": "aniki"
-			},
-			{
-				"semantic": "Many (awa word) — Over yonder",
-				"creeMorph": "nêki"
-			},
-			{
-				"semantic": "One (ôma word) — Here",
-				"creeMorph": "ôma"
-			},
-			{
-				"semantic": "One (ôma word) — There",
-				"creeMorph": "anima"
-			},
-			{
-				"semantic": "One (ôma word) — Over yonder",
-				"creeMorph": "nêma"
-			},
-			{
-				"semantic": "Many (ôma word) — Here",
-				"creeMorph": "ôhi"
-			},
-			{
-				"semantic": "Many (ôma word) — There",
-				"creeMorph": "anihi"
-			},
-			{
-				"semantic": "Many (ôma word) — Over yonder",
-				"creeMorph": "nêhi"
-			}
-		]
-	},
-	{
-		"primaryText": "kîkway",
-		"wordType": "Noun",
-		"detailedWordType": "NA-2",
-		"descriptions": [
-			"thing, something",
-			"entity, being"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "kîkway"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "kîkwayak"
-			},
-			{
-				"semantic": "another / others",
-				"creeMorph": "kîkwaya"
-			},
-			{
-				"semantic": "smaller / younger — only one",
-				"creeMorph": "kîkwâs"
-			},
-			{
-				"semantic": "whose / whom something belongs to — my",
-				"creeMorph": "nikîkway"
-			},
-			{
-				"semantic": "whose / whom something belongs to — your (one)",
-				"creeMorph": "kikîkway"
-			},
-			{
-				"semantic": "whose / whom something belongs to — his/her",
-				"creeMorph": "okîkwaya"
-			}
-		]
-	},
-	{
-		"primaryText": "ôhi",
-		"wordType": "Noun",
-		"detailedWordType": "Pro",
-		"descriptions": [
-			"These things, here."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "askiy",
-		"wordType": "Noun",
-		"detailedWordType": "NI-2",
-		"descriptions": [
-			"land",
-			"region, area",
-			"earth, world",
-			"settlement, colony, country",
-			"Métis colony",
-			"[plural:] fields under cultivation, pieces of farmland, the lands"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "askiy"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "askiya"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "askîhk"
-			},
-			{
-				"semantic": "smaller — only one",
-				"creeMorph": "askîs"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "nitaskiy"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kitaskiy"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "otaskiy"
-			}
-		]
-	},
-	{
-		"primaryText": "askiy",
-		"wordType": "Noun",
-		"detailedWordType": "NI",
-		"descriptions": [
-			"a year",
-			"earth",
-			"world",
-			"land",
-			"country"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "askiy"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "askiya"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "askîhk"
-			},
-			{
-				"semantic": "smaller — only one",
-				"creeMorph": "askîs"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "nitaskiy"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kitaskiy"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "otaskiy"
-			}
-		]
-	},
-	{
-		"primaryText": "misiwêskamik",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"all over the land, all over the world",
-			"all over the world"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "misiwêskamik",
-		"wordType": "Noun",
-		"detailedWordType": "N",
-		"descriptions": [
-			"All over the world."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "pimâcihow",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he lives, s/he makes him/herself live, s/he makes a living (from s.t.), s/he makes a life for him/herself",
-			"s/he travels",
-			"s/he makes a good living"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "nipimâcihon"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kipimâcihon"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "pimâcihow"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "nipimâcihonân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kipimâcihonânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kipimâcihonaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kipimâcihonâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "pimâcihowak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "pimâcihoyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "pimâcihonâniwan"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "pimâcihonâniwiw"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-pimâcihoyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-pimâcihoyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-pimâcihot"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-pimâcihoyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-pimâcihoyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-pimâcihoyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-pimâcihocik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-pimâcihoyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-pimâcihonâniwik"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-pimâcihohk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-pimâcihonâniwahk"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "pimâciho"
-			}
-		]
-	},
-	{
-		"primaryText": "pimâtisiw",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he lives, s/he is alive, s/he has life",
-			"s/he survives",
-			"s/he leads his/her life",
-			"He lives.",
-			"He exists.",
-			"s/he is alive"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "nipimâtisin"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kipimâtisin"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "pimâtisiw"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "nipimâtisinân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kipimâtisinânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kipimâtisinaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kipimâtisinâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "pimâtisiwak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "pimâtisiyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "pimâtisinâniwiw"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "pimâtisinâniwan"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-pimâtisiyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-pimâtisiyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-pimâtisit"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-pimâtisiyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-pimâtisiyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-pimâtisiyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-pimâtisicik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-pimâtisiyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-pimâtisinâniwahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-pimâtisihk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-pimâtisinâniwik"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "pimâtisi"
-			}
-		]
-	},
-	{
-		"primaryText": "pimohtêhow",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he travels",
-			"s/he travels through life, s/he lives his/her life"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "nipimohtêhon"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kipimohtêhon"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "pimohtêhow"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "nipimohtêhonân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kipimohtêhonaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kipimohtêhonânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kipimohtêhonâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "pimohtêhowak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "pimohtêhoyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "pimohtêhonâniwiw"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "pimohtêhonâniwan"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-pimohtêhoyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-pimohtêhoyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-pimohtêhot"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-pimohtêhoyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-pimohtêhoyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-pimohtêhoyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-pimohtêhocik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-pimohtêhoyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-pimohtêhonâniwahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-pimohtêhonâniwik"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-pimohtêhohk"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "pimohtêho"
-			}
-		]
-	},
-	{
-		"primaryText": "pimâcihowin",
-		"wordType": "Noun",
-		"detailedWordType": "NI-1",
-		"descriptions": [
-			"travel, journey",
-			"living, way of life, livelihood, earning a living",
-			"culture",
-			"Survival.",
-			"Making a living.",
-			"the act of making a good living"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "pimâcihowin"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "pimâcihowina"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "pimâcihowinihk"
-			},
-			{
-				"semantic": "smaller — only one",
-				"creeMorph": "pimâcihowinis"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "nipimâcihowin"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kipimâcihowin"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "opimâcihowin"
-			}
-		]
-	},
-	{
-		"primaryText": "mâka",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"but, then",
-			"still",
-			"however, by contrast, on the other hand",
-			"But",
-			"But still."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "mâka mîna",
-		"wordType": "Noun",
-		"detailedWordType": "IPH",
-		"descriptions": [
-			"as usual, once again, of course",
-			"and it happens again",
-			"also, on the other hand",
-			"an expression of annoyance meaning  \"it happened again\""
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "âta",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"although, even though, in vain",
-			"on the other hand, of course, to be sure",
-			"Even though.",
-			"although"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "-cihciy",
-		"wordType": "Noun",
-		"detailedWordType": "N",
-		"descriptions": [
-			"His hand."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kiêa wiêa",
-		"wordType": "Noun",
-		"detailedWordType": "PrA",
-		"descriptions": [
-			"for your part, as for you",
-			"you yourself"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "niêa wiêa",
-		"wordType": "Noun",
-		"detailedWordType": "PrA",
-		"descriptions": [
-			"for my part, as for me",
-			"I myself"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "wiêa wiêa",
-		"wordType": "Noun",
-		"detailedWordType": "PrA",
-		"descriptions": [
-			"for his/her part, as for him/her",
-			"he himself, she herself"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "pahki",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"part, portion",
-			"not entirely",
-			"sometimes",
-			"A portion of.",
-			"A piece of."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "nicawâsimis",
-		"wordType": "Noun",
-		"detailedWordType": "NDA-1",
-		"descriptions": [
-			"my child",
-			"my fetus"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "nitawâsimis",
-		"wordType": "Noun",
-		"detailedWordType": "NDA-1",
-		"descriptions": [
-			"my child",
-			"my fetus"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "otawâsimisiw",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he has a child, s/he has children, she is the mother of a child",
-			"she gives birth, she delivers",
-			"it has offspring",
-			"it has a calf (as a cow), it calves"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "nitôtawâsimisin"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kitôtawâsimisin"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "otawâsimisiw"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "nitôtawâsimisinân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kitôtawâsimisinânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kitôtawâsimisinaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kitôtawâsimisinâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "otawâsimisiwak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "otawâsimisiyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "otawâsimisinâniwiw"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "otawâsimisinâniwan"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-otawâsimisiyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-otawâsimisiyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-otawâsimisit"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-otawâsimisiyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-otawâsimisiyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-otawâsimisiyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-otawâsimisicik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-otawâsimisiyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-otawâsimisinâniwahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-otawâsimisihk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-otawâsimisinâniwik"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "otawâsimisi"
-			}
-		]
-	},
-	{
-		"primaryText": "pêyakôsâniwiw",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he is an only child"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "nipêyakôsâniwin"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kipêyakôsâniwin"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "pêyakôsâniwiw"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "nipêyakôsâniwinân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kipêyakôsâniwinaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kipêyakôsâniwinânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kipêyakôsâniwinâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "pêyakôsâniwiwak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "pêyakôsâniwiyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "pêyakôsâniwinâniwan"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "pêyakôsâniwinâniwiw"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-pêyakôsâniwiyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-pêyakôsâniwiyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-pêyakôsâniwit"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-pêyakôsâniwiyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-pêyakôsâniwiyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-pêyakôsâniwiyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-pêyakôsâniwicik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-pêyakôsâniwiyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-pêyakôsâniwinâniwahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-pêyakôsâniwinâniwik"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-pêyakôsâniwihk"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "pêyakôsâniwi"
-			}
-		]
-	},
-	{
-		"primaryText": "miskîsikohkâna",
-		"wordType": "Noun",
-		"detailedWordType": "NDI-1",
-		"descriptions": [
-			"eyeglasses, glasses",
-			"goggles",
-			"His/her goggles",
-			"eye glasses"
-		],
-		"morphs": [
-			{
-				"semantic": "someone&#x27;s — two or more",
-				"creeMorph": "miskîsikohkâna"
-			},
-			{
-				"semantic": "someone&#x27;s — in/on/at / place",
-				"creeMorph": "miskîsikohkânihk"
-			}
-		]
-	},
-	{
-		"primaryText": "oskîsik",
-		"wordType": "Noun",
-		"detailedWordType": "N",
-		"descriptions": [
-			"His eye."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "cîkiskîsik",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"close to the eye"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "cihcîpâpiw",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"His eye is twitching."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "iskwêw",
-		"wordType": "Noun",
-		"detailedWordType": "NA-2",
-		"descriptions": [
-			"woman, female, adult female",
-			"A woman."
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "iskwêw"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "iskwêwak"
-			},
-			{
-				"semantic": "another / others",
-				"creeMorph": "iskwêwa"
-			},
-			{
-				"semantic": "smaller / younger — only one",
-				"creeMorph": "iskwês"
-			},
-			{
-				"semantic": "whose / whom something belongs to — my",
-				"creeMorph": "nitiskwêm"
-			},
-			{
-				"semantic": "whose / whom something belongs to — your (one)",
-				"creeMorph": "kitiskwêm"
-			},
-			{
-				"semantic": "whose / whom something belongs to — his/her",
-				"creeMorph": "otiskwêma"
-			}
-		]
-	},
-	{
-		"primaryText": "maskihkîwiskwêw",
-		"wordType": "Noun",
-		"detailedWordType": "NA-2",
-		"descriptions": [
-			"nurse",
-			"woman doctor",
-			"medicine woman",
-			"a medicine woman or nurse"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "maskihkîwiskwêw"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "maskihkîwiskwêwak"
-			},
-			{
-				"semantic": "another / others",
-				"creeMorph": "maskihkîwiskwêwa"
-			},
-			{
-				"semantic": "smaller / younger — only one",
-				"creeMorph": "maskihkîwiskwês"
-			},
-			{
-				"semantic": "whose / whom something belongs to — my",
-				"creeMorph": "nimaskihkîwiskwêm"
-			},
-			{
-				"semantic": "whose / whom something belongs to — your (one)",
-				"creeMorph": "kimaskihkîwiskwêm"
-			},
-			{
-				"semantic": "whose / whom something belongs to — his/her",
-				"creeMorph": "omaskihkîwiskwêma"
-			}
-		]
-	},
-	{
-		"primaryText": "oskinîkiskwêw",
-		"wordType": "Noun",
-		"detailedWordType": "NA-2",
-		"descriptions": [
-			"young woman (about 14-15 years old), adolescent female",
-			"maiden",
-			"virgin",
-			"A young woman."
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "oskinîkiskwêw"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "oskinîkiskwêwak"
-			},
-			{
-				"semantic": "another / others",
-				"creeMorph": "oskinîkiskwêwa"
-			},
-			{
-				"semantic": "smaller / younger — only one",
-				"creeMorph": "oskinîkiskwês"
-			},
-			{
-				"semantic": "whose / whom something belongs to — my",
-				"creeMorph": "nitôskinîkiskwêm"
-			},
-			{
-				"semantic": "whose / whom something belongs to — your (one)",
-				"creeMorph": "kitôskinîkiskwêm"
-			},
-			{
-				"semantic": "whose / whom something belongs to — his/her",
-				"creeMorph": "otôskinîkiskwêma"
-			}
-		]
-	},
-	{
-		"primaryText": "nitiskwêm",
-		"wordType": "Noun",
-		"detailedWordType": "NDA-1",
-		"descriptions": [
-			"my wife, my woman, my female lover"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "misiwê",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"all over, everywhere, throughout the entire place, on the whole body",
-			"All over the place."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "êkotê",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"over there, over at that place",
-			"a place in that direction",
-			"Over there."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "êkota",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"there, right there",
-			"at that very place, at that point",
-			"at that time, then",
-			"in that way, in that respect",
-			"Right there."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "itê",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"there, thereabouts, over there, thither",
-			"where, wherever",
-			"Where",
-			"At what place",
-			"In what place",
-			"To what place"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "atoskêw",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he works, s/he does work",
-			"All of you work later.",
-			"He works."
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "nitatoskân"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kitatoskân"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "atoskêw"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "nitatoskânân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kitatoskânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kitatoskânânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kitatoskânâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "atoskêwak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "atoskêyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "atoskâniwan"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "atoskâniwiw"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-atoskêyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-atoskêyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-atoskêt"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-atoskêyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-atoskêyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-atoskêyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-atoskêcik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-atoskêyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-atoskâniwik"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-atoskâniwahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-atoskêhk"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "atoskê"
-			}
-		]
-	},
-	{
-		"primaryText": "mâyêyihtam",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"He challenges it",
-			"He contests it.",
-			"He is willing to work at it."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "ê-wî-atoskêt",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"He is going to work."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "atoskêstamawêwak",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"They are doing the work for him or them."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "otâhk",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"behind, in the back, at the rear, at the back of something",
-			"last week",
-			"At the back",
-			"Behind.",
-			"in the back. (Northern). alt. nâway (Plains)"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "anohc kâ-ispaêik",
-		"wordType": "Noun",
-		"detailedWordType": "IPH",
-		"descriptions": [
-			"this week"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "otâhk ispaêiw",
-		"wordType": "Noun",
-		"detailedWordType": "IPH",
-		"descriptions": [
-			"last week"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "pêyak-ayamihêwi-kîsikâw",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"one week",
-			"for one week"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "cî",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"is it the case that ...?",
-			"is that so? [question marker; enclitic follows questioned element in initial position]",
-			"Question marker"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kîspin",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"if, in case",
-			"whether",
-			"If",
-			"In case."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "ôma",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"it is (this), it is the case",
-			"the fact that",
-			"then",
-			"when",
-			"as it is, actually, indeed [focus marker]"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "namôy cî",
-		"wordType": "Noun",
-		"detailedWordType": "IPH",
-		"descriptions": [
-			"is it not?, is it not the case?",
-			"could it be?"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "ohci",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"from, from there, thence, out of",
-			"with, by means of, for the purpose of",
-			"because of, for that reason",
-			"for",
-			"from then, from that point in time",
-			"about",
-			"From",
-			"Out of"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "pâskac",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"even, on top of it all, to top it all off, to cap it all, as the final touch, moreover",
-			"fittingly",
-			"coincidentally, as luck would have it",
-			"ironically",
-			"besides",
-			"to that point",
-			"But in spite of, ironically."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "isko",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"so far, to such a point, to such an extent",
-			"so long as, so far as, as far as, up until, until",
-			"this far",
-			"So far",
-			"Until",
-			"As far as."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "okimânâhk",
-		"wordType": "Noun",
-		"detailedWordType": "INM",
-		"descriptions": [
-			"government, federal government, provincial government",
-			"band council, band authorities"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "owiyasiwêwin",
-		"wordType": "Noun",
-		"detailedWordType": "N",
-		"descriptions": [
-			"His law.",
-			"The laws of the government."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "sôniyâwikimâw",
-		"wordType": "Noun",
-		"detailedWordType": "NA-2",
-		"descriptions": [
-			"Indian Agent",
-			"government representative to a First Nation",
-			"A bank manager.",
-			"an indian agent or government representative to the band"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "sôniyâwikimâw"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "sôniyâwikimâwak"
-			},
-			{
-				"semantic": "another / others",
-				"creeMorph": "sôniyâwikimâwa"
-			},
-			{
-				"semantic": "smaller / younger — only one",
-				"creeMorph": "sôniyâwikimâs"
-			},
-			{
-				"semantic": "whose / whom something belongs to — my",
-				"creeMorph": "nisôniyâwikimâm"
-			},
-			{
-				"semantic": "whose / whom something belongs to — your (one)",
-				"creeMorph": "kisôniyâwikimâm"
-			},
-			{
-				"semantic": "whose / whom something belongs to — his/her",
-				"creeMorph": "osôniyâwikimâma"
-			}
-		]
-	},
-	{
-		"primaryText": "okimânâhk",
-		"wordType": "Noun",
-		"detailedWordType": "N",
-		"descriptions": [
-			"The government in Ottawa."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "atâwêwikamik",
-		"wordType": "Noun",
-		"detailedWordType": "Part",
-		"descriptions": [
-			"In the store."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "anihi",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"it is (that) [focus maker]"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kihci-atâwêwikamikowiêiniw",
-		"wordType": "Noun",
-		"detailedWordType": "NA-2",
-		"descriptions": [
-			"store manager, post manager, Hudson's Bay Company factor"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "kihci-atâwêwikamikowiêiniw"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "kihci-atâwêwikamikowiêiniwak"
-			},
-			{
-				"semantic": "another / others",
-				"creeMorph": "kihci-atâwêwikamikowiêiniwa"
-			},
-			{
-				"semantic": "smaller / younger — only one",
-				"creeMorph": "kihci-acâwêwikamikowiêinîs"
-			},
-			{
-				"semantic": "whose / whom something belongs to — my",
-				"creeMorph": "nikihci-atâwêwikamikowiêinîm"
-			},
-			{
-				"semantic": "whose / whom something belongs to — your (one)",
-				"creeMorph": "kikihci-atâwêwikamikowiêinîm"
-			},
-			{
-				"semantic": "whose / whom something belongs to — his/her",
-				"creeMorph": "okihci-atâwêwikamikowiêinîma"
-			}
-		]
-	},
-	{
-		"primaryText": "kihci-atâwêwikamik",
-		"wordType": "Noun",
-		"detailedWordType": "NI-3",
-		"descriptions": [
-			"department store",
-			"Hudson's Bay Company store"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "kihci-atâwêwikamik"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "kihci-atâwêwikamikwa"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "kihci-atâwêwikamikohk"
-			},
-			{
-				"semantic": "smaller — only one",
-				"creeMorph": "kihci-acâwêwikamikos"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "nikihci-atâwêwikamik"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kikihci-atâwêwikamik"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "okihci-atâwêwikamik"
-			}
-		]
-	},
-	{
-		"primaryText": "mihcêt",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"many, much, lots",
-			"a good number, numerous",
-			"Many, a good number.",
-			"Numerous",
-			"many, in great quantity. (Plains). alt. okistakewi (Northern)"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "mâmawi-",
-		"wordType": "Noun",
-		"detailedWordType": "IPV",
-		"descriptions": [
-			"together",
-			"in full number of them all, all together, all together as a group",
-			"collectively, jointly"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "ihtasiwak",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"they are so many, they are as many",
-			"they number so many as a family, they have so many in their family"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "nitihtasinân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kitihtasinaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kitihtasinânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kitihtasinâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "ihtasiwak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "ihtasiyiwa"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-ihtasiyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-ihtasiyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-ihtasiyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-ihtasicik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-ihtasiyit"
-			}
-		]
-	},
-	{
-		"primaryText": "nanahi",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"even, even number"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "mâmawi-",
-		"wordType": "Noun",
-		"detailedWordType": "IPN",
-		"descriptions": [
-			"all together, all together as a group",
-			"collectively, jointly"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "mâmawêyas",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"where all are assembled",
-			"the most, above all, beyond the rest",
-			"Altogether",
-			"As a group."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "asêya-",
-		"wordType": "Noun",
-		"detailedWordType": "IPV",
-		"descriptions": [
-			"in a group"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "miskôwin",
-		"wordType": "Noun",
-		"detailedWordType": "N",
-		"descriptions": [
-			"The act of finding a solution or a way out of a problem unexpectedly."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "nayêhtâwipaêin",
-		"wordType": "Verb",
-		"detailedWordType": "VII-2n",
-		"descriptions": [
-			"there is trouble, there are problems, there is a sudden difficulty"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — it / there is",
-				"creeMorph": "nayêhtâwipaêin"
-			},
-			{
-				"semantic": "ni-/ki- word — they / there are",
-				"creeMorph": "nayêhtâwipaêinwa"
-			},
-			{
-				"semantic": "ê-/kâ- word — it / there is",
-				"creeMorph": "ê-nayêhtâwipaêik"
-			},
-			{
-				"semantic": "ê-/kâ- word — they / there are",
-				"creeMorph": "ê-nayêhtâwipaêiki"
-			}
-		]
-	},
-	{
-		"primaryText": "tâpwê wiêa",
-		"wordType": "Noun",
-		"detailedWordType": "IPH",
-		"descriptions": [
-			"it is a fact!",
-			"oh, that one! (guy, girl)",
-			"how typical of that one"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "tâpwê wiêa ani",
-		"wordType": "Noun",
-		"detailedWordType": "IPH",
-		"descriptions": [
-			"it is a fact"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "anima",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"it is (that)",
-			"the fact that ... [focus marker]"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "onipîm",
-		"wordType": "Noun",
-		"detailedWordType": "N",
-		"descriptions": [
-			"His water."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "akâmihk",
-		"wordType": "Noun",
-		"detailedWordType": "N",
-		"descriptions": [
-			"Montana Reserve.",
-			"across the water or across the lake"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "akâmihk",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"across, on the far side",
-			"across the water, across the lake, across the river, across the slough",
-			"across land",
-			"Across a small body of water."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "sisonêkamîhk",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"along the water",
-			"on the waterfront, along the shore"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "aspin",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"away, off, from a distance",
-			"in departing, just now, since then, the last I knew",
-			"ago, back then, so long ago",
-			"gone for good, gone for the present",
-			"since",
-			"just"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "takahki-",
-		"wordType": "Noun",
-		"detailedWordType": "IPV",
-		"descriptions": [
-			"good",
-			"very well, very nicely, wonderfully, beautifully"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "wâcistakâc",
-		"wordType": "Noun",
-		"detailedWordType": "IPJ",
-		"descriptions": [
-			"oh my!, really good!",
-			"goodness gracious!",
-			"incredible!, beyond reason!",
-			"an exclamation of surprise or disappointment, i.e.: \"wow, how about that!\" or \"oh, my goodness!\""
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "takahki-",
-		"wordType": "Noun",
-		"detailedWordType": "IPN",
-		"descriptions": [
-			"good, nice, beautiful"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "osk-âyi",
-		"wordType": "Verb",
-		"detailedWordType": "VII",
-		"descriptions": [
-			"it is new"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "mispon",
-		"wordType": "Verb",
-		"detailedWordType": "VII-1n",
-		"descriptions": [
-			"fresh snow is falling",
-			"there is new or fresh snow"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — it / there is",
-				"creeMorph": "mispon"
-			},
-			{
-				"semantic": "ê-/kâ- word — it / there is",
-				"creeMorph": "ê-mispok"
-			}
-		]
-	},
-	{
-		"primaryText": "oski-",
-		"wordType": "Noun",
-		"detailedWordType": "IPV",
-		"descriptions": [
-			"new, young",
-			"first, early"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "oski-",
-		"wordType": "Noun",
-		"detailedWordType": "IPN",
-		"descriptions": [
-			"young, new, fresh"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "nîkân",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"The front.",
-			"Ahead.",
-			"First."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "nîkân",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"First",
-			"ahead",
-			"before"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kiyâm",
-		"wordType": "Noun",
-		"detailedWordType": "IPJ",
-		"descriptions": [
-			"oh well!, it's okay!, never mind!, think nothing of it!",
-			"so what!",
-			"so much for this!",
-			"anyway, rather",
-			"let it be!, let there be no further delay!",
-			"please",
-			"let's go then!",
-			"do so",
-			"quietly",
-			"at last",
-			"A reply, meaning - Let it be. It is all right."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "tipiskohk",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"last night, the previous night",
-			"Last night."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "iskwayâc",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"last, at last, finally",
-			"to the end, to the last, at the end of it all",
-			"the last one, the last time",
-			"youngest",
-			"The last",
-			"Final",
-			"At the end of it all."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kâkikê",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"forever",
-			"at all times, all the time, always",
-			"for a very long time",
-			"Always",
-			"Forever and ever.",
-			"At all times."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kinwêsk",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"a long while",
-			"for a long time"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "mistahi",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"much, greatly, a great deal, a lot, lots",
-			"very, very many",
-			"very much so!",
-			"A lot.",
-			"A great amount.",
-			"Much.",
-			"lots of it"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kihci-",
-		"wordType": "Noun",
-		"detailedWordType": "IPN",
-		"descriptions": [
-			"great, big",
-			"chiefest, most prominent",
-			"proper, genuine"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kihc-",
-		"wordType": "Noun",
-		"detailedWordType": "IPN",
-		"descriptions": [
-			"great [see: kihci-]"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kihc-",
-		"wordType": "Noun",
-		"detailedWordType": "IPV",
-		"descriptions": [
-			"great [see: kihci-]"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "apisîs",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"a little, a little bit",
-			"A few."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "nawac",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"by comparison",
-			"better, more",
-			"before",
-			"instead, rather",
-			"somewhat, a little",
-			"Preferably."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "apisis",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"a little, a little bit, a dab",
-			"a few",
-			"a little",
-			"a dab"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "capasis",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"below, further down, lower down, down low",
-			"low in the air",
-			"bottom",
-			"a little bit lower or below"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "tipiyawê",
-		"wordType": "Noun",
-		"detailedWordType": "Pro",
-		"descriptions": [
-			"One's own. Immediate."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "tipiêaw",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"personally, in person",
-			"own, proper",
-			"biologically close",
-			"really"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "postastisêw",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he puts his/her own mitts on"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "nipostastisân"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kipostastisân"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "postastisêw"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "nipostastisânân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kipostastisânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kipostastisânânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kipostastisânâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "postastisêwak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "postastisêyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "postastisâniwan"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "postastisâniwiw"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-postastisêyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-postastisêyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-postastisêt"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-postastisêyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-postastisêyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-postastisêyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-postastisêcik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-postastisêyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-postastisêhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-postastisâniwik"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-postastisâniwahk"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "postastisê"
-			}
-		]
-	},
-	{
-		"primaryText": "itâpatisiw",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he is useful in such a way, s/he is used thus, s/he is of such use",
-			"He is used for another's own convenience.",
-			"That is how he is used."
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "nititâpatisin"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kititâpatisin"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "itâpatisiw"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "nititâpatisinân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kititâpatisinaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kititâpatisinânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kititâpatisinâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "itâpatisiwak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "itâpatisiyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "itâpatisinâniwiw"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "itâpatisinâniwan"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-itâpatisiyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-itâpatisiyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-itâpatisit"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-itâpatisiyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-itâpatisiyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-itâpatisiyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-itâpatisicik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-itâpatisiyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-itâpatisinâniwahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-itâpatisihk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-itâpatisinâniwik"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "itâpatisi"
-			}
-		]
-	},
-	{
-		"primaryText": "kotakak",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"Other."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kotaka",
-		"wordType": "Noun",
-		"detailedWordType": "PrA",
-		"descriptions": [
-			"other, others"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kotak",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"Another.",
-			"Any or some other.",
-			"One that is different from the first or present one."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kayâsi-",
-		"wordType": "Noun",
-		"detailedWordType": "IPV",
-		"descriptions": [
-			"old"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kêhtê-aya",
-		"wordType": "Noun",
-		"detailedWordType": "NA-4",
-		"descriptions": [
-			"elder, old one, old person",
-			"the old",
-			"An Elder."
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "kêhtê-aya"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "kêhtê-ayak"
-			},
-			{
-				"semantic": "another / others",
-				"creeMorph": "kêhtê-aya"
-			},
-			{
-				"semantic": "smaller / younger — only one",
-				"creeMorph": "kêhcê-ayis"
-			},
-			{
-				"semantic": "whose / whom something belongs to — my",
-				"creeMorph": "nikêhtê-ayim"
-			},
-			{
-				"semantic": "whose / whom something belongs to — your (one)",
-				"creeMorph": "kikêhtê-ayim"
-			},
-			{
-				"semantic": "whose / whom something belongs to — his/her",
-				"creeMorph": "okêhtê-ayima"
-			}
-		]
-	},
-	{
-		"primaryText": "okisêyinîma",
-		"wordType": "Noun",
-		"detailedWordType": "N",
-		"descriptions": [
-			"Her old man.",
-			"Her husband."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kayâs",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"long ago, a long time ago, of old, in earlier days, in a golden age",
-			"previously, formerly",
-			"traditionally, for a long time"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "mêkwâc",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"currently, presently, right now",
-			"at the present time, for the duration",
-			"meanwhile",
-			"while, during, in the course of, in the meantime, during the time",
-			"in the midst of",
-			"ago",
-			"Presently.",
-			"Right now.",
-			"right now, at this time, as of now",
-			"in the interval"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "sêmâk",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"right now, right away, at once, immediately, instantly",
-			"Right away.",
-			"At once.",
-			"Immediately.",
-			"right now",
-			"immediately. (Northern). alt. semak (Plains)"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kwayask",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"right, properly, straight, correct, in good order, neatly",
-			"by rights, as ordained by the powers",
-			"honest",
-			"Right.",
-			"Properly.",
-			"It is right.",
-			"It is proper.",
-			"It is level",
-			"It is straight.",
-			"It is correct"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "piko",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"only, solely, exclusively",
-			"alone in its class"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "piko",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"must, have to, it is necessary that ...",
-			"for sure, without a doubt",
-			"it is proper that ..."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "piko",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"Have to",
-			"Must. For sure."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "piko",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"Only.",
-			"Solely.",
-			"Alone in its class."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "ispimihk",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"up, up above",
-			"in the air, on high, high up",
-			"upstairs",
-			"High above",
-			"Way up."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "ispi-",
-		"wordType": "Noun",
-		"detailedWordType": "IPV",
-		"descriptions": [
-			"high, elevated",
-			"advanced"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "iskwâskisow",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he burns so high",
-			"s/he is burning up"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "nitiskwâskitân"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kitiskwâskitân"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "iskwâskitêw"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "nitiskwâskitânân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kitiskwâskitânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kitiskwâskitânânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kitiskwâskitânâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "iskwâskitêwak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "iskwâskitêyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "iskwâskitâniwiw"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "iskwâskitâniwan"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-iskwâskitêyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-iskwâskitêyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-iskwâskitêt"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-iskwâskitêyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-iskwâskitêyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-iskwâskitêyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-iskwâskitêcik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-iskwâskitêyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-iskwâskitâniwik"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-iskwâskitâniwahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-iskwâskitêhk"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "iskwâskitê"
-			}
-		]
-	},
-	{
-		"primaryText": "pâtos",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"only later",
-			"then, later",
-			"at a different time"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "pahkân",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"different, differently",
-			"different kind",
-			"strange"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "nanâtohk",
-		"wordType": "Noun",
-		"detailedWordType": "Pro",
-		"descriptions": [
-			"all kinds of things or a variety",
-			"different kinds"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "ay-âhci",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"from one to another",
-			"Different",
-			"differently."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "apihci-",
-		"wordType": "Noun",
-		"detailedWordType": "IPN",
-		"descriptions": [
-			"small"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "apihci-",
-		"wordType": "Noun",
-		"detailedWordType": "IPV",
-		"descriptions": [
-			"small"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "apisîsi-",
-		"wordType": "Noun",
-		"detailedWordType": "IPV",
-		"descriptions": [
-			"small"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "apist-",
-		"wordType": "Noun",
-		"detailedWordType": "IPN",
-		"descriptions": [
-			"small"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "misâw",
-		"wordType": "Verb",
-		"detailedWordType": "VII-2v",
-		"descriptions": [
-			"it is big, it is large, it is extensive",
-			"it is important, it is powerful",
-			"It is large.",
-			"it is big or large"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — it / there is",
-				"creeMorph": "misâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they / there are",
-				"creeMorph": "misâwa"
-			},
-			{
-				"semantic": "ê-/kâ- word — it / there is",
-				"creeMorph": "ê-misâk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they / there are",
-				"creeMorph": "ê-misâki"
-			}
-		]
-	},
-	{
-		"primaryText": "misikitiw",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he is big, s/he is large (in height or girth), s/he is tall",
-			"s/he is a big person, s/he is obese"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "nimisikitin"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kimisikitin"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "misikitiw"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "nimisikitinân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kimisikitinânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kimisikitinaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kimisikitinâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "misikitiwak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "misikitiyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "misikitinâniwiw"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "misikitinâniwan"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-misikitiyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-misikitiyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-misikitit"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-misikitiyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-misikitiyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-misikitiyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-misikiticik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-misikitiyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-misikitinâniwahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-misikitinâniwik"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-misikitihk"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "misikiti"
-			}
-		]
-	},
-	{
-		"primaryText": "misi-",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"Meaning large or big."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "misâpiskâw",
-		"wordType": "Verb",
-		"detailedWordType": "VII-2v",
-		"descriptions": [
-			"it is large (metal)"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "awasi-tipiskâki",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"the night after next"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "askoc",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"next to",
-			"after"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "takwâkiki",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"next autumn",
-			"when it's autumn"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "wîpac",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"soon, quickly, as soon as possible",
-			"early",
-			"Very soon.",
-			"As early as possible.",
-			"Soon. (Plains). alt. kîyipa (Northern)"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kîkisêp",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"in the morning, early in the morning",
-			"this past morning"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kîpa",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"soon",
-			"early"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "mâtayak",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"ahead of time, beforehand, in advance",
-			"early",
-			"Ahead of time."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "oskinîkiw",
-		"wordType": "Noun",
-		"detailedWordType": "NA-2",
-		"descriptions": [
-			"young man, male youth, adolescent male (about 14-15 years old)",
-			"A young man.",
-			"a youth"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "oskinîkiw"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "oskinîkiwak"
-			},
-			{
-				"semantic": "another / others",
-				"creeMorph": "oskinîkiwa"
-			},
-			{
-				"semantic": "smaller / younger — only one",
-				"creeMorph": "oskinîkîs"
-			},
-			{
-				"semantic": "whose / whom something belongs to — my",
-				"creeMorph": "nitôskinîkîm"
-			},
-			{
-				"semantic": "whose / whom something belongs to — your (one)",
-				"creeMorph": "kitôskinîkîm"
-			},
-			{
-				"semantic": "whose / whom something belongs to — his/her",
-				"creeMorph": "otôskinîkîma"
-			}
-		]
-	},
-	{
-		"primaryText": "oskinîkiw",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"he is a young man, he is a male youth, he is an adolescent male (about 14-15 years old)"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "nitôskinîkin"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kitôskinîkin"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "oskinîkiw"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "nitôskinîkinân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kitôskinîkinânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kitôskinîkinaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kitôskinîkinâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "oskinîkiwak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "oskinîkiyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "oskinîkinâniwiw"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "oskinîkinâniwan"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-oskinîkiyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-oskinîkiyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-oskinîkit"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-oskinîkiyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-oskinîkiyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-oskinîkiyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-oskinîkicik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-oskinîkiyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-oskinîkinâniwik"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-oskinîkihk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-oskinîkinâniwahk"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "oskinîki"
-			}
-		]
-	},
-	{
-		"primaryText": "oski-aya",
-		"wordType": "Noun",
-		"detailedWordType": "NA-4",
-		"descriptions": [
-			"young one, young person, young creature",
-			"[plural:] the young"
-		],
-		"morphs": [
-			{
-				"semantic": "two or more",
-				"creeMorph": "oski-ayak"
-			},
-			{
-				"semantic": "another / others",
-				"creeMorph": "oski-aya"
-			},
-			{
-				"semantic": "whose / whom something belongs to — his/her",
-				"creeMorph": "otôski-ayima"
-			}
-		]
-	},
-	{
-		"primaryText": "kihci-",
-		"wordType": "Noun",
-		"detailedWordType": "IPV",
-		"descriptions": [
-			"great, big, important, most prominent",
-			"greatly",
-			"formally",
-			"proper, genuine"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kihci-kîsikâw",
-		"wordType": "Noun",
-		"detailedWordType": "N",
-		"descriptions": [
-			"An important day"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "sôhkan",
-		"wordType": "Verb",
-		"detailedWordType": "VII-2n",
-		"descriptions": [
-			"it is strong, it is sturdy, it is firm, it is solid, it is strongly made",
-			"it is important",
-			"it is powerful, it has supernatural power",
-			"it is hard, it is difficult",
-			"It is strong.",
-			"It is strongly made.",
-			"it is strong, solid, powerful"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — it / there is",
-				"creeMorph": "sôhkan"
-			},
-			{
-				"semantic": "ni-/ki- word — they / there are",
-				"creeMorph": "sôhkanwa"
-			},
-			{
-				"semantic": "ê-/kâ- word — it / there is",
-				"creeMorph": "ê-sôhkahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they / there are",
-				"creeMorph": "ê-sôhkahki"
-			}
-		]
-	},
-	{
-		"primaryText": "âtiht",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"some",
-			"A few."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "cikawâsis",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"few",
-			"Very few."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "mâmiskôtamâkêwin",
-		"wordType": "Noun",
-		"detailedWordType": "NI-1",
-		"descriptions": [
-			"public discussion, public discourse",
-			"the act of mentioning something to someone"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "mâmiskôtamâkêwin"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "mâmiskôtamâkêwina"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "mâmiskôtamâkêwinihk"
-			},
-			{
-				"semantic": "smaller — only one",
-				"creeMorph": "mâmiskôcamâkêwinis"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "nimâmiskôtamâkêwin"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kimâmiskôtamâkêwin"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "omâmiskôtamâkêwin"
-			}
-		]
-	},
-	{
-		"primaryText": "aniki",
-		"wordType": "Noun",
-		"detailedWordType": "PrA",
-		"descriptions": [
-			"those, those ones",
-			"Those people there."
-		],
-		"morphs": [
-			{
-				"semantic": "One (awa word) — Here",
-				"creeMorph": "awa"
-			},
-			{
-				"semantic": "One (awa word) — There",
-				"creeMorph": "ana"
-			},
-			{
-				"semantic": "One (awa word) — Over yonder",
-				"creeMorph": "nâha"
-			},
-			{
-				"semantic": "Many (awa word) — Here",
-				"creeMorph": "ôki"
-			},
-			{
-				"semantic": "Many (awa word) — There",
-				"creeMorph": "aniki"
-			},
-			{
-				"semantic": "Many (awa word) — Over yonder",
-				"creeMorph": "nêki"
-			},
-			{
-				"semantic": "One (ôma word) — Here",
-				"creeMorph": "ôma"
-			},
-			{
-				"semantic": "One (ôma word) — There",
-				"creeMorph": "anima"
-			},
-			{
-				"semantic": "One (ôma word) — Over yonder",
-				"creeMorph": "nêma"
-			},
-			{
-				"semantic": "Many (ôma word) — Here",
-				"creeMorph": "ôhi"
-			},
-			{
-				"semantic": "Many (ôma word) — There",
-				"creeMorph": "anihi"
-			},
-			{
-				"semantic": "Many (ôma word) — Over yonder",
-				"creeMorph": "nêhi"
-			}
-		]
-	},
-	{
-		"primaryText": "kîmôc",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"secretly, in secret, stealthily, slyly, by stealth",
-			"privately, in private",
-			"Secretly.",
-			"Slyly."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "awiyakak",
-		"wordType": "Noun",
-		"detailedWordType": "PrA",
-		"descriptions": [
-			"some people"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "nânitaw",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"[in negative clauses:] anything",
-			"anything bad"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "maci-",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"Bad",
-			"Evil",
-			"Wicked."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "nânitaw",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"[with negative presupposition:] something bad, anything bad"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "wiyakâc",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"it is regrettable",
-			"that's too bad!, sad loss!",
-			"Unfortunately.",
-			"Too bad."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "êwako",
-		"wordType": "Noun",
-		"detailedWordType": "PrA",
-		"descriptions": [
-			"this (previously mentioned), that one, the very one",
-			"the same one"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "êwako",
-		"wordType": "Noun",
-		"detailedWordType": "PrI",
-		"descriptions": [
-			"this (previously mentioned), that one, that very one",
-			"the same one"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "êwakw âna",
-		"wordType": "Noun",
-		"detailedWordType": "PrA",
-		"descriptions": [
-			"that same one (previously mentioned)"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "êwakw ânihi",
-		"wordType": "Noun",
-		"detailedWordType": "PrA",
-		"descriptions": [
-			"that same one",
-			"those same ones (previously mentioned)"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "nihtâ-",
-		"wordType": "Noun",
-		"detailedWordType": "IPV",
-		"descriptions": [
-			"able",
-			"good at, competent, practised, experienced, doing much of, skilful at, accustomed to",
-			"expert at, known as one who does something habitually, be in the habit of",
-			"well",
-			"consistently, always"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "nahtâ-",
-		"wordType": "Noun",
-		"detailedWordType": "IPV",
-		"descriptions": [
-			"able",
-			"good at, competent, practised, experienced, skilful at, expert at, known as one who does something habitually",
-			"well"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kaskihow",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he has the ability to do s.t., s/he is able, s/he is competent, s/he is clever, s/he is skilful",
-			"s/he prevails",
-			"s/he escapes"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "nikaskihon"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kikaskihon"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "kaskihow"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "nikaskihonân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kikaskihonaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kikaskihonânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kikaskihonâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "kaskihowak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "kaskihoyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "kaskihonâniwiw"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "kaskihonâniwan"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-kaskihoyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-kaskihoyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-kaskihot"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-kaskihoyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-kaskihoyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-kaskihoyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-kaskihocik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-kaskihoyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-kaskihohk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-kaskihonâniwahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-kaskihonâniwik"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "kaskiho"
-			}
-		]
-	},
-	{
-		"primaryText": "ispayin",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"Be",
-			"It happened so."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "cîki",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"close, close by, near, nearby, near to",
-			"Near",
-			"Nearby.",
-			"To be near."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "ispayiw",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"If it will be.",
-			"If it will happen that way.",
-			"He drove there.",
-			"It got to be that way."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "misawâc",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"anyway, at any rate, in any case",
-			"despite, in spite of",
-			"whatever might be thought",
-			"no doubt it is the case",
-			"At any rate.",
-			"Anyway."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "ayâw",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"He owns (something).",
-			"He is there.",
-			"You can have it.",
-			"He is through",
-			"He is finished.",
-			"He can rise now after being bedridden."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "êkâ êsa",
-		"wordType": "Noun",
-		"detailedWordType": "IPH",
-		"descriptions": [
-			"you shouldn't have ...",
-			"well, you should not have"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kâwiêa",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"don't",
-			"no",
-			"not [used in conjunct and imperative clauses]",
-			"Do not."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "ka-kî cî",
-		"wordType": "Noun",
-		"detailedWordType": "Phrase",
-		"descriptions": [
-			"Can you?",
-			"Do you think you can?",
-			"Will you?"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "nitaw",
-		"wordType": "Noun",
-		"detailedWordType": "Prev",
-		"descriptions": [
-			"Go and get",
-			"Go and do",
-			"Go and act."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "ay say",
-		"wordType": "Noun",
-		"detailedWordType": "IPH",
-		"descriptions": [
-			"oh geez!"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "itêwak",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"They say to him or them."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "âh",
-		"wordType": "Noun",
-		"detailedWordType": "IPJ",
-		"descriptions": [
-			"What?",
-			"What did you say?"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "matwân cî",
-		"wordType": "Noun",
-		"detailedWordType": "IPH",
-		"descriptions": [
-			"I wonder, I wonder if",
-			"I believe",
-			"perhaps",
-			"I don't know"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "nâtamawêw",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"He gets it for him."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "awasitik",
-		"wordType": "Noun",
-		"detailedWordType": "IPJ",
-		"descriptions": [
-			"go on!",
-			"go away!",
-			"get out of the way!"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "awas",
-		"wordType": "Noun",
-		"detailedWordType": "IPJ",
-		"descriptions": [
-			"go on! go away! away with you! get out of the way!",
-			"Go away!"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "ninâtâw",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"I go to get him."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "âhki",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"pretend, pretence",
-			"make believe"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "yôskihtâ",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"Make it soft.",
-			"Soften it."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "wiyasiwâta",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"Judge it.",
-			"Make a decision on it."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "isîhêw",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"He makes him just so."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "nitawi-",
-		"wordType": "Noun",
-		"detailedWordType": "IPV",
-		"descriptions": [
-			"go and, go to",
-			"engaged in"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "êkwa",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"and, also",
-			"then",
-			"now",
-			"let's go!"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "niyâ",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"Go."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "awîna êtikwê",
-		"wordType": "Noun",
-		"detailedWordType": "IPH",
-		"descriptions": [
-			"I don't know who",
-			"I wonder who"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kiskêyihta",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"Know it."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "otinêw",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"He takes him."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "nah",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"Here, take it."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "otinamâsow",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he takes (it/them) for him/herself, s/he gets (it/them) for him/herself, s/he obtains (it/them) for him/herself",
-			"s/he steals (it/them)",
-			"s/he buys (it/them) for him/herself",
-			"He takes it for himself.",
-			"s/he unjustly appropriates it for herself/himself"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "nitôtinamâson"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kitôtinamâson"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "otinamâsow"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "nitôtinamâsonân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kitôtinamâsonânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kitôtinamâsonaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kitôtinamâsonâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "otinamâsowak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "otinamâsoyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "otinamâsonâniwiw"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "otinamâsonâniwan"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-otinamâsoyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-otinamâsoyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-otinamâsot"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-otinamâsoyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-otinamâsoyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-otinamâsoyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-otinamâsocik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-otinamâsoyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-otinamâsonâniwik"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-otinamâsonâniwahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-otinamâsohk"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "otinamâso"
-			}
-		]
-	},
-	{
-		"primaryText": "wawêhtinahk",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"easily, leisurely",
-			"taking time"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "mahti",
-		"wordType": "Noun",
-		"detailedWordType": "IPJ",
-		"descriptions": [
-			"come on!, let's see! [hortatory]",
-			"let me pass!"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "ka",
-		"wordType": "Noun",
-		"detailedWordType": "IPJ",
-		"descriptions": [
-			"oh! yes! [discourse particle; accepting information]",
-			"Used in repetition of a verb and denotes continuous action.",
-			"Oh!",
-			"That's it, its it?",
-			"I see."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "mwêstas",
-		"wordType": "Noun",
-		"detailedWordType": "IPJ",
-		"descriptions": [
-			"later, see you later!"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "âsê-",
-		"wordType": "Noun",
-		"detailedWordType": "IPV",
-		"descriptions": [
-			"[see: asê-]"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "âstam",
-		"wordType": "Noun",
-		"detailedWordType": "IPJ",
-		"descriptions": [
-			"come!, come here!"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "âstam",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"Come here."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "pê-",
-		"wordType": "Noun",
-		"detailedWordType": "IPV",
-		"descriptions": [
-			"come and, come to",
-			"towards, approaching",
-			"hither",
-			"thence, from there on down",
-			"[towards focus]"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "êkwa",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"You come along, too."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "tâpwê",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"truly, in truth",
-			"indeed, really, for sure, certainly",
-			"duly, in due course",
-			"True",
-			"Truly",
-			"For sure",
-			"Certainly",
-			"Really."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "pakahkam",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"I think, I believe",
-			"apparently, it is apparent",
-			"perhaps, maybe, probably",
-			"surely, it's very likely, to judge by appeal",
-			"Perhaps.",
-			"It is very likely.",
-			"it is apparent",
-			"it could be",
-			"I think so",
-			"perhaps, probably"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "itêyihta",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"Think it to be so."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "itâpiw",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he looks thus or there, s/he faces there, s/he takes a look",
-			"s/he takes aim thus or there",
-			"He takes a look."
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "nititâpin"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kititâpin"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "itâpiw"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "nititâpinân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kititâpinaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kititâpinânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kititâpinâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "itâpiwak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "itâpiyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "itâpinâniwiw"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "itâpinâniwan"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-itâpiyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-itâpiyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-itâpit"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-itâpiyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-itâpiyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-itâpiyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-itâpicik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-itâpiyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-itâpinâniwahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-itâpihk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-itâpinâniwik"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "itâpi"
-			}
-		]
-	},
-	{
-		"primaryText": "nitâpin",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"I look."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "miyopayiw",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"It goes well with him.",
-			"It looks well."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "nâkatêyihta",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"Be careful.",
-			"Look after it."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "nôhtêhkatêw",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he is hungry, s/he wants food, s/he is in need of food, s/he suffers want of food",
-			"He is hungry"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "ninôhtêhkatân"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kinôhtêhkatân"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "nôhtêhkatêw"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "ninôhtêhkatânân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kinôhtêhkatânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kinôhtêhkatânânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kinôhtêhkatânâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "nôhtêhkatêwak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "nôhtêhkatêyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "nôhtêhkatâniwiw"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "nôhtêhkatâniwan"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-nôhtêhkatêyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-nôhtêhkatêyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-nôhtêhkatêt"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-nôhtêhkatêyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-nôhtêhkatêyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-nôhtêhkatêyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-nôhtêhkatêcik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-nôhtêhkatêyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-nôhtêhkatêhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-nôhtêhkatâniwik"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-nôhtêhkatâniwahk"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "nôhtêhkatê"
-			}
-		]
-	},
-	{
-		"primaryText": "nôhtê-",
-		"wordType": "Noun",
-		"detailedWordType": "IPV",
-		"descriptions": [
-			"want to, desire to, be determined to",
-			"lack, be short of"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "wîto-",
-		"wordType": "Noun",
-		"detailedWordType": "IPV",
-		"descriptions": [
-			"want, intend"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "isiyihkâtêw",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"That is what he is called.",
-			"He gives him a name."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "miy",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"Give him."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "nimêkin",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"I give."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "asâm",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"He gives him food to eat."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "âpacihêw",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"He is using him or it."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "mâna",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"usually, habitually, customarily, generally, always, continually",
-			"used to",
-			"Always.",
-			"Generally.",
-			"Usually. (Northern). alt. mâna (Plains)"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "âpacihêw",
-		"wordType": "Verb",
-		"detailedWordType": "VTA-1",
-		"descriptions": [
-			"s/he uses s.o., s/he makes use of s.o. (e.g. porcupine-quills), s/he finds s.o. useful"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I → you (one)",
-				"creeMorph": "kitâpacihitin"
-			},
-			{
-				"semantic": "ni-/ki- word — I → him/her",
-				"creeMorph": "nitâpacihâw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one) → me",
-				"creeMorph": "kitâpacihin"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one) → him/her",
-				"creeMorph": "kitâpacihâw"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he → me",
-				"creeMorph": "nitâpacihik"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he → you (one)",
-				"creeMorph": "kitâpacihik"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he → another/others",
-				"creeMorph": "âpacihêw"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others → him/her",
-				"creeMorph": "âpacihikow"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others → him/her",
-				"creeMorph": "âpacihik"
-			},
-			{
-				"semantic": "ê-/kâ- word — I → you (one)",
-				"creeMorph": "ê-âpacihitân"
-			},
-			{
-				"semantic": "ê-/kâ- word — I → him/her",
-				"creeMorph": "ê-âpacihak"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one) → me",
-				"creeMorph": "ê-âpacihiyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one) → him/her",
-				"creeMorph": "ê-âpacihat"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he → me",
-				"creeMorph": "ê-âpacihit"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he → you (one)",
-				"creeMorph": "ê-âpacihisk"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he → another/others",
-				"creeMorph": "ê-âpacihât"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others → him/her",
-				"creeMorph": "ê-âpacihikot"
-			},
-			{
-				"semantic": "command/request — you (one) → me",
-				"creeMorph": "âpacihin"
-			},
-			{
-				"semantic": "command/request — you (one) → him/her",
-				"creeMorph": "âpacih"
-			}
-		]
-	},
-	{
-		"primaryText": "niwihkistâw",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"I find him tasty."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "niwîhkistên",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"I find it tasty."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "pîhtaw",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"besides, of course, in the actual outcome",
-			"in the end, in the event, in fact, come to find out, as it appeared",
-			"Because of."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "âcimow",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"(you all) tell now, (you all) tell a story now",
-			"(you all) tell news now, (you all) give an account now, (you all) make a report now, (you all) inform now, (you all) narrate now",
-			"(you all) tell your own story now",
-			"(you all) told a story now. now",
-			"All of you tell a story."
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "nitâcimon"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kitâcimon"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "âcimow"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "nitâcimonân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kitâcimonaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kitâcimonânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kitâcimonâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "âcimowak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "âcimoyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "âcimonâniwiw"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "âcimonâniwan"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-âcimoyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-âcimoyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-âcimot"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-âcimoyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-âcimoyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-âcimoyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-âcimocik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-âcimoyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-âcimonâniwahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-âcimohk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-âcimonâniwik"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "âcimo"
-			}
-		]
-	},
-	{
-		"primaryText": "niwîhtamawâw",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"I tell him something."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "niwîhtên",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"I tell about it."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "wîsâwitam",
-		"wordType": "Verb",
-		"detailedWordType": "VTI-1",
-		"descriptions": [
-			"s/he offers an invitation to s.t.",
-			"s/he makes up his/her own mind",
-			"s/he tells others what to do",
-			"He asks others to go with him.",
-			"s/he invites someone to go along"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "mahti",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"Let me pass, please."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "wîsâwita",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"Ask others to go with you."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kakwêcihkêmow",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he asks, s/he inquires, s/he asks people",
-			"s/he asks for s.t., s/he asks questions of people",
-			"s/he asks"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "nikakwêcihkêmon"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kikakwêcihkêmon"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "kakwêcihkêmow"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "nikakwêcihkêmonân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kikakwêcihkêmonaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kikakwêcihkêmonânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kikakwêcihkêmonâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "kakwêcihkêmowak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "kakwêcihkêmoyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "kakwêcihkêmonâniwiw"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "kakwêcihkêmonâniwan"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-kakwêcihkêmoyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-kakwêcihkêmoyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-kakwêcihkêmot"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-kakwêcihkêmoyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-kakwêcihkêmoyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-kakwêcihkêmoyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-kakwêcihkêmocik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-kakwêcihkêmoyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-kakwêcihkêmonâniwahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-kakwêcihkêmohk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-kakwêcihkêmonâniwik"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "kakwêcihkêmo"
-			}
-		]
-	},
-	{
-		"primaryText": "tâpiskôc",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"like, for instance",
-			"just like, as when, as if, in the same way",
-			"it seems, seemingly, apparently, similar to",
-			"equally",
-			"Just like",
-			"As"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "mâni piko",
-		"wordType": "Noun",
-		"detailedWordType": "IPH",
-		"descriptions": [
-			"it seems like, evidently, apparently [contrary to expectation]",
-			"it seems like"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "mâniko",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"it seems like",
-			"by one's sense",
-			"evidently, apparently [contrary to expectation]"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "mîskonêw",
-		"wordType": "Verb",
-		"detailedWordType": "VTA-1",
-		"descriptions": [
-			"s/he feels s.o. (by hand), s/he examines s.o. by feel",
-			"s/he gropes s.o.",
-			"He feels him with the hands."
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I → you (one)",
-				"creeMorph": "kimîskonitin"
-			},
-			{
-				"semantic": "ni-/ki- word — I → him/her",
-				"creeMorph": "nimîskonâw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one) → me",
-				"creeMorph": "kimîskonin"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one) → him/her",
-				"creeMorph": "kimîskonâw"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he → me",
-				"creeMorph": "nimîskonik"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he → you (one)",
-				"creeMorph": "kimîskonik"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he → another/others",
-				"creeMorph": "mîskonêw"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others → him/her",
-				"creeMorph": "mîskonikow"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others → him/her",
-				"creeMorph": "mîskonik"
-			},
-			{
-				"semantic": "ê-/kâ- word — I → you (one)",
-				"creeMorph": "ê-mîskonitân"
-			},
-			{
-				"semantic": "ê-/kâ- word — I → him/her",
-				"creeMorph": "ê-mîskonak"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one) → me",
-				"creeMorph": "ê-mîskoniyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one) → him/her",
-				"creeMorph": "ê-mîskonat"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he → me",
-				"creeMorph": "ê-mîskonit"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he → you (one)",
-				"creeMorph": "ê-mîskonisk"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he → another/others",
-				"creeMorph": "ê-mîskonât"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others → him/her",
-				"creeMorph": "ê-mîskonikot"
-			},
-			{
-				"semantic": "command/request — you (one) → me",
-				"creeMorph": "mîskonin"
-			},
-			{
-				"semantic": "command/request — you (one) → him/her",
-				"creeMorph": "mîskon"
-			}
-		]
-	},
-	{
-		"primaryText": "oyascikêw",
-		"wordType": "Noun",
-		"detailedWordType": "N",
-		"descriptions": [
-			"A person who feels a premonition, he may not know it but he will display behavior towards this."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "mâtâhpinêw",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"He is starting to feel sick",
-			"He is starting to feel pain."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kakwê-",
-		"wordType": "Noun",
-		"detailedWordType": "IPV",
-		"descriptions": [
-			"try to, attempt to",
-			"circumstances permitting, by divine grace"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kakwe",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"Try to."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kocîhtâ",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"Try it."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "itohtêw",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he tries to go (somewhere)"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "nititohtân"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kititohtân"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "itohtêw"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "nititohtânân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kititohtânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kititohtânânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kititohtânâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "itohtêwak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "itohtêyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "itohtâniwan"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "itohtâniwiw"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-itohtêyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-itohtêyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-itohtêt"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-itohtêyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-itohtêyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-itohtêyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-itohtêcik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-itohtêyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-itohtêhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-itohtâniwahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-itohtâniwik"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "itohtê"
-			}
-		]
-	},
-	{
-		"primaryText": "nâtêw",
-		"wordType": "Verb",
-		"detailedWordType": "VTA-4",
-		"descriptions": [
-			"s/he fetches s.o.",
-			"s/he goes for s.o., s/he goes to get s.o.",
-			"They leave to go get them.",
-			"He goes to get him.",
-			"s/he goes and gets her/him"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I → you (one)",
-				"creeMorph": "kinâtitin"
-			},
-			{
-				"semantic": "ni-/ki- word — I → him/her",
-				"creeMorph": "ninâtâw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one) → me",
-				"creeMorph": "kinâsin"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one) → him/her",
-				"creeMorph": "kinâtâw"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he → me",
-				"creeMorph": "ninâtik"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he → you (one)",
-				"creeMorph": "kinâtik"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he → another/others",
-				"creeMorph": "nâtêw"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others → him/her",
-				"creeMorph": "nâtik"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others → him/her",
-				"creeMorph": "nâtikow"
-			},
-			{
-				"semantic": "ê-/kâ- word — I → you (one)",
-				"creeMorph": "ê-nâtitân"
-			},
-			{
-				"semantic": "ê-/kâ- word — I → him/her",
-				"creeMorph": "ê-nâtak"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one) → me",
-				"creeMorph": "ê-nâsiyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one) → him/her",
-				"creeMorph": "ê-nâtat"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he → me",
-				"creeMorph": "ê-nâsit"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he → you (one)",
-				"creeMorph": "ê-nâtisk"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he → another/others",
-				"creeMorph": "ê-nâtât"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others → him/her",
-				"creeMorph": "ê-nâtikot"
-			},
-			{
-				"semantic": "command/request — you (one) → me",
-				"creeMorph": "nâsin"
-			},
-			{
-				"semantic": "command/request — you (one) → him/her",
-				"creeMorph": "nâs"
-			}
-		]
-	},
-	{
-		"primaryText": "sîkawîwak",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"they go away in numbers, they evacuate a place, they leave a place empty, they leave a place exhausted, they desert a place"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "nisîkawînân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kisîkawînânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kisîkawînaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kisîkawînâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "sîkawîwak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "sîkawîyiwa"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-sîkawîyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-sîkawîyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-sîkawîyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-sîkawîcik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-sîkawîyit"
-			}
-		]
-	},
-	{
-		"primaryText": "sipwê-",
-		"wordType": "Noun",
-		"detailedWordType": "IPV",
-		"descriptions": [
-			"leaving, departing, going away",
-			"starting out, commencement"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "têpwêw",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"(you) call now, (you) call out now, (you) shout now, (you) yell now, (you) holler now",
-			"(you) yell loudly now",
-			"(you) call loudly now. now",
-			"Yell loudly",
-			"Call loudly."
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "nitêpwân"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kitêpwân"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "têpwêw"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "nitêpwânân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kitêpwânânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kitêpwânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kitêpwânâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "têpwêwak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "têpwêyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "têpwâniwan"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "têpwâniwiw"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-têpwêyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-têpwêyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-têpwêt"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-têpwêyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-têpwêyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-têpwêyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-têpwêcik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-têpwêyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-têpwâniwik"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-têpwêhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-têpwâniwahk"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "têpwê"
-			}
-		]
-	},
-	{
-		"primaryText": "natomiwêwin",
-		"wordType": "Noun",
-		"detailedWordType": "NI-1",
-		"descriptions": [
-			"call, calling",
-			"invitation"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "masinahikan",
-		"wordType": "Noun",
-		"detailedWordType": "NI-1",
-		"descriptions": [
-			"book",
-			"letter, mail",
-			"written document, report, paper",
-			"magazine",
-			"will",
-			"cheque, voucher",
-			"hymnbook, hymnal, Bible",
-			"A letter",
-			"Paper",
-			"a letter to someone"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "masinahikan"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "masinahikana"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "masinahikanihk"
-			},
-			{
-				"semantic": "smaller — only one",
-				"creeMorph": "masinahikanis"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "nimasinahikan"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kimasinahikan"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "omasinahikan"
-			}
-		]
-	},
-	{
-		"primaryText": "nîkânitwêwin",
-		"wordType": "Noun",
-		"detailedWordType": "NI-1",
-		"descriptions": [
-			"preface, foreword of a book"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "nîkânitwêwin"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "nîkânitwêwina"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "nîkânitwêwinihk"
-			},
-			{
-				"semantic": "smaller — only one",
-				"creeMorph": "nîkânicwêwinis"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "ninîkânitwêwin"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kinîkânitwêwin"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "onîkânitwêwin"
-			}
-		]
-	},
-	{
-		"primaryText": "itwêstamâkêwasinahikan",
-		"wordType": "Noun",
-		"detailedWordType": "NI-1",
-		"descriptions": [
-			"dictionary, bilingual dictionary [literally: \"translating book\"]"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "wâskahikan",
-		"wordType": "Noun",
-		"detailedWordType": "NI-1",
-		"descriptions": [
-			"house, residence, wooden house",
-			"shack",
-			"building",
-			"fort",
-			"A house"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "wâskahikan"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "wâskahikana"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "wâskahikanihk"
-			},
-			{
-				"semantic": "smaller — only one",
-				"creeMorph": "wâskahikanis"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "niwâskahikan"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kiwâskahikan"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "owâskahikan"
-			}
-		]
-	},
-	{
-		"primaryText": "pîhtokamik",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"inside, indoors, inside a house, tent, dwelling",
-			"Inside a house",
-			"Inside a dwelling.",
-			"the interior of a building"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kîkinaw",
-		"wordType": "Noun",
-		"detailedWordType": "N",
-		"descriptions": [
-			"Our house",
-			"Our home."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "wîkiw",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he lives there, s/he dwells there, s/he has his/her own home (there)",
-			"He lives in a house.",
-			"s/he lives or inhabits there",
-			"s/he dwells there",
-			"s/he resides there",
-			"s/he has a home there"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "niwîkin"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kiwîkin"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "wîkiw"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "niwîkinân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kiwîkinânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kiwîkinaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kiwîkinâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "wîkiwak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "wîkiyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "wîkinâniwan"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "wîkinâniwiw"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-wîkiyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-wîkiyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-wîkit"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-wîkiyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-wîkiyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-wîkiyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-wîkicik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-wîkiyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-wîkihk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-wîkinâniwik"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-wîkinâniwahk"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "wîki"
-			}
-		]
-	},
-	{
-		"primaryText": "iskwâhtêm",
-		"wordType": "Noun",
-		"detailedWordType": "NI-1",
-		"descriptions": [
-			"door, doorway, entrance to tipi or tent",
-			"opening in fence",
-			"car door",
-			"Porch."
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "iskwâhtêm"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "iskwâhtêma"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "iskwâhtêmihk"
-			},
-			{
-				"semantic": "smaller — only one",
-				"creeMorph": "iskwâhcêmis"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "nitiskwâhtêm"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kitiskwâhtêm"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "otiskwâhtêm"
-			}
-		]
-	},
-	{
-		"primaryText": "pâhpawihtakaham",
-		"wordType": "Verb",
-		"detailedWordType": "VTI-1",
-		"descriptions": [
-			"s/he is knocking at s.t. (e.g. door)"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "pâskihtêpaêiw",
-		"wordType": "Verb",
-		"detailedWordType": "VII-2v",
-		"descriptions": [
-			"it goes open (e.g. door)"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — it / there is",
-				"creeMorph": "pâskihtêpaêi"
-			},
-			{
-				"semantic": "ni-/ki- word — they / there are",
-				"creeMorph": "pâskihtêpaêiwa"
-			},
-			{
-				"semantic": "ê-/kâ- word — it / there is",
-				"creeMorph": "ê-pâskihtêpaêik"
-			},
-			{
-				"semantic": "ê-/kâ- word — they / there are",
-				"creeMorph": "ê-pâskihtêpaêiki"
-			}
-		]
-	},
-	{
-		"primaryText": "kanawêyiskwâhtawêw",
-		"wordType": "Noun",
-		"detailedWordType": "N",
-		"descriptions": [
-			"A door keeper.",
-			"Goalkeeper."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "wâsênamawin",
-		"wordType": "Noun",
-		"detailedWordType": "N",
-		"descriptions": [
-			"A window"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "wâsênamawinis",
-		"wordType": "Noun",
-		"detailedWordType": "N",
-		"descriptions": [
-			"A small window."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "paspâpiw",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he looks out (e.g. through a window or hole)",
-			"s/he peers out through a hole, s/he peeks out through a crack",
-			"He looks out through the window.",
-			"s/he peers at the window, i.e.: looking out or in"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "nipaspâpin"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kipaspâpin"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "paspâpiw"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "nipaspâpinân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kipaspâpinaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kipaspâpinânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kipaspâpinâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "paspâpiwak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "paspâpiyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "paspâpinâniwan"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "paspâpinâniwiw"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-paspâpiyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-paspâpiyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-paspâpit"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-paspâpiyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-paspâpiyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-paspâpiyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-paspâpicik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-paspâpiyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-paspâpihk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-paspâpinâniwahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-paspâpinâniwik"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "paspâpi"
-			}
-		]
-	},
-	{
-		"primaryText": "wâsênamân",
-		"wordType": "Noun",
-		"detailedWordType": "NI-1",
-		"descriptions": [
-			"window"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "wâsênamân"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "wâsênamâna"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "wâsênamânihk"
-			},
-			{
-				"semantic": "smaller — only one",
-				"creeMorph": "wâsênamânis"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "niwâsênamân"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kiwâsênamân"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "owâsênamân"
-			}
-		]
-	},
-	{
-		"primaryText": "mîcisowinâhtik",
-		"wordType": "Noun",
-		"detailedWordType": "NI-3",
-		"descriptions": [
-			"table, dining table",
-			"A table.",
-			"His table."
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "mîcisowinâhtik"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "mîcisowinâhtikwa"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "mîcisowinâhtikohk"
-			},
-			{
-				"semantic": "smaller — only one",
-				"creeMorph": "mîcisowinâhcikos"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "nimîcisowinâhtik"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kimîcisowinâhtik"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "omîcisowinâhtik"
-			}
-		]
-	},
-	{
-		"primaryText": "cîstahâsêpon",
-		"wordType": "Noun",
-		"detailedWordType": "NI-1",
-		"descriptions": [
-			"table fork"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "cîstahâsêpon"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "cîstahâsêpona"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "cîstahâsêponihk"
-			},
-			{
-				"semantic": "smaller — only one",
-				"creeMorph": "cîscahâsêponis"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "nicîstahâsêpon"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kicîstahâsêpon"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "ocîstahâsêpon"
-			}
-		]
-	},
-	{
-		"primaryText": "omîcisowinâhtikow",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he has a table"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "masinahikêwinâhtik",
-		"wordType": "Noun",
-		"detailedWordType": "NI-3",
-		"descriptions": [
-			"writing table, desk",
-			"blackboard"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "masinahikêwinâhtik"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "masinahikêwinâhtikwa"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "masinahikêwinâhtikohk"
-			},
-			{
-				"semantic": "smaller — only one",
-				"creeMorph": "masinahikêwinâhcikos"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "nimasinahikêwinâhtik"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kimasinahikêwinâhtik"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "omasinahikêwinâhtik"
-			}
-		]
-	},
-	{
-		"primaryText": "têhtapiwin",
-		"wordType": "Noun",
-		"detailedWordType": "N",
-		"descriptions": [
-			"A chair."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "têhtapiwin",
-		"wordType": "Noun",
-		"detailedWordType": "NI-1",
-		"descriptions": [
-			"chair, seat",
-			"saddle"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "têhtapiwin"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "têhtapiwina"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "têhtapiwinihk"
-			},
-			{
-				"semantic": "smaller — only one",
-				"creeMorph": "cêhcapiwinis"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "nitêhtapiwin"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kitêhtapiwin"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "otêhtapiwin"
-			}
-		]
-	},
-	{
-		"primaryText": "cêhcapiwinis",
-		"wordType": "Noun",
-		"detailedWordType": "NI-1",
-		"descriptions": [
-			"baby chair, highchair",
-			"little chair",
-			"wheelchair"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "cêhcapiwinis"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "cêhcapiwinisa"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "cêhcapiwinisihk"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "nicêhcapiwinis"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kicêhcapiwinis"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "ocêhcapiwinis"
-			}
-		]
-	},
-	{
-		"primaryText": "apiwinis",
-		"wordType": "Noun",
-		"detailedWordType": "NI-1",
-		"descriptions": [
-			"seat, chair"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "apiwinis"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "apiwinisa"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "apiwinisihk"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "nicapiwinis"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kicapiwinis"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "ocapiwinis"
-			}
-		]
-	},
-	{
-		"primaryText": "waniskâw",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"He rises out of bed."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "waniskâw",
-		"wordType": "Verb",
-		"detailedWordType": "VAI",
-		"descriptions": [
-			"s/he rises",
-			"s/he gets up out of bed"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "niwaniskân"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kiwaniskân"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "waniskâw"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "niwaniskânân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kiwaniskânânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kiwaniskânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kiwaniskânâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "waniskâwak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "waniskâyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "waniskâniwan"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "waniskâniwiw"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-waniskâyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-waniskâyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-waniskât"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-waniskâyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-waniskâyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-waniskâyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-waniskâcik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-waniskâyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-waniskâniwahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-waniskâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-waniskâniwik"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "waniskâ"
-			}
-		]
-	},
-	{
-		"primaryText": "waniskâw",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he gets up, s/he arises from lying, s/he gets out of bed"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "niwaniskân"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kiwaniskân"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "waniskâw"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "niwaniskânân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kiwaniskânânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kiwaniskânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kiwaniskânâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "waniskâwak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "waniskâyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "waniskâniwan"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "waniskâniwiw"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-waniskâyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-waniskâyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-waniskât"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-waniskâyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-waniskâyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-waniskâyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-waniskâcik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-waniskâyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-waniskâniwahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-waniskâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-waniskâniwik"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "waniskâ"
-			}
-		]
-	},
-	{
-		"primaryText": "kawisimow",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he goes to bed, s/he beds down, s/he lies down",
-			"s/he gets ready for bed",
-			"He goes to bed.",
-			"s/he retires or goes to bed"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "nikawisimon"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kikawisimon"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "kawisimow"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "nikawisimonân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kikawisimonânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kikawisimonaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kikawisimonâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "kawisimowak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "kawisimoyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "kawisimonâniwan"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "kawisimonâniwiw"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-kawisimoyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-kawisimoyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-kawisimot"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-kawisimoyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-kawisimoyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-kawisimoyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-kawisimocik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-kawisimoyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-kawisimohk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-kawisimonâniwahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-kawisimonâniwik"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "kawisimo"
-			}
-		]
-	},
-	{
-		"primaryText": "mîcisowikamik",
-		"wordType": "Noun",
-		"detailedWordType": "NI-3",
-		"descriptions": [
-			"restaurant, café, cafeteria",
-			"dining room",
-			"a restaurant, cafe, cafeteria"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "mîcisowikamik"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "mîcisowikamikwa"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "mîcisowikamikohk"
-			},
-			{
-				"semantic": "smaller — only one",
-				"creeMorph": "mîcisowikamikos"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "nimîcisowikamik"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kimîcisowikamik"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "omîcisowikamik"
-			}
-		]
-	},
-	{
-		"primaryText": "tawâw",
-		"wordType": "Noun",
-		"detailedWordType": "IPJ",
-		"descriptions": [
-			"come in, you are welcome!",
-			"there's room"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "têpikâpawiwin",
-		"wordType": "Noun",
-		"detailedWordType": "NI-1",
-		"descriptions": [
-			"standing room"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "pêhowikamik",
-		"wordType": "Noun",
-		"detailedWordType": "NI-3",
-		"descriptions": [
-			"railway station",
-			"waiting room"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "pêhowikamik"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "pêhowikamikwa"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "pêhowikamikohk"
-			},
-			{
-				"semantic": "smaller — only one",
-				"creeMorph": "pêhowikamikos"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "nipêhowikamik"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kipêhowikamik"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "opêhowikamik"
-			}
-		]
-	},
-	{
-		"primaryText": "otâpâsow",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he rides in a vehicle (e.g. wagon, car, sled), s/he drives a vehicle (e.g. wagon, car)",
-			"He rides.",
-			"He is riding (in a wagon).",
-			"s/he goes for a ride"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "nitôtâpâson"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kitôtâpâson"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "otâpâsow"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "nitôtâpâsonân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kitôtâpâsonaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kitôtâpâsonânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kitôtâpâsonâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "otâpâsowak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "otâpâsoyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "otâpâsonâniwan"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "otâpâsonâniwiw"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-otâpâsoyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-otâpâsoyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-otâpâsot"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-otâpâsoyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-otâpâsoyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-otâpâsoyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-otâpâsocik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-otâpâsoyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-otâpâsonâniwahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-otâpâsohk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-otâpâsonâniwik"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "otâpâso"
-			}
-		]
-	},
-	{
-		"primaryText": "pôsihêw",
-		"wordType": "Verb",
-		"detailedWordType": "VTA-1",
-		"descriptions": [
-			"s/he gives s.o. a ride",
-			"s/he puts s.o. on board, s/he makes s.o. board (e.g. boat, vehicle, bus, airplane), s/he puts s.o. on a sleigh, s/he gives s.o. a ride on a sleigh"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I → you (one)",
-				"creeMorph": "kipôsihitin"
-			},
-			{
-				"semantic": "ni-/ki- word — I → him/her",
-				"creeMorph": "nipôsihâw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one) → me",
-				"creeMorph": "kipôsihin"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one) → him/her",
-				"creeMorph": "kipôsihâw"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he → me",
-				"creeMorph": "nipôsihik"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he → you (one)",
-				"creeMorph": "kipôsihik"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he → another/others",
-				"creeMorph": "pôsihêw"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others → him/her",
-				"creeMorph": "pôsihik"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others → him/her",
-				"creeMorph": "pôsihikow"
-			},
-			{
-				"semantic": "ê-/kâ- word — I → you (one)",
-				"creeMorph": "ê-pôsihitân"
-			},
-			{
-				"semantic": "ê-/kâ- word — I → him/her",
-				"creeMorph": "ê-pôsihak"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one) → me",
-				"creeMorph": "ê-pôsihiyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one) → him/her",
-				"creeMorph": "ê-pôsihat"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he → me",
-				"creeMorph": "ê-pôsihit"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he → you (one)",
-				"creeMorph": "ê-pôsihisk"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he → another/others",
-				"creeMorph": "ê-pôsihât"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others → him/her",
-				"creeMorph": "ê-pôsihikot"
-			},
-			{
-				"semantic": "command/request — you (one) → me",
-				"creeMorph": "pôsihin"
-			},
-			{
-				"semantic": "command/request — you (one) → him/her",
-				"creeMorph": "pôsih"
-			}
-		]
-	},
-	{
-		"primaryText": "pôsiw",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he boards, s/he gets aboard, s/he climbs in (e.g. boat, vehicle, bus, airplane), s/he embarks, s/he is aboard",
-			"s/he rides (in a vehicle), s/he rides the train",
-			"s/he mounts (e.g. horse)",
-			"He boards."
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "nipôsin"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kipôsin"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "pôsiw"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "nipôsinân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kipôsinaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kipôsinânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kipôsinâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "pôsiwak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "pôsiyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "pôsinâniwan"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "pôsinâniwiw"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-pôsiyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-pôsiyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-pôsit"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-pôsiyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-pôsiyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-pôsiyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-pôsicik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-pôsiyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-pôsinâniwik"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-pôsinâniwahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-pôsihk"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "pôsi"
-			}
-		]
-	},
-	{
-		"primaryText": "cawâsihk",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"in a small ravine, in a narrows",
-			"on the street"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "akâmi-mêskanâhkânihk",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"across the street",
-			"across the made street"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "cawâscêsihk",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"in a small ravine, in a narrows",
-			"on a side street"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "aêakaski-mêskanaw",
-		"wordType": "Noun",
-		"detailedWordType": "NI-2",
-		"descriptions": [
-			"wide road, wide street, highway"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "aêakaski-mêskanaw"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "aêakaski-mêskanawa"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "aêakaski-mêskanâhk"
-			},
-			{
-				"semantic": "smaller — only one",
-				"creeMorph": "aêakaski-mêskanâs"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "nitaêakaski-mêskanaw"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kitaêakaski-mêskanaw"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "otaêakaski-mêskanaw"
-			}
-		]
-	},
-	{
-		"primaryText": "ôtênâhk",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"in town, in the city",
-			"In the city."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "ôtênaw",
-		"wordType": "Noun",
-		"detailedWordType": "NI-2",
-		"descriptions": [
-			"camp circle",
-			"town, settlement",
-			"city"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "ôtênaw"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "ôtênawa"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "ôtênâhk"
-			},
-			{
-				"semantic": "smaller — only one",
-				"creeMorph": "ôcênâs"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "nitôtênaw"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kitôtênaw"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "otôtênaw"
-			}
-		]
-	},
-	{
-		"primaryText": "ôtênaw-iêiniw",
-		"wordType": "Noun",
-		"detailedWordType": "NI-2",
-		"descriptions": [
-			"person living in a town or city, citizen of a city",
-			"[plural:] townsfolk"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "mîciwin",
-		"wordType": "Noun",
-		"detailedWordType": "NI-1",
-		"descriptions": [
-			"food, meal",
-			"food supply",
-			"ritual food",
-			"[plural:] groceries",
-			"Food."
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "mîciwin"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "mîciwina"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "mîciwinihk"
-			},
-			{
-				"semantic": "smaller — only one",
-				"creeMorph": "mîciwinis"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "nimîciwin"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kimîciwin"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "omîciwin"
-			}
-		]
-	},
-	{
-		"primaryText": "ê-miywâsik",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"It is good that",
-			"It is food for"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kîsitêpow",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he cooks, s/he finishes cooking",
-			"s/he cooks a feast, s/he cooks ritual food",
-			"Cood food, usually for a feast.",
-			"He cooks food."
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "nikîsitêpon"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kikîsitêpon"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "kîsitêpow"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "nikîsitêponân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kikîsitêponânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kikîsitêponaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kikîsitêponâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "kîsitêpowak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "kîsitêpoyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "kîsitêponâniwan"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "kîsitêponâniwiw"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-kîsitêpoyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-kîsitêpoyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-kîsitêpot"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-kîsitêpoyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-kîsitêpoyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-kîsitêpoyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-kîsitêpocik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-kîsitêpoyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-kîsitêponâniwahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-kîsitêpohk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-kîsitêponâniwik"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "kîsitêpo"
-			}
-		]
-	},
-	{
-		"primaryText": "sôniyâw",
-		"wordType": "Noun",
-		"detailedWordType": "NA-2",
-		"descriptions": [
-			"money, wages",
-			"gold, silver",
-			"banknote, bill",
-			"Money in large quantities.",
-			"Paper money",
-			"dollars"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "sôniyâw"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "sôniyâwak"
-			},
-			{
-				"semantic": "another / others",
-				"creeMorph": "sôniyâwa"
-			},
-			{
-				"semantic": "smaller / younger — only one",
-				"creeMorph": "sôniyâs"
-			},
-			{
-				"semantic": "whose / whom something belongs to — my",
-				"creeMorph": "nisôniyâm"
-			},
-			{
-				"semantic": "whose / whom something belongs to — your (one)",
-				"creeMorph": "kisôniyâm"
-			},
-			{
-				"semantic": "whose / whom something belongs to — his/her",
-				"creeMorph": "osôniyâma"
-			}
-		]
-	},
-	{
-		"primaryText": "sôniyâs",
-		"wordType": "Noun",
-		"detailedWordType": "NA-1",
-		"descriptions": [
-			"money",
-			"change",
-			"coin",
-			"[singular:] quarter dollar, a quarter, twenty-five cents",
-			"a little money, some money",
-			"Money, in small quantities.",
-			"a piece of silver money, i.e.: a quarter"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "sôniyâs"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "sôniyâsak"
-			},
-			{
-				"semantic": "another / others",
-				"creeMorph": "sôniyâsa"
-			},
-			{
-				"semantic": "whose / whom something belongs to — my",
-				"creeMorph": "nisôniyâs"
-			},
-			{
-				"semantic": "whose / whom something belongs to — your (one)",
-				"creeMorph": "kisôniyâs"
-			},
-			{
-				"semantic": "whose / whom something belongs to — his/her",
-				"creeMorph": "osôniyâsa"
-			}
-		]
-	},
-	{
-		"primaryText": "masinahamawêw",
-		"wordType": "Verb",
-		"detailedWordType": "VTA-2",
-		"descriptions": [
-			"s/he owes (it) to s.o., s/he owes s.o. money, s/he is in debt to s.o."
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I → you (one)",
-				"creeMorph": "kimasinahamâtin"
-			},
-			{
-				"semantic": "ni-/ki- word — I → him/her",
-				"creeMorph": "nimasinahamawâw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one) → me",
-				"creeMorph": "kimasinahamawin"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one) → him/her",
-				"creeMorph": "kimasinahamawâw"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he → me",
-				"creeMorph": "nimasinahamâk"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he → you (one)",
-				"creeMorph": "kimasinahamâk"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he → another/others",
-				"creeMorph": "masinahamawêw"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others → him/her",
-				"creeMorph": "masinahamâkow"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others → him/her",
-				"creeMorph": "masinahamâk"
-			},
-			{
-				"semantic": "ê-/kâ- word — I → you (one)",
-				"creeMorph": "ê-masinahamâtân"
-			},
-			{
-				"semantic": "ê-/kâ- word — I → him/her",
-				"creeMorph": "ê-masinahamawak"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one) → me",
-				"creeMorph": "ê-masinahamawiyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one) → him/her",
-				"creeMorph": "ê-masinahamawat"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he → me",
-				"creeMorph": "ê-masinahamawit"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he → you (one)",
-				"creeMorph": "ê-masinahamâsk"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he → another/others",
-				"creeMorph": "ê-masinahamawât"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others → him/her",
-				"creeMorph": "ê-masinahamâkot"
-			},
-			{
-				"semantic": "command/request — you (one) → me",
-				"creeMorph": "masinahamawin"
-			},
-			{
-				"semantic": "command/request — you (one) → him/her",
-				"creeMorph": "masinahamaw"
-			}
-		]
-	},
-	{
-		"primaryText": "osôniyâmiw",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he has money, s/he carries money on him/herself",
-			"s/he gets money, s/he secures a cash income"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "nitôsôniyâmin"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kitôsôniyâmin"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "osôniyâmiw"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "nitôsôniyâminân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kitôsôniyâminaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kitôsôniyâminânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kitôsôniyâminâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "osôniyâmiwak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "osôniyâmiyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "osôniyâminâniwiw"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "osôniyâminâniwan"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-osôniyâmiyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-osôniyâmiyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-osôniyâmit"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-osôniyâmiyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-osôniyâmiyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-osôniyâmiyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-osôniyâmicik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-osôniyâmiyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-osôniyâminâniwahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-osôniyâminâniwik"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-osôniyâmihk"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "osôniyâmi"
-			}
-		]
-	},
-	{
-		"primaryText": "masinahikanêkin",
-		"wordType": "Noun",
-		"detailedWordType": "NI-3",
-		"descriptions": [
-			"paper",
-			"wrapping paper",
-			"wallpaper",
-			"tar paper roofing",
-			"paper bag"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "masinahikanêkin"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "masinahikanêkinwa"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "masinahikanêkinohk"
-			},
-			{
-				"semantic": "smaller — only one",
-				"creeMorph": "masinahikanêkinos"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "nimasinahikanêkin"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kimasinahikanêkin"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "omasinahikanêkin"
-			}
-		]
-	},
-	{
-		"primaryText": "papakâsin",
-		"wordType": "Verb",
-		"detailedWordType": "VII-2n",
-		"descriptions": [
-			"it is thin, it is rather thin material (e.g. cloth or paper)",
-			"It is a little thin.",
-			"it is thin"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — it / there is",
-				"creeMorph": "papakâsin"
-			},
-			{
-				"semantic": "ni-/ki- word — they / there are",
-				"creeMorph": "papakâsinwa"
-			},
-			{
-				"semantic": "ê-/kâ- word — it / there is",
-				"creeMorph": "ê-papakâsik"
-			},
-			{
-				"semantic": "ê-/kâ- word — they / there are",
-				"creeMorph": "ê-papakâsiki"
-			}
-		]
-	},
-	{
-		"primaryText": "masinahikanâhtik",
-		"wordType": "Noun",
-		"detailedWordType": "NA-3",
-		"descriptions": [
-			"pencil, pen",
-			"a pencil"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "masinahikanâhtik"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "masinahikanâhtikwak"
-			},
-			{
-				"semantic": "another / others",
-				"creeMorph": "masinahikanâhtikwa"
-			},
-			{
-				"semantic": "smaller / younger — only one",
-				"creeMorph": "masinahikanâhcikos"
-			},
-			{
-				"semantic": "whose / whom something belongs to — my",
-				"creeMorph": "nimasinahikanâhtik"
-			},
-			{
-				"semantic": "whose / whom something belongs to — your (one)",
-				"creeMorph": "kimasinahikanâhtik"
-			},
-			{
-				"semantic": "whose / whom something belongs to — his/her",
-				"creeMorph": "omasinahikanâhtikwa"
-			}
-		]
-	},
-	{
-		"primaryText": "masinahikanâpisk",
-		"wordType": "Noun",
-		"detailedWordType": "NA-3",
-		"descriptions": [
-			"pen"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "masinahikanâpisk"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "masinahikanâpiskwak"
-			},
-			{
-				"semantic": "another / others",
-				"creeMorph": "masinahikanâpiskwa"
-			},
-			{
-				"semantic": "smaller / younger — only one",
-				"creeMorph": "masinahikanâpiskos"
-			},
-			{
-				"semantic": "whose / whom something belongs to — my",
-				"creeMorph": "nimasinahikanâpisk"
-			},
-			{
-				"semantic": "whose / whom something belongs to — your (one)",
-				"creeMorph": "kimasinahikanâpisk"
-			},
-			{
-				"semantic": "whose / whom something belongs to — his/her",
-				"creeMorph": "omasinahikanâpiskwa"
-			}
-		]
-	},
-	{
-		"primaryText": "masinahikanâpiskos",
-		"wordType": "Noun",
-		"detailedWordType": "NA-1",
-		"descriptions": [
-			"pen"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "masinahikanâpiskos"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "masinahikanâpiskosak"
-			},
-			{
-				"semantic": "another / others",
-				"creeMorph": "masinahikanâpiskosa"
-			},
-			{
-				"semantic": "whose / whom something belongs to — my",
-				"creeMorph": "nimasinahikanâpiskos"
-			},
-			{
-				"semantic": "whose / whom something belongs to — your (one)",
-				"creeMorph": "kimasinahikanâpiskos"
-			},
-			{
-				"semantic": "whose / whom something belongs to — his/her",
-				"creeMorph": "omasinahikanâpiskosa"
-			}
-		]
-	},
-	{
-		"primaryText": "omasinahikanâpiskow",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he has a pen"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "otôtêma",
-		"wordType": "Noun",
-		"detailedWordType": "N",
-		"descriptions": [
-			"His friend."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "nitôtêm",
-		"wordType": "Noun",
-		"detailedWordType": "NDA-1",
-		"descriptions": [
-			"my friend, my kinsman",
-			"my close friend",
-			"crony"
-		],
-		"morphs": [
-			{
-				"semantic": "only one — my",
-				"creeMorph": "nitôtêm"
-			},
-			{
-				"semantic": "only one — your (one)",
-				"creeMorph": "kitôtêm"
-			},
-			{
-				"semantic": "only one — his/her",
-				"creeMorph": "otôtêma"
-			}
-		]
-	},
-	{
-		"primaryText": "niciwâ!",
-		"wordType": "Noun",
-		"detailedWordType": "NDA-1",
-		"descriptions": [
-			"brother!",
-			"male parallel cousin!",
-			"friend!",
-			"rival! [used by a male speaker only]"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "niwîcêwâkan",
-		"wordType": "Noun",
-		"detailedWordType": "NDA-1",
-		"descriptions": [
-			"my companion, my partner, my buddy, my friend",
-			"my housemate",
-			"my spouse"
-		],
-		"morphs": [
-			{
-				"semantic": "only one — my",
-				"creeMorph": "niwîcêwâkan"
-			},
-			{
-				"semantic": "only one — your (one)",
-				"creeMorph": "kiwîcêwâkan"
-			},
-			{
-				"semantic": "only one — his/her",
-				"creeMorph": "owîcêwâkana"
-			}
-		]
-	},
-	{
-		"primaryText": "pêyakôtêw",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he is alone with his/her family"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "-îtisân",
-		"wordType": "Noun",
-		"detailedWordType": "N",
-		"descriptions": [
-			"My family member.",
-			"A blood relation",
-			"Brother or sister.",
-			"A brother",
-			"A sister.",
-			"His blood relatives."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kâ-miêokîsihkwêw",
-		"wordType": "Noun",
-		"detailedWordType": "INM",
-		"descriptions": [
-			"Fineday [personal and family name]"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "mihcêtiw",
-		"wordType": "Verb",
-		"detailedWordType": "VAI",
-		"descriptions": [
-			"s/he has a large family"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "okâwiya",
-		"wordType": "Noun",
-		"detailedWordType": "N",
-		"descriptions": [
-			"His mother."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "niciwâmiskwêm",
-		"wordType": "Noun",
-		"detailedWordType": "N",
-		"descriptions": [
-			"My first cousin. Father's brother's daughter or mother's sister's daughter."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kikâwiy",
-		"wordType": "Noun",
-		"detailedWordType": "Pro",
-		"descriptions": [
-			"Your mother."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "nêkâ",
-		"wordType": "Noun",
-		"detailedWordType": "Pro",
-		"descriptions": [
-			"My mother (in direct audience)."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "nôhtâwiy",
-		"wordType": "Noun",
-		"detailedWordType": "N",
-		"descriptions": [
-			"My father."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "ohtâwiya",
-		"wordType": "Noun",
-		"detailedWordType": "N",
-		"descriptions": [
-			"His father."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "ohtâwîmâw",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"He is the father."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "ohtâwîmâwiw",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"he is a father"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "nîtisân",
-		"wordType": "Noun",
-		"detailedWordType": "NDA-1",
-		"descriptions": [
-			"my sibling",
-			"my sister, my brother, my half-sibling, my parallel cousin",
-			"my brother or my sister",
-			"sisters say \"my brother\". Var. for my brother, nîcisân"
-		],
-		"morphs": [
-			{
-				"semantic": "only one — my",
-				"creeMorph": "nîtisân"
-			},
-			{
-				"semantic": "only one — your (one)",
-				"creeMorph": "kîtisân"
-			},
-			{
-				"semantic": "only one — his/her",
-				"creeMorph": "wîtisâna"
-			}
-		]
-	},
-	{
-		"primaryText": "nitihkwatim",
-		"wordType": "Noun",
-		"detailedWordType": "N",
-		"descriptions": [
-			"My nephew",
-			"My sister's son (from a male point of view) or",
-			"My brother's son (from a female point of view)."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "nisis",
-		"wordType": "Noun",
-		"detailedWordType": "NDA-1",
-		"descriptions": [
-			"my uncle, my cross-uncle",
-			"my mother's brother, my maternal uncle",
-			"my father's sister's husband",
-			"my father-in-law",
-			"My uncle (My mother's brother).",
-			"my mother's brother or my maternal uncle"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kimis",
-		"wordType": "Noun",
-		"detailedWordType": "Pro",
-		"descriptions": [
-			"Your older sister."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "nitawêmâw",
-		"wordType": "Noun",
-		"detailedWordType": "NDA-2",
-		"descriptions": [
-			"[male speaker:] my sister",
-			"my female parallel cousin, the daughter of my mother's sister, the daughter of my father's brother"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "tahkohc",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"top, on top (e.g. of a hill, tree, snow)",
-			"above",
-			"On the top of."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "mîtos",
-		"wordType": "Noun",
-		"detailedWordType": "NA-1",
-		"descriptions": [
-			"tree",
-			"white poplar [Lat. Populus sp.]",
-			"aspen, trembling aspen, quaking aspen [Lat. Populus tremuloides]",
-			"a poplar tree"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "mîtos"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "mîtosak"
-			},
-			{
-				"semantic": "another / others",
-				"creeMorph": "mîtosa"
-			},
-			{
-				"semantic": "smaller / younger — only one",
-				"creeMorph": "mîcosis"
-			},
-			{
-				"semantic": "whose / whom something belongs to — my",
-				"creeMorph": "nimîtosim"
-			},
-			{
-				"semantic": "whose / whom something belongs to — your (one)",
-				"creeMorph": "kimîtosim"
-			},
-			{
-				"semantic": "whose / whom something belongs to — his/her",
-				"creeMorph": "omîtosima"
-			}
-		]
-	},
-	{
-		"primaryText": "mîtosihk",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"in the tree"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "takwahiminânâhtik",
-		"wordType": "Noun",
-		"detailedWordType": "NA-3",
-		"descriptions": [
-			"chokecherry tree [Lat. Prunus virginiana]"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "takwahiminânâhtik"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "takwahiminânâhtikwak"
-			},
-			{
-				"semantic": "another / others",
-				"creeMorph": "takwahiminânâhtikwa"
-			},
-			{
-				"semantic": "smaller / younger — only one",
-				"creeMorph": "cakwahiminânâhcikos"
-			},
-			{
-				"semantic": "whose / whom something belongs to — my",
-				"creeMorph": "nitakwahiminânâhtikom"
-			},
-			{
-				"semantic": "whose / whom something belongs to — your (one)",
-				"creeMorph": "kitakwahiminânâhtikom"
-			},
-			{
-				"semantic": "whose / whom something belongs to — his/her",
-				"creeMorph": "otakwahiminânâhtikoma"
-			}
-		]
-	},
-	{
-		"primaryText": "wâpikwaniy",
-		"wordType": "Noun",
-		"detailedWordType": "NI-2",
-		"descriptions": [
-			"flower",
-			"wild rose flower",
-			"white flower",
-			"a flower. (Plains). Var. nepihkân (Plains)",
-			"alt. wâpikwanew (Northern)"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "wâpikwaniy"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "wâpikwaniya"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "wâpikwanîhk"
-			},
-			{
-				"semantic": "smaller — only one",
-				"creeMorph": "wâpikwanîs"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "niwâpikwaniy"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kiwâpikwaniy"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "owâpikwaniy"
-			}
-		]
-	},
-	{
-		"primaryText": "mihkokwaniy",
-		"wordType": "Noun",
-		"detailedWordType": "NI-2",
-		"descriptions": [
-			"rose, red flower"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "mihkokwaniy"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "mihkokwaniya"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "mihkokwanîhk"
-			},
-			{
-				"semantic": "smaller — only one",
-				"creeMorph": "mihkokwanîs"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "nimihkokwaniy"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kimihkokwaniy"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "omihkokwaniy"
-			}
-		]
-	},
-	{
-		"primaryText": "maskêkopak",
-		"wordType": "Noun",
-		"detailedWordType": "NI",
-		"descriptions": [
-			"a white flower or leaf that grows in the muskeg",
-			"an herbal tea called Labrador tea"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "wâpakwanîwin",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"It is blooming.",
-			"It has flowers."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "nîpiy",
-		"wordType": "Noun",
-		"detailedWordType": "NI-2",
-		"descriptions": [
-			"leaf",
-			"blade of grass",
-			"leafy branch"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "nîpiy"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "nîpiya"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "nîpîhk"
-			},
-			{
-				"semantic": "smaller — only one",
-				"creeMorph": "nîpîs"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "ninîpiy"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kinîpiy"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "onîpiy"
-			}
-		]
-	},
-	{
-		"primaryText": "oskaskosiy",
-		"wordType": "Noun",
-		"detailedWordType": "NI",
-		"descriptions": [
-			"New spring grass",
-			"fresh grass"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "atâmaskosîwak",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"under the grass"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "sîpâskosîhk",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"under the grass"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "pîsim",
-		"wordType": "Noun",
-		"detailedWordType": "NA-3",
-		"descriptions": [
-			"Sun",
-			"Moon",
-			"celestial orb",
-			"month",
-			"A month. May also mean the sun or the moon, but in more specific terms."
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "pîsim"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "pîsimwak"
-			},
-			{
-				"semantic": "another / others",
-				"creeMorph": "pîsimwa"
-			},
-			{
-				"semantic": "smaller / younger — only one",
-				"creeMorph": "pîsimos"
-			},
-			{
-				"semantic": "whose / whom something belongs to — my",
-				"creeMorph": "nipîsim"
-			},
-			{
-				"semantic": "whose / whom something belongs to — your (one)",
-				"creeMorph": "kipîsim"
-			},
-			{
-				"semantic": "whose / whom something belongs to — his/her",
-				"creeMorph": "opîsimwa"
-			}
-		]
-	},
-	{
-		"primaryText": "nimosôm",
-		"wordType": "Noun",
-		"detailedWordType": "NDA-1",
-		"descriptions": [
-			"your and our grandfather, your and our grandpa, your and our grand uncle",
-			"your and our",
-			"your and our respected male elder",
-			"your and our grandfather",
-			"your and our grandpa",
-			"your and our grand uncle",
-			"Our Grandfather, The Sun"
-		],
-		"morphs": [
-			{
-				"semantic": "only one — my",
-				"creeMorph": "nimosôm"
-			},
-			{
-				"semantic": "only one — your (one)",
-				"creeMorph": "kimosôm"
-			},
-			{
-				"semantic": "only one — his/her",
-				"creeMorph": "omosôma"
-			}
-		]
-	},
-	{
-		"primaryText": "pahkisimon",
-		"wordType": "Verb",
-		"detailedWordType": "VII-1n",
-		"descriptions": [
-			"it is sunset, the Sun sets",
-			"it is the west"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — it / there is",
-				"creeMorph": "pahkisimon"
-			},
-			{
-				"semantic": "ê-/kâ- word — it / there is",
-				"creeMorph": "ê-pahkisimok"
-			}
-		]
-	},
-	{
-		"primaryText": "pahkisimow",
-		"wordType": "Noun",
-		"detailedWordType": "N",
-		"descriptions": [
-			"The sun sets."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "ohpahowi-pîsim",
-		"wordType": "Noun",
-		"detailedWordType": "NA-3",
-		"descriptions": [
-			"Flying-Up Moon",
-			"August",
-			"the flying moon or month (Northern). alt. ohpahopîsim (Plains)"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "ohpahowi-pîsim"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "ohpahowi-pîsimwak"
-			},
-			{
-				"semantic": "another / others",
-				"creeMorph": "ohpahowi-pîsimwa"
-			},
-			{
-				"semantic": "smaller / younger — only one",
-				"creeMorph": "ohpahowi-pîsimos"
-			},
-			{
-				"semantic": "whose / whom something belongs to — my",
-				"creeMorph": "nitôhpahowi-pîsim"
-			},
-			{
-				"semantic": "whose / whom something belongs to — your (one)",
-				"creeMorph": "kitôhpahowi-pîsim"
-			},
-			{
-				"semantic": "whose / whom something belongs to — his/her",
-				"creeMorph": "otôhpahowi-pîsimwa"
-			}
-		]
-	},
-	{
-		"primaryText": "takwâki-pîsim",
-		"wordType": "Noun",
-		"detailedWordType": "NA-3",
-		"descriptions": [
-			"Autumn Moon",
-			"September"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "takwâki-pîsim"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "takwâki-pîsimwak"
-			},
-			{
-				"semantic": "another / others",
-				"creeMorph": "takwâki-pîsimwa"
-			},
-			{
-				"semantic": "smaller / younger — only one",
-				"creeMorph": "cakwâki-pîsimos"
-			},
-			{
-				"semantic": "whose / whom something belongs to — my",
-				"creeMorph": "nitakwâki-pîsim"
-			},
-			{
-				"semantic": "whose / whom something belongs to — your (one)",
-				"creeMorph": "kitakwâki-pîsim"
-			},
-			{
-				"semantic": "whose / whom something belongs to — his/her",
-				"creeMorph": "otakwâki-pîsimwa"
-			}
-		]
-	},
-	{
-		"primaryText": "kisê-pîsim",
-		"wordType": "Noun",
-		"detailedWordType": "NA-3",
-		"descriptions": [
-			"January",
-			"Great Moon",
-			"Elder Moon",
-			"Cold Moon",
-			"January. The great moon."
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "kisê-pîsim"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "kisê-pîsimwak"
-			},
-			{
-				"semantic": "another / others",
-				"creeMorph": "kisê-pîsimwa"
-			},
-			{
-				"semantic": "smaller / younger — only one",
-				"creeMorph": "kisê-pîsimos"
-			},
-			{
-				"semantic": "whose / whom something belongs to — my",
-				"creeMorph": "nikisê-pîsim"
-			},
-			{
-				"semantic": "whose / whom something belongs to — your (one)",
-				"creeMorph": "kikisê-pîsim"
-			},
-			{
-				"semantic": "whose / whom something belongs to — his/her",
-				"creeMorph": "okisê-pîsimwa"
-			}
-		]
-	},
-	{
-		"primaryText": "acâhkos",
-		"wordType": "Noun",
-		"detailedWordType": "NA-1",
-		"descriptions": [
-			"star, little star",
-			"A star."
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "acâhkos"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "acâhkosak"
-			},
-			{
-				"semantic": "another / others",
-				"creeMorph": "acâhkosa"
-			},
-			{
-				"semantic": "whose / whom something belongs to — my",
-				"creeMorph": "nicacâhkos"
-			},
-			{
-				"semantic": "whose / whom something belongs to — your (one)",
-				"creeMorph": "kicacâhkos"
-			},
-			{
-				"semantic": "whose / whom something belongs to — his/her",
-				"creeMorph": "ocacâhkosa"
-			}
-		]
-	},
-	{
-		"primaryText": "otâkwanacâhkos",
-		"wordType": "Noun",
-		"detailedWordType": "NA-1",
-		"descriptions": [
-			"evening star",
-			"Venus (planet)",
-			"The evening star."
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "ocâkwanacâhkos"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "ocâkwanacâhkosak"
-			},
-			{
-				"semantic": "another / others",
-				"creeMorph": "ocâkwanacâhkosa"
-			},
-			{
-				"semantic": "whose / whom something belongs to — my",
-				"creeMorph": "nicôcâkwanacâhkos"
-			},
-			{
-				"semantic": "whose / whom something belongs to — your (one)",
-				"creeMorph": "kicôcâkwanacâhkos"
-			},
-			{
-				"semantic": "whose / whom something belongs to — his/her",
-				"creeMorph": "ocôcâkwanacâhkosa"
-			}
-		]
-	},
-	{
-		"primaryText": "atâhk",
-		"wordType": "Noun",
-		"detailedWordType": "NA-3",
-		"descriptions": [
-			"star, bright star",
-			"A big bright star."
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "atâhk"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "atâhkwak"
-			},
-			{
-				"semantic": "another / others",
-				"creeMorph": "atâhkwa"
-			},
-			{
-				"semantic": "smaller / younger — only one",
-				"creeMorph": "acâhkos"
-			},
-			{
-				"semantic": "whose / whom something belongs to — my",
-				"creeMorph": "nitatâhk"
-			},
-			{
-				"semantic": "whose / whom something belongs to — your (one)",
-				"creeMorph": "kitatâhk"
-			},
-			{
-				"semantic": "whose / whom something belongs to — his/her",
-				"creeMorph": "otatâhkwa"
-			}
-		]
-	},
-	{
-		"primaryText": "apiscatâhk",
-		"wordType": "Noun",
-		"detailedWordType": "NA-3",
-		"descriptions": [
-			"Pluto (planet) [literally: \"small star\"]"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "tipiskâw",
-		"wordType": "Noun",
-		"detailedWordType": "NI-2",
-		"descriptions": [
-			"night, night time",
-			"night sky",
-			"Night time."
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "tipiskâw"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "tipiskâwa"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "tipiskâhk"
-			},
-			{
-				"semantic": "smaller — only one",
-				"creeMorph": "cipiskâs"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "nitipiskâm"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kitipiskâm"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "otipiskâm"
-			}
-		]
-	},
-	{
-		"primaryText": "kîsikâw",
-		"wordType": "Noun",
-		"detailedWordType": "NI-2",
-		"descriptions": [
-			"day, daylight",
-			"day sky",
-			"Day"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "kîsikâw"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "kîsikâwa"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "kîsikâhk"
-			},
-			{
-				"semantic": "smaller — only one",
-				"creeMorph": "kîsikâs"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "nikîsikâm"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kikîsikâm"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "okîsikâm"
-			}
-		]
-	},
-	{
-		"primaryText": "wâsêskwan",
-		"wordType": "Verb",
-		"detailedWordType": "VII-2n",
-		"descriptions": [
-			"it is a clear day, it is sunny",
-			"it is a clear sky",
-			"it is moonlight",
-			"The sky is clearing (after a storm).",
-			"it is clear weather",
-			"the sky is clear"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — it / there is",
-				"creeMorph": "wâsêskwan"
-			},
-			{
-				"semantic": "ni-/ki- word — they / there are",
-				"creeMorph": "wâsêskwanwa"
-			},
-			{
-				"semantic": "ê-/kâ- word — it / there is",
-				"creeMorph": "ê-wâsêskwahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they / there are",
-				"creeMorph": "ê-wâsêskwahki"
-			}
-		]
-	},
-	{
-		"primaryText": "kîsikohk",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"in the sky",
-			"in heaven",
-			"In the heavens."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "takwakotêw",
-		"wordType": "Verb",
-		"detailedWordType": "VII-2v",
-		"descriptions": [
-			"it arrives across the sky (e.g. cloud)",
-			"it arrives flying"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — it / there is",
-				"creeMorph": "takwakotêw"
-			},
-			{
-				"semantic": "ni-/ki- word — they / there are",
-				"creeMorph": "takwakotêwa"
-			},
-			{
-				"semantic": "ê-/kâ- word — it / there is",
-				"creeMorph": "ê-takwakotêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they / there are",
-				"creeMorph": "ê-takwakotêki"
-			}
-		]
-	},
-	{
-		"primaryText": "waskow",
-		"wordType": "Noun",
-		"detailedWordType": "NI-2",
-		"descriptions": [
-			"cloud",
-			"skies"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "waskow"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "waskowa"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "waskôhk"
-			},
-			{
-				"semantic": "smaller — only one",
-				"creeMorph": "waskôs"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "niwaskow"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kiwaskow"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "owaskow"
-			}
-		]
-	},
-	{
-		"primaryText": "kisîkotêw",
-		"wordType": "Verb",
-		"detailedWordType": "VII-2v",
-		"descriptions": [
-			"it speeds along, it moves fast (e.g. bullet)",
-			"it moves fast through the sky (e.g. cloud)"
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — it / there is",
-				"creeMorph": "kisîkotêw"
-			},
-			{
-				"semantic": "ni-/ki- word — they / there are",
-				"creeMorph": "kisîkotêwa"
-			},
-			{
-				"semantic": "ê-/kâ- word — it / there is",
-				"creeMorph": "ê-kisîkotêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they / there are",
-				"creeMorph": "ê-kisîkotêki"
-			}
-		]
-	},
-	{
-		"primaryText": "wâpânaskwan",
-		"wordType": "Verb",
-		"detailedWordType": "VII-2n",
-		"descriptions": [
-			"it is a white sky, there are white clouds"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "kimiwan",
-		"wordType": "Verb",
-		"detailedWordType": "VII-1n",
-		"descriptions": [
-			"it rains, it is raining, it is rainy",
-			"It is raining."
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — it / there is",
-				"creeMorph": "kimiwan"
-			},
-			{
-				"semantic": "ê-/kâ- word — it / there is",
-				"creeMorph": "ê-kimiwahk"
-			}
-		]
-	},
-	{
-		"primaryText": "kimiwan",
-		"wordType": "Noun",
-		"detailedWordType": "NI-1",
-		"descriptions": [
-			"rain"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "kimiwan"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "kimiwana"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "kimiwanihk"
-			},
-			{
-				"semantic": "smaller — only one",
-				"creeMorph": "kimiwanis"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "nikimiwan"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kikimiwan"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "okimiwan"
-			}
-		]
-	},
-	{
-		"primaryText": "kimiwasin",
-		"wordType": "Verb",
-		"detailedWordType": "VII-1n",
-		"descriptions": [
-			"it rains a little, there is a little rain",
-			"it is drizzling",
-			"It rains a little."
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — it / there is",
-				"creeMorph": "kimiwasin"
-			},
-			{
-				"semantic": "ê-/kâ- word — it / there is",
-				"creeMorph": "ê-kimiwasik"
-			}
-		]
-	},
-	{
-		"primaryText": "kôna",
-		"wordType": "Noun",
-		"detailedWordType": "NA-4",
-		"descriptions": [
-			"snow"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "kôna"
-			},
-			{
-				"semantic": "another / others",
-				"creeMorph": "kôna"
-			},
-			{
-				"semantic": "smaller / younger — only one",
-				"creeMorph": "kônis"
-			},
-			{
-				"semantic": "whose / whom something belongs to — my",
-				"creeMorph": "nikônim"
-			},
-			{
-				"semantic": "whose / whom something belongs to — your (one)",
-				"creeMorph": "kikônim"
-			},
-			{
-				"semantic": "whose / whom something belongs to — his/her",
-				"creeMorph": "okônima"
-			}
-		]
-	},
-	{
-		"primaryText": "pîwan",
-		"wordType": "Verb",
-		"detailedWordType": "VII-1n",
-		"descriptions": [
-			"it drifts, it is drifting (i.e. snow)",
-			"it is a blizzard",
-			"The snow is falling heavy."
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — it / there is",
-				"creeMorph": "pîwan"
-			},
-			{
-				"semantic": "ê-/kâ- word — it / there is",
-				"creeMorph": "ê-pîwahk"
-			}
-		]
-	},
-	{
-		"primaryText": "kotawân",
-		"wordType": "Noun",
-		"detailedWordType": "NA-1",
-		"descriptions": [
-			"campfire, bonfire, open fire",
-			"fireplace, campfire pit",
-			"A campfire."
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "kotawân"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "kotawânak"
-			},
-			{
-				"semantic": "another / others",
-				"creeMorph": "kotawâna"
-			},
-			{
-				"semantic": "smaller / younger — only one",
-				"creeMorph": "kocawânis"
-			},
-			{
-				"semantic": "whose / whom something belongs to — my",
-				"creeMorph": "nikotawân"
-			},
-			{
-				"semantic": "whose / whom something belongs to — your (one)",
-				"creeMorph": "kikotawân"
-			},
-			{
-				"semantic": "whose / whom something belongs to — his/her",
-				"creeMorph": "okotawâna"
-			}
-		]
-	},
-	{
-		"primaryText": "cîkiskotêw",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"by the fire"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "âstawêhikêw",
-		"wordType": "Verb",
-		"detailedWordType": "VAI-1",
-		"descriptions": [
-			"s/he extinguishes the fire",
-			"s/he fights fire, s/he fights forest fires, s/he is a firefighter",
-			"He puts the fire out by fighting it."
-		],
-		"morphs": [
-			{
-				"semantic": "ni-/ki- word — I",
-				"creeMorph": "nitâstawêhikân"
-			},
-			{
-				"semantic": "ni-/ki- word — you (one)",
-				"creeMorph": "kitâstawêhikân"
-			},
-			{
-				"semantic": "ni-/ki- word — s/he",
-				"creeMorph": "âstawêhikêw"
-			},
-			{
-				"semantic": "ni-/ki- word — we (but not you)",
-				"creeMorph": "nitâstawêhikânân"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kitâstawêhikânânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you and we",
-				"creeMorph": "kitâstawêhikânaw"
-			},
-			{
-				"semantic": "ni-/ki- word — you (all)",
-				"creeMorph": "kitâstawêhikânâwâw"
-			},
-			{
-				"semantic": "ni-/ki- word — they",
-				"creeMorph": "âstawêhikêwak"
-			},
-			{
-				"semantic": "ni-/ki- word — another/others",
-				"creeMorph": "âstawêhikêyiwa"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "âstawêhikâniwan"
-			},
-			{
-				"semantic": "ni-/ki- word — people",
-				"creeMorph": "âstawêhikâniwiw"
-			},
-			{
-				"semantic": "ê-/kâ- word — I",
-				"creeMorph": "ê-âstawêhikêyân"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (one)",
-				"creeMorph": "ê-âstawêhikêyan"
-			},
-			{
-				"semantic": "ê-/kâ- word — s/he",
-				"creeMorph": "ê-âstawêhikêt"
-			},
-			{
-				"semantic": "ê-/kâ- word — we (but not you)",
-				"creeMorph": "ê-âstawêhikêyâhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you and we",
-				"creeMorph": "ê-âstawêhikêyahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — you (all)",
-				"creeMorph": "ê-âstawêhikêyêk"
-			},
-			{
-				"semantic": "ê-/kâ- word — they",
-				"creeMorph": "ê-âstawêhikêcik"
-			},
-			{
-				"semantic": "ê-/kâ- word — another/others",
-				"creeMorph": "ê-âstawêhikêyit"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-âstawêhikêhk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-âstawêhikâniwahk"
-			},
-			{
-				"semantic": "ê-/kâ- word — people",
-				"creeMorph": "ê-âstawêhikâniwik"
-			},
-			{
-				"semantic": "command/request — you (one)",
-				"creeMorph": "âstawêhikê"
-			}
-		]
-	},
-	{
-		"primaryText": "âstawêw",
-		"wordType": "Verb",
-		"detailedWordType": "V",
-		"descriptions": [
-			"The fire is out."
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "akâmi-sîpîhk",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"across the river"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "akâmi-sîpîhk",
-		"wordType": "Noun",
-		"detailedWordType": "N",
-		"descriptions": [
-			"Across the river"
-		],
-		"morphs": []
-	},
-	{
-		"primaryText": "sîpîsis",
-		"wordType": "Noun",
-		"detailedWordType": "NI-1",
-		"descriptions": [
-			"little river, creek, brook, stream",
-			"a creek"
-		],
-		"morphs": [
-			{
-				"semantic": "only one",
-				"creeMorph": "sîpîsis"
-			},
-			{
-				"semantic": "two or more",
-				"creeMorph": "sîpîsisa"
-			},
-			{
-				"semantic": "in/on/at / place",
-				"creeMorph": "sîpîsisihk"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — my",
-				"creeMorph": "nisîpîsis"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — your (one)",
-				"creeMorph": "kisîpîsis"
-			},
-			{
-				"semantic": "whose / whom something belongs to — only one — his/her",
-				"creeMorph": "osîpîsis"
-			}
-		]
-	},
-	{
-		"primaryText": "kihcikamîhk",
-		"wordType": "Noun",
-		"detailedWordType": "IPC",
-		"descriptions": [
-			"in the sea"
-		],
-		"morphs": []
-	}
-];
+export const creeWords: Record<string, CreeWord> = Object.fromEntries(
+	(
+		[
+			{
+				primaryText: "pitamâ",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"first, first of all, prior to doing anything else",
+					"for a while, for now, just a while",
+					"in the meantime",
+					"Meanwhile.",
+					"For the present time.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "nistam",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"first",
+					"at first, before anything else",
+					"for the first time, initially, originally",
+					"At first.",
+					"The first.",
+					"the first time",
+					"initially",
+					"originally",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "mwêstas",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"after",
+					"another time",
+					"later",
+					"afterward",
+					"by and by",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "pêyakwâw",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"once, one time, once more",
+					"at one time",
+					"Once.",
+					"One more time.",
+					"once, one time, first time",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "aya",
+				wordType: "Noun",
+				detailedWordType: "NA-4",
+				descriptions: ["one, person"],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "aya",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "ayak",
+					},
+					{
+						semantic: "another / others",
+						creeMorph: "aya",
+					},
+					{
+						semantic: "smaller / younger — only one",
+						creeMorph: "ayis",
+					},
+					{
+						semantic: "whose / whom something belongs to — my",
+						creeMorph: "nitayim",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — your (one)",
+						creeMorph: "kitayim",
+					},
+					{
+						semantic: "whose / whom something belongs to — his/her",
+						creeMorph: "otayima",
+					},
+				],
+			},
+			{
+				primaryText: "tahto_ayisiyiniw",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["Every person", "Each person."],
+				morphs: [],
+			},
+			{
+				primaryText: "oskâtis",
+				wordType: "Noun",
+				detailedWordType: "NA-1",
+				descriptions: ["young person"],
+				morphs: [],
+			},
+			{
+				primaryText: "oskâtisiw",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: ["s/he is a young person"],
+				morphs: [],
+			},
+			{
+				primaryText: "pêyak-askiy",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["one year", "for one year"],
+				morphs: [],
+			},
+			{
+				primaryText: "pêyak-pipon",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"one winter, for one winter",
+					"one year, for one year",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "pêci-askiy",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["in a past year, in past years"],
+				morphs: [],
+			},
+			{
+				primaryText: "tânima êwako askiy",
+				wordType: "Noun",
+				detailedWordType: "IPH",
+				descriptions: ["what year was it?"],
+				morphs: [],
+			},
+			{
+				primaryText: "êkosi",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"so, thus, in that way",
+					"and so",
+					"right, alright",
+					"there, that's it, that is all",
+					"well",
+					"enough",
+					"later",
+					"That's it.",
+					"That's the end.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "nânitaw",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"simply, indifferently",
+					"something, anything",
+					"somewhere, anywhere, at some undetermined place",
+					"anyhow",
+					"in some way",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "mwâc",
+				wordType: "Noun",
+				detailedWordType: "IPJ",
+				descriptions: ["no!, no way!, not so!"],
+				morphs: [],
+			},
+			{
+				primaryText: "ati-",
+				wordType: "Noun",
+				detailedWordType: "IPV",
+				descriptions: [
+					"start to, begin to, beginning",
+					"progressively, gradually, proceed to, going on, progressing",
+					"on the way",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "kîhtwâm",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"the next",
+					'next time [e.g. kîhtwâm ê-kîsikâk "the next day", kîhtwâm ê-wâpahk "the next morning, the next day"]',
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "kapê-kîsik",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"all day, all day long, throughout the day",
+					"all day",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "anohc kâ-kîsikâk",
+				wordType: "Noun",
+				detailedWordType: "N",
+				descriptions: ["This day", "today."],
+				morphs: [],
+			},
+			{
+				primaryText: "awasi-wâpahki",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["the day after tomorrow"],
+				morphs: [],
+			},
+			{
+				primaryText: "kîkway",
+				wordType: "Noun",
+				detailedWordType: "PR",
+				descriptions: [
+					"something, thing",
+					"[in negative phrases:] anything, any",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "anima",
+				wordType: "Noun",
+				detailedWordType: "PrI",
+				descriptions: ["that, that one", "That thing, there."],
+				morphs: [
+					{
+						semantic: "One (awa word) — Here",
+						creeMorph: "awa",
+					},
+					{
+						semantic: "One (awa word) — There",
+						creeMorph: "ana",
+					},
+					{
+						semantic: "One (awa word) — Over yonder",
+						creeMorph: "nâha",
+					},
+					{
+						semantic: "Many (awa word) — Here",
+						creeMorph: "ôki",
+					},
+					{
+						semantic: "Many (awa word) — There",
+						creeMorph: "aniki",
+					},
+					{
+						semantic: "Many (awa word) — Over yonder",
+						creeMorph: "nêki",
+					},
+					{
+						semantic: "One (ôma word) — Here",
+						creeMorph: "ôma",
+					},
+					{
+						semantic: "One (ôma word) — There",
+						creeMorph: "anima",
+					},
+					{
+						semantic: "One (ôma word) — Over yonder",
+						creeMorph: "nêma",
+					},
+					{
+						semantic: "Many (ôma word) — Here",
+						creeMorph: "ôhi",
+					},
+					{
+						semantic: "Many (ôma word) — There",
+						creeMorph: "anihi",
+					},
+					{
+						semantic: "Many (ôma word) — Over yonder",
+						creeMorph: "nêhi",
+					},
+				],
+			},
+			{
+				primaryText: "kîkway",
+				wordType: "Noun",
+				detailedWordType: "NA-2",
+				descriptions: ["thing, something", "entity, being"],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "kîkway",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "kîkwayak",
+					},
+					{
+						semantic: "another / others",
+						creeMorph: "kîkwaya",
+					},
+					{
+						semantic: "smaller / younger — only one",
+						creeMorph: "kîkwâs",
+					},
+					{
+						semantic: "whose / whom something belongs to — my",
+						creeMorph: "nikîkway",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — your (one)",
+						creeMorph: "kikîkway",
+					},
+					{
+						semantic: "whose / whom something belongs to — his/her",
+						creeMorph: "okîkwaya",
+					},
+				],
+			},
+			{
+				primaryText: "ôhi",
+				wordType: "Noun",
+				detailedWordType: "Pro",
+				descriptions: ["These things, here."],
+				morphs: [],
+			},
+			{
+				primaryText: "askiy",
+				wordType: "Noun",
+				detailedWordType: "NI-2",
+				descriptions: [
+					"land",
+					"region, area",
+					"earth, world",
+					"settlement, colony, country",
+					"Métis colony",
+					"[plural:] fields under cultivation, pieces of farmland, the lands",
+				],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "askiy",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "askiya",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "askîhk",
+					},
+					{
+						semantic: "smaller — only one",
+						creeMorph: "askîs",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "nitaskiy",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kitaskiy",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "otaskiy",
+					},
+				],
+			},
+			{
+				primaryText: "askiy",
+				wordType: "Noun",
+				detailedWordType: "NI",
+				descriptions: ["a year", "earth", "world", "land", "country"],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "askiy",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "askiya",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "askîhk",
+					},
+					{
+						semantic: "smaller — only one",
+						creeMorph: "askîs",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "nitaskiy",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kitaskiy",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "otaskiy",
+					},
+				],
+			},
+			{
+				primaryText: "misiwêskamik",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"all over the land, all over the world",
+					"all over the world",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "misiwêskamik",
+				wordType: "Noun",
+				detailedWordType: "N",
+				descriptions: ["All over the world."],
+				morphs: [],
+			},
+			{
+				primaryText: "pimâcihow",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: [
+					"s/he lives, s/he makes him/herself live, s/he makes a living (from s.t.), s/he makes a life for him/herself",
+					"s/he travels",
+					"s/he makes a good living",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "nipimâcihon",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kipimâcihon",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "pimâcihow",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "nipimâcihonân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kipimâcihonânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kipimâcihonaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kipimâcihonâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "pimâcihowak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "pimâcihoyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "pimâcihonâniwan",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "pimâcihonâniwiw",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-pimâcihoyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-pimâcihoyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-pimâcihot",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-pimâcihoyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-pimâcihoyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-pimâcihoyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-pimâcihocik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-pimâcihoyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-pimâcihonâniwik",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-pimâcihohk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-pimâcihonâniwahk",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "pimâciho",
+					},
+				],
+			},
+			{
+				primaryText: "pimâtisiw",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: [
+					"s/he lives, s/he is alive, s/he has life",
+					"s/he survives",
+					"s/he leads his/her life",
+					"He lives.",
+					"He exists.",
+					"s/he is alive",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "nipimâtisin",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kipimâtisin",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "pimâtisiw",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "nipimâtisinân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kipimâtisinânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kipimâtisinaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kipimâtisinâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "pimâtisiwak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "pimâtisiyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "pimâtisinâniwiw",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "pimâtisinâniwan",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-pimâtisiyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-pimâtisiyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-pimâtisit",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-pimâtisiyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-pimâtisiyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-pimâtisiyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-pimâtisicik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-pimâtisiyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-pimâtisinâniwahk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-pimâtisihk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-pimâtisinâniwik",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "pimâtisi",
+					},
+				],
+			},
+			{
+				primaryText: "pimohtêhow",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: [
+					"s/he travels",
+					"s/he travels through life, s/he lives his/her life",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "nipimohtêhon",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kipimohtêhon",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "pimohtêhow",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "nipimohtêhonân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kipimohtêhonaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kipimohtêhonânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kipimohtêhonâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "pimohtêhowak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "pimohtêhoyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "pimohtêhonâniwiw",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "pimohtêhonâniwan",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-pimohtêhoyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-pimohtêhoyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-pimohtêhot",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-pimohtêhoyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-pimohtêhoyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-pimohtêhoyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-pimohtêhocik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-pimohtêhoyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-pimohtêhonâniwahk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-pimohtêhonâniwik",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-pimohtêhohk",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "pimohtêho",
+					},
+				],
+			},
+			{
+				primaryText: "pimâcihowin",
+				wordType: "Noun",
+				detailedWordType: "NI-1",
+				descriptions: [
+					"travel, journey",
+					"living, way of life, livelihood, earning a living",
+					"culture",
+					"Survival.",
+					"Making a living.",
+					"the act of making a good living",
+				],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "pimâcihowin",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "pimâcihowina",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "pimâcihowinihk",
+					},
+					{
+						semantic: "smaller — only one",
+						creeMorph: "pimâcihowinis",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "nipimâcihowin",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kipimâcihowin",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "opimâcihowin",
+					},
+				],
+			},
+			{
+				primaryText: "mâka",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"but, then",
+					"still",
+					"however, by contrast, on the other hand",
+					"But",
+					"But still.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "mâka mîna",
+				wordType: "Noun",
+				detailedWordType: "IPH",
+				descriptions: [
+					"as usual, once again, of course",
+					"and it happens again",
+					"also, on the other hand",
+					'an expression of annoyance meaning  "it happened again"',
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "âta",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"although, even though, in vain",
+					"on the other hand, of course, to be sure",
+					"Even though.",
+					"although",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "-cihciy",
+				wordType: "Noun",
+				detailedWordType: "N",
+				descriptions: ["His hand."],
+				morphs: [],
+			},
+			{
+				primaryText: "kiêa wiêa",
+				wordType: "Noun",
+				detailedWordType: "PrA",
+				descriptions: ["for your part, as for you", "you yourself"],
+				morphs: [],
+			},
+			{
+				primaryText: "niêa wiêa",
+				wordType: "Noun",
+				detailedWordType: "PrA",
+				descriptions: ["for my part, as for me", "I myself"],
+				morphs: [],
+			},
+			{
+				primaryText: "wiêa wiêa",
+				wordType: "Noun",
+				detailedWordType: "PrA",
+				descriptions: [
+					"for his/her part, as for him/her",
+					"he himself, she herself",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "pahki",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"part, portion",
+					"not entirely",
+					"sometimes",
+					"A portion of.",
+					"A piece of.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "nicawâsimis",
+				wordType: "Noun",
+				detailedWordType: "NDA-1",
+				descriptions: ["my child", "my fetus"],
+				morphs: [],
+			},
+			{
+				primaryText: "nitawâsimis",
+				wordType: "Noun",
+				detailedWordType: "NDA-1",
+				descriptions: ["my child", "my fetus"],
+				morphs: [],
+			},
+			{
+				primaryText: "otawâsimisiw",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: [
+					"s/he has a child, s/he has children, she is the mother of a child",
+					"she gives birth, she delivers",
+					"it has offspring",
+					"it has a calf (as a cow), it calves",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "nitôtawâsimisin",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kitôtawâsimisin",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "otawâsimisiw",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "nitôtawâsimisinân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kitôtawâsimisinânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kitôtawâsimisinaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kitôtawâsimisinâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "otawâsimisiwak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "otawâsimisiyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "otawâsimisinâniwiw",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "otawâsimisinâniwan",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-otawâsimisiyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-otawâsimisiyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-otawâsimisit",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-otawâsimisiyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-otawâsimisiyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-otawâsimisiyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-otawâsimisicik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-otawâsimisiyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-otawâsimisinâniwahk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-otawâsimisihk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-otawâsimisinâniwik",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "otawâsimisi",
+					},
+				],
+			},
+			{
+				primaryText: "pêyakôsâniwiw",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: ["s/he is an only child"],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "nipêyakôsâniwin",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kipêyakôsâniwin",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "pêyakôsâniwiw",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "nipêyakôsâniwinân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kipêyakôsâniwinaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kipêyakôsâniwinânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kipêyakôsâniwinâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "pêyakôsâniwiwak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "pêyakôsâniwiyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "pêyakôsâniwinâniwan",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "pêyakôsâniwinâniwiw",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-pêyakôsâniwiyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-pêyakôsâniwiyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-pêyakôsâniwit",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-pêyakôsâniwiyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-pêyakôsâniwiyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-pêyakôsâniwiyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-pêyakôsâniwicik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-pêyakôsâniwiyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-pêyakôsâniwinâniwahk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-pêyakôsâniwinâniwik",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-pêyakôsâniwihk",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "pêyakôsâniwi",
+					},
+				],
+			},
+			{
+				primaryText: "miskîsikohkâna",
+				wordType: "Noun",
+				detailedWordType: "NDI-1",
+				descriptions: [
+					"eyeglasses, glasses",
+					"goggles",
+					"His/her goggles",
+					"eye glasses",
+				],
+				morphs: [
+					{
+						semantic: "someone&#x27;s — two or more",
+						creeMorph: "miskîsikohkâna",
+					},
+					{
+						semantic: "someone&#x27;s — in/on/at / place",
+						creeMorph: "miskîsikohkânihk",
+					},
+				],
+			},
+			{
+				primaryText: "oskîsik",
+				wordType: "Noun",
+				detailedWordType: "N",
+				descriptions: ["His eye."],
+				morphs: [],
+			},
+			{
+				primaryText: "cîkiskîsik",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["close to the eye"],
+				morphs: [],
+			},
+			{
+				primaryText: "cihcîpâpiw",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["His eye is twitching."],
+				morphs: [],
+			},
+			{
+				primaryText: "iskwêw",
+				wordType: "Noun",
+				detailedWordType: "NA-2",
+				descriptions: ["woman, female, adult female", "A woman."],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "iskwêw",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "iskwêwak",
+					},
+					{
+						semantic: "another / others",
+						creeMorph: "iskwêwa",
+					},
+					{
+						semantic: "smaller / younger — only one",
+						creeMorph: "iskwês",
+					},
+					{
+						semantic: "whose / whom something belongs to — my",
+						creeMorph: "nitiskwêm",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — your (one)",
+						creeMorph: "kitiskwêm",
+					},
+					{
+						semantic: "whose / whom something belongs to — his/her",
+						creeMorph: "otiskwêma",
+					},
+				],
+			},
+			{
+				primaryText: "maskihkîwiskwêw",
+				wordType: "Noun",
+				detailedWordType: "NA-2",
+				descriptions: [
+					"nurse",
+					"woman doctor",
+					"medicine woman",
+					"a medicine woman or nurse",
+				],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "maskihkîwiskwêw",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "maskihkîwiskwêwak",
+					},
+					{
+						semantic: "another / others",
+						creeMorph: "maskihkîwiskwêwa",
+					},
+					{
+						semantic: "smaller / younger — only one",
+						creeMorph: "maskihkîwiskwês",
+					},
+					{
+						semantic: "whose / whom something belongs to — my",
+						creeMorph: "nimaskihkîwiskwêm",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — your (one)",
+						creeMorph: "kimaskihkîwiskwêm",
+					},
+					{
+						semantic: "whose / whom something belongs to — his/her",
+						creeMorph: "omaskihkîwiskwêma",
+					},
+				],
+			},
+			{
+				primaryText: "oskinîkiskwêw",
+				wordType: "Noun",
+				detailedWordType: "NA-2",
+				descriptions: [
+					"young woman (about 14-15 years old), adolescent female",
+					"maiden",
+					"virgin",
+					"A young woman.",
+				],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "oskinîkiskwêw",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "oskinîkiskwêwak",
+					},
+					{
+						semantic: "another / others",
+						creeMorph: "oskinîkiskwêwa",
+					},
+					{
+						semantic: "smaller / younger — only one",
+						creeMorph: "oskinîkiskwês",
+					},
+					{
+						semantic: "whose / whom something belongs to — my",
+						creeMorph: "nitôskinîkiskwêm",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — your (one)",
+						creeMorph: "kitôskinîkiskwêm",
+					},
+					{
+						semantic: "whose / whom something belongs to — his/her",
+						creeMorph: "otôskinîkiskwêma",
+					},
+				],
+			},
+			{
+				primaryText: "nitiskwêm",
+				wordType: "Noun",
+				detailedWordType: "NDA-1",
+				descriptions: ["my wife, my woman, my female lover"],
+				morphs: [],
+			},
+			{
+				primaryText: "misiwê",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"all over, everywhere, throughout the entire place, on the whole body",
+					"All over the place.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "êkotê",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"over there, over at that place",
+					"a place in that direction",
+					"Over there.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "êkota",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"there, right there",
+					"at that very place, at that point",
+					"at that time, then",
+					"in that way, in that respect",
+					"Right there.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "itê",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"there, thereabouts, over there, thither",
+					"where, wherever",
+					"Where",
+					"At what place",
+					"In what place",
+					"To what place",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "atoskêw",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: [
+					"s/he works, s/he does work",
+					"All of you work later.",
+					"He works.",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "nitatoskân",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kitatoskân",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "atoskêw",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "nitatoskânân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kitatoskânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kitatoskânânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kitatoskânâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "atoskêwak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "atoskêyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "atoskâniwan",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "atoskâniwiw",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-atoskêyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-atoskêyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-atoskêt",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-atoskêyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-atoskêyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-atoskêyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-atoskêcik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-atoskêyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-atoskâniwik",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-atoskâniwahk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-atoskêhk",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "atoskê",
+					},
+				],
+			},
+			{
+				primaryText: "mâyêyihtam",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: [
+					"He challenges it",
+					"He contests it.",
+					"He is willing to work at it.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "ê-wî-atoskêt",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["He is going to work."],
+				morphs: [],
+			},
+			{
+				primaryText: "atoskêstamawêwak",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["They are doing the work for him or them."],
+				morphs: [],
+			},
+			{
+				primaryText: "otâhk",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"behind, in the back, at the rear, at the back of something",
+					"last week",
+					"At the back",
+					"Behind.",
+					"in the back. (Northern). alt. nâway (Plains)",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "anohc kâ-ispaêik",
+				wordType: "Noun",
+				detailedWordType: "IPH",
+				descriptions: ["this week"],
+				morphs: [],
+			},
+			{
+				primaryText: "otâhk ispaêiw",
+				wordType: "Noun",
+				detailedWordType: "IPH",
+				descriptions: ["last week"],
+				morphs: [],
+			},
+			{
+				primaryText: "pêyak-ayamihêwi-kîsikâw",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["one week", "for one week"],
+				morphs: [],
+			},
+			{
+				primaryText: "cî",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"is it the case that ...?",
+					"is that so? [question marker; enclitic follows questioned element in initial position]",
+					"Question marker",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "kîspin",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["if, in case", "whether", "If", "In case."],
+				morphs: [],
+			},
+			{
+				primaryText: "ôma",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"it is (this), it is the case",
+					"the fact that",
+					"then",
+					"when",
+					"as it is, actually, indeed [focus marker]",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "namôy cî",
+				wordType: "Noun",
+				detailedWordType: "IPH",
+				descriptions: [
+					"is it not?, is it not the case?",
+					"could it be?",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "ohci",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"from, from there, thence, out of",
+					"with, by means of, for the purpose of",
+					"because of, for that reason",
+					"for",
+					"from then, from that point in time",
+					"about",
+					"From",
+					"Out of",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "pâskac",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"even, on top of it all, to top it all off, to cap it all, as the final touch, moreover",
+					"fittingly",
+					"coincidentally, as luck would have it",
+					"ironically",
+					"besides",
+					"to that point",
+					"But in spite of, ironically.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "isko",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"so far, to such a point, to such an extent",
+					"so long as, so far as, as far as, up until, until",
+					"this far",
+					"So far",
+					"Until",
+					"As far as.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "okimânâhk",
+				wordType: "Noun",
+				detailedWordType: "INM",
+				descriptions: [
+					"government, federal government, provincial government",
+					"band council, band authorities",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "owiyasiwêwin",
+				wordType: "Noun",
+				detailedWordType: "N",
+				descriptions: ["His law.", "The laws of the government."],
+				morphs: [],
+			},
+			{
+				primaryText: "sôniyâwikimâw",
+				wordType: "Noun",
+				detailedWordType: "NA-2",
+				descriptions: [
+					"Indian Agent",
+					"government representative to a First Nation",
+					"A bank manager.",
+					"an indian agent or government representative to the band",
+				],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "sôniyâwikimâw",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "sôniyâwikimâwak",
+					},
+					{
+						semantic: "another / others",
+						creeMorph: "sôniyâwikimâwa",
+					},
+					{
+						semantic: "smaller / younger — only one",
+						creeMorph: "sôniyâwikimâs",
+					},
+					{
+						semantic: "whose / whom something belongs to — my",
+						creeMorph: "nisôniyâwikimâm",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — your (one)",
+						creeMorph: "kisôniyâwikimâm",
+					},
+					{
+						semantic: "whose / whom something belongs to — his/her",
+						creeMorph: "osôniyâwikimâma",
+					},
+				],
+			},
+			{
+				primaryText: "okimânâhk",
+				wordType: "Noun",
+				detailedWordType: "N",
+				descriptions: ["The government in Ottawa."],
+				morphs: [],
+			},
+			{
+				primaryText: "atâwêwikamik",
+				wordType: "Noun",
+				detailedWordType: "Part",
+				descriptions: ["In the store."],
+				morphs: [],
+			},
+			{
+				primaryText: "anihi",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["it is (that) [focus maker]"],
+				morphs: [],
+			},
+			{
+				primaryText: "kihci-atâwêwikamikowiêiniw",
+				wordType: "Noun",
+				detailedWordType: "NA-2",
+				descriptions: [
+					"store manager, post manager, Hudson's Bay Company factor",
+				],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "kihci-atâwêwikamikowiêiniw",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "kihci-atâwêwikamikowiêiniwak",
+					},
+					{
+						semantic: "another / others",
+						creeMorph: "kihci-atâwêwikamikowiêiniwa",
+					},
+					{
+						semantic: "smaller / younger — only one",
+						creeMorph: "kihci-acâwêwikamikowiêinîs",
+					},
+					{
+						semantic: "whose / whom something belongs to — my",
+						creeMorph: "nikihci-atâwêwikamikowiêinîm",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — your (one)",
+						creeMorph: "kikihci-atâwêwikamikowiêinîm",
+					},
+					{
+						semantic: "whose / whom something belongs to — his/her",
+						creeMorph: "okihci-atâwêwikamikowiêinîma",
+					},
+				],
+			},
+			{
+				primaryText: "kihci-atâwêwikamik",
+				wordType: "Noun",
+				detailedWordType: "NI-3",
+				descriptions: [
+					"department store",
+					"Hudson's Bay Company store",
+				],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "kihci-atâwêwikamik",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "kihci-atâwêwikamikwa",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "kihci-atâwêwikamikohk",
+					},
+					{
+						semantic: "smaller — only one",
+						creeMorph: "kihci-acâwêwikamikos",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "nikihci-atâwêwikamik",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kikihci-atâwêwikamik",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "okihci-atâwêwikamik",
+					},
+				],
+			},
+			{
+				primaryText: "mihcêt",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"many, much, lots",
+					"a good number, numerous",
+					"Many, a good number.",
+					"Numerous",
+					"many, in great quantity. (Plains). alt. okistakewi (Northern)",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "mâmawi-",
+				wordType: "Noun",
+				detailedWordType: "IPV",
+				descriptions: [
+					"together",
+					"in full number of them all, all together, all together as a group",
+					"collectively, jointly",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "ihtasiwak",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: [
+					"they are so many, they are as many",
+					"they number so many as a family, they have so many in their family",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "nitihtasinân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kitihtasinaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kitihtasinânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kitihtasinâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "ihtasiwak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "ihtasiyiwa",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-ihtasiyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-ihtasiyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-ihtasiyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-ihtasicik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-ihtasiyit",
+					},
+				],
+			},
+			{
+				primaryText: "nanahi",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["even, even number"],
+				morphs: [],
+			},
+			{
+				primaryText: "mâmawi-",
+				wordType: "Noun",
+				detailedWordType: "IPN",
+				descriptions: [
+					"all together, all together as a group",
+					"collectively, jointly",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "mâmawêyas",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"where all are assembled",
+					"the most, above all, beyond the rest",
+					"Altogether",
+					"As a group.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "asêya-",
+				wordType: "Noun",
+				detailedWordType: "IPV",
+				descriptions: ["in a group"],
+				morphs: [],
+			},
+			{
+				primaryText: "miskôwin",
+				wordType: "Noun",
+				detailedWordType: "N",
+				descriptions: [
+					"The act of finding a solution or a way out of a problem unexpectedly.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "nayêhtâwipaêin",
+				wordType: "Verb",
+				detailedWordType: "VII-2n",
+				descriptions: [
+					"there is trouble, there are problems, there is a sudden difficulty",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — it / there is",
+						creeMorph: "nayêhtâwipaêin",
+					},
+					{
+						semantic: "ni-/ki- word — they / there are",
+						creeMorph: "nayêhtâwipaêinwa",
+					},
+					{
+						semantic: "ê-/kâ- word — it / there is",
+						creeMorph: "ê-nayêhtâwipaêik",
+					},
+					{
+						semantic: "ê-/kâ- word — they / there are",
+						creeMorph: "ê-nayêhtâwipaêiki",
+					},
+				],
+			},
+			{
+				primaryText: "tâpwê wiêa",
+				wordType: "Noun",
+				detailedWordType: "IPH",
+				descriptions: [
+					"it is a fact!",
+					"oh, that one! (guy, girl)",
+					"how typical of that one",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "tâpwê wiêa ani",
+				wordType: "Noun",
+				detailedWordType: "IPH",
+				descriptions: ["it is a fact"],
+				morphs: [],
+			},
+			{
+				primaryText: "anima",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"it is (that)",
+					"the fact that ... [focus marker]",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "onipîm",
+				wordType: "Noun",
+				detailedWordType: "N",
+				descriptions: ["His water."],
+				morphs: [],
+			},
+			{
+				primaryText: "akâmihk",
+				wordType: "Noun",
+				detailedWordType: "N",
+				descriptions: [
+					"Montana Reserve.",
+					"across the water or across the lake",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "akâmihk",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"across, on the far side",
+					"across the water, across the lake, across the river, across the slough",
+					"across land",
+					"Across a small body of water.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "sisonêkamîhk",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"along the water",
+					"on the waterfront, along the shore",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "aspin",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"away, off, from a distance",
+					"in departing, just now, since then, the last I knew",
+					"ago, back then, so long ago",
+					"gone for good, gone for the present",
+					"since",
+					"just",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "takahki-",
+				wordType: "Noun",
+				detailedWordType: "IPV",
+				descriptions: [
+					"good",
+					"very well, very nicely, wonderfully, beautifully",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "wâcistakâc",
+				wordType: "Noun",
+				detailedWordType: "IPJ",
+				descriptions: [
+					"oh my!, really good!",
+					"goodness gracious!",
+					"incredible!, beyond reason!",
+					'an exclamation of surprise or disappointment, i.e.: "wow, how about that!" or "oh, my goodness!"',
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "takahki-",
+				wordType: "Noun",
+				detailedWordType: "IPN",
+				descriptions: ["good, nice, beautiful"],
+				morphs: [],
+			},
+			{
+				primaryText: "osk-âyi",
+				wordType: "Verb",
+				detailedWordType: "VII",
+				descriptions: ["it is new"],
+				morphs: [],
+			},
+			{
+				primaryText: "mispon",
+				wordType: "Verb",
+				detailedWordType: "VII-1n",
+				descriptions: [
+					"fresh snow is falling",
+					"there is new or fresh snow",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — it / there is",
+						creeMorph: "mispon",
+					},
+					{
+						semantic: "ê-/kâ- word — it / there is",
+						creeMorph: "ê-mispok",
+					},
+				],
+			},
+			{
+				primaryText: "oski-",
+				wordType: "Noun",
+				detailedWordType: "IPV",
+				descriptions: ["new, young", "first, early"],
+				morphs: [],
+			},
+			{
+				primaryText: "oski-",
+				wordType: "Noun",
+				detailedWordType: "IPN",
+				descriptions: ["young, new, fresh"],
+				morphs: [],
+			},
+			{
+				primaryText: "nîkân",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["The front.", "Ahead.", "First."],
+				morphs: [],
+			},
+			{
+				primaryText: "nîkân",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["First", "ahead", "before"],
+				morphs: [],
+			},
+			{
+				primaryText: "kiyâm",
+				wordType: "Noun",
+				detailedWordType: "IPJ",
+				descriptions: [
+					"oh well!, it's okay!, never mind!, think nothing of it!",
+					"so what!",
+					"so much for this!",
+					"anyway, rather",
+					"let it be!, let there be no further delay!",
+					"please",
+					"let's go then!",
+					"do so",
+					"quietly",
+					"at last",
+					"A reply, meaning - Let it be. It is all right.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "tipiskohk",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["last night, the previous night", "Last night."],
+				morphs: [],
+			},
+			{
+				primaryText: "iskwayâc",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"last, at last, finally",
+					"to the end, to the last, at the end of it all",
+					"the last one, the last time",
+					"youngest",
+					"The last",
+					"Final",
+					"At the end of it all.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "kâkikê",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"forever",
+					"at all times, all the time, always",
+					"for a very long time",
+					"Always",
+					"Forever and ever.",
+					"At all times.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "kinwêsk",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["a long while", "for a long time"],
+				morphs: [],
+			},
+			{
+				primaryText: "mistahi",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"much, greatly, a great deal, a lot, lots",
+					"very, very many",
+					"very much so!",
+					"A lot.",
+					"A great amount.",
+					"Much.",
+					"lots of it",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "kihci-",
+				wordType: "Noun",
+				detailedWordType: "IPN",
+				descriptions: [
+					"great, big",
+					"chiefest, most prominent",
+					"proper, genuine",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "kihc-",
+				wordType: "Noun",
+				detailedWordType: "IPN",
+				descriptions: ["great [see: kihci-]"],
+				morphs: [],
+			},
+			{
+				primaryText: "kihc-",
+				wordType: "Noun",
+				detailedWordType: "IPV",
+				descriptions: ["great [see: kihci-]"],
+				morphs: [],
+			},
+			{
+				primaryText: "apisîs",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["a little, a little bit", "A few."],
+				morphs: [],
+			},
+			{
+				primaryText: "nawac",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"by comparison",
+					"better, more",
+					"before",
+					"instead, rather",
+					"somewhat, a little",
+					"Preferably.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "apisis",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"a little, a little bit, a dab",
+					"a few",
+					"a little",
+					"a dab",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "capasis",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"below, further down, lower down, down low",
+					"low in the air",
+					"bottom",
+					"a little bit lower or below",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "tipiyawê",
+				wordType: "Noun",
+				detailedWordType: "Pro",
+				descriptions: ["One's own. Immediate."],
+				morphs: [],
+			},
+			{
+				primaryText: "tipiêaw",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"personally, in person",
+					"own, proper",
+					"biologically close",
+					"really",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "postastisêw",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: ["s/he puts his/her own mitts on"],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "nipostastisân",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kipostastisân",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "postastisêw",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "nipostastisânân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kipostastisânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kipostastisânânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kipostastisânâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "postastisêwak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "postastisêyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "postastisâniwan",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "postastisâniwiw",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-postastisêyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-postastisêyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-postastisêt",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-postastisêyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-postastisêyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-postastisêyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-postastisêcik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-postastisêyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-postastisêhk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-postastisâniwik",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-postastisâniwahk",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "postastisê",
+					},
+				],
+			},
+			{
+				primaryText: "itâpatisiw",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: [
+					"s/he is useful in such a way, s/he is used thus, s/he is of such use",
+					"He is used for another's own convenience.",
+					"That is how he is used.",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "nititâpatisin",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kititâpatisin",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "itâpatisiw",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "nititâpatisinân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kititâpatisinaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kititâpatisinânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kititâpatisinâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "itâpatisiwak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "itâpatisiyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "itâpatisinâniwiw",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "itâpatisinâniwan",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-itâpatisiyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-itâpatisiyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-itâpatisit",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-itâpatisiyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-itâpatisiyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-itâpatisiyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-itâpatisicik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-itâpatisiyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-itâpatisinâniwahk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-itâpatisihk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-itâpatisinâniwik",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "itâpatisi",
+					},
+				],
+			},
+			{
+				primaryText: "kotakak",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["Other."],
+				morphs: [],
+			},
+			{
+				primaryText: "kotaka",
+				wordType: "Noun",
+				detailedWordType: "PrA",
+				descriptions: ["other, others"],
+				morphs: [],
+			},
+			{
+				primaryText: "kotak",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"Another.",
+					"Any or some other.",
+					"One that is different from the first or present one.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "kayâsi-",
+				wordType: "Noun",
+				detailedWordType: "IPV",
+				descriptions: ["old"],
+				morphs: [],
+			},
+			{
+				primaryText: "kêhtê-aya",
+				wordType: "Noun",
+				detailedWordType: "NA-4",
+				descriptions: [
+					"elder, old one, old person",
+					"the old",
+					"An Elder.",
+				],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "kêhtê-aya",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "kêhtê-ayak",
+					},
+					{
+						semantic: "another / others",
+						creeMorph: "kêhtê-aya",
+					},
+					{
+						semantic: "smaller / younger — only one",
+						creeMorph: "kêhcê-ayis",
+					},
+					{
+						semantic: "whose / whom something belongs to — my",
+						creeMorph: "nikêhtê-ayim",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — your (one)",
+						creeMorph: "kikêhtê-ayim",
+					},
+					{
+						semantic: "whose / whom something belongs to — his/her",
+						creeMorph: "okêhtê-ayima",
+					},
+				],
+			},
+			{
+				primaryText: "okisêyinîma",
+				wordType: "Noun",
+				detailedWordType: "N",
+				descriptions: ["Her old man.", "Her husband."],
+				morphs: [],
+			},
+			{
+				primaryText: "kayâs",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"long ago, a long time ago, of old, in earlier days, in a golden age",
+					"previously, formerly",
+					"traditionally, for a long time",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "mêkwâc",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"currently, presently, right now",
+					"at the present time, for the duration",
+					"meanwhile",
+					"while, during, in the course of, in the meantime, during the time",
+					"in the midst of",
+					"ago",
+					"Presently.",
+					"Right now.",
+					"right now, at this time, as of now",
+					"in the interval",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "sêmâk",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"right now, right away, at once, immediately, instantly",
+					"Right away.",
+					"At once.",
+					"Immediately.",
+					"right now",
+					"immediately. (Northern). alt. semak (Plains)",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "kwayask",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"right, properly, straight, correct, in good order, neatly",
+					"by rights, as ordained by the powers",
+					"honest",
+					"Right.",
+					"Properly.",
+					"It is right.",
+					"It is proper.",
+					"It is level",
+					"It is straight.",
+					"It is correct",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "piko",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"only, solely, exclusively",
+					"alone in its class",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "piko",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"must, have to, it is necessary that ...",
+					"for sure, without a doubt",
+					"it is proper that ...",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "piko",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["Have to", "Must. For sure."],
+				morphs: [],
+			},
+			{
+				primaryText: "piko",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["Only.", "Solely.", "Alone in its class."],
+				morphs: [],
+			},
+			{
+				primaryText: "ispimihk",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"up, up above",
+					"in the air, on high, high up",
+					"upstairs",
+					"High above",
+					"Way up.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "ispi-",
+				wordType: "Noun",
+				detailedWordType: "IPV",
+				descriptions: ["high, elevated", "advanced"],
+				morphs: [],
+			},
+			{
+				primaryText: "iskwâskisow",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: ["s/he burns so high", "s/he is burning up"],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "nitiskwâskitân",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kitiskwâskitân",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "iskwâskitêw",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "nitiskwâskitânân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kitiskwâskitânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kitiskwâskitânânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kitiskwâskitânâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "iskwâskitêwak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "iskwâskitêyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "iskwâskitâniwiw",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "iskwâskitâniwan",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-iskwâskitêyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-iskwâskitêyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-iskwâskitêt",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-iskwâskitêyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-iskwâskitêyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-iskwâskitêyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-iskwâskitêcik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-iskwâskitêyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-iskwâskitâniwik",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-iskwâskitâniwahk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-iskwâskitêhk",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "iskwâskitê",
+					},
+				],
+			},
+			{
+				primaryText: "pâtos",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"only later",
+					"then, later",
+					"at a different time",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "pahkân",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"different, differently",
+					"different kind",
+					"strange",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "nanâtohk",
+				wordType: "Noun",
+				detailedWordType: "Pro",
+				descriptions: [
+					"all kinds of things or a variety",
+					"different kinds",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "ay-âhci",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"from one to another",
+					"Different",
+					"differently.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "apihci-",
+				wordType: "Noun",
+				detailedWordType: "IPN",
+				descriptions: ["small"],
+				morphs: [],
+			},
+			{
+				primaryText: "apihci-",
+				wordType: "Noun",
+				detailedWordType: "IPV",
+				descriptions: ["small"],
+				morphs: [],
+			},
+			{
+				primaryText: "apisîsi-",
+				wordType: "Noun",
+				detailedWordType: "IPV",
+				descriptions: ["small"],
+				morphs: [],
+			},
+			{
+				primaryText: "apist-",
+				wordType: "Noun",
+				detailedWordType: "IPN",
+				descriptions: ["small"],
+				morphs: [],
+			},
+			{
+				primaryText: "misâw",
+				wordType: "Verb",
+				detailedWordType: "VII-2v",
+				descriptions: [
+					"it is big, it is large, it is extensive",
+					"it is important, it is powerful",
+					"It is large.",
+					"it is big or large",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — it / there is",
+						creeMorph: "misâw",
+					},
+					{
+						semantic: "ni-/ki- word — they / there are",
+						creeMorph: "misâwa",
+					},
+					{
+						semantic: "ê-/kâ- word — it / there is",
+						creeMorph: "ê-misâk",
+					},
+					{
+						semantic: "ê-/kâ- word — they / there are",
+						creeMorph: "ê-misâki",
+					},
+				],
+			},
+			{
+				primaryText: "misikitiw",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: [
+					"s/he is big, s/he is large (in height or girth), s/he is tall",
+					"s/he is a big person, s/he is obese",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "nimisikitin",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kimisikitin",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "misikitiw",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "nimisikitinân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kimisikitinânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kimisikitinaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kimisikitinâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "misikitiwak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "misikitiyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "misikitinâniwiw",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "misikitinâniwan",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-misikitiyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-misikitiyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-misikitit",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-misikitiyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-misikitiyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-misikitiyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-misikiticik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-misikitiyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-misikitinâniwahk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-misikitinâniwik",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-misikitihk",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "misikiti",
+					},
+				],
+			},
+			{
+				primaryText: "misi-",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["Meaning large or big."],
+				morphs: [],
+			},
+			{
+				primaryText: "misâpiskâw",
+				wordType: "Verb",
+				detailedWordType: "VII-2v",
+				descriptions: ["it is large (metal)"],
+				morphs: [],
+			},
+			{
+				primaryText: "awasi-tipiskâki",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["the night after next"],
+				morphs: [],
+			},
+			{
+				primaryText: "askoc",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["next to", "after"],
+				morphs: [],
+			},
+			{
+				primaryText: "takwâkiki",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["next autumn", "when it's autumn"],
+				morphs: [],
+			},
+			{
+				primaryText: "wîpac",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"soon, quickly, as soon as possible",
+					"early",
+					"Very soon.",
+					"As early as possible.",
+					"Soon. (Plains). alt. kîyipa (Northern)",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "kîkisêp",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"in the morning, early in the morning",
+					"this past morning",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "kîpa",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["soon", "early"],
+				morphs: [],
+			},
+			{
+				primaryText: "mâtayak",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"ahead of time, beforehand, in advance",
+					"early",
+					"Ahead of time.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "oskinîkiw",
+				wordType: "Noun",
+				detailedWordType: "NA-2",
+				descriptions: [
+					"young man, male youth, adolescent male (about 14-15 years old)",
+					"A young man.",
+					"a youth",
+				],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "oskinîkiw",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "oskinîkiwak",
+					},
+					{
+						semantic: "another / others",
+						creeMorph: "oskinîkiwa",
+					},
+					{
+						semantic: "smaller / younger — only one",
+						creeMorph: "oskinîkîs",
+					},
+					{
+						semantic: "whose / whom something belongs to — my",
+						creeMorph: "nitôskinîkîm",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — your (one)",
+						creeMorph: "kitôskinîkîm",
+					},
+					{
+						semantic: "whose / whom something belongs to — his/her",
+						creeMorph: "otôskinîkîma",
+					},
+				],
+			},
+			{
+				primaryText: "oskinîkiw",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: [
+					"he is a young man, he is a male youth, he is an adolescent male (about 14-15 years old)",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "nitôskinîkin",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kitôskinîkin",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "oskinîkiw",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "nitôskinîkinân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kitôskinîkinânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kitôskinîkinaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kitôskinîkinâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "oskinîkiwak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "oskinîkiyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "oskinîkinâniwiw",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "oskinîkinâniwan",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-oskinîkiyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-oskinîkiyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-oskinîkit",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-oskinîkiyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-oskinîkiyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-oskinîkiyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-oskinîkicik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-oskinîkiyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-oskinîkinâniwik",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-oskinîkihk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-oskinîkinâniwahk",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "oskinîki",
+					},
+				],
+			},
+			{
+				primaryText: "oski-aya",
+				wordType: "Noun",
+				detailedWordType: "NA-4",
+				descriptions: [
+					"young one, young person, young creature",
+					"[plural:] the young",
+				],
+				morphs: [
+					{
+						semantic: "two or more",
+						creeMorph: "oski-ayak",
+					},
+					{
+						semantic: "another / others",
+						creeMorph: "oski-aya",
+					},
+					{
+						semantic: "whose / whom something belongs to — his/her",
+						creeMorph: "otôski-ayima",
+					},
+				],
+			},
+			{
+				primaryText: "kihci-",
+				wordType: "Noun",
+				detailedWordType: "IPV",
+				descriptions: [
+					"great, big, important, most prominent",
+					"greatly",
+					"formally",
+					"proper, genuine",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "kihci-kîsikâw",
+				wordType: "Noun",
+				detailedWordType: "N",
+				descriptions: ["An important day"],
+				morphs: [],
+			},
+			{
+				primaryText: "sôhkan",
+				wordType: "Verb",
+				detailedWordType: "VII-2n",
+				descriptions: [
+					"it is strong, it is sturdy, it is firm, it is solid, it is strongly made",
+					"it is important",
+					"it is powerful, it has supernatural power",
+					"it is hard, it is difficult",
+					"It is strong.",
+					"It is strongly made.",
+					"it is strong, solid, powerful",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — it / there is",
+						creeMorph: "sôhkan",
+					},
+					{
+						semantic: "ni-/ki- word — they / there are",
+						creeMorph: "sôhkanwa",
+					},
+					{
+						semantic: "ê-/kâ- word — it / there is",
+						creeMorph: "ê-sôhkahk",
+					},
+					{
+						semantic: "ê-/kâ- word — they / there are",
+						creeMorph: "ê-sôhkahki",
+					},
+				],
+			},
+			{
+				primaryText: "âtiht",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["some", "A few."],
+				morphs: [],
+			},
+			{
+				primaryText: "cikawâsis",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["few", "Very few."],
+				morphs: [],
+			},
+			{
+				primaryText: "mâmiskôtamâkêwin",
+				wordType: "Noun",
+				detailedWordType: "NI-1",
+				descriptions: [
+					"public discussion, public discourse",
+					"the act of mentioning something to someone",
+				],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "mâmiskôtamâkêwin",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "mâmiskôtamâkêwina",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "mâmiskôtamâkêwinihk",
+					},
+					{
+						semantic: "smaller — only one",
+						creeMorph: "mâmiskôcamâkêwinis",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "nimâmiskôtamâkêwin",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kimâmiskôtamâkêwin",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "omâmiskôtamâkêwin",
+					},
+				],
+			},
+			{
+				primaryText: "aniki",
+				wordType: "Noun",
+				detailedWordType: "PrA",
+				descriptions: ["those, those ones", "Those people there."],
+				morphs: [
+					{
+						semantic: "One (awa word) — Here",
+						creeMorph: "awa",
+					},
+					{
+						semantic: "One (awa word) — There",
+						creeMorph: "ana",
+					},
+					{
+						semantic: "One (awa word) — Over yonder",
+						creeMorph: "nâha",
+					},
+					{
+						semantic: "Many (awa word) — Here",
+						creeMorph: "ôki",
+					},
+					{
+						semantic: "Many (awa word) — There",
+						creeMorph: "aniki",
+					},
+					{
+						semantic: "Many (awa word) — Over yonder",
+						creeMorph: "nêki",
+					},
+					{
+						semantic: "One (ôma word) — Here",
+						creeMorph: "ôma",
+					},
+					{
+						semantic: "One (ôma word) — There",
+						creeMorph: "anima",
+					},
+					{
+						semantic: "One (ôma word) — Over yonder",
+						creeMorph: "nêma",
+					},
+					{
+						semantic: "Many (ôma word) — Here",
+						creeMorph: "ôhi",
+					},
+					{
+						semantic: "Many (ôma word) — There",
+						creeMorph: "anihi",
+					},
+					{
+						semantic: "Many (ôma word) — Over yonder",
+						creeMorph: "nêhi",
+					},
+				],
+			},
+			{
+				primaryText: "kîmôc",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"secretly, in secret, stealthily, slyly, by stealth",
+					"privately, in private",
+					"Secretly.",
+					"Slyly.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "awiyakak",
+				wordType: "Noun",
+				detailedWordType: "PrA",
+				descriptions: ["some people"],
+				morphs: [],
+			},
+			{
+				primaryText: "nânitaw",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"[in negative clauses:] anything",
+					"anything bad",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "maci-",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["Bad", "Evil", "Wicked."],
+				morphs: [],
+			},
+			{
+				primaryText: "nânitaw",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"[with negative presupposition:] something bad, anything bad",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "wiyakâc",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"it is regrettable",
+					"that's too bad!, sad loss!",
+					"Unfortunately.",
+					"Too bad.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "êwako",
+				wordType: "Noun",
+				detailedWordType: "PrA",
+				descriptions: [
+					"this (previously mentioned), that one, the very one",
+					"the same one",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "êwako",
+				wordType: "Noun",
+				detailedWordType: "PrI",
+				descriptions: [
+					"this (previously mentioned), that one, that very one",
+					"the same one",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "êwakw âna",
+				wordType: "Noun",
+				detailedWordType: "PrA",
+				descriptions: ["that same one (previously mentioned)"],
+				morphs: [],
+			},
+			{
+				primaryText: "êwakw ânihi",
+				wordType: "Noun",
+				detailedWordType: "PrA",
+				descriptions: [
+					"that same one",
+					"those same ones (previously mentioned)",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "nihtâ-",
+				wordType: "Noun",
+				detailedWordType: "IPV",
+				descriptions: [
+					"able",
+					"good at, competent, practised, experienced, doing much of, skilful at, accustomed to",
+					"expert at, known as one who does something habitually, be in the habit of",
+					"well",
+					"consistently, always",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "nahtâ-",
+				wordType: "Noun",
+				detailedWordType: "IPV",
+				descriptions: [
+					"able",
+					"good at, competent, practised, experienced, skilful at, expert at, known as one who does something habitually",
+					"well",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "kaskihow",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: [
+					"s/he has the ability to do s.t., s/he is able, s/he is competent, s/he is clever, s/he is skilful",
+					"s/he prevails",
+					"s/he escapes",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "nikaskihon",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kikaskihon",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "kaskihow",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "nikaskihonân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kikaskihonaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kikaskihonânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kikaskihonâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "kaskihowak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "kaskihoyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "kaskihonâniwiw",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "kaskihonâniwan",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-kaskihoyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-kaskihoyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-kaskihot",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-kaskihoyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-kaskihoyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-kaskihoyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-kaskihocik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-kaskihoyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-kaskihohk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-kaskihonâniwahk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-kaskihonâniwik",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "kaskiho",
+					},
+				],
+			},
+			{
+				primaryText: "ispayin",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["Be", "It happened so."],
+				morphs: [],
+			},
+			{
+				primaryText: "cîki",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"close, close by, near, nearby, near to",
+					"Near",
+					"Nearby.",
+					"To be near.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "ispayiw",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: [
+					"If it will be.",
+					"If it will happen that way.",
+					"He drove there.",
+					"It got to be that way.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "misawâc",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"anyway, at any rate, in any case",
+					"despite, in spite of",
+					"whatever might be thought",
+					"no doubt it is the case",
+					"At any rate.",
+					"Anyway.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "ayâw",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: [
+					"He owns (something).",
+					"He is there.",
+					"You can have it.",
+					"He is through",
+					"He is finished.",
+					"He can rise now after being bedridden.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "êkâ êsa",
+				wordType: "Noun",
+				detailedWordType: "IPH",
+				descriptions: [
+					"you shouldn't have ...",
+					"well, you should not have",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "kâwiêa",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"don't",
+					"no",
+					"not [used in conjunct and imperative clauses]",
+					"Do not.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "ka-kî cî",
+				wordType: "Noun",
+				detailedWordType: "Phrase",
+				descriptions: [
+					"Can you?",
+					"Do you think you can?",
+					"Will you?",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "nitaw",
+				wordType: "Noun",
+				detailedWordType: "Prev",
+				descriptions: ["Go and get", "Go and do", "Go and act."],
+				morphs: [],
+			},
+			{
+				primaryText: "ay say",
+				wordType: "Noun",
+				detailedWordType: "IPH",
+				descriptions: ["oh geez!"],
+				morphs: [],
+			},
+			{
+				primaryText: "itêwak",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["They say to him or them."],
+				morphs: [],
+			},
+			{
+				primaryText: "âh",
+				wordType: "Noun",
+				detailedWordType: "IPJ",
+				descriptions: ["What?", "What did you say?"],
+				morphs: [],
+			},
+			{
+				primaryText: "matwân cî",
+				wordType: "Noun",
+				detailedWordType: "IPH",
+				descriptions: [
+					"I wonder, I wonder if",
+					"I believe",
+					"perhaps",
+					"I don't know",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "nâtamawêw",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["He gets it for him."],
+				morphs: [],
+			},
+			{
+				primaryText: "awasitik",
+				wordType: "Noun",
+				detailedWordType: "IPJ",
+				descriptions: ["go on!", "go away!", "get out of the way!"],
+				morphs: [],
+			},
+			{
+				primaryText: "awas",
+				wordType: "Noun",
+				detailedWordType: "IPJ",
+				descriptions: [
+					"go on! go away! away with you! get out of the way!",
+					"Go away!",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "ninâtâw",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["I go to get him."],
+				morphs: [],
+			},
+			{
+				primaryText: "âhki",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["pretend, pretence", "make believe"],
+				morphs: [],
+			},
+			{
+				primaryText: "yôskihtâ",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["Make it soft.", "Soften it."],
+				morphs: [],
+			},
+			{
+				primaryText: "wiyasiwâta",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["Judge it.", "Make a decision on it."],
+				morphs: [],
+			},
+			{
+				primaryText: "isîhêw",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["He makes him just so."],
+				morphs: [],
+			},
+			{
+				primaryText: "nitawi-",
+				wordType: "Noun",
+				detailedWordType: "IPV",
+				descriptions: ["go and, go to", "engaged in"],
+				morphs: [],
+			},
+			{
+				primaryText: "êkwa",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["and, also", "then", "now", "let's go!"],
+				morphs: [],
+			},
+			{
+				primaryText: "niyâ",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["Go."],
+				morphs: [],
+			},
+			{
+				primaryText: "awîna êtikwê",
+				wordType: "Noun",
+				detailedWordType: "IPH",
+				descriptions: ["I don't know who", "I wonder who"],
+				morphs: [],
+			},
+			{
+				primaryText: "kiskêyihta",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["Know it."],
+				morphs: [],
+			},
+			{
+				primaryText: "otinêw",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["He takes him."],
+				morphs: [],
+			},
+			{
+				primaryText: "nah",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["Here, take it."],
+				morphs: [],
+			},
+			{
+				primaryText: "otinamâsow",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: [
+					"s/he takes (it/them) for him/herself, s/he gets (it/them) for him/herself, s/he obtains (it/them) for him/herself",
+					"s/he steals (it/them)",
+					"s/he buys (it/them) for him/herself",
+					"He takes it for himself.",
+					"s/he unjustly appropriates it for herself/himself",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "nitôtinamâson",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kitôtinamâson",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "otinamâsow",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "nitôtinamâsonân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kitôtinamâsonânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kitôtinamâsonaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kitôtinamâsonâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "otinamâsowak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "otinamâsoyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "otinamâsonâniwiw",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "otinamâsonâniwan",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-otinamâsoyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-otinamâsoyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-otinamâsot",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-otinamâsoyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-otinamâsoyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-otinamâsoyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-otinamâsocik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-otinamâsoyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-otinamâsonâniwik",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-otinamâsonâniwahk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-otinamâsohk",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "otinamâso",
+					},
+				],
+			},
+			{
+				primaryText: "wawêhtinahk",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["easily, leisurely", "taking time"],
+				morphs: [],
+			},
+			{
+				primaryText: "mahti",
+				wordType: "Noun",
+				detailedWordType: "IPJ",
+				descriptions: [
+					"come on!, let's see! [hortatory]",
+					"let me pass!",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "ka",
+				wordType: "Noun",
+				detailedWordType: "IPJ",
+				descriptions: [
+					"oh! yes! [discourse particle; accepting information]",
+					"Used in repetition of a verb and denotes continuous action.",
+					"Oh!",
+					"That's it, its it?",
+					"I see.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "mwêstas",
+				wordType: "Noun",
+				detailedWordType: "IPJ",
+				descriptions: ["later, see you later!"],
+				morphs: [],
+			},
+			{
+				primaryText: "âsê-",
+				wordType: "Noun",
+				detailedWordType: "IPV",
+				descriptions: ["[see: asê-]"],
+				morphs: [],
+			},
+			{
+				primaryText: "âstam",
+				wordType: "Noun",
+				detailedWordType: "IPJ",
+				descriptions: ["come!, come here!"],
+				morphs: [],
+			},
+			{
+				primaryText: "âstam",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["Come here."],
+				morphs: [],
+			},
+			{
+				primaryText: "pê-",
+				wordType: "Noun",
+				detailedWordType: "IPV",
+				descriptions: [
+					"come and, come to",
+					"towards, approaching",
+					"hither",
+					"thence, from there on down",
+					"[towards focus]",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "êkwa",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["You come along, too."],
+				morphs: [],
+			},
+			{
+				primaryText: "tâpwê",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"truly, in truth",
+					"indeed, really, for sure, certainly",
+					"duly, in due course",
+					"True",
+					"Truly",
+					"For sure",
+					"Certainly",
+					"Really.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "pakahkam",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"I think, I believe",
+					"apparently, it is apparent",
+					"perhaps, maybe, probably",
+					"surely, it's very likely, to judge by appeal",
+					"Perhaps.",
+					"It is very likely.",
+					"it is apparent",
+					"it could be",
+					"I think so",
+					"perhaps, probably",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "itêyihta",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["Think it to be so."],
+				morphs: [],
+			},
+			{
+				primaryText: "itâpiw",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: [
+					"s/he looks thus or there, s/he faces there, s/he takes a look",
+					"s/he takes aim thus or there",
+					"He takes a look.",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "nititâpin",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kititâpin",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "itâpiw",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "nititâpinân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kititâpinaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kititâpinânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kititâpinâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "itâpiwak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "itâpiyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "itâpinâniwiw",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "itâpinâniwan",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-itâpiyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-itâpiyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-itâpit",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-itâpiyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-itâpiyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-itâpiyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-itâpicik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-itâpiyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-itâpinâniwahk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-itâpihk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-itâpinâniwik",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "itâpi",
+					},
+				],
+			},
+			{
+				primaryText: "nitâpin",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["I look."],
+				morphs: [],
+			},
+			{
+				primaryText: "miyopayiw",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["It goes well with him.", "It looks well."],
+				morphs: [],
+			},
+			{
+				primaryText: "nâkatêyihta",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["Be careful.", "Look after it."],
+				morphs: [],
+			},
+			{
+				primaryText: "nôhtêhkatêw",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: [
+					"s/he is hungry, s/he wants food, s/he is in need of food, s/he suffers want of food",
+					"He is hungry",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "ninôhtêhkatân",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kinôhtêhkatân",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "nôhtêhkatêw",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "ninôhtêhkatânân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kinôhtêhkatânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kinôhtêhkatânânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kinôhtêhkatânâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "nôhtêhkatêwak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "nôhtêhkatêyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "nôhtêhkatâniwiw",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "nôhtêhkatâniwan",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-nôhtêhkatêyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-nôhtêhkatêyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-nôhtêhkatêt",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-nôhtêhkatêyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-nôhtêhkatêyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-nôhtêhkatêyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-nôhtêhkatêcik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-nôhtêhkatêyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-nôhtêhkatêhk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-nôhtêhkatâniwik",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-nôhtêhkatâniwahk",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "nôhtêhkatê",
+					},
+				],
+			},
+			{
+				primaryText: "nôhtê-",
+				wordType: "Noun",
+				detailedWordType: "IPV",
+				descriptions: [
+					"want to, desire to, be determined to",
+					"lack, be short of",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "wîto-",
+				wordType: "Noun",
+				detailedWordType: "IPV",
+				descriptions: ["want, intend"],
+				morphs: [],
+			},
+			{
+				primaryText: "isiyihkâtêw",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: [
+					"That is what he is called.",
+					"He gives him a name.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "miy",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["Give him."],
+				morphs: [],
+			},
+			{
+				primaryText: "nimêkin",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["I give."],
+				morphs: [],
+			},
+			{
+				primaryText: "asâm",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["He gives him food to eat."],
+				morphs: [],
+			},
+			{
+				primaryText: "âpacihêw",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["He is using him or it."],
+				morphs: [],
+			},
+			{
+				primaryText: "mâna",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"usually, habitually, customarily, generally, always, continually",
+					"used to",
+					"Always.",
+					"Generally.",
+					"Usually. (Northern). alt. mâna (Plains)",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "âpacihêw",
+				wordType: "Verb",
+				detailedWordType: "VTA-1",
+				descriptions: [
+					"s/he uses s.o., s/he makes use of s.o. (e.g. porcupine-quills), s/he finds s.o. useful",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I → you (one)",
+						creeMorph: "kitâpacihitin",
+					},
+					{
+						semantic: "ni-/ki- word — I → him/her",
+						creeMorph: "nitâpacihâw",
+					},
+					{
+						semantic: "ni-/ki- word — you (one) → me",
+						creeMorph: "kitâpacihin",
+					},
+					{
+						semantic: "ni-/ki- word — you (one) → him/her",
+						creeMorph: "kitâpacihâw",
+					},
+					{
+						semantic: "ni-/ki- word — s/he → me",
+						creeMorph: "nitâpacihik",
+					},
+					{
+						semantic: "ni-/ki- word — s/he → you (one)",
+						creeMorph: "kitâpacihik",
+					},
+					{
+						semantic: "ni-/ki- word — s/he → another/others",
+						creeMorph: "âpacihêw",
+					},
+					{
+						semantic: "ni-/ki- word — another/others → him/her",
+						creeMorph: "âpacihikow",
+					},
+					{
+						semantic: "ni-/ki- word — another/others → him/her",
+						creeMorph: "âpacihik",
+					},
+					{
+						semantic: "ê-/kâ- word — I → you (one)",
+						creeMorph: "ê-âpacihitân",
+					},
+					{
+						semantic: "ê-/kâ- word — I → him/her",
+						creeMorph: "ê-âpacihak",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one) → me",
+						creeMorph: "ê-âpacihiyan",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one) → him/her",
+						creeMorph: "ê-âpacihat",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he → me",
+						creeMorph: "ê-âpacihit",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he → you (one)",
+						creeMorph: "ê-âpacihisk",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he → another/others",
+						creeMorph: "ê-âpacihât",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others → him/her",
+						creeMorph: "ê-âpacihikot",
+					},
+					{
+						semantic: "command/request — you (one) → me",
+						creeMorph: "âpacihin",
+					},
+					{
+						semantic: "command/request — you (one) → him/her",
+						creeMorph: "âpacih",
+					},
+				],
+			},
+			{
+				primaryText: "niwihkistâw",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["I find him tasty."],
+				morphs: [],
+			},
+			{
+				primaryText: "niwîhkistên",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["I find it tasty."],
+				morphs: [],
+			},
+			{
+				primaryText: "pîhtaw",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"besides, of course, in the actual outcome",
+					"in the end, in the event, in fact, come to find out, as it appeared",
+					"Because of.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "âcimow",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: [
+					"(you all) tell now, (you all) tell a story now",
+					"(you all) tell news now, (you all) give an account now, (you all) make a report now, (you all) inform now, (you all) narrate now",
+					"(you all) tell your own story now",
+					"(you all) told a story now. now",
+					"All of you tell a story.",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "nitâcimon",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kitâcimon",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "âcimow",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "nitâcimonân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kitâcimonaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kitâcimonânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kitâcimonâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "âcimowak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "âcimoyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "âcimonâniwiw",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "âcimonâniwan",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-âcimoyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-âcimoyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-âcimot",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-âcimoyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-âcimoyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-âcimoyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-âcimocik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-âcimoyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-âcimonâniwahk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-âcimohk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-âcimonâniwik",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "âcimo",
+					},
+				],
+			},
+			{
+				primaryText: "niwîhtamawâw",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["I tell him something."],
+				morphs: [],
+			},
+			{
+				primaryText: "niwîhtên",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["I tell about it."],
+				morphs: [],
+			},
+			{
+				primaryText: "wîsâwitam",
+				wordType: "Verb",
+				detailedWordType: "VTI-1",
+				descriptions: [
+					"s/he offers an invitation to s.t.",
+					"s/he makes up his/her own mind",
+					"s/he tells others what to do",
+					"He asks others to go with him.",
+					"s/he invites someone to go along",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "mahti",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["Let me pass, please."],
+				morphs: [],
+			},
+			{
+				primaryText: "wîsâwita",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["Ask others to go with you."],
+				morphs: [],
+			},
+			{
+				primaryText: "kakwêcihkêmow",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: [
+					"s/he asks, s/he inquires, s/he asks people",
+					"s/he asks for s.t., s/he asks questions of people",
+					"s/he asks",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "nikakwêcihkêmon",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kikakwêcihkêmon",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "kakwêcihkêmow",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "nikakwêcihkêmonân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kikakwêcihkêmonaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kikakwêcihkêmonânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kikakwêcihkêmonâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "kakwêcihkêmowak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "kakwêcihkêmoyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "kakwêcihkêmonâniwiw",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "kakwêcihkêmonâniwan",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-kakwêcihkêmoyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-kakwêcihkêmoyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-kakwêcihkêmot",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-kakwêcihkêmoyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-kakwêcihkêmoyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-kakwêcihkêmoyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-kakwêcihkêmocik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-kakwêcihkêmoyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-kakwêcihkêmonâniwahk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-kakwêcihkêmohk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-kakwêcihkêmonâniwik",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "kakwêcihkêmo",
+					},
+				],
+			},
+			{
+				primaryText: "tâpiskôc",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"like, for instance",
+					"just like, as when, as if, in the same way",
+					"it seems, seemingly, apparently, similar to",
+					"equally",
+					"Just like",
+					"As",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "mâni piko",
+				wordType: "Noun",
+				detailedWordType: "IPH",
+				descriptions: [
+					"it seems like, evidently, apparently [contrary to expectation]",
+					"it seems like",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "mâniko",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"it seems like",
+					"by one's sense",
+					"evidently, apparently [contrary to expectation]",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "mîskonêw",
+				wordType: "Verb",
+				detailedWordType: "VTA-1",
+				descriptions: [
+					"s/he feels s.o. (by hand), s/he examines s.o. by feel",
+					"s/he gropes s.o.",
+					"He feels him with the hands.",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I → you (one)",
+						creeMorph: "kimîskonitin",
+					},
+					{
+						semantic: "ni-/ki- word — I → him/her",
+						creeMorph: "nimîskonâw",
+					},
+					{
+						semantic: "ni-/ki- word — you (one) → me",
+						creeMorph: "kimîskonin",
+					},
+					{
+						semantic: "ni-/ki- word — you (one) → him/her",
+						creeMorph: "kimîskonâw",
+					},
+					{
+						semantic: "ni-/ki- word — s/he → me",
+						creeMorph: "nimîskonik",
+					},
+					{
+						semantic: "ni-/ki- word — s/he → you (one)",
+						creeMorph: "kimîskonik",
+					},
+					{
+						semantic: "ni-/ki- word — s/he → another/others",
+						creeMorph: "mîskonêw",
+					},
+					{
+						semantic: "ni-/ki- word — another/others → him/her",
+						creeMorph: "mîskonikow",
+					},
+					{
+						semantic: "ni-/ki- word — another/others → him/her",
+						creeMorph: "mîskonik",
+					},
+					{
+						semantic: "ê-/kâ- word — I → you (one)",
+						creeMorph: "ê-mîskonitân",
+					},
+					{
+						semantic: "ê-/kâ- word — I → him/her",
+						creeMorph: "ê-mîskonak",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one) → me",
+						creeMorph: "ê-mîskoniyan",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one) → him/her",
+						creeMorph: "ê-mîskonat",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he → me",
+						creeMorph: "ê-mîskonit",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he → you (one)",
+						creeMorph: "ê-mîskonisk",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he → another/others",
+						creeMorph: "ê-mîskonât",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others → him/her",
+						creeMorph: "ê-mîskonikot",
+					},
+					{
+						semantic: "command/request — you (one) → me",
+						creeMorph: "mîskonin",
+					},
+					{
+						semantic: "command/request — you (one) → him/her",
+						creeMorph: "mîskon",
+					},
+				],
+			},
+			{
+				primaryText: "oyascikêw",
+				wordType: "Noun",
+				detailedWordType: "N",
+				descriptions: [
+					"A person who feels a premonition, he may not know it but he will display behavior towards this.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "mâtâhpinêw",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: [
+					"He is starting to feel sick",
+					"He is starting to feel pain.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "kakwê-",
+				wordType: "Noun",
+				detailedWordType: "IPV",
+				descriptions: [
+					"try to, attempt to",
+					"circumstances permitting, by divine grace",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "kakwe",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["Try to."],
+				morphs: [],
+			},
+			{
+				primaryText: "kocîhtâ",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["Try it."],
+				morphs: [],
+			},
+			{
+				primaryText: "itohtêw",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: ["s/he tries to go (somewhere)"],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "nititohtân",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kititohtân",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "itohtêw",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "nititohtânân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kititohtânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kititohtânânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kititohtânâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "itohtêwak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "itohtêyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "itohtâniwan",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "itohtâniwiw",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-itohtêyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-itohtêyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-itohtêt",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-itohtêyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-itohtêyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-itohtêyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-itohtêcik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-itohtêyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-itohtêhk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-itohtâniwahk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-itohtâniwik",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "itohtê",
+					},
+				],
+			},
+			{
+				primaryText: "nâtêw",
+				wordType: "Verb",
+				detailedWordType: "VTA-4",
+				descriptions: [
+					"s/he fetches s.o.",
+					"s/he goes for s.o., s/he goes to get s.o.",
+					"They leave to go get them.",
+					"He goes to get him.",
+					"s/he goes and gets her/him",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I → you (one)",
+						creeMorph: "kinâtitin",
+					},
+					{
+						semantic: "ni-/ki- word — I → him/her",
+						creeMorph: "ninâtâw",
+					},
+					{
+						semantic: "ni-/ki- word — you (one) → me",
+						creeMorph: "kinâsin",
+					},
+					{
+						semantic: "ni-/ki- word — you (one) → him/her",
+						creeMorph: "kinâtâw",
+					},
+					{
+						semantic: "ni-/ki- word — s/he → me",
+						creeMorph: "ninâtik",
+					},
+					{
+						semantic: "ni-/ki- word — s/he → you (one)",
+						creeMorph: "kinâtik",
+					},
+					{
+						semantic: "ni-/ki- word — s/he → another/others",
+						creeMorph: "nâtêw",
+					},
+					{
+						semantic: "ni-/ki- word — another/others → him/her",
+						creeMorph: "nâtik",
+					},
+					{
+						semantic: "ni-/ki- word — another/others → him/her",
+						creeMorph: "nâtikow",
+					},
+					{
+						semantic: "ê-/kâ- word — I → you (one)",
+						creeMorph: "ê-nâtitân",
+					},
+					{
+						semantic: "ê-/kâ- word — I → him/her",
+						creeMorph: "ê-nâtak",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one) → me",
+						creeMorph: "ê-nâsiyan",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one) → him/her",
+						creeMorph: "ê-nâtat",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he → me",
+						creeMorph: "ê-nâsit",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he → you (one)",
+						creeMorph: "ê-nâtisk",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he → another/others",
+						creeMorph: "ê-nâtât",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others → him/her",
+						creeMorph: "ê-nâtikot",
+					},
+					{
+						semantic: "command/request — you (one) → me",
+						creeMorph: "nâsin",
+					},
+					{
+						semantic: "command/request — you (one) → him/her",
+						creeMorph: "nâs",
+					},
+				],
+			},
+			{
+				primaryText: "sîkawîwak",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: [
+					"they go away in numbers, they evacuate a place, they leave a place empty, they leave a place exhausted, they desert a place",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "nisîkawînân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kisîkawînânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kisîkawînaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kisîkawînâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "sîkawîwak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "sîkawîyiwa",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-sîkawîyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-sîkawîyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-sîkawîyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-sîkawîcik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-sîkawîyit",
+					},
+				],
+			},
+			{
+				primaryText: "sipwê-",
+				wordType: "Noun",
+				detailedWordType: "IPV",
+				descriptions: [
+					"leaving, departing, going away",
+					"starting out, commencement",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "têpwêw",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: [
+					"(you) call now, (you) call out now, (you) shout now, (you) yell now, (you) holler now",
+					"(you) yell loudly now",
+					"(you) call loudly now. now",
+					"Yell loudly",
+					"Call loudly.",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "nitêpwân",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kitêpwân",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "têpwêw",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "nitêpwânân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kitêpwânânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kitêpwânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kitêpwânâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "têpwêwak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "têpwêyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "têpwâniwan",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "têpwâniwiw",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-têpwêyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-têpwêyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-têpwêt",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-têpwêyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-têpwêyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-têpwêyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-têpwêcik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-têpwêyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-têpwâniwik",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-têpwêhk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-têpwâniwahk",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "têpwê",
+					},
+				],
+			},
+			{
+				primaryText: "natomiwêwin",
+				wordType: "Noun",
+				detailedWordType: "NI-1",
+				descriptions: ["call, calling", "invitation"],
+				morphs: [],
+			},
+			{
+				primaryText: "masinahikan",
+				wordType: "Noun",
+				detailedWordType: "NI-1",
+				descriptions: [
+					"book",
+					"letter, mail",
+					"written document, report, paper",
+					"magazine",
+					"will",
+					"cheque, voucher",
+					"hymnbook, hymnal, Bible",
+					"A letter",
+					"Paper",
+					"a letter to someone",
+				],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "masinahikan",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "masinahikana",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "masinahikanihk",
+					},
+					{
+						semantic: "smaller — only one",
+						creeMorph: "masinahikanis",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "nimasinahikan",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kimasinahikan",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "omasinahikan",
+					},
+				],
+			},
+			{
+				primaryText: "nîkânitwêwin",
+				wordType: "Noun",
+				detailedWordType: "NI-1",
+				descriptions: ["preface, foreword of a book"],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "nîkânitwêwin",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "nîkânitwêwina",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "nîkânitwêwinihk",
+					},
+					{
+						semantic: "smaller — only one",
+						creeMorph: "nîkânicwêwinis",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "ninîkânitwêwin",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kinîkânitwêwin",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "onîkânitwêwin",
+					},
+				],
+			},
+			{
+				primaryText: "itwêstamâkêwasinahikan",
+				wordType: "Noun",
+				detailedWordType: "NI-1",
+				descriptions: [
+					'dictionary, bilingual dictionary [literally: "translating book"]',
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "wâskahikan",
+				wordType: "Noun",
+				detailedWordType: "NI-1",
+				descriptions: [
+					"house, residence, wooden house",
+					"shack",
+					"building",
+					"fort",
+					"A house",
+				],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "wâskahikan",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "wâskahikana",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "wâskahikanihk",
+					},
+					{
+						semantic: "smaller — only one",
+						creeMorph: "wâskahikanis",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "niwâskahikan",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kiwâskahikan",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "owâskahikan",
+					},
+				],
+			},
+			{
+				primaryText: "pîhtokamik",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"inside, indoors, inside a house, tent, dwelling",
+					"Inside a house",
+					"Inside a dwelling.",
+					"the interior of a building",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "kîkinaw",
+				wordType: "Noun",
+				detailedWordType: "N",
+				descriptions: ["Our house", "Our home."],
+				morphs: [],
+			},
+			{
+				primaryText: "wîkiw",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: [
+					"s/he lives there, s/he dwells there, s/he has his/her own home (there)",
+					"He lives in a house.",
+					"s/he lives or inhabits there",
+					"s/he dwells there",
+					"s/he resides there",
+					"s/he has a home there",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "niwîkin",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kiwîkin",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "wîkiw",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "niwîkinân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kiwîkinânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kiwîkinaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kiwîkinâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "wîkiwak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "wîkiyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "wîkinâniwan",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "wîkinâniwiw",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-wîkiyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-wîkiyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-wîkit",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-wîkiyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-wîkiyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-wîkiyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-wîkicik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-wîkiyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-wîkihk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-wîkinâniwik",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-wîkinâniwahk",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "wîki",
+					},
+				],
+			},
+			{
+				primaryText: "iskwâhtêm",
+				wordType: "Noun",
+				detailedWordType: "NI-1",
+				descriptions: [
+					"door, doorway, entrance to tipi or tent",
+					"opening in fence",
+					"car door",
+					"Porch.",
+				],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "iskwâhtêm",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "iskwâhtêma",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "iskwâhtêmihk",
+					},
+					{
+						semantic: "smaller — only one",
+						creeMorph: "iskwâhcêmis",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "nitiskwâhtêm",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kitiskwâhtêm",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "otiskwâhtêm",
+					},
+				],
+			},
+			{
+				primaryText: "pâhpawihtakaham",
+				wordType: "Verb",
+				detailedWordType: "VTI-1",
+				descriptions: ["s/he is knocking at s.t. (e.g. door)"],
+				morphs: [],
+			},
+			{
+				primaryText: "pâskihtêpaêiw",
+				wordType: "Verb",
+				detailedWordType: "VII-2v",
+				descriptions: ["it goes open (e.g. door)"],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — it / there is",
+						creeMorph: "pâskihtêpaêi",
+					},
+					{
+						semantic: "ni-/ki- word — they / there are",
+						creeMorph: "pâskihtêpaêiwa",
+					},
+					{
+						semantic: "ê-/kâ- word — it / there is",
+						creeMorph: "ê-pâskihtêpaêik",
+					},
+					{
+						semantic: "ê-/kâ- word — they / there are",
+						creeMorph: "ê-pâskihtêpaêiki",
+					},
+				],
+			},
+			{
+				primaryText: "kanawêyiskwâhtawêw",
+				wordType: "Noun",
+				detailedWordType: "N",
+				descriptions: ["A door keeper.", "Goalkeeper."],
+				morphs: [],
+			},
+			{
+				primaryText: "wâsênamawin",
+				wordType: "Noun",
+				detailedWordType: "N",
+				descriptions: ["A window"],
+				morphs: [],
+			},
+			{
+				primaryText: "wâsênamawinis",
+				wordType: "Noun",
+				detailedWordType: "N",
+				descriptions: ["A small window."],
+				morphs: [],
+			},
+			{
+				primaryText: "paspâpiw",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: [
+					"s/he looks out (e.g. through a window or hole)",
+					"s/he peers out through a hole, s/he peeks out through a crack",
+					"He looks out through the window.",
+					"s/he peers at the window, i.e.: looking out or in",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "nipaspâpin",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kipaspâpin",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "paspâpiw",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "nipaspâpinân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kipaspâpinaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kipaspâpinânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kipaspâpinâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "paspâpiwak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "paspâpiyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "paspâpinâniwan",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "paspâpinâniwiw",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-paspâpiyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-paspâpiyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-paspâpit",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-paspâpiyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-paspâpiyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-paspâpiyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-paspâpicik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-paspâpiyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-paspâpihk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-paspâpinâniwahk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-paspâpinâniwik",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "paspâpi",
+					},
+				],
+			},
+			{
+				primaryText: "wâsênamân",
+				wordType: "Noun",
+				detailedWordType: "NI-1",
+				descriptions: ["window"],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "wâsênamân",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "wâsênamâna",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "wâsênamânihk",
+					},
+					{
+						semantic: "smaller — only one",
+						creeMorph: "wâsênamânis",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "niwâsênamân",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kiwâsênamân",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "owâsênamân",
+					},
+				],
+			},
+			{
+				primaryText: "mîcisowinâhtik",
+				wordType: "Noun",
+				detailedWordType: "NI-3",
+				descriptions: ["table, dining table", "A table.", "His table."],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "mîcisowinâhtik",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "mîcisowinâhtikwa",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "mîcisowinâhtikohk",
+					},
+					{
+						semantic: "smaller — only one",
+						creeMorph: "mîcisowinâhcikos",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "nimîcisowinâhtik",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kimîcisowinâhtik",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "omîcisowinâhtik",
+					},
+				],
+			},
+			{
+				primaryText: "cîstahâsêpon",
+				wordType: "Noun",
+				detailedWordType: "NI-1",
+				descriptions: ["table fork"],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "cîstahâsêpon",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "cîstahâsêpona",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "cîstahâsêponihk",
+					},
+					{
+						semantic: "smaller — only one",
+						creeMorph: "cîscahâsêponis",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "nicîstahâsêpon",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kicîstahâsêpon",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "ocîstahâsêpon",
+					},
+				],
+			},
+			{
+				primaryText: "omîcisowinâhtikow",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: ["s/he has a table"],
+				morphs: [],
+			},
+			{
+				primaryText: "masinahikêwinâhtik",
+				wordType: "Noun",
+				detailedWordType: "NI-3",
+				descriptions: ["writing table, desk", "blackboard"],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "masinahikêwinâhtik",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "masinahikêwinâhtikwa",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "masinahikêwinâhtikohk",
+					},
+					{
+						semantic: "smaller — only one",
+						creeMorph: "masinahikêwinâhcikos",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "nimasinahikêwinâhtik",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kimasinahikêwinâhtik",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "omasinahikêwinâhtik",
+					},
+				],
+			},
+			{
+				primaryText: "têhtapiwin",
+				wordType: "Noun",
+				detailedWordType: "N",
+				descriptions: ["A chair."],
+				morphs: [],
+			},
+			{
+				primaryText: "têhtapiwin",
+				wordType: "Noun",
+				detailedWordType: "NI-1",
+				descriptions: ["chair, seat", "saddle"],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "têhtapiwin",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "têhtapiwina",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "têhtapiwinihk",
+					},
+					{
+						semantic: "smaller — only one",
+						creeMorph: "cêhcapiwinis",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "nitêhtapiwin",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kitêhtapiwin",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "otêhtapiwin",
+					},
+				],
+			},
+			{
+				primaryText: "cêhcapiwinis",
+				wordType: "Noun",
+				detailedWordType: "NI-1",
+				descriptions: [
+					"baby chair, highchair",
+					"little chair",
+					"wheelchair",
+				],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "cêhcapiwinis",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "cêhcapiwinisa",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "cêhcapiwinisihk",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "nicêhcapiwinis",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kicêhcapiwinis",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "ocêhcapiwinis",
+					},
+				],
+			},
+			{
+				primaryText: "apiwinis",
+				wordType: "Noun",
+				detailedWordType: "NI-1",
+				descriptions: ["seat, chair"],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "apiwinis",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "apiwinisa",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "apiwinisihk",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "nicapiwinis",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kicapiwinis",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "ocapiwinis",
+					},
+				],
+			},
+			{
+				primaryText: "waniskâw",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["He rises out of bed."],
+				morphs: [],
+			},
+			{
+				primaryText: "waniskâw",
+				wordType: "Verb",
+				detailedWordType: "VAI",
+				descriptions: ["s/he rises", "s/he gets up out of bed"],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "niwaniskân",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kiwaniskân",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "waniskâw",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "niwaniskânân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kiwaniskânânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kiwaniskânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kiwaniskânâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "waniskâwak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "waniskâyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "waniskâniwan",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "waniskâniwiw",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-waniskâyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-waniskâyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-waniskât",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-waniskâyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-waniskâyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-waniskâyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-waniskâcik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-waniskâyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-waniskâniwahk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-waniskâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-waniskâniwik",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "waniskâ",
+					},
+				],
+			},
+			{
+				primaryText: "waniskâw",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: [
+					"s/he gets up, s/he arises from lying, s/he gets out of bed",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "niwaniskân",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kiwaniskân",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "waniskâw",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "niwaniskânân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kiwaniskânânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kiwaniskânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kiwaniskânâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "waniskâwak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "waniskâyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "waniskâniwan",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "waniskâniwiw",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-waniskâyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-waniskâyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-waniskât",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-waniskâyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-waniskâyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-waniskâyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-waniskâcik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-waniskâyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-waniskâniwahk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-waniskâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-waniskâniwik",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "waniskâ",
+					},
+				],
+			},
+			{
+				primaryText: "kawisimow",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: [
+					"s/he goes to bed, s/he beds down, s/he lies down",
+					"s/he gets ready for bed",
+					"He goes to bed.",
+					"s/he retires or goes to bed",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "nikawisimon",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kikawisimon",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "kawisimow",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "nikawisimonân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kikawisimonânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kikawisimonaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kikawisimonâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "kawisimowak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "kawisimoyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "kawisimonâniwan",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "kawisimonâniwiw",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-kawisimoyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-kawisimoyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-kawisimot",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-kawisimoyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-kawisimoyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-kawisimoyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-kawisimocik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-kawisimoyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-kawisimohk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-kawisimonâniwahk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-kawisimonâniwik",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "kawisimo",
+					},
+				],
+			},
+			{
+				primaryText: "mîcisowikamik",
+				wordType: "Noun",
+				detailedWordType: "NI-3",
+				descriptions: [
+					"restaurant, café, cafeteria",
+					"dining room",
+					"a restaurant, cafe, cafeteria",
+				],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "mîcisowikamik",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "mîcisowikamikwa",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "mîcisowikamikohk",
+					},
+					{
+						semantic: "smaller — only one",
+						creeMorph: "mîcisowikamikos",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "nimîcisowikamik",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kimîcisowikamik",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "omîcisowikamik",
+					},
+				],
+			},
+			{
+				primaryText: "tawâw",
+				wordType: "Noun",
+				detailedWordType: "IPJ",
+				descriptions: ["come in, you are welcome!", "there's room"],
+				morphs: [],
+			},
+			{
+				primaryText: "têpikâpawiwin",
+				wordType: "Noun",
+				detailedWordType: "NI-1",
+				descriptions: ["standing room"],
+				morphs: [],
+			},
+			{
+				primaryText: "pêhowikamik",
+				wordType: "Noun",
+				detailedWordType: "NI-3",
+				descriptions: ["railway station", "waiting room"],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "pêhowikamik",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "pêhowikamikwa",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "pêhowikamikohk",
+					},
+					{
+						semantic: "smaller — only one",
+						creeMorph: "pêhowikamikos",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "nipêhowikamik",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kipêhowikamik",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "opêhowikamik",
+					},
+				],
+			},
+			{
+				primaryText: "otâpâsow",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: [
+					"s/he rides in a vehicle (e.g. wagon, car, sled), s/he drives a vehicle (e.g. wagon, car)",
+					"He rides.",
+					"He is riding (in a wagon).",
+					"s/he goes for a ride",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "nitôtâpâson",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kitôtâpâson",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "otâpâsow",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "nitôtâpâsonân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kitôtâpâsonaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kitôtâpâsonânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kitôtâpâsonâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "otâpâsowak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "otâpâsoyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "otâpâsonâniwan",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "otâpâsonâniwiw",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-otâpâsoyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-otâpâsoyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-otâpâsot",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-otâpâsoyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-otâpâsoyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-otâpâsoyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-otâpâsocik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-otâpâsoyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-otâpâsonâniwahk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-otâpâsohk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-otâpâsonâniwik",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "otâpâso",
+					},
+				],
+			},
+			{
+				primaryText: "pôsihêw",
+				wordType: "Verb",
+				detailedWordType: "VTA-1",
+				descriptions: [
+					"s/he gives s.o. a ride",
+					"s/he puts s.o. on board, s/he makes s.o. board (e.g. boat, vehicle, bus, airplane), s/he puts s.o. on a sleigh, s/he gives s.o. a ride on a sleigh",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I → you (one)",
+						creeMorph: "kipôsihitin",
+					},
+					{
+						semantic: "ni-/ki- word — I → him/her",
+						creeMorph: "nipôsihâw",
+					},
+					{
+						semantic: "ni-/ki- word — you (one) → me",
+						creeMorph: "kipôsihin",
+					},
+					{
+						semantic: "ni-/ki- word — you (one) → him/her",
+						creeMorph: "kipôsihâw",
+					},
+					{
+						semantic: "ni-/ki- word — s/he → me",
+						creeMorph: "nipôsihik",
+					},
+					{
+						semantic: "ni-/ki- word — s/he → you (one)",
+						creeMorph: "kipôsihik",
+					},
+					{
+						semantic: "ni-/ki- word — s/he → another/others",
+						creeMorph: "pôsihêw",
+					},
+					{
+						semantic: "ni-/ki- word — another/others → him/her",
+						creeMorph: "pôsihik",
+					},
+					{
+						semantic: "ni-/ki- word — another/others → him/her",
+						creeMorph: "pôsihikow",
+					},
+					{
+						semantic: "ê-/kâ- word — I → you (one)",
+						creeMorph: "ê-pôsihitân",
+					},
+					{
+						semantic: "ê-/kâ- word — I → him/her",
+						creeMorph: "ê-pôsihak",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one) → me",
+						creeMorph: "ê-pôsihiyan",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one) → him/her",
+						creeMorph: "ê-pôsihat",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he → me",
+						creeMorph: "ê-pôsihit",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he → you (one)",
+						creeMorph: "ê-pôsihisk",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he → another/others",
+						creeMorph: "ê-pôsihât",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others → him/her",
+						creeMorph: "ê-pôsihikot",
+					},
+					{
+						semantic: "command/request — you (one) → me",
+						creeMorph: "pôsihin",
+					},
+					{
+						semantic: "command/request — you (one) → him/her",
+						creeMorph: "pôsih",
+					},
+				],
+			},
+			{
+				primaryText: "pôsiw",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: [
+					"s/he boards, s/he gets aboard, s/he climbs in (e.g. boat, vehicle, bus, airplane), s/he embarks, s/he is aboard",
+					"s/he rides (in a vehicle), s/he rides the train",
+					"s/he mounts (e.g. horse)",
+					"He boards.",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "nipôsin",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kipôsin",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "pôsiw",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "nipôsinân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kipôsinaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kipôsinânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kipôsinâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "pôsiwak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "pôsiyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "pôsinâniwan",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "pôsinâniwiw",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-pôsiyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-pôsiyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-pôsit",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-pôsiyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-pôsiyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-pôsiyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-pôsicik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-pôsiyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-pôsinâniwik",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-pôsinâniwahk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-pôsihk",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "pôsi",
+					},
+				],
+			},
+			{
+				primaryText: "cawâsihk",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"in a small ravine, in a narrows",
+					"on the street",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "akâmi-mêskanâhkânihk",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["across the street", "across the made street"],
+				morphs: [],
+			},
+			{
+				primaryText: "cawâscêsihk",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"in a small ravine, in a narrows",
+					"on a side street",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "aêakaski-mêskanaw",
+				wordType: "Noun",
+				detailedWordType: "NI-2",
+				descriptions: ["wide road, wide street, highway"],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "aêakaski-mêskanaw",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "aêakaski-mêskanawa",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "aêakaski-mêskanâhk",
+					},
+					{
+						semantic: "smaller — only one",
+						creeMorph: "aêakaski-mêskanâs",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "nitaêakaski-mêskanaw",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kitaêakaski-mêskanaw",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "otaêakaski-mêskanaw",
+					},
+				],
+			},
+			{
+				primaryText: "ôtênâhk",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["in town, in the city", "In the city."],
+				morphs: [],
+			},
+			{
+				primaryText: "ôtênaw",
+				wordType: "Noun",
+				detailedWordType: "NI-2",
+				descriptions: ["camp circle", "town, settlement", "city"],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "ôtênaw",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "ôtênawa",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "ôtênâhk",
+					},
+					{
+						semantic: "smaller — only one",
+						creeMorph: "ôcênâs",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "nitôtênaw",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kitôtênaw",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "otôtênaw",
+					},
+				],
+			},
+			{
+				primaryText: "ôtênaw-iêiniw",
+				wordType: "Noun",
+				detailedWordType: "NI-2",
+				descriptions: [
+					"person living in a town or city, citizen of a city",
+					"[plural:] townsfolk",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "mîciwin",
+				wordType: "Noun",
+				detailedWordType: "NI-1",
+				descriptions: [
+					"food, meal",
+					"food supply",
+					"ritual food",
+					"[plural:] groceries",
+					"Food.",
+				],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "mîciwin",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "mîciwina",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "mîciwinihk",
+					},
+					{
+						semantic: "smaller — only one",
+						creeMorph: "mîciwinis",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "nimîciwin",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kimîciwin",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "omîciwin",
+					},
+				],
+			},
+			{
+				primaryText: "ê-miywâsik",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["It is good that", "It is food for"],
+				morphs: [],
+			},
+			{
+				primaryText: "kîsitêpow",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: [
+					"s/he cooks, s/he finishes cooking",
+					"s/he cooks a feast, s/he cooks ritual food",
+					"Cood food, usually for a feast.",
+					"He cooks food.",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "nikîsitêpon",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kikîsitêpon",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "kîsitêpow",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "nikîsitêponân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kikîsitêponânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kikîsitêponaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kikîsitêponâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "kîsitêpowak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "kîsitêpoyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "kîsitêponâniwan",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "kîsitêponâniwiw",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-kîsitêpoyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-kîsitêpoyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-kîsitêpot",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-kîsitêpoyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-kîsitêpoyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-kîsitêpoyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-kîsitêpocik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-kîsitêpoyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-kîsitêponâniwahk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-kîsitêpohk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-kîsitêponâniwik",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "kîsitêpo",
+					},
+				],
+			},
+			{
+				primaryText: "sôniyâw",
+				wordType: "Noun",
+				detailedWordType: "NA-2",
+				descriptions: [
+					"money, wages",
+					"gold, silver",
+					"banknote, bill",
+					"Money in large quantities.",
+					"Paper money",
+					"dollars",
+				],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "sôniyâw",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "sôniyâwak",
+					},
+					{
+						semantic: "another / others",
+						creeMorph: "sôniyâwa",
+					},
+					{
+						semantic: "smaller / younger — only one",
+						creeMorph: "sôniyâs",
+					},
+					{
+						semantic: "whose / whom something belongs to — my",
+						creeMorph: "nisôniyâm",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — your (one)",
+						creeMorph: "kisôniyâm",
+					},
+					{
+						semantic: "whose / whom something belongs to — his/her",
+						creeMorph: "osôniyâma",
+					},
+				],
+			},
+			{
+				primaryText: "sôniyâs",
+				wordType: "Noun",
+				detailedWordType: "NA-1",
+				descriptions: [
+					"money",
+					"change",
+					"coin",
+					"[singular:] quarter dollar, a quarter, twenty-five cents",
+					"a little money, some money",
+					"Money, in small quantities.",
+					"a piece of silver money, i.e.: a quarter",
+				],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "sôniyâs",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "sôniyâsak",
+					},
+					{
+						semantic: "another / others",
+						creeMorph: "sôniyâsa",
+					},
+					{
+						semantic: "whose / whom something belongs to — my",
+						creeMorph: "nisôniyâs",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — your (one)",
+						creeMorph: "kisôniyâs",
+					},
+					{
+						semantic: "whose / whom something belongs to — his/her",
+						creeMorph: "osôniyâsa",
+					},
+				],
+			},
+			{
+				primaryText: "masinahamawêw",
+				wordType: "Verb",
+				detailedWordType: "VTA-2",
+				descriptions: [
+					"s/he owes (it) to s.o., s/he owes s.o. money, s/he is in debt to s.o.",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I → you (one)",
+						creeMorph: "kimasinahamâtin",
+					},
+					{
+						semantic: "ni-/ki- word — I → him/her",
+						creeMorph: "nimasinahamawâw",
+					},
+					{
+						semantic: "ni-/ki- word — you (one) → me",
+						creeMorph: "kimasinahamawin",
+					},
+					{
+						semantic: "ni-/ki- word — you (one) → him/her",
+						creeMorph: "kimasinahamawâw",
+					},
+					{
+						semantic: "ni-/ki- word — s/he → me",
+						creeMorph: "nimasinahamâk",
+					},
+					{
+						semantic: "ni-/ki- word — s/he → you (one)",
+						creeMorph: "kimasinahamâk",
+					},
+					{
+						semantic: "ni-/ki- word — s/he → another/others",
+						creeMorph: "masinahamawêw",
+					},
+					{
+						semantic: "ni-/ki- word — another/others → him/her",
+						creeMorph: "masinahamâkow",
+					},
+					{
+						semantic: "ni-/ki- word — another/others → him/her",
+						creeMorph: "masinahamâk",
+					},
+					{
+						semantic: "ê-/kâ- word — I → you (one)",
+						creeMorph: "ê-masinahamâtân",
+					},
+					{
+						semantic: "ê-/kâ- word — I → him/her",
+						creeMorph: "ê-masinahamawak",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one) → me",
+						creeMorph: "ê-masinahamawiyan",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one) → him/her",
+						creeMorph: "ê-masinahamawat",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he → me",
+						creeMorph: "ê-masinahamawit",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he → you (one)",
+						creeMorph: "ê-masinahamâsk",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he → another/others",
+						creeMorph: "ê-masinahamawât",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others → him/her",
+						creeMorph: "ê-masinahamâkot",
+					},
+					{
+						semantic: "command/request — you (one) → me",
+						creeMorph: "masinahamawin",
+					},
+					{
+						semantic: "command/request — you (one) → him/her",
+						creeMorph: "masinahamaw",
+					},
+				],
+			},
+			{
+				primaryText: "osôniyâmiw",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: [
+					"s/he has money, s/he carries money on him/herself",
+					"s/he gets money, s/he secures a cash income",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "nitôsôniyâmin",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kitôsôniyâmin",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "osôniyâmiw",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "nitôsôniyâminân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kitôsôniyâminaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kitôsôniyâminânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kitôsôniyâminâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "osôniyâmiwak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "osôniyâmiyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "osôniyâminâniwiw",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "osôniyâminâniwan",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-osôniyâmiyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-osôniyâmiyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-osôniyâmit",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-osôniyâmiyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-osôniyâmiyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-osôniyâmiyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-osôniyâmicik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-osôniyâmiyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-osôniyâminâniwahk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-osôniyâminâniwik",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-osôniyâmihk",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "osôniyâmi",
+					},
+				],
+			},
+			{
+				primaryText: "masinahikanêkin",
+				wordType: "Noun",
+				detailedWordType: "NI-3",
+				descriptions: [
+					"paper",
+					"wrapping paper",
+					"wallpaper",
+					"tar paper roofing",
+					"paper bag",
+				],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "masinahikanêkin",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "masinahikanêkinwa",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "masinahikanêkinohk",
+					},
+					{
+						semantic: "smaller — only one",
+						creeMorph: "masinahikanêkinos",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "nimasinahikanêkin",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kimasinahikanêkin",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "omasinahikanêkin",
+					},
+				],
+			},
+			{
+				primaryText: "papakâsin",
+				wordType: "Verb",
+				detailedWordType: "VII-2n",
+				descriptions: [
+					"it is thin, it is rather thin material (e.g. cloth or paper)",
+					"It is a little thin.",
+					"it is thin",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — it / there is",
+						creeMorph: "papakâsin",
+					},
+					{
+						semantic: "ni-/ki- word — they / there are",
+						creeMorph: "papakâsinwa",
+					},
+					{
+						semantic: "ê-/kâ- word — it / there is",
+						creeMorph: "ê-papakâsik",
+					},
+					{
+						semantic: "ê-/kâ- word — they / there are",
+						creeMorph: "ê-papakâsiki",
+					},
+				],
+			},
+			{
+				primaryText: "masinahikanâhtik",
+				wordType: "Noun",
+				detailedWordType: "NA-3",
+				descriptions: ["pencil, pen", "a pencil"],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "masinahikanâhtik",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "masinahikanâhtikwak",
+					},
+					{
+						semantic: "another / others",
+						creeMorph: "masinahikanâhtikwa",
+					},
+					{
+						semantic: "smaller / younger — only one",
+						creeMorph: "masinahikanâhcikos",
+					},
+					{
+						semantic: "whose / whom something belongs to — my",
+						creeMorph: "nimasinahikanâhtik",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — your (one)",
+						creeMorph: "kimasinahikanâhtik",
+					},
+					{
+						semantic: "whose / whom something belongs to — his/her",
+						creeMorph: "omasinahikanâhtikwa",
+					},
+				],
+			},
+			{
+				primaryText: "masinahikanâpisk",
+				wordType: "Noun",
+				detailedWordType: "NA-3",
+				descriptions: ["pen"],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "masinahikanâpisk",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "masinahikanâpiskwak",
+					},
+					{
+						semantic: "another / others",
+						creeMorph: "masinahikanâpiskwa",
+					},
+					{
+						semantic: "smaller / younger — only one",
+						creeMorph: "masinahikanâpiskos",
+					},
+					{
+						semantic: "whose / whom something belongs to — my",
+						creeMorph: "nimasinahikanâpisk",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — your (one)",
+						creeMorph: "kimasinahikanâpisk",
+					},
+					{
+						semantic: "whose / whom something belongs to — his/her",
+						creeMorph: "omasinahikanâpiskwa",
+					},
+				],
+			},
+			{
+				primaryText: "masinahikanâpiskos",
+				wordType: "Noun",
+				detailedWordType: "NA-1",
+				descriptions: ["pen"],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "masinahikanâpiskos",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "masinahikanâpiskosak",
+					},
+					{
+						semantic: "another / others",
+						creeMorph: "masinahikanâpiskosa",
+					},
+					{
+						semantic: "whose / whom something belongs to — my",
+						creeMorph: "nimasinahikanâpiskos",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — your (one)",
+						creeMorph: "kimasinahikanâpiskos",
+					},
+					{
+						semantic: "whose / whom something belongs to — his/her",
+						creeMorph: "omasinahikanâpiskosa",
+					},
+				],
+			},
+			{
+				primaryText: "omasinahikanâpiskow",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: ["s/he has a pen"],
+				morphs: [],
+			},
+			{
+				primaryText: "otôtêma",
+				wordType: "Noun",
+				detailedWordType: "N",
+				descriptions: ["His friend."],
+				morphs: [],
+			},
+			{
+				primaryText: "nitôtêm",
+				wordType: "Noun",
+				detailedWordType: "NDA-1",
+				descriptions: [
+					"my friend, my kinsman",
+					"my close friend",
+					"crony",
+				],
+				morphs: [
+					{
+						semantic: "only one — my",
+						creeMorph: "nitôtêm",
+					},
+					{
+						semantic: "only one — your (one)",
+						creeMorph: "kitôtêm",
+					},
+					{
+						semantic: "only one — his/her",
+						creeMorph: "otôtêma",
+					},
+				],
+			},
+			{
+				primaryText: "niciwâ!",
+				wordType: "Noun",
+				detailedWordType: "NDA-1",
+				descriptions: [
+					"brother!",
+					"male parallel cousin!",
+					"friend!",
+					"rival! [used by a male speaker only]",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "niwîcêwâkan",
+				wordType: "Noun",
+				detailedWordType: "NDA-1",
+				descriptions: [
+					"my companion, my partner, my buddy, my friend",
+					"my housemate",
+					"my spouse",
+				],
+				morphs: [
+					{
+						semantic: "only one — my",
+						creeMorph: "niwîcêwâkan",
+					},
+					{
+						semantic: "only one — your (one)",
+						creeMorph: "kiwîcêwâkan",
+					},
+					{
+						semantic: "only one — his/her",
+						creeMorph: "owîcêwâkana",
+					},
+				],
+			},
+			{
+				primaryText: "pêyakôtêw",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: ["s/he is alone with his/her family"],
+				morphs: [],
+			},
+			{
+				primaryText: "-îtisân",
+				wordType: "Noun",
+				detailedWordType: "N",
+				descriptions: [
+					"My family member.",
+					"A blood relation",
+					"Brother or sister.",
+					"A brother",
+					"A sister.",
+					"His blood relatives.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "kâ-miêokîsihkwêw",
+				wordType: "Noun",
+				detailedWordType: "INM",
+				descriptions: ["Fineday [personal and family name]"],
+				morphs: [],
+			},
+			{
+				primaryText: "mihcêtiw",
+				wordType: "Verb",
+				detailedWordType: "VAI",
+				descriptions: ["s/he has a large family"],
+				morphs: [],
+			},
+			{
+				primaryText: "okâwiya",
+				wordType: "Noun",
+				detailedWordType: "N",
+				descriptions: ["His mother."],
+				morphs: [],
+			},
+			{
+				primaryText: "niciwâmiskwêm",
+				wordType: "Noun",
+				detailedWordType: "N",
+				descriptions: [
+					"My first cousin. Father's brother's daughter or mother's sister's daughter.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "kikâwiy",
+				wordType: "Noun",
+				detailedWordType: "Pro",
+				descriptions: ["Your mother."],
+				morphs: [],
+			},
+			{
+				primaryText: "nêkâ",
+				wordType: "Noun",
+				detailedWordType: "Pro",
+				descriptions: ["My mother (in direct audience)."],
+				morphs: [],
+			},
+			{
+				primaryText: "nôhtâwiy",
+				wordType: "Noun",
+				detailedWordType: "N",
+				descriptions: ["My father."],
+				morphs: [],
+			},
+			{
+				primaryText: "ohtâwiya",
+				wordType: "Noun",
+				detailedWordType: "N",
+				descriptions: ["His father."],
+				morphs: [],
+			},
+			{
+				primaryText: "ohtâwîmâw",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["He is the father."],
+				morphs: [],
+			},
+			{
+				primaryText: "ohtâwîmâwiw",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: ["he is a father"],
+				morphs: [],
+			},
+			{
+				primaryText: "nîtisân",
+				wordType: "Noun",
+				detailedWordType: "NDA-1",
+				descriptions: [
+					"my sibling",
+					"my sister, my brother, my half-sibling, my parallel cousin",
+					"my brother or my sister",
+					'sisters say "my brother". Var. for my brother, nîcisân',
+				],
+				morphs: [
+					{
+						semantic: "only one — my",
+						creeMorph: "nîtisân",
+					},
+					{
+						semantic: "only one — your (one)",
+						creeMorph: "kîtisân",
+					},
+					{
+						semantic: "only one — his/her",
+						creeMorph: "wîtisâna",
+					},
+				],
+			},
+			{
+				primaryText: "nitihkwatim",
+				wordType: "Noun",
+				detailedWordType: "N",
+				descriptions: [
+					"My nephew",
+					"My sister's son (from a male point of view) or",
+					"My brother's son (from a female point of view).",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "nisis",
+				wordType: "Noun",
+				detailedWordType: "NDA-1",
+				descriptions: [
+					"my uncle, my cross-uncle",
+					"my mother's brother, my maternal uncle",
+					"my father's sister's husband",
+					"my father-in-law",
+					"My uncle (My mother's brother).",
+					"my mother's brother or my maternal uncle",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "kimis",
+				wordType: "Noun",
+				detailedWordType: "Pro",
+				descriptions: ["Your older sister."],
+				morphs: [],
+			},
+			{
+				primaryText: "nitawêmâw",
+				wordType: "Noun",
+				detailedWordType: "NDA-2",
+				descriptions: [
+					"[male speaker:] my sister",
+					"my female parallel cousin, the daughter of my mother's sister, the daughter of my father's brother",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "tahkohc",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: [
+					"top, on top (e.g. of a hill, tree, snow)",
+					"above",
+					"On the top of.",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "mîtos",
+				wordType: "Noun",
+				detailedWordType: "NA-1",
+				descriptions: [
+					"tree",
+					"white poplar [Lat. Populus sp.]",
+					"aspen, trembling aspen, quaking aspen [Lat. Populus tremuloides]",
+					"a poplar tree",
+				],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "mîtos",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "mîtosak",
+					},
+					{
+						semantic: "another / others",
+						creeMorph: "mîtosa",
+					},
+					{
+						semantic: "smaller / younger — only one",
+						creeMorph: "mîcosis",
+					},
+					{
+						semantic: "whose / whom something belongs to — my",
+						creeMorph: "nimîtosim",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — your (one)",
+						creeMorph: "kimîtosim",
+					},
+					{
+						semantic: "whose / whom something belongs to — his/her",
+						creeMorph: "omîtosima",
+					},
+				],
+			},
+			{
+				primaryText: "mîtosihk",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["in the tree"],
+				morphs: [],
+			},
+			{
+				primaryText: "takwahiminânâhtik",
+				wordType: "Noun",
+				detailedWordType: "NA-3",
+				descriptions: ["chokecherry tree [Lat. Prunus virginiana]"],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "takwahiminânâhtik",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "takwahiminânâhtikwak",
+					},
+					{
+						semantic: "another / others",
+						creeMorph: "takwahiminânâhtikwa",
+					},
+					{
+						semantic: "smaller / younger — only one",
+						creeMorph: "cakwahiminânâhcikos",
+					},
+					{
+						semantic: "whose / whom something belongs to — my",
+						creeMorph: "nitakwahiminânâhtikom",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — your (one)",
+						creeMorph: "kitakwahiminânâhtikom",
+					},
+					{
+						semantic: "whose / whom something belongs to — his/her",
+						creeMorph: "otakwahiminânâhtikoma",
+					},
+				],
+			},
+			{
+				primaryText: "wâpikwaniy",
+				wordType: "Noun",
+				detailedWordType: "NI-2",
+				descriptions: [
+					"flower",
+					"wild rose flower",
+					"white flower",
+					"a flower. (Plains). Var. nepihkân (Plains)",
+					"alt. wâpikwanew (Northern)",
+				],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "wâpikwaniy",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "wâpikwaniya",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "wâpikwanîhk",
+					},
+					{
+						semantic: "smaller — only one",
+						creeMorph: "wâpikwanîs",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "niwâpikwaniy",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kiwâpikwaniy",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "owâpikwaniy",
+					},
+				],
+			},
+			{
+				primaryText: "mihkokwaniy",
+				wordType: "Noun",
+				detailedWordType: "NI-2",
+				descriptions: ["rose, red flower"],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "mihkokwaniy",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "mihkokwaniya",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "mihkokwanîhk",
+					},
+					{
+						semantic: "smaller — only one",
+						creeMorph: "mihkokwanîs",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "nimihkokwaniy",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kimihkokwaniy",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "omihkokwaniy",
+					},
+				],
+			},
+			{
+				primaryText: "maskêkopak",
+				wordType: "Noun",
+				detailedWordType: "NI",
+				descriptions: [
+					"a white flower or leaf that grows in the muskeg",
+					"an herbal tea called Labrador tea",
+				],
+				morphs: [],
+			},
+			{
+				primaryText: "wâpakwanîwin",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["It is blooming.", "It has flowers."],
+				morphs: [],
+			},
+			{
+				primaryText: "nîpiy",
+				wordType: "Noun",
+				detailedWordType: "NI-2",
+				descriptions: ["leaf", "blade of grass", "leafy branch"],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "nîpiy",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "nîpiya",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "nîpîhk",
+					},
+					{
+						semantic: "smaller — only one",
+						creeMorph: "nîpîs",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "ninîpiy",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kinîpiy",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "onîpiy",
+					},
+				],
+			},
+			{
+				primaryText: "oskaskosiy",
+				wordType: "Noun",
+				detailedWordType: "NI",
+				descriptions: ["New spring grass", "fresh grass"],
+				morphs: [],
+			},
+			{
+				primaryText: "atâmaskosîwak",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["under the grass"],
+				morphs: [],
+			},
+			{
+				primaryText: "sîpâskosîhk",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["under the grass"],
+				morphs: [],
+			},
+			{
+				primaryText: "pîsim",
+				wordType: "Noun",
+				detailedWordType: "NA-3",
+				descriptions: [
+					"Sun",
+					"Moon",
+					"celestial orb",
+					"month",
+					"A month. May also mean the sun or the moon, but in more specific terms.",
+				],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "pîsim",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "pîsimwak",
+					},
+					{
+						semantic: "another / others",
+						creeMorph: "pîsimwa",
+					},
+					{
+						semantic: "smaller / younger — only one",
+						creeMorph: "pîsimos",
+					},
+					{
+						semantic: "whose / whom something belongs to — my",
+						creeMorph: "nipîsim",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — your (one)",
+						creeMorph: "kipîsim",
+					},
+					{
+						semantic: "whose / whom something belongs to — his/her",
+						creeMorph: "opîsimwa",
+					},
+				],
+			},
+			{
+				primaryText: "nimosôm",
+				wordType: "Noun",
+				detailedWordType: "NDA-1",
+				descriptions: [
+					"your and our grandfather, your and our grandpa, your and our grand uncle",
+					"your and our",
+					"your and our respected male elder",
+					"your and our grandfather",
+					"your and our grandpa",
+					"your and our grand uncle",
+					"Our Grandfather, The Sun",
+				],
+				morphs: [
+					{
+						semantic: "only one — my",
+						creeMorph: "nimosôm",
+					},
+					{
+						semantic: "only one — your (one)",
+						creeMorph: "kimosôm",
+					},
+					{
+						semantic: "only one — his/her",
+						creeMorph: "omosôma",
+					},
+				],
+			},
+			{
+				primaryText: "pahkisimon",
+				wordType: "Verb",
+				detailedWordType: "VII-1n",
+				descriptions: ["it is sunset, the Sun sets", "it is the west"],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — it / there is",
+						creeMorph: "pahkisimon",
+					},
+					{
+						semantic: "ê-/kâ- word — it / there is",
+						creeMorph: "ê-pahkisimok",
+					},
+				],
+			},
+			{
+				primaryText: "pahkisimow",
+				wordType: "Noun",
+				detailedWordType: "N",
+				descriptions: ["The sun sets."],
+				morphs: [],
+			},
+			{
+				primaryText: "ohpahowi-pîsim",
+				wordType: "Noun",
+				detailedWordType: "NA-3",
+				descriptions: [
+					"Flying-Up Moon",
+					"August",
+					"the flying moon or month (Northern). alt. ohpahopîsim (Plains)",
+				],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "ohpahowi-pîsim",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "ohpahowi-pîsimwak",
+					},
+					{
+						semantic: "another / others",
+						creeMorph: "ohpahowi-pîsimwa",
+					},
+					{
+						semantic: "smaller / younger — only one",
+						creeMorph: "ohpahowi-pîsimos",
+					},
+					{
+						semantic: "whose / whom something belongs to — my",
+						creeMorph: "nitôhpahowi-pîsim",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — your (one)",
+						creeMorph: "kitôhpahowi-pîsim",
+					},
+					{
+						semantic: "whose / whom something belongs to — his/her",
+						creeMorph: "otôhpahowi-pîsimwa",
+					},
+				],
+			},
+			{
+				primaryText: "takwâki-pîsim",
+				wordType: "Noun",
+				detailedWordType: "NA-3",
+				descriptions: ["Autumn Moon", "September"],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "takwâki-pîsim",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "takwâki-pîsimwak",
+					},
+					{
+						semantic: "another / others",
+						creeMorph: "takwâki-pîsimwa",
+					},
+					{
+						semantic: "smaller / younger — only one",
+						creeMorph: "cakwâki-pîsimos",
+					},
+					{
+						semantic: "whose / whom something belongs to — my",
+						creeMorph: "nitakwâki-pîsim",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — your (one)",
+						creeMorph: "kitakwâki-pîsim",
+					},
+					{
+						semantic: "whose / whom something belongs to — his/her",
+						creeMorph: "otakwâki-pîsimwa",
+					},
+				],
+			},
+			{
+				primaryText: "kisê-pîsim",
+				wordType: "Noun",
+				detailedWordType: "NA-3",
+				descriptions: [
+					"January",
+					"Great Moon",
+					"Elder Moon",
+					"Cold Moon",
+					"January. The great moon.",
+				],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "kisê-pîsim",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "kisê-pîsimwak",
+					},
+					{
+						semantic: "another / others",
+						creeMorph: "kisê-pîsimwa",
+					},
+					{
+						semantic: "smaller / younger — only one",
+						creeMorph: "kisê-pîsimos",
+					},
+					{
+						semantic: "whose / whom something belongs to — my",
+						creeMorph: "nikisê-pîsim",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — your (one)",
+						creeMorph: "kikisê-pîsim",
+					},
+					{
+						semantic: "whose / whom something belongs to — his/her",
+						creeMorph: "okisê-pîsimwa",
+					},
+				],
+			},
+			{
+				primaryText: "acâhkos",
+				wordType: "Noun",
+				detailedWordType: "NA-1",
+				descriptions: ["star, little star", "A star."],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "acâhkos",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "acâhkosak",
+					},
+					{
+						semantic: "another / others",
+						creeMorph: "acâhkosa",
+					},
+					{
+						semantic: "whose / whom something belongs to — my",
+						creeMorph: "nicacâhkos",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — your (one)",
+						creeMorph: "kicacâhkos",
+					},
+					{
+						semantic: "whose / whom something belongs to — his/her",
+						creeMorph: "ocacâhkosa",
+					},
+				],
+			},
+			{
+				primaryText: "otâkwanacâhkos",
+				wordType: "Noun",
+				detailedWordType: "NA-1",
+				descriptions: [
+					"evening star",
+					"Venus (planet)",
+					"The evening star.",
+				],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "ocâkwanacâhkos",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "ocâkwanacâhkosak",
+					},
+					{
+						semantic: "another / others",
+						creeMorph: "ocâkwanacâhkosa",
+					},
+					{
+						semantic: "whose / whom something belongs to — my",
+						creeMorph: "nicôcâkwanacâhkos",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — your (one)",
+						creeMorph: "kicôcâkwanacâhkos",
+					},
+					{
+						semantic: "whose / whom something belongs to — his/her",
+						creeMorph: "ocôcâkwanacâhkosa",
+					},
+				],
+			},
+			{
+				primaryText: "atâhk",
+				wordType: "Noun",
+				detailedWordType: "NA-3",
+				descriptions: ["star, bright star", "A big bright star."],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "atâhk",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "atâhkwak",
+					},
+					{
+						semantic: "another / others",
+						creeMorph: "atâhkwa",
+					},
+					{
+						semantic: "smaller / younger — only one",
+						creeMorph: "acâhkos",
+					},
+					{
+						semantic: "whose / whom something belongs to — my",
+						creeMorph: "nitatâhk",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — your (one)",
+						creeMorph: "kitatâhk",
+					},
+					{
+						semantic: "whose / whom something belongs to — his/her",
+						creeMorph: "otatâhkwa",
+					},
+				],
+			},
+			{
+				primaryText: "apiscatâhk",
+				wordType: "Noun",
+				detailedWordType: "NA-3",
+				descriptions: ['Pluto (planet) [literally: "small star"]'],
+				morphs: [],
+			},
+			{
+				primaryText: "tipiskâw",
+				wordType: "Noun",
+				detailedWordType: "NI-2",
+				descriptions: ["night, night time", "night sky", "Night time."],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "tipiskâw",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "tipiskâwa",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "tipiskâhk",
+					},
+					{
+						semantic: "smaller — only one",
+						creeMorph: "cipiskâs",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "nitipiskâm",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kitipiskâm",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "otipiskâm",
+					},
+				],
+			},
+			{
+				primaryText: "kîsikâw",
+				wordType: "Noun",
+				detailedWordType: "NI-2",
+				descriptions: ["day, daylight", "day sky", "Day"],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "kîsikâw",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "kîsikâwa",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "kîsikâhk",
+					},
+					{
+						semantic: "smaller — only one",
+						creeMorph: "kîsikâs",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "nikîsikâm",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kikîsikâm",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "okîsikâm",
+					},
+				],
+			},
+			{
+				primaryText: "wâsêskwan",
+				wordType: "Verb",
+				detailedWordType: "VII-2n",
+				descriptions: [
+					"it is a clear day, it is sunny",
+					"it is a clear sky",
+					"it is moonlight",
+					"The sky is clearing (after a storm).",
+					"it is clear weather",
+					"the sky is clear",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — it / there is",
+						creeMorph: "wâsêskwan",
+					},
+					{
+						semantic: "ni-/ki- word — they / there are",
+						creeMorph: "wâsêskwanwa",
+					},
+					{
+						semantic: "ê-/kâ- word — it / there is",
+						creeMorph: "ê-wâsêskwahk",
+					},
+					{
+						semantic: "ê-/kâ- word — they / there are",
+						creeMorph: "ê-wâsêskwahki",
+					},
+				],
+			},
+			{
+				primaryText: "kîsikohk",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["in the sky", "in heaven", "In the heavens."],
+				morphs: [],
+			},
+			{
+				primaryText: "takwakotêw",
+				wordType: "Verb",
+				detailedWordType: "VII-2v",
+				descriptions: [
+					"it arrives across the sky (e.g. cloud)",
+					"it arrives flying",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — it / there is",
+						creeMorph: "takwakotêw",
+					},
+					{
+						semantic: "ni-/ki- word — they / there are",
+						creeMorph: "takwakotêwa",
+					},
+					{
+						semantic: "ê-/kâ- word — it / there is",
+						creeMorph: "ê-takwakotêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they / there are",
+						creeMorph: "ê-takwakotêki",
+					},
+				],
+			},
+			{
+				primaryText: "waskow",
+				wordType: "Noun",
+				detailedWordType: "NI-2",
+				descriptions: ["cloud", "skies"],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "waskow",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "waskowa",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "waskôhk",
+					},
+					{
+						semantic: "smaller — only one",
+						creeMorph: "waskôs",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "niwaskow",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kiwaskow",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "owaskow",
+					},
+				],
+			},
+			{
+				primaryText: "kisîkotêw",
+				wordType: "Verb",
+				detailedWordType: "VII-2v",
+				descriptions: [
+					"it speeds along, it moves fast (e.g. bullet)",
+					"it moves fast through the sky (e.g. cloud)",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — it / there is",
+						creeMorph: "kisîkotêw",
+					},
+					{
+						semantic: "ni-/ki- word — they / there are",
+						creeMorph: "kisîkotêwa",
+					},
+					{
+						semantic: "ê-/kâ- word — it / there is",
+						creeMorph: "ê-kisîkotêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they / there are",
+						creeMorph: "ê-kisîkotêki",
+					},
+				],
+			},
+			{
+				primaryText: "wâpânaskwan",
+				wordType: "Verb",
+				detailedWordType: "VII-2n",
+				descriptions: ["it is a white sky, there are white clouds"],
+				morphs: [],
+			},
+			{
+				primaryText: "kimiwan",
+				wordType: "Verb",
+				detailedWordType: "VII-1n",
+				descriptions: [
+					"it rains, it is raining, it is rainy",
+					"It is raining.",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — it / there is",
+						creeMorph: "kimiwan",
+					},
+					{
+						semantic: "ê-/kâ- word — it / there is",
+						creeMorph: "ê-kimiwahk",
+					},
+				],
+			},
+			{
+				primaryText: "kimiwan",
+				wordType: "Noun",
+				detailedWordType: "NI-1",
+				descriptions: ["rain"],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "kimiwan",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "kimiwana",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "kimiwanihk",
+					},
+					{
+						semantic: "smaller — only one",
+						creeMorph: "kimiwanis",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "nikimiwan",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kikimiwan",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "okimiwan",
+					},
+				],
+			},
+			{
+				primaryText: "kimiwasin",
+				wordType: "Verb",
+				detailedWordType: "VII-1n",
+				descriptions: [
+					"it rains a little, there is a little rain",
+					"it is drizzling",
+					"It rains a little.",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — it / there is",
+						creeMorph: "kimiwasin",
+					},
+					{
+						semantic: "ê-/kâ- word — it / there is",
+						creeMorph: "ê-kimiwasik",
+					},
+				],
+			},
+			{
+				primaryText: "kôna",
+				wordType: "Noun",
+				detailedWordType: "NA-4",
+				descriptions: ["snow"],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "kôna",
+					},
+					{
+						semantic: "another / others",
+						creeMorph: "kôna",
+					},
+					{
+						semantic: "smaller / younger — only one",
+						creeMorph: "kônis",
+					},
+					{
+						semantic: "whose / whom something belongs to — my",
+						creeMorph: "nikônim",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — your (one)",
+						creeMorph: "kikônim",
+					},
+					{
+						semantic: "whose / whom something belongs to — his/her",
+						creeMorph: "okônima",
+					},
+				],
+			},
+			{
+				primaryText: "pîwan",
+				wordType: "Verb",
+				detailedWordType: "VII-1n",
+				descriptions: [
+					"it drifts, it is drifting (i.e. snow)",
+					"it is a blizzard",
+					"The snow is falling heavy.",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — it / there is",
+						creeMorph: "pîwan",
+					},
+					{
+						semantic: "ê-/kâ- word — it / there is",
+						creeMorph: "ê-pîwahk",
+					},
+				],
+			},
+			{
+				primaryText: "kotawân",
+				wordType: "Noun",
+				detailedWordType: "NA-1",
+				descriptions: [
+					"campfire, bonfire, open fire",
+					"fireplace, campfire pit",
+					"A campfire.",
+				],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "kotawân",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "kotawânak",
+					},
+					{
+						semantic: "another / others",
+						creeMorph: "kotawâna",
+					},
+					{
+						semantic: "smaller / younger — only one",
+						creeMorph: "kocawânis",
+					},
+					{
+						semantic: "whose / whom something belongs to — my",
+						creeMorph: "nikotawân",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — your (one)",
+						creeMorph: "kikotawân",
+					},
+					{
+						semantic: "whose / whom something belongs to — his/her",
+						creeMorph: "okotawâna",
+					},
+				],
+			},
+			{
+				primaryText: "cîkiskotêw",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["by the fire"],
+				morphs: [],
+			},
+			{
+				primaryText: "âstawêhikêw",
+				wordType: "Verb",
+				detailedWordType: "VAI-1",
+				descriptions: [
+					"s/he extinguishes the fire",
+					"s/he fights fire, s/he fights forest fires, s/he is a firefighter",
+					"He puts the fire out by fighting it.",
+				],
+				morphs: [
+					{
+						semantic: "ni-/ki- word — I",
+						creeMorph: "nitâstawêhikân",
+					},
+					{
+						semantic: "ni-/ki- word — you (one)",
+						creeMorph: "kitâstawêhikân",
+					},
+					{
+						semantic: "ni-/ki- word — s/he",
+						creeMorph: "âstawêhikêw",
+					},
+					{
+						semantic: "ni-/ki- word — we (but not you)",
+						creeMorph: "nitâstawêhikânân",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kitâstawêhikânânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you and we",
+						creeMorph: "kitâstawêhikânaw",
+					},
+					{
+						semantic: "ni-/ki- word — you (all)",
+						creeMorph: "kitâstawêhikânâwâw",
+					},
+					{
+						semantic: "ni-/ki- word — they",
+						creeMorph: "âstawêhikêwak",
+					},
+					{
+						semantic: "ni-/ki- word — another/others",
+						creeMorph: "âstawêhikêyiwa",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "âstawêhikâniwan",
+					},
+					{
+						semantic: "ni-/ki- word — people",
+						creeMorph: "âstawêhikâniwiw",
+					},
+					{
+						semantic: "ê-/kâ- word — I",
+						creeMorph: "ê-âstawêhikêyân",
+					},
+					{
+						semantic: "ê-/kâ- word — you (one)",
+						creeMorph: "ê-âstawêhikêyan",
+					},
+					{
+						semantic: "ê-/kâ- word — s/he",
+						creeMorph: "ê-âstawêhikêt",
+					},
+					{
+						semantic: "ê-/kâ- word — we (but not you)",
+						creeMorph: "ê-âstawêhikêyâhk",
+					},
+					{
+						semantic: "ê-/kâ- word — you and we",
+						creeMorph: "ê-âstawêhikêyahk",
+					},
+					{
+						semantic: "ê-/kâ- word — you (all)",
+						creeMorph: "ê-âstawêhikêyêk",
+					},
+					{
+						semantic: "ê-/kâ- word — they",
+						creeMorph: "ê-âstawêhikêcik",
+					},
+					{
+						semantic: "ê-/kâ- word — another/others",
+						creeMorph: "ê-âstawêhikêyit",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-âstawêhikêhk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-âstawêhikâniwahk",
+					},
+					{
+						semantic: "ê-/kâ- word — people",
+						creeMorph: "ê-âstawêhikâniwik",
+					},
+					{
+						semantic: "command/request — you (one)",
+						creeMorph: "âstawêhikê",
+					},
+				],
+			},
+			{
+				primaryText: "âstawêw",
+				wordType: "Verb",
+				detailedWordType: "V",
+				descriptions: ["The fire is out."],
+				morphs: [],
+			},
+			{
+				primaryText: "akâmi-sîpîhk",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["across the river"],
+				morphs: [],
+			},
+			{
+				primaryText: "akâmi-sîpîhk",
+				wordType: "Noun",
+				detailedWordType: "N",
+				descriptions: ["Across the river"],
+				morphs: [],
+			},
+			{
+				primaryText: "sîpîsis",
+				wordType: "Noun",
+				detailedWordType: "NI-1",
+				descriptions: ["little river, creek, brook, stream", "a creek"],
+				morphs: [
+					{
+						semantic: "only one",
+						creeMorph: "sîpîsis",
+					},
+					{
+						semantic: "two or more",
+						creeMorph: "sîpîsisa",
+					},
+					{
+						semantic: "in/on/at / place",
+						creeMorph: "sîpîsisihk",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — my",
+						creeMorph: "nisîpîsis",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — your (one)",
+						creeMorph: "kisîpîsis",
+					},
+					{
+						semantic:
+							"whose / whom something belongs to — only one — his/her",
+						creeMorph: "osîpîsis",
+					},
+				],
+			},
+			{
+				primaryText: "kihcikamîhk",
+				wordType: "Noun",
+				detailedWordType: "IPC",
+				descriptions: ["in the sea"],
+				morphs: [],
+			},
+		] as CreeWord[]
+	).map((w) => [w.primaryText, w]),
+);
 
-export const itwewinaEnglishWords: EnglishWord[] = [
-	{
-		"primaryText": "time",
-		"wordType": "Noun",
-		"descriptions": [
-			"first, first of all, prior to doing anything else",
-			"for a while, for now, just a while",
-			"in the meantime",
-			"Meanwhile.",
-			"For the present time.",
-			"first",
-			"at first, before anything else",
-			"for the first time, initially, originally",
-			"At first.",
-			"The first.",
-			"the first time",
-			"initially",
-			"originally",
-			"after",
-			"another time",
-			"later",
-			"afterward",
-			"by and by",
-			"once, one time, once more",
-			"at one time",
-			"Once.",
-			"One more time.",
-			"once, one time, first time",
-			"later, see you later!"
-		],
-		"creeWords": [
-			"pitamâ",
-			"nistam",
-			"mwêstas",
-			"pêyakwâw"
-		]
-	},
-	{
-		"primaryText": "person",
-		"wordType": "Noun",
-		"descriptions": [
-			"one, person",
-			"Every person",
-			"Each person.",
-			"young person",
-			"s/he is a young person"
-		],
-		"creeWords": [
-			"aya",
-			"tahto_ayisiyiniw",
-			"oskâtis",
-			"oskâtisiw"
-		]
-	},
-	{
-		"primaryText": "year",
-		"wordType": "Noun",
-		"descriptions": [
-			"one year",
-			"for one year",
-			"one winter, for one winter",
-			"one year, for one year",
-			"in a past year, in past years",
-			"what year was it?"
-		],
-		"creeWords": [
-			"pêyak-askiy",
-			"pêyak-pipon",
-			"pêci-askiy",
-			"tânima êwako askiy"
-		]
-	},
-	{
-		"primaryText": "way",
-		"wordType": "Noun",
-		"descriptions": [
-			"so, thus, in that way",
-			"and so",
-			"right, alright",
-			"there, that's it, that is all",
-			"well",
-			"enough",
-			"later",
-			"That's it.",
-			"That's the end.",
-			"simply, indifferently",
-			"something, anything",
-			"somewhere, anywhere, at some undetermined place",
-			"anyhow",
-			"in some way",
-			"no!, no way!, not so!",
-			"start to, begin to, beginning",
-			"progressively, gradually, proceed to, going on, progressing",
-			"on the way",
-			"[in negative clauses:] anything",
-			"anything bad",
-			"[with negative presupposition:] something bad, anything bad"
-		],
-		"creeWords": [
-			"êkosi",
-			"nânitaw",
-			"mwâc",
-			"ati-"
-		]
-	},
-	{
-		"primaryText": "day",
-		"wordType": "Noun",
-		"descriptions": [
-			"the next",
-			"next time [e.g. kîhtwâm ê-kîsikâk \"the next day\", kîhtwâm ê-wâpahk \"the next morning, the next day\"]",
-			"all day, all day long, throughout the day",
-			"all day",
-			"This day",
-			"today.",
-			"the day after tomorrow"
-		],
-		"creeWords": [
-			"kîhtwâm",
-			"kapê-kîsik",
-			"anohc kâ-kîsikâk",
-			"awasi-wâpahki"
-		]
-	},
-	{
-		"primaryText": "thing",
-		"wordType": "Noun",
-		"descriptions": [
-			"something, thing",
-			"[in negative phrases:] anything, any",
-			"that, that one",
-			"That thing, there.",
-			"thing, something",
-			"entity, being",
-			"These things, here.",
-			"it is (that)",
-			"the fact that ... [focus marker]"
-		],
-		"creeWords": [
-			"kîkway",
-			"anima",
-			"kîkway",
-			"ôhi"
-		]
-	},
-	{
-		"primaryText": "world",
-		"wordType": "Noun",
-		"descriptions": [
-			"land",
-			"region, area",
-			"earth, world",
-			"settlement, colony, country",
-			"Métis colony",
-			"[plural:] fields under cultivation, pieces of farmland, the lands",
-			"a year",
-			"earth",
-			"world",
-			"country",
-			"all over the land, all over the world",
-			"all over the world",
-			"All over the world."
-		],
-		"creeWords": [
-			"askiy",
-			"askiy",
-			"misiwêskamik",
-			"misiwêskamik"
-		]
-	},
-	{
-		"primaryText": "life",
-		"wordType": "Noun",
-		"descriptions": [
-			"s/he lives, s/he makes him/herself live, s/he makes a living (from s.t.), s/he makes a life for him/herself",
-			"s/he travels",
-			"s/he makes a good living",
-			"s/he lives, s/he is alive, s/he has life",
-			"s/he survives",
-			"s/he leads his/her life",
-			"He lives.",
-			"He exists.",
-			"s/he is alive",
-			"s/he travels through life, s/he lives his/her life",
-			"travel, journey",
-			"living, way of life, livelihood, earning a living",
-			"culture",
-			"Survival.",
-			"Making a living.",
-			"the act of making a good living"
-		],
-		"creeWords": [
-			"pimâcihow",
-			"pimâtisiw",
-			"pimohtêhow",
-			"pimâcihowin"
-		]
-	},
-	{
-		"primaryText": "hand",
-		"wordType": "Noun",
-		"descriptions": [
-			"but, then",
-			"still",
-			"however, by contrast, on the other hand",
-			"But",
-			"But still.",
-			"as usual, once again, of course",
-			"and it happens again",
-			"also, on the other hand",
-			"an expression of annoyance meaning  \"it happened again\"",
-			"although, even though, in vain",
-			"on the other hand, of course, to be sure",
-			"Even though.",
-			"although",
-			"His hand."
-		],
-		"creeWords": [
-			"mâka",
-			"mâka mîna",
-			"âta",
-			"-cihciy"
-		]
-	},
-	{
-		"primaryText": "part",
-		"wordType": "Noun",
-		"descriptions": [
-			"for your part, as for you",
-			"you yourself",
-			"for my part, as for me",
-			"I myself",
-			"for his/her part, as for him/her",
-			"he himself, she herself",
-			"part, portion",
-			"not entirely",
-			"sometimes",
-			"A portion of.",
-			"A piece of."
-		],
-		"creeWords": [
-			"kiêa wiêa",
-			"niêa wiêa",
-			"wiêa wiêa",
-			"pahki"
-		]
-	},
-	{
-		"primaryText": "child",
-		"wordType": "Noun",
-		"descriptions": [
-			"my child",
-			"my fetus",
-			"s/he has a child, s/he has children, she is the mother of a child",
-			"she gives birth, she delivers",
-			"it has offspring",
-			"it has a calf (as a cow), it calves",
-			"s/he is an only child"
-		],
-		"creeWords": [
-			"nicawâsimis",
-			"nitawâsimis",
-			"otawâsimisiw",
-			"pêyakôsâniwiw"
-		]
-	},
-	{
-		"primaryText": "eye",
-		"wordType": "Noun",
-		"descriptions": [
-			"eyeglasses, glasses",
-			"goggles",
-			"His/her goggles",
-			"eye glasses",
-			"His eye.",
-			"close to the eye",
-			"His eye is twitching."
-		],
-		"creeWords": [
-			"miskîsikohkâna",
-			"oskîsik",
-			"cîkiskîsik",
-			"cihcîpâpiw"
-		]
-	},
-	{
-		"primaryText": "woman",
-		"wordType": "Noun",
-		"descriptions": [
-			"woman, female, adult female",
-			"A woman.",
-			"nurse",
-			"woman doctor",
-			"medicine woman",
-			"a medicine woman or nurse",
-			"young woman (about 14-15 years old), adolescent female",
-			"maiden",
-			"virgin",
-			"A young woman.",
-			"my wife, my woman, my female lover"
-		],
-		"creeWords": [
-			"iskwêw",
-			"maskihkîwiskwêw",
-			"oskinîkiskwêw",
-			"nitiskwêm"
-		]
-	},
-	{
-		"primaryText": "place",
-		"wordType": "Noun",
-		"descriptions": [
-			"all over, everywhere, throughout the entire place, on the whole body",
-			"All over the place.",
-			"over there, over at that place",
-			"a place in that direction",
-			"Over there.",
-			"there, right there",
-			"at that very place, at that point",
-			"at that time, then",
-			"in that way, in that respect",
-			"Right there.",
-			"there, thereabouts, over there, thither",
-			"where, wherever",
-			"Where",
-			"At what place",
-			"In what place",
-			"To what place"
-		],
-		"creeWords": [
-			"misiwê",
-			"êkotê",
-			"êkota",
-			"itê"
-		]
-	},
-	{
-		"primaryText": "work",
-		"wordType": "Noun",
-		"descriptions": [
-			"s/he works, s/he does work",
-			"All of you work later.",
-			"He works.",
-			"He challenges it",
-			"He contests it.",
-			"He is willing to work at it.",
-			"He is going to work.",
-			"They are doing the work for him or them."
-		],
-		"creeWords": [
-			"atoskêw",
-			"mâyêyihtam",
-			"ê-wî-atoskêt",
-			"atoskêstamawêwak"
-		]
-	},
-	{
-		"primaryText": "week",
-		"wordType": "Noun",
-		"descriptions": [
-			"behind, in the back, at the rear, at the back of something",
-			"last week",
-			"At the back",
-			"Behind.",
-			"in the back. (Northern). alt. nâway (Plains)",
-			"this week",
-			"one week",
-			"for one week"
-		],
-		"creeWords": [
-			"otâhk",
-			"anohc kâ-ispaêik",
-			"otâhk ispaêiw",
-			"pêyak-ayamihêwi-kîsikâw"
-		]
-	},
-	{
-		"primaryText": "case",
-		"wordType": "Noun",
-		"descriptions": [
-			"is it the case that ...?",
-			"is that so? [question marker; enclitic follows questioned element in initial position]",
-			"Question marker",
-			"if, in case",
-			"whether",
-			"If",
-			"In case.",
-			"it is (this), it is the case",
-			"the fact that",
-			"then",
-			"when",
-			"as it is, actually, indeed [focus marker]",
-			"is it not?, is it not the case?",
-			"could it be?"
-		],
-		"creeWords": [
-			"cî",
-			"kîspin",
-			"ôma",
-			"namôy cî"
-		]
-	},
-	{
-		"primaryText": "point",
-		"wordType": "Noun",
-		"descriptions": [
-			"from, from there, thence, out of",
-			"with, by means of, for the purpose of",
-			"because of, for that reason",
-			"for",
-			"from then, from that point in time",
-			"about",
-			"From",
-			"Out of",
-			"even, on top of it all, to top it all off, to cap it all, as the final touch, moreover",
-			"fittingly",
-			"coincidentally, as luck would have it",
-			"ironically",
-			"besides",
-			"to that point",
-			"But in spite of, ironically.",
-			"so far, to such a point, to such an extent",
-			"so long as, so far as, as far as, up until, until",
-			"this far",
-			"So far",
-			"Until",
-			"As far as."
-		],
-		"creeWords": [
-			"ohci",
-			"pâskac",
-			"isko"
-		]
-	},
-	{
-		"primaryText": "government",
-		"wordType": "Noun",
-		"descriptions": [
-			"government, federal government, provincial government",
-			"band council, band authorities",
-			"His law.",
-			"The laws of the government.",
-			"Indian Agent",
-			"government representative to a First Nation",
-			"A bank manager.",
-			"an indian agent or government representative to the band",
-			"The government in Ottawa."
-		],
-		"creeWords": [
-			"okimânâhk",
-			"owiyasiwêwin",
-			"sôniyâwikimâw",
-			"okimânâhk"
-		]
-	},
-	{
-		"primaryText": "company",
-		"wordType": "Noun",
-		"descriptions": [
-			"In the store.",
-			"it is (that) [focus maker]",
-			"store manager, post manager, Hudson's Bay Company factor",
-			"department store",
-			"Hudson's Bay Company store"
-		],
-		"creeWords": [
-			"atâwêwikamik",
-			"anihi",
-			"kihci-atâwêwikamikowiêiniw",
-			"kihci-atâwêwikamik"
-		]
-	},
-	{
-		"primaryText": "number",
-		"wordType": "Noun",
-		"descriptions": [
-			"many, much, lots",
-			"a good number, numerous",
-			"Many, a good number.",
-			"Numerous",
-			"many, in great quantity. (Plains). alt. okistakewi (Northern)",
-			"together",
-			"in full number of them all, all together, all together as a group",
-			"collectively, jointly",
-			"they are so many, they are as many",
-			"they number so many as a family, they have so many in their family",
-			"even, even number",
-			"all together, all together as a group"
-		],
-		"creeWords": [
-			"mihcêt",
-			"mâmawi-",
-			"ihtasiwak",
-			"nanahi"
-		]
-	},
-	{
-		"primaryText": "group",
-		"wordType": "Noun",
-		"descriptions": [
-			"together",
-			"in full number of them all, all together, all together as a group",
-			"collectively, jointly",
-			"all together, all together as a group",
-			"where all are assembled",
-			"the most, above all, beyond the rest",
-			"Altogether",
-			"As a group.",
-			"in a group"
-		],
-		"creeWords": [
-			"mâmawi-",
-			"mâmawêyas",
-			"asêya-"
-		]
-	},
-	{
-		"primaryText": "problem",
-		"wordType": "Noun",
-		"descriptions": [
-			"The act of finding a solution or a way out of a problem unexpectedly.",
-			"there is trouble, there are problems, there is a sudden difficulty"
-		],
-		"creeWords": [
-			"miskôwin",
-			"nayêhtâwipaêin"
-		]
-	},
-	{
-		"primaryText": "fact",
-		"wordType": "Noun",
-		"descriptions": [
-			"that, that one",
-			"That thing, there.",
-			"it is a fact!",
-			"oh, that one! (guy, girl)",
-			"how typical of that one",
-			"it is a fact",
-			"it is (that)",
-			"the fact that ... [focus marker]"
-		],
-		"creeWords": [
-			"tâpwê wiêa",
-			"tâpwê wiêa ani",
-			"anima"
-		]
-	},
-	{
-		"primaryText": "water",
-		"wordType": "Noun",
-		"descriptions": [
-			"His water.",
-			"Montana Reserve.",
-			"across the water or across the lake",
-			"across, on the far side",
-			"across the water, across the lake, across the river, across the slough",
-			"across land",
-			"Across a small body of water.",
-			"along the water",
-			"on the waterfront, along the shore"
-		],
-		"creeWords": [
-			"onipîm",
-			"akâmihk",
-			"akâmihk",
-			"sisonêkamîhk"
-		]
-	},
-	{
-		"primaryText": "good",
-		"wordType": "Adjective",
-		"descriptions": [
-			"away, off, from a distance",
-			"in departing, just now, since then, the last I knew",
-			"ago, back then, so long ago",
-			"gone for good, gone for the present",
-			"since",
-			"just",
-			"good",
-			"very well, very nicely, wonderfully, beautifully",
-			"oh my!, really good!",
-			"goodness gracious!",
-			"incredible!, beyond reason!",
-			"an exclamation of surprise or disappointment, i.e.: \"wow, how about that!\" or \"oh, my goodness!\"",
-			"good, nice, beautiful"
-		],
-		"creeWords": [
-			"aspin",
-			"takahki-",
-			"wâcistakâc",
-			"takahki-"
-		]
-	},
-	{
-		"primaryText": "new",
-		"wordType": "Adjective",
-		"descriptions": [
-			"it is new",
-			"fresh snow is falling",
-			"there is new or fresh snow",
-			"new, young",
-			"first, early",
-			"young, new, fresh"
-		],
-		"creeWords": [
-			"osk-âyi",
-			"mispon",
-			"oski-",
-			"oski-"
-		]
-	},
-	{
-		"primaryText": "first",
-		"wordType": "Noun",
-		"descriptions": [
-			"The front.",
-			"Ahead.",
-			"First.",
-			"First",
-			"ahead",
-			"before"
-		],
-		"creeWords": [
-			"nîkân",
-			"nîkân"
-		]
-	},
-	{
-		"primaryText": "last",
-		"wordType": "Noun",
-		"descriptions": [
-			"oh well!, it's okay!, never mind!, think nothing of it!",
-			"so what!",
-			"so much for this!",
-			"anyway, rather",
-			"let it be!, let there be no further delay!",
-			"please",
-			"let's go then!",
-			"do so",
-			"quietly",
-			"at last",
-			"A reply, meaning - Let it be. It is all right.",
-			"last night, the previous night",
-			"Last night.",
-			"last, at last, finally",
-			"to the end, to the last, at the end of it all",
-			"the last one, the last time",
-			"youngest",
-			"The last",
-			"Final",
-			"At the end of it all."
-		],
-		"creeWords": [
-			"kiyâm",
-			"tipiskohk",
-			"iskwayâc"
-		]
-	},
-	{
-		"primaryText": "long",
-		"wordType": "Adjective",
-		"descriptions": [
-			"forever",
-			"at all times, all the time, always",
-			"for a very long time",
-			"Always",
-			"Forever and ever.",
-			"At all times.",
-			"a long while",
-			"for a long time"
-		],
-		"creeWords": [
-			"kâkikê",
-			"kinwêsk"
-		]
-	},
-	{
-		"primaryText": "great",
-		"wordType": "Noun",
-		"descriptions": [
-			"much, greatly, a great deal, a lot, lots",
-			"very, very many",
-			"very much so!",
-			"A lot.",
-			"A great amount.",
-			"Much.",
-			"lots of it",
-			"great, big",
-			"chiefest, most prominent",
-			"proper, genuine",
-			"great [see: kihci-]",
-			"great, big, important, most prominent",
-			"greatly",
-			"formally"
-		],
-		"creeWords": [
-			"mistahi",
-			"kihci-",
-			"kihc-",
-			"kihc-"
-		]
-	},
-	{
-		"primaryText": "little",
-		"wordType": "Adjective",
-		"descriptions": [
-			"a little, a little bit",
-			"A few.",
-			"by comparison",
-			"better, more",
-			"before",
-			"instead, rather",
-			"somewhat, a little",
-			"Preferably.",
-			"a little, a little bit, a dab",
-			"a few",
-			"a little",
-			"a dab",
-			"below, further down, lower down, down low",
-			"low in the air",
-			"bottom",
-			"a little bit lower or below"
-		],
-		"creeWords": [
-			"apisîs",
-			"nawac",
-			"apisis",
-			"capasis"
-		]
-	},
-	{
-		"primaryText": "own",
-		"wordType": "Noun",
-		"descriptions": [
-			"One's own. Immediate.",
-			"personally, in person",
-			"own, proper",
-			"biologically close",
-			"really",
-			"s/he puts his/her own mitts on",
-			"s/he is useful in such a way, s/he is used thus, s/he is of such use",
-			"He is used for another's own convenience.",
-			"That is how he is used."
-		],
-		"creeWords": [
-			"tipiyawê",
-			"tipiêaw",
-			"postastisêw",
-			"itâpatisiw"
-		]
-	},
-	{
-		"primaryText": "other",
-		"wordType": "Noun",
-		"descriptions": [
-			"Other.",
-			"other, others",
-			"Another.",
-			"Any or some other.",
-			"One that is different from the first or present one."
-		],
-		"creeWords": [
-			"kotakak",
-			"kotaka",
-			"kotak"
-		]
-	},
-	{
-		"primaryText": "old",
-		"wordType": "Adjective",
-		"descriptions": [
-			"old",
-			"elder, old one, old person",
-			"the old",
-			"An Elder.",
-			"Her old man.",
-			"Her husband.",
-			"long ago, a long time ago, of old, in earlier days, in a golden age",
-			"previously, formerly",
-			"traditionally, for a long time"
-		],
-		"creeWords": [
-			"kayâsi-",
-			"kêhtê-aya",
-			"okisêyinîma",
-			"kayâs"
-		]
-	},
-	{
-		"primaryText": "right",
-		"wordType": "Noun",
-		"descriptions": [
-			"currently, presently, right now",
-			"at the present time, for the duration",
-			"meanwhile",
-			"while, during, in the course of, in the meantime, during the time",
-			"in the midst of",
-			"ago",
-			"Presently.",
-			"Right now.",
-			"right now, at this time, as of now",
-			"in the interval",
-			"right now, right away, at once, immediately, instantly",
-			"Right away.",
-			"At once.",
-			"Immediately.",
-			"right now",
-			"immediately. (Northern). alt. semak (Plains)",
-			"right, properly, straight, correct, in good order, neatly",
-			"by rights, as ordained by the powers",
-			"honest",
-			"Right.",
-			"Properly.",
-			"It is right.",
-			"It is proper.",
-			"It is level"
-		],
-		"creeWords": [
-			"mêkwâc",
-			"sêmâk",
-			"kwayask"
-		]
-	},
-	{
-		"primaryText": "big",
-		"wordType": "Adjective",
-		"descriptions": [
-			"only, solely, exclusively",
-			"alone in its class",
-			"must, have to, it is necessary that ...",
-			"for sure, without a doubt",
-			"it is proper that ...",
-			"Have to",
-			"Must. For sure.",
-			"Only.",
-			"Solely.",
-			"Alone in its class."
-		],
-		"creeWords": [
-			"piko",
-			"piko",
-			"piko",
-			"piko"
-		]
-	},
-	{
-		"primaryText": "high",
-		"wordType": "Noun",
-		"descriptions": [
-			"up, up above",
-			"in the air, on high, high up",
-			"upstairs",
-			"High above",
-			"Way up.",
-			"high, elevated",
-			"advanced",
-			"s/he burns so high",
-			"s/he is burning up"
-		],
-		"creeWords": [
-			"ispimihk",
-			"ispi-",
-			"iskwâskisow"
-		]
-	},
-	{
-		"primaryText": "different",
-		"wordType": "Noun",
-		"descriptions": [
-			"only later",
-			"then, later",
-			"at a different time",
-			"different, differently",
-			"different kind",
-			"strange",
-			"all kinds of things or a variety",
-			"different kinds",
-			"from one to another",
-			"Different",
-			"differently."
-		],
-		"creeWords": [
-			"pâtos",
-			"pahkân",
-			"nanâtohk",
-			"ay-âhci"
-		]
-	},
-	{
-		"primaryText": "small",
-		"wordType": "Adjective",
-		"descriptions": [
-			"small"
-		],
-		"creeWords": [
-			"apihci-",
-			"apihci-",
-			"apisîsi-",
-			"apist-"
-		]
-	},
-	{
-		"primaryText": "large",
-		"wordType": "Adjective",
-		"descriptions": [
-			"it is big, it is large, it is extensive",
-			"it is important, it is powerful",
-			"It is large.",
-			"it is big or large",
-			"s/he is big, s/he is large (in height or girth), s/he is tall",
-			"s/he is a big person, s/he is obese",
-			"Meaning large or big.",
-			"it is large (metal)"
-		],
-		"creeWords": [
-			"misâw",
-			"misikitiw",
-			"misi-",
-			"misâpiskâw"
-		]
-	},
-	{
-		"primaryText": "next",
-		"wordType": "Noun",
-		"descriptions": [
-			"the night after next",
-			"next to",
-			"after",
-			"next autumn",
-			"when it's autumn"
-		],
-		"creeWords": [
-			"awasi-tipiskâki",
-			"askoc",
-			"takwâkiki"
-		]
-	},
-	{
-		"primaryText": "early",
-		"wordType": "Noun",
-		"descriptions": [
-			"soon, quickly, as soon as possible",
-			"early",
-			"Very soon.",
-			"As early as possible.",
-			"Soon. (Plains). alt. kîyipa (Northern)",
-			"in the morning, early in the morning",
-			"this past morning",
-			"soon",
-			"ahead of time, beforehand, in advance",
-			"Ahead of time."
-		],
-		"creeWords": [
-			"wîpac",
-			"kîkisêp",
-			"kîpa",
-			"mâtayak"
-		]
-	},
-	{
-		"primaryText": "young",
-		"wordType": "Noun",
-		"descriptions": [
-			"young man, male youth, adolescent male (about 14-15 years old)",
-			"A young man.",
-			"a youth",
-			"he is a young man, he is a male youth, he is an adolescent male (about 14-15 years old)",
-			"young one, young person, young creature",
-			"[plural:] the young"
-		],
-		"creeWords": [
-			"oskinîkiw",
-			"oskinîkiw",
-			"oski-aya"
-		]
-	},
-	{
-		"primaryText": "important",
-		"wordType": "Noun",
-		"descriptions": [
-			"great, big",
-			"chiefest, most prominent",
-			"proper, genuine",
-			"great, big, important, most prominent",
-			"greatly",
-			"formally",
-			"An important day",
-			"it is strong, it is sturdy, it is firm, it is solid, it is strongly made",
-			"it is important",
-			"it is powerful, it has supernatural power",
-			"it is hard, it is difficult",
-			"It is strong.",
-			"It is strongly made.",
-			"it is strong, solid, powerful"
-		],
-		"creeWords": [
-			"kihci-",
-			"kihci-kîsikâw",
-			"sôhkan"
-		]
-	},
-	{
-		"primaryText": "few",
-		"wordType": "Noun",
-		"descriptions": [
-			"some",
-			"A few.",
-			"few",
-			"Very few."
-		],
-		"creeWords": [
-			"âtiht",
-			"cikawâsis"
-		]
-	},
-	{
-		"primaryText": "public",
-		"wordType": "Noun",
-		"descriptions": [
-			"public discussion, public discourse",
-			"the act of mentioning something to someone",
-			"those, those ones",
-			"Those people there.",
-			"secretly, in secret, stealthily, slyly, by stealth",
-			"privately, in private",
-			"Secretly.",
-			"Slyly.",
-			"some people"
-		],
-		"creeWords": [
-			"mâmiskôtamâkêwin",
-			"aniki",
-			"kîmôc",
-			"awiyakak"
-		]
-	},
-	{
-		"primaryText": "bad",
-		"wordType": "Noun",
-		"descriptions": [
-			"simply, indifferently",
-			"something, anything",
-			"somewhere, anywhere, at some undetermined place",
-			"anyhow",
-			"in some way",
-			"[in negative clauses:] anything",
-			"anything bad",
-			"Bad",
-			"Evil",
-			"Wicked.",
-			"[with negative presupposition:] something bad, anything bad",
-			"it is regrettable",
-			"that's too bad!, sad loss!",
-			"Unfortunately.",
-			"Too bad."
-		],
-		"creeWords": [
-			"nânitaw",
-			"maci-",
-			"nânitaw",
-			"wiyakâc"
-		]
-	},
-	{
-		"primaryText": "same",
-		"wordType": "Noun",
-		"descriptions": [
-			"this (previously mentioned), that one, the very one",
-			"the same one",
-			"this (previously mentioned), that one, that very one",
-			"that same one (previously mentioned)",
-			"that same one",
-			"those same ones (previously mentioned)"
-		],
-		"creeWords": [
-			"êwako",
-			"êwako",
-			"êwakw âna",
-			"êwakw ânihi"
-		]
-	},
-	{
-		"primaryText": "able",
-		"wordType": "Noun",
-		"descriptions": [
-			"able",
-			"good at, competent, practised, experienced, doing much of, skilful at, accustomed to",
-			"expert at, known as one who does something habitually, be in the habit of",
-			"well",
-			"consistently, always",
-			"good at, competent, practised, experienced, skilful at, expert at, known as one who does something habitually",
-			"s/he has the ability to do s.t., s/he is able, s/he is competent, s/he is clever, s/he is skilful",
-			"s/he prevails",
-			"s/he escapes"
-		],
-		"creeWords": [
-			"nihtâ-",
-			"nahtâ-",
-			"kaskihow"
-		]
-	},
-	{
-		"primaryText": "be",
-		"wordType": "Noun",
-		"descriptions": [
-			"Be",
-			"It happened so.",
-			"close, close by, near, nearby, near to",
-			"Near",
-			"Nearby.",
-			"To be near.",
-			"If it will be.",
-			"If it will happen that way.",
-			"He drove there.",
-			"It got to be that way.",
-			"anyway, at any rate, in any case",
-			"despite, in spite of",
-			"whatever might be thought",
-			"no doubt it is the case",
-			"At any rate.",
-			"Anyway."
-		],
-		"creeWords": [
-			"ispayin",
-			"cîki",
-			"ispayiw",
-			"misawâc"
-		]
-	},
-	{
-		"primaryText": "have",
-		"wordType": "Noun",
-		"descriptions": [
-			"He owns (something).",
-			"He is there.",
-			"You can have it.",
-			"He is through",
-			"He is finished.",
-			"He can rise now after being bedridden.",
-			"you shouldn't have ...",
-			"well, you should not have"
-		],
-		"creeWords": [
-			"ayâw",
-			"êkâ êsa"
-		]
-	},
-	{
-		"primaryText": "do",
-		"wordType": "Noun",
-		"descriptions": [
-			"don't",
-			"no",
-			"not [used in conjunct and imperative clauses]",
-			"Do not.",
-			"Can you?",
-			"Do you think you can?",
-			"Will you?",
-			"Go and get",
-			"Go and do",
-			"Go and act."
-		],
-		"creeWords": [
-			"kâwiêa",
-			"ka-kî cî",
-			"nitaw"
-		]
-	},
-	{
-		"primaryText": "say",
-		"wordType": "Noun",
-		"descriptions": [
-			"oh geez!",
-			"They say to him or them.",
-			"What?",
-			"What did you say?",
-			"I wonder, I wonder if",
-			"I believe",
-			"perhaps",
-			"I don't know"
-		],
-		"creeWords": [
-			"ay say",
-			"itêwak",
-			"âh",
-			"matwân cî"
-		]
-	},
-	{
-		"primaryText": "get",
-		"wordType": "Noun",
-		"descriptions": [
-			"He gets it for him.",
-			"go on!",
-			"go away!",
-			"get out of the way!",
-			"go on! go away! away with you! get out of the way!",
-			"Go away!",
-			"I go to get him."
-		],
-		"creeWords": [
-			"nâtamawêw",
-			"awasitik",
-			"awas",
-			"ninâtâw"
-		]
-	},
-	{
-		"primaryText": "make",
-		"wordType": "Verb",
-		"descriptions": [
-			"pretend, pretence",
-			"make believe",
-			"Make it soft.",
-			"Soften it.",
-			"Judge it.",
-			"Make a decision on it.",
-			"He makes him just so."
-		],
-		"creeWords": [
-			"âhki",
-			"yôskihtâ",
-			"wiyasiwâta",
-			"isîhêw"
-		]
-	},
-	{
-		"primaryText": "go",
-		"wordType": "Noun",
-		"descriptions": [
-			"go and, go to",
-			"engaged in",
-			"and, also",
-			"then",
-			"now",
-			"let's go!",
-			"Go.",
-			"You come along, too."
-		],
-		"creeWords": [
-			"nitawi-",
-			"êkwa",
-			"niyâ"
-		]
-	},
-	{
-		"primaryText": "know",
-		"wordType": "Noun",
-		"descriptions": [
-			"I don't know who",
-			"I wonder who",
-			"Know it."
-		],
-		"creeWords": [
-			"awîna êtikwê",
-			"kiskêyihta"
-		]
-	},
-	{
-		"primaryText": "take",
-		"wordType": "Verb",
-		"descriptions": [
-			"He takes him.",
-			"Here, take it.",
-			"s/he takes (it/them) for him/herself, s/he gets (it/them) for him/herself, s/he obtains (it/them) for him/herself",
-			"s/he steals (it/them)",
-			"s/he buys (it/them) for him/herself",
-			"He takes it for himself.",
-			"s/he unjustly appropriates it for herself/himself",
-			"easily, leisurely",
-			"taking time"
-		],
-		"creeWords": [
-			"otinêw",
-			"nah",
-			"otinamâsow",
-			"wawêhtinahk"
-		]
-	},
-	{
-		"primaryText": "see",
-		"wordType": "Verb",
-		"descriptions": [
-			"after",
-			"another time",
-			"later",
-			"afterward",
-			"by and by",
-			"come on!, let's see! [hortatory]",
-			"let me pass!",
-			"oh! yes! [discourse particle; accepting information]",
-			"Used in repetition of a verb and denotes continuous action.",
-			"Oh!",
-			"That's it, its it?",
-			"I see.",
-			"later, see you later!",
-			"[see: asê-]",
-			"Let me pass, please."
-		],
-		"creeWords": [
-			"mahti",
-			"ka",
-			"mwêstas",
-			"âsê-"
-		]
-	},
-	{
-		"primaryText": "come",
-		"wordType": "Noun",
-		"descriptions": [
-			"and, also",
-			"then",
-			"now",
-			"let's go!",
-			"come!, come here!",
-			"Come here.",
-			"come and, come to",
-			"towards, approaching",
-			"hither",
-			"thence, from there on down",
-			"[towards focus]",
-			"You come along, too."
-		],
-		"creeWords": [
-			"âstam",
-			"âstam",
-			"pê-",
-			"êkwa"
-		]
-	},
-	{
-		"primaryText": "think",
-		"wordType": "Noun",
-		"descriptions": [
-			"truly, in truth",
-			"indeed, really, for sure, certainly",
-			"duly, in due course",
-			"True",
-			"Truly",
-			"For sure",
-			"Certainly",
-			"Really.",
-			"I think, I believe",
-			"apparently, it is apparent",
-			"perhaps, maybe, probably",
-			"surely, it's very likely, to judge by appeal",
-			"Perhaps.",
-			"It is very likely.",
-			"it is apparent",
-			"it could be",
-			"I think so",
-			"perhaps, probably",
-			"Think it to be so."
-		],
-		"creeWords": [
-			"tâpwê",
-			"pakahkam",
-			"itêyihta"
-		]
-	},
-	{
-		"primaryText": "look",
-		"wordType": "Noun",
-		"descriptions": [
-			"s/he looks thus or there, s/he faces there, s/he takes a look",
-			"s/he takes aim thus or there",
-			"He takes a look.",
-			"I look.",
-			"It goes well with him.",
-			"It looks well.",
-			"Be careful.",
-			"Look after it."
-		],
-		"creeWords": [
-			"itâpiw",
-			"nitâpin",
-			"miyopayiw",
-			"nâkatêyihta"
-		]
-	},
-	{
-		"primaryText": "want",
-		"wordType": "Noun",
-		"descriptions": [
-			"s/he is hungry, s/he wants food, s/he is in need of food, s/he suffers want of food",
-			"He is hungry",
-			"want to, desire to, be determined to",
-			"lack, be short of",
-			"want, intend"
-		],
-		"creeWords": [
-			"nôhtêhkatêw",
-			"nôhtê-",
-			"wîto-"
-		]
-	},
-	{
-		"primaryText": "give",
-		"wordType": "Verb",
-		"descriptions": [
-			"That is what he is called.",
-			"He gives him a name.",
-			"Give him.",
-			"I give.",
-			"He gives him food to eat."
-		],
-		"creeWords": [
-			"isiyihkâtêw",
-			"miy",
-			"nimêkin",
-			"asâm"
-		]
-	},
-	{
-		"primaryText": "use",
-		"wordType": "Noun",
-		"descriptions": [
-			"He is using him or it.",
-			"usually, habitually, customarily, generally, always, continually",
-			"used to",
-			"Always.",
-			"Generally.",
-			"Usually. (Northern). alt. mâna (Plains)",
-			"s/he uses s.o., s/he makes use of s.o. (e.g. porcupine-quills), s/he finds s.o. useful"
-		],
-		"creeWords": [
-			"âpacihêw",
-			"mâna",
-			"âpacihêw"
-		]
-	},
-	{
-		"primaryText": "find",
-		"wordType": "Noun",
-		"descriptions": [
-			"I find him tasty.",
-			"I find it tasty.",
-			"besides, of course, in the actual outcome",
-			"in the end, in the event, in fact, come to find out, as it appeared",
-			"Because of."
-		],
-		"creeWords": [
-			"niwihkistâw",
-			"niwîhkistên",
-			"pîhtaw"
-		]
-	},
-	{
-		"primaryText": "tell",
-		"wordType": "Noun",
-		"descriptions": [
-			"(you all) tell now, (you all) tell a story now",
-			"(you all) tell news now, (you all) give an account now, (you all) make a report now, (you all) inform now, (you all) narrate now",
-			"(you all) tell your own story now",
-			"(you all) told a story now. now",
-			"All of you tell a story.",
-			"I tell him something.",
-			"I tell about it.",
-			"s/he offers an invitation to s.t.",
-			"s/he makes up his/her own mind",
-			"s/he tells others what to do",
-			"He asks others to go with him.",
-			"s/he invites someone to go along"
-		],
-		"creeWords": [
-			"âcimow",
-			"niwîhtamawâw",
-			"niwîhtên",
-			"wîsâwitam"
-		]
-	},
-	{
-		"primaryText": "ask",
-		"wordType": "Noun",
-		"descriptions": [
-			"come on!, let's see! [hortatory]",
-			"let me pass!",
-			"Let me pass, please.",
-			"Ask others to go with you.",
-			"s/he asks, s/he inquires, s/he asks people",
-			"s/he asks for s.t., s/he asks questions of people",
-			"s/he asks"
-		],
-		"creeWords": [
-			"mahti",
-			"wîsâwita",
-			"kakwêcihkêmow"
-		]
-	},
-	{
-		"primaryText": "seem",
-		"wordType": "Noun",
-		"descriptions": [
-			"like, for instance",
-			"just like, as when, as if, in the same way",
-			"it seems, seemingly, apparently, similar to",
-			"equally",
-			"Just like",
-			"As",
-			"it seems like, evidently, apparently [contrary to expectation]",
-			"it seems like",
-			"by one's sense",
-			"evidently, apparently [contrary to expectation]"
-		],
-		"creeWords": [
-			"tâpiskôc",
-			"mâni piko",
-			"mâniko"
-		]
-	},
-	{
-		"primaryText": "feel",
-		"wordType": "Noun",
-		"descriptions": [
-			"s/he feels s.o. (by hand), s/he examines s.o. by feel",
-			"s/he gropes s.o.",
-			"He feels him with the hands.",
-			"A person who feels a premonition, he may not know it but he will display behavior towards this.",
-			"He is starting to feel sick",
-			"He is starting to feel pain."
-		],
-		"creeWords": [
-			"mîskonêw",
-			"oyascikêw",
-			"mâtâhpinêw"
-		]
-	},
-	{
-		"primaryText": "try",
-		"wordType": "Noun",
-		"descriptions": [
-			"try to, attempt to",
-			"circumstances permitting, by divine grace",
-			"Try to.",
-			"Try it.",
-			"s/he tries to go (somewhere)"
-		],
-		"creeWords": [
-			"kakwê-",
-			"kakwe",
-			"kocîhtâ",
-			"itohtêw"
-		]
-	},
-	{
-		"primaryText": "leave",
-		"wordType": "Noun",
-		"descriptions": [
-			"s/he fetches s.o.",
-			"s/he goes for s.o., s/he goes to get s.o.",
-			"They leave to go get them.",
-			"He goes to get him.",
-			"s/he goes and gets her/him",
-			"they go away in numbers, they evacuate a place, they leave a place empty, they leave a place exhausted, they desert a place",
-			"leaving, departing, going away",
-			"starting out, commencement"
-		],
-		"creeWords": [
-			"nâtêw",
-			"sîkawîwak",
-			"sipwê-"
-		]
-	},
-	{
-		"primaryText": "call",
-		"wordType": "Noun",
-		"descriptions": [
-			"(you) call now, (you) call out now, (you) shout now, (you) yell now, (you) holler now",
-			"(you) yell loudly now",
-			"(you) call loudly now. now",
-			"Yell loudly",
-			"Call loudly.",
-			"call, calling",
-			"invitation"
-		],
-		"creeWords": [
-			"têpwêw",
-			"natomiwêwin"
-		]
-	},
-	{
-		"primaryText": "book",
-		"wordType": "Noun",
-		"descriptions": [
-			"book",
-			"letter, mail",
-			"written document, report, paper",
-			"magazine",
-			"will",
-			"cheque, voucher",
-			"hymnbook, hymnal, Bible",
-			"A letter",
-			"Paper",
-			"a letter to someone",
-			"preface, foreword of a book",
-			"dictionary, bilingual dictionary [literally: \"translating book\"]"
-		],
-		"creeWords": [
-			"masinahikan",
-			"nîkânitwêwin",
-			"itwêstamâkêwasinahikan"
-		]
-	},
-	{
-		"primaryText": "house",
-		"wordType": "Noun",
-		"descriptions": [
-			"house, residence, wooden house",
-			"shack",
-			"building",
-			"fort",
-			"A house",
-			"inside, indoors, inside a house, tent, dwelling",
-			"Inside a house",
-			"Inside a dwelling.",
-			"the interior of a building",
-			"Our house",
-			"Our home.",
-			"s/he lives there, s/he dwells there, s/he has his/her own home (there)",
-			"He lives in a house.",
-			"s/he lives or inhabits there",
-			"s/he dwells there",
-			"s/he resides there",
-			"s/he has a home there"
-		],
-		"creeWords": [
-			"wâskahikan",
-			"pîhtokamik",
-			"kîkinaw",
-			"wîkiw"
-		]
-	},
-	{
-		"primaryText": "door",
-		"wordType": "Noun",
-		"descriptions": [
-			"door, doorway, entrance to tipi or tent",
-			"opening in fence",
-			"car door",
-			"Porch.",
-			"s/he is knocking at s.t. (e.g. door)",
-			"it goes open (e.g. door)",
-			"A door keeper.",
-			"Goalkeeper."
-		],
-		"creeWords": [
-			"iskwâhtêm",
-			"pâhpawihtakaham",
-			"pâskihtêpaêiw",
-			"kanawêyiskwâhtawêw"
-		]
-	},
-	{
-		"primaryText": "window",
-		"wordType": "Noun",
-		"descriptions": [
-			"A window",
-			"A small window.",
-			"s/he looks out (e.g. through a window or hole)",
-			"s/he peers out through a hole, s/he peeks out through a crack",
-			"He looks out through the window.",
-			"s/he peers at the window, i.e.: looking out or in",
-			"window"
-		],
-		"creeWords": [
-			"wâsênamawin",
-			"wâsênamawinis",
-			"paspâpiw",
-			"wâsênamân"
-		]
-	},
-	{
-		"primaryText": "table",
-		"wordType": "Noun",
-		"descriptions": [
-			"table, dining table",
-			"A table.",
-			"His table.",
-			"table fork",
-			"s/he has a table",
-			"writing table, desk",
-			"blackboard"
-		],
-		"creeWords": [
-			"mîcisowinâhtik",
-			"cîstahâsêpon",
-			"omîcisowinâhtikow",
-			"masinahikêwinâhtik"
-		]
-	},
-	{
-		"primaryText": "chair",
-		"wordType": "Noun",
-		"descriptions": [
-			"A chair.",
-			"chair, seat",
-			"saddle",
-			"baby chair, highchair",
-			"little chair",
-			"wheelchair",
-			"seat, chair"
-		],
-		"creeWords": [
-			"têhtapiwin",
-			"têhtapiwin",
-			"cêhcapiwinis",
-			"apiwinis"
-		]
-	},
-	{
-		"primaryText": "bed",
-		"wordType": "Noun",
-		"descriptions": [
-			"He rises out of bed.",
-			"s/he rises",
-			"s/he gets up out of bed",
-			"s/he gets up, s/he arises from lying, s/he gets out of bed",
-			"s/he goes to bed, s/he beds down, s/he lies down",
-			"s/he gets ready for bed",
-			"He goes to bed.",
-			"s/he retires or goes to bed"
-		],
-		"creeWords": [
-			"waniskâw",
-			"waniskâw",
-			"waniskâw",
-			"kawisimow"
-		]
-	},
-	{
-		"primaryText": "room",
-		"wordType": "Noun",
-		"descriptions": [
-			"restaurant, café, cafeteria",
-			"dining room",
-			"a restaurant, cafe, cafeteria",
-			"come in, you are welcome!",
-			"there's room",
-			"standing room",
-			"railway station",
-			"waiting room"
-		],
-		"creeWords": [
-			"mîcisowikamik",
-			"tawâw",
-			"têpikâpawiwin",
-			"pêhowikamik"
-		]
-	},
-	{
-		"primaryText": "car",
-		"wordType": "Noun",
-		"descriptions": [
-			"s/he rides in a vehicle (e.g. wagon, car, sled), s/he drives a vehicle (e.g. wagon, car)",
-			"He rides.",
-			"He is riding (in a wagon).",
-			"s/he goes for a ride",
-			"s/he gives s.o. a ride",
-			"s/he puts s.o. on board, s/he makes s.o. board (e.g. boat, vehicle, bus, airplane), s/he puts s.o. on a sleigh, s/he gives s.o. a ride on a sleigh",
-			"s/he boards, s/he gets aboard, s/he climbs in (e.g. boat, vehicle, bus, airplane), s/he embarks, s/he is aboard",
-			"s/he rides (in a vehicle), s/he rides the train",
-			"s/he mounts (e.g. horse)",
-			"He boards."
-		],
-		"creeWords": [
-			"otâpâsow",
-			"pôsihêw",
-			"pôsiw"
-		]
-	},
-	{
-		"primaryText": "street",
-		"wordType": "Noun",
-		"descriptions": [
-			"in a small ravine, in a narrows",
-			"on the street",
-			"across the street",
-			"across the made street",
-			"on a side street",
-			"wide road, wide street, highway"
-		],
-		"creeWords": [
-			"cawâsihk",
-			"akâmi-mêskanâhkânihk",
-			"cawâscêsihk",
-			"aêakaski-mêskanaw"
-		]
-	},
-	{
-		"primaryText": "city",
-		"wordType": "Noun",
-		"descriptions": [
-			"in town, in the city",
-			"In the city.",
-			"camp circle",
-			"town, settlement",
-			"city",
-			"person living in a town or city, citizen of a city",
-			"[plural:] townsfolk"
-		],
-		"creeWords": [
-			"ôtênâhk",
-			"ôtênaw",
-			"ôtênaw-iêiniw"
-		]
-	},
-	{
-		"primaryText": "food",
-		"wordType": "Noun",
-		"descriptions": [
-			"food, meal",
-			"food supply",
-			"ritual food",
-			"[plural:] groceries",
-			"Food.",
-			"It is good that",
-			"It is food for",
-			"s/he cooks, s/he finishes cooking",
-			"s/he cooks a feast, s/he cooks ritual food",
-			"Cood food, usually for a feast.",
-			"He cooks food."
-		],
-		"creeWords": [
-			"mîciwin",
-			"ê-miywâsik",
-			"kîsitêpow"
-		]
-	},
-	{
-		"primaryText": "money",
-		"wordType": "Noun",
-		"descriptions": [
-			"money, wages",
-			"gold, silver",
-			"banknote, bill",
-			"Money in large quantities.",
-			"Paper money",
-			"dollars",
-			"money",
-			"change",
-			"coin",
-			"[singular:] quarter dollar, a quarter, twenty-five cents",
-			"a little money, some money",
-			"Money, in small quantities.",
-			"a piece of silver money, i.e.: a quarter",
-			"s/he owes (it) to s.o., s/he owes s.o. money, s/he is in debt to s.o.",
-			"s/he has money, s/he carries money on him/herself",
-			"s/he gets money, s/he secures a cash income"
-		],
-		"creeWords": [
-			"sôniyâw",
-			"sôniyâs",
-			"masinahamawêw",
-			"osôniyâmiw"
-		]
-	},
-	{
-		"primaryText": "paper",
-		"wordType": "Noun",
-		"descriptions": [
-			"paper",
-			"wrapping paper",
-			"wallpaper",
-			"tar paper roofing",
-			"paper bag",
-			"it is thin, it is rather thin material (e.g. cloth or paper)",
-			"It is a little thin.",
-			"it is thin"
-		],
-		"creeWords": [
-			"masinahikanêkin",
-			"papakâsin"
-		]
-	},
-	{
-		"primaryText": "pen",
-		"wordType": "Noun",
-		"descriptions": [
-			"pencil, pen",
-			"a pencil",
-			"pen",
-			"s/he has a pen"
-		],
-		"creeWords": [
-			"masinahikanâhtik",
-			"masinahikanâpisk",
-			"masinahikanâpiskos",
-			"omasinahikanâpiskow"
-		]
-	},
-	{
-		"primaryText": "friend",
-		"wordType": "Noun",
-		"descriptions": [
-			"His friend.",
-			"my friend, my kinsman",
-			"my close friend",
-			"crony",
-			"brother!",
-			"male parallel cousin!",
-			"friend!",
-			"rival! [used by a male speaker only]",
-			"my companion, my partner, my buddy, my friend",
-			"my housemate",
-			"my spouse"
-		],
-		"creeWords": [
-			"otôtêma",
-			"nitôtêm",
-			"niciwâ!",
-			"niwîcêwâkan"
-		]
-	},
-	{
-		"primaryText": "family",
-		"wordType": "Noun",
-		"descriptions": [
-			"s/he is alone with his/her family",
-			"My family member.",
-			"A blood relation",
-			"Brother or sister.",
-			"A brother",
-			"A sister.",
-			"His blood relatives.",
-			"Fineday [personal and family name]",
-			"s/he has a large family"
-		],
-		"creeWords": [
-			"pêyakôtêw",
-			"-îtisân",
-			"kâ-miêokîsihkwêw",
-			"mihcêtiw"
-		]
-	},
-	{
-		"primaryText": "mother",
-		"wordType": "Noun",
-		"descriptions": [
-			"His mother.",
-			"My first cousin. Father's brother's daughter or mother's sister's daughter.",
-			"Your mother.",
-			"My mother (in direct audience)."
-		],
-		"creeWords": [
-			"okâwiya",
-			"niciwâmiskwêm",
-			"kikâwiy",
-			"nêkâ"
-		]
-	},
-	{
-		"primaryText": "father",
-		"wordType": "Noun",
-		"descriptions": [
-			"My father.",
-			"His father.",
-			"He is the father.",
-			"he is a father"
-		],
-		"creeWords": [
-			"nôhtâwiy",
-			"ohtâwiya",
-			"ohtâwîmâw",
-			"ohtâwîmâwiw"
-		]
-	},
-	{
-		"primaryText": "brother",
-		"wordType": "Noun",
-		"descriptions": [
-			"my sibling",
-			"my sister, my brother, my half-sibling, my parallel cousin",
-			"my brother or my sister",
-			"sisters say \"my brother\". Var. for my brother, nîcisân",
-			"My nephew",
-			"My sister's son (from a male point of view) or",
-			"My brother's son (from a female point of view).",
-			"my uncle, my cross-uncle",
-			"my mother's brother, my maternal uncle",
-			"my father's sister's husband",
-			"my father-in-law",
-			"My uncle (My mother's brother).",
-			"my mother's brother or my maternal uncle"
-		],
-		"creeWords": [
-			"nîtisân",
-			"nitihkwatim",
-			"nisis"
-		]
-	},
-	{
-		"primaryText": "sister",
-		"wordType": "Noun",
-		"descriptions": [
-			"Your older sister.",
-			"[male speaker:] my sister",
-			"my female parallel cousin, the daughter of my mother's sister, the daughter of my father's brother"
-		],
-		"creeWords": [
-			"kimis",
-			"nitawêmâw"
-		]
-	},
-	{
-		"primaryText": "tree",
-		"wordType": "Noun",
-		"descriptions": [
-			"top, on top (e.g. of a hill, tree, snow)",
-			"above",
-			"On the top of.",
-			"tree",
-			"white poplar [Lat. Populus sp.]",
-			"aspen, trembling aspen, quaking aspen [Lat. Populus tremuloides]",
-			"a poplar tree",
-			"in the tree",
-			"chokecherry tree [Lat. Prunus virginiana]"
-		],
-		"creeWords": [
-			"tahkohc",
-			"mîtos",
-			"mîtosihk",
-			"takwahiminânâhtik"
-		]
-	},
-	{
-		"primaryText": "flower",
-		"wordType": "Noun",
-		"descriptions": [
-			"flower",
-			"wild rose flower",
-			"white flower",
-			"a flower. (Plains). Var. nepihkân (Plains)",
-			"alt. wâpikwanew (Northern)",
-			"rose, red flower",
-			"a white flower or leaf that grows in the muskeg",
-			"an herbal tea called Labrador tea",
-			"It is blooming.",
-			"It has flowers."
-		],
-		"creeWords": [
-			"wâpikwaniy",
-			"mihkokwaniy",
-			"maskêkopak",
-			"wâpakwanîwin"
-		]
-	},
-	{
-		"primaryText": "grass",
-		"wordType": "Noun",
-		"descriptions": [
-			"leaf",
-			"blade of grass",
-			"leafy branch",
-			"New spring grass",
-			"fresh grass",
-			"under the grass"
-		],
-		"creeWords": [
-			"nîpiy",
-			"oskaskosiy",
-			"atâmaskosîwak",
-			"sîpâskosîhk"
-		]
-	},
-	{
-		"primaryText": "sun",
-		"wordType": "Noun",
-		"descriptions": [
-			"Sun",
-			"Moon",
-			"celestial orb",
-			"month",
-			"A month. May also mean the sun or the moon, but in more specific terms.",
-			"your and our grandfather, your and our grandpa, your and our grand uncle",
-			"your and our",
-			"your and our respected male elder",
-			"your and our grandfather",
-			"your and our grandpa",
-			"your and our grand uncle",
-			"Our Grandfather, The Sun",
-			"it is sunset, the Sun sets",
-			"it is the west",
-			"The sun sets."
-		],
-		"creeWords": [
-			"pîsim",
-			"nimosôm",
-			"pahkisimon",
-			"pahkisimow"
-		]
-	},
-	{
-		"primaryText": "moon",
-		"wordType": "Noun",
-		"descriptions": [
-			"Flying-Up Moon",
-			"August",
-			"the flying moon or month (Northern). alt. ohpahopîsim (Plains)",
-			"Autumn Moon",
-			"September",
-			"January",
-			"Great Moon",
-			"Elder Moon",
-			"Cold Moon",
-			"January. The great moon."
-		],
-		"creeWords": [
-			"ohpahowi-pîsim",
-			"takwâki-pîsim",
-			"kisê-pîsim"
-		]
-	},
-	{
-		"primaryText": "star",
-		"wordType": "Noun",
-		"descriptions": [
-			"star, little star",
-			"A star.",
-			"evening star",
-			"Venus (planet)",
-			"The evening star.",
-			"star, bright star",
-			"A big bright star.",
-			"Pluto (planet) [literally: \"small star\"]"
-		],
-		"creeWords": [
-			"acâhkos",
-			"otâkwanacâhkos",
-			"atâhk",
-			"apiscatâhk"
-		]
-	},
-	{
-		"primaryText": "sky",
-		"wordType": "Noun",
-		"descriptions": [
-			"night, night time",
-			"night sky",
-			"Night time.",
-			"day, daylight",
-			"day sky",
-			"Day",
-			"it is a clear day, it is sunny",
-			"it is a clear sky",
-			"it is moonlight",
-			"The sky is clearing (after a storm).",
-			"it is clear weather",
-			"the sky is clear",
-			"in the sky",
-			"in heaven",
-			"In the heavens."
-		],
-		"creeWords": [
-			"tipiskâw",
-			"kîsikâw",
-			"wâsêskwan",
-			"kîsikohk"
-		]
-	},
-	{
-		"primaryText": "cloud",
-		"wordType": "Noun",
-		"descriptions": [
-			"it arrives across the sky (e.g. cloud)",
-			"it arrives flying",
-			"cloud",
-			"skies",
-			"it speeds along, it moves fast (e.g. bullet)",
-			"it moves fast through the sky (e.g. cloud)",
-			"it is a white sky, there are white clouds"
-		],
-		"creeWords": [
-			"takwakotêw",
-			"waskow",
-			"kisîkotêw",
-			"wâpânaskwan"
-		]
-	},
-	{
-		"primaryText": "rain",
-		"wordType": "Noun",
-		"descriptions": [
-			"it rains, it is raining, it is rainy",
-			"It is raining.",
-			"rain",
-			"it rains a little, there is a little rain",
-			"it is drizzling",
-			"It rains a little."
-		],
-		"creeWords": [
-			"kimiwan",
-			"kimiwan",
-			"kimiwasin"
-		]
-	},
-	{
-		"primaryText": "snow",
-		"wordType": "Noun",
-		"descriptions": [
-			"snow",
-			"it drifts, it is drifting (i.e. snow)",
-			"it is a blizzard",
-			"The snow is falling heavy."
-		],
-		"creeWords": [
-			"kôna",
-			"pîwan"
-		]
-	},
-	{
-		"primaryText": "fire",
-		"wordType": "Noun",
-		"descriptions": [
-			"campfire, bonfire, open fire",
-			"fireplace, campfire pit",
-			"A campfire.",
-			"by the fire",
-			"s/he extinguishes the fire",
-			"s/he fights fire, s/he fights forest fires, s/he is a firefighter",
-			"He puts the fire out by fighting it.",
-			"The fire is out."
-		],
-		"creeWords": [
-			"kotawân",
-			"cîkiskotêw",
-			"âstawêhikêw",
-			"âstawêw"
-		]
-	},
-	{
-		"primaryText": "river",
-		"wordType": "Noun",
-		"descriptions": [
-			"across the river",
-			"Across the river",
-			"little river, creek, brook, stream",
-			"a creek"
-		],
-		"creeWords": [
-			"akâmi-sîpîhk",
-			"akâmi-sîpîhk",
-			"sîpîsis"
-		]
-	},
-	{
-		"primaryText": "sea",
-		"wordType": "Noun",
-		"descriptions": [
-			"in the sea"
-		],
-		"creeWords": [
-			"kihcikamîhk"
-		]
-	}
-];
+export const englishWords: Record<string, EnglishWord> = Object.fromEntries(
+	(
+		[
+			{
+				primaryText: "time",
+				wordType: "Noun",
+				descriptions: [
+					"first, first of all, prior to doing anything else",
+					"for a while, for now, just a while",
+					"in the meantime",
+					"Meanwhile.",
+					"For the present time.",
+					"first",
+					"at first, before anything else",
+					"for the first time, initially, originally",
+					"At first.",
+					"The first.",
+					"the first time",
+					"initially",
+					"originally",
+					"after",
+					"another time",
+					"later",
+					"afterward",
+					"by and by",
+					"once, one time, once more",
+					"at one time",
+					"Once.",
+					"One more time.",
+					"once, one time, first time",
+					"later, see you later!",
+				],
+				creeWords: ["pitamâ", "nistam", "mwêstas", "pêyakwâw"],
+			},
+			{
+				primaryText: "person",
+				wordType: "Noun",
+				descriptions: [
+					"one, person",
+					"Every person",
+					"Each person.",
+					"young person",
+					"s/he is a young person",
+				],
+				creeWords: ["aya", "tahto_ayisiyiniw", "oskâtis", "oskâtisiw"],
+			},
+			{
+				primaryText: "year",
+				wordType: "Noun",
+				descriptions: [
+					"one year",
+					"for one year",
+					"one winter, for one winter",
+					"one year, for one year",
+					"in a past year, in past years",
+					"what year was it?",
+				],
+				creeWords: [
+					"pêyak-askiy",
+					"pêyak-pipon",
+					"pêci-askiy",
+					"tânima êwako askiy",
+				],
+			},
+			{
+				primaryText: "way",
+				wordType: "Noun",
+				descriptions: [
+					"so, thus, in that way",
+					"and so",
+					"right, alright",
+					"there, that's it, that is all",
+					"well",
+					"enough",
+					"later",
+					"That's it.",
+					"That's the end.",
+					"simply, indifferently",
+					"something, anything",
+					"somewhere, anywhere, at some undetermined place",
+					"anyhow",
+					"in some way",
+					"no!, no way!, not so!",
+					"start to, begin to, beginning",
+					"progressively, gradually, proceed to, going on, progressing",
+					"on the way",
+					"[in negative clauses:] anything",
+					"anything bad",
+					"[with negative presupposition:] something bad, anything bad",
+				],
+				creeWords: ["êkosi", "nânitaw", "mwâc", "ati-"],
+			},
+			{
+				primaryText: "day",
+				wordType: "Noun",
+				descriptions: [
+					"the next",
+					'next time [e.g. kîhtwâm ê-kîsikâk "the next day", kîhtwâm ê-wâpahk "the next morning, the next day"]',
+					"all day, all day long, throughout the day",
+					"all day",
+					"This day",
+					"today.",
+					"the day after tomorrow",
+				],
+				creeWords: [
+					"kîhtwâm",
+					"kapê-kîsik",
+					"anohc kâ-kîsikâk",
+					"awasi-wâpahki",
+				],
+			},
+			{
+				primaryText: "thing",
+				wordType: "Noun",
+				descriptions: [
+					"something, thing",
+					"[in negative phrases:] anything, any",
+					"that, that one",
+					"That thing, there.",
+					"thing, something",
+					"entity, being",
+					"These things, here.",
+					"it is (that)",
+					"the fact that ... [focus marker]",
+				],
+				creeWords: ["kîkway", "anima", "kîkway", "ôhi"],
+			},
+			{
+				primaryText: "world",
+				wordType: "Noun",
+				descriptions: [
+					"land",
+					"region, area",
+					"earth, world",
+					"settlement, colony, country",
+					"Métis colony",
+					"[plural:] fields under cultivation, pieces of farmland, the lands",
+					"a year",
+					"earth",
+					"world",
+					"country",
+					"all over the land, all over the world",
+					"all over the world",
+					"All over the world.",
+				],
+				creeWords: ["askiy", "askiy", "misiwêskamik", "misiwêskamik"],
+			},
+			{
+				primaryText: "life",
+				wordType: "Noun",
+				descriptions: [
+					"s/he lives, s/he makes him/herself live, s/he makes a living (from s.t.), s/he makes a life for him/herself",
+					"s/he travels",
+					"s/he makes a good living",
+					"s/he lives, s/he is alive, s/he has life",
+					"s/he survives",
+					"s/he leads his/her life",
+					"He lives.",
+					"He exists.",
+					"s/he is alive",
+					"s/he travels through life, s/he lives his/her life",
+					"travel, journey",
+					"living, way of life, livelihood, earning a living",
+					"culture",
+					"Survival.",
+					"Making a living.",
+					"the act of making a good living",
+				],
+				creeWords: [
+					"pimâcihow",
+					"pimâtisiw",
+					"pimohtêhow",
+					"pimâcihowin",
+				],
+			},
+			{
+				primaryText: "hand",
+				wordType: "Noun",
+				descriptions: [
+					"but, then",
+					"still",
+					"however, by contrast, on the other hand",
+					"But",
+					"But still.",
+					"as usual, once again, of course",
+					"and it happens again",
+					"also, on the other hand",
+					'an expression of annoyance meaning  "it happened again"',
+					"although, even though, in vain",
+					"on the other hand, of course, to be sure",
+					"Even though.",
+					"although",
+					"His hand.",
+				],
+				creeWords: ["mâka", "mâka mîna", "âta", "-cihciy"],
+			},
+			{
+				primaryText: "part",
+				wordType: "Noun",
+				descriptions: [
+					"for your part, as for you",
+					"you yourself",
+					"for my part, as for me",
+					"I myself",
+					"for his/her part, as for him/her",
+					"he himself, she herself",
+					"part, portion",
+					"not entirely",
+					"sometimes",
+					"A portion of.",
+					"A piece of.",
+				],
+				creeWords: ["kiêa wiêa", "niêa wiêa", "wiêa wiêa", "pahki"],
+			},
+			{
+				primaryText: "child",
+				wordType: "Noun",
+				descriptions: [
+					"my child",
+					"my fetus",
+					"s/he has a child, s/he has children, she is the mother of a child",
+					"she gives birth, she delivers",
+					"it has offspring",
+					"it has a calf (as a cow), it calves",
+					"s/he is an only child",
+				],
+				creeWords: [
+					"nicawâsimis",
+					"nitawâsimis",
+					"otawâsimisiw",
+					"pêyakôsâniwiw",
+				],
+			},
+			{
+				primaryText: "eye",
+				wordType: "Noun",
+				descriptions: [
+					"eyeglasses, glasses",
+					"goggles",
+					"His/her goggles",
+					"eye glasses",
+					"His eye.",
+					"close to the eye",
+					"His eye is twitching.",
+				],
+				creeWords: [
+					"miskîsikohkâna",
+					"oskîsik",
+					"cîkiskîsik",
+					"cihcîpâpiw",
+				],
+			},
+			{
+				primaryText: "woman",
+				wordType: "Noun",
+				descriptions: [
+					"woman, female, adult female",
+					"A woman.",
+					"nurse",
+					"woman doctor",
+					"medicine woman",
+					"a medicine woman or nurse",
+					"young woman (about 14-15 years old), adolescent female",
+					"maiden",
+					"virgin",
+					"A young woman.",
+					"my wife, my woman, my female lover",
+				],
+				creeWords: [
+					"iskwêw",
+					"maskihkîwiskwêw",
+					"oskinîkiskwêw",
+					"nitiskwêm",
+				],
+			},
+			{
+				primaryText: "place",
+				wordType: "Noun",
+				descriptions: [
+					"all over, everywhere, throughout the entire place, on the whole body",
+					"All over the place.",
+					"over there, over at that place",
+					"a place in that direction",
+					"Over there.",
+					"there, right there",
+					"at that very place, at that point",
+					"at that time, then",
+					"in that way, in that respect",
+					"Right there.",
+					"there, thereabouts, over there, thither",
+					"where, wherever",
+					"Where",
+					"At what place",
+					"In what place",
+					"To what place",
+				],
+				creeWords: ["misiwê", "êkotê", "êkota", "itê"],
+			},
+			{
+				primaryText: "work",
+				wordType: "Noun",
+				descriptions: [
+					"s/he works, s/he does work",
+					"All of you work later.",
+					"He works.",
+					"He challenges it",
+					"He contests it.",
+					"He is willing to work at it.",
+					"He is going to work.",
+					"They are doing the work for him or them.",
+				],
+				creeWords: [
+					"atoskêw",
+					"mâyêyihtam",
+					"ê-wî-atoskêt",
+					"atoskêstamawêwak",
+				],
+			},
+			{
+				primaryText: "week",
+				wordType: "Noun",
+				descriptions: [
+					"behind, in the back, at the rear, at the back of something",
+					"last week",
+					"At the back",
+					"Behind.",
+					"in the back. (Northern). alt. nâway (Plains)",
+					"this week",
+					"one week",
+					"for one week",
+				],
+				creeWords: [
+					"otâhk",
+					"anohc kâ-ispaêik",
+					"otâhk ispaêiw",
+					"pêyak-ayamihêwi-kîsikâw",
+				],
+			},
+			{
+				primaryText: "case",
+				wordType: "Noun",
+				descriptions: [
+					"is it the case that ...?",
+					"is that so? [question marker; enclitic follows questioned element in initial position]",
+					"Question marker",
+					"if, in case",
+					"whether",
+					"If",
+					"In case.",
+					"it is (this), it is the case",
+					"the fact that",
+					"then",
+					"when",
+					"as it is, actually, indeed [focus marker]",
+					"is it not?, is it not the case?",
+					"could it be?",
+				],
+				creeWords: ["cî", "kîspin", "ôma", "namôy cî"],
+			},
+			{
+				primaryText: "point",
+				wordType: "Noun",
+				descriptions: [
+					"from, from there, thence, out of",
+					"with, by means of, for the purpose of",
+					"because of, for that reason",
+					"for",
+					"from then, from that point in time",
+					"about",
+					"From",
+					"Out of",
+					"even, on top of it all, to top it all off, to cap it all, as the final touch, moreover",
+					"fittingly",
+					"coincidentally, as luck would have it",
+					"ironically",
+					"besides",
+					"to that point",
+					"But in spite of, ironically.",
+					"so far, to such a point, to such an extent",
+					"so long as, so far as, as far as, up until, until",
+					"this far",
+					"So far",
+					"Until",
+					"As far as.",
+				],
+				creeWords: ["ohci", "pâskac", "isko"],
+			},
+			{
+				primaryText: "government",
+				wordType: "Noun",
+				descriptions: [
+					"government, federal government, provincial government",
+					"band council, band authorities",
+					"His law.",
+					"The laws of the government.",
+					"Indian Agent",
+					"government representative to a First Nation",
+					"A bank manager.",
+					"an indian agent or government representative to the band",
+					"The government in Ottawa.",
+				],
+				creeWords: [
+					"okimânâhk",
+					"owiyasiwêwin",
+					"sôniyâwikimâw",
+					"okimânâhk",
+				],
+			},
+			{
+				primaryText: "company",
+				wordType: "Noun",
+				descriptions: [
+					"In the store.",
+					"it is (that) [focus maker]",
+					"store manager, post manager, Hudson's Bay Company factor",
+					"department store",
+					"Hudson's Bay Company store",
+				],
+				creeWords: [
+					"atâwêwikamik",
+					"anihi",
+					"kihci-atâwêwikamikowiêiniw",
+					"kihci-atâwêwikamik",
+				],
+			},
+			{
+				primaryText: "number",
+				wordType: "Noun",
+				descriptions: [
+					"many, much, lots",
+					"a good number, numerous",
+					"Many, a good number.",
+					"Numerous",
+					"many, in great quantity. (Plains). alt. okistakewi (Northern)",
+					"together",
+					"in full number of them all, all together, all together as a group",
+					"collectively, jointly",
+					"they are so many, they are as many",
+					"they number so many as a family, they have so many in their family",
+					"even, even number",
+					"all together, all together as a group",
+				],
+				creeWords: ["mihcêt", "mâmawi-", "ihtasiwak", "nanahi"],
+			},
+			{
+				primaryText: "group",
+				wordType: "Noun",
+				descriptions: [
+					"together",
+					"in full number of them all, all together, all together as a group",
+					"collectively, jointly",
+					"all together, all together as a group",
+					"where all are assembled",
+					"the most, above all, beyond the rest",
+					"Altogether",
+					"As a group.",
+					"in a group",
+				],
+				creeWords: ["mâmawi-", "mâmawêyas", "asêya-"],
+			},
+			{
+				primaryText: "problem",
+				wordType: "Noun",
+				descriptions: [
+					"The act of finding a solution or a way out of a problem unexpectedly.",
+					"there is trouble, there are problems, there is a sudden difficulty",
+				],
+				creeWords: ["miskôwin", "nayêhtâwipaêin"],
+			},
+			{
+				primaryText: "fact",
+				wordType: "Noun",
+				descriptions: [
+					"that, that one",
+					"That thing, there.",
+					"it is a fact!",
+					"oh, that one! (guy, girl)",
+					"how typical of that one",
+					"it is a fact",
+					"it is (that)",
+					"the fact that ... [focus marker]",
+				],
+				creeWords: ["tâpwê wiêa", "tâpwê wiêa ani", "anima"],
+			},
+			{
+				primaryText: "water",
+				wordType: "Noun",
+				descriptions: [
+					"His water.",
+					"Montana Reserve.",
+					"across the water or across the lake",
+					"across, on the far side",
+					"across the water, across the lake, across the river, across the slough",
+					"across land",
+					"Across a small body of water.",
+					"along the water",
+					"on the waterfront, along the shore",
+				],
+				creeWords: ["onipîm", "akâmihk", "akâmihk", "sisonêkamîhk"],
+			},
+			{
+				primaryText: "good",
+				wordType: "Adjective",
+				descriptions: [
+					"away, off, from a distance",
+					"in departing, just now, since then, the last I knew",
+					"ago, back then, so long ago",
+					"gone for good, gone for the present",
+					"since",
+					"just",
+					"good",
+					"very well, very nicely, wonderfully, beautifully",
+					"oh my!, really good!",
+					"goodness gracious!",
+					"incredible!, beyond reason!",
+					'an exclamation of surprise or disappointment, i.e.: "wow, how about that!" or "oh, my goodness!"',
+					"good, nice, beautiful",
+				],
+				creeWords: ["aspin", "takahki-", "wâcistakâc", "takahki-"],
+			},
+			{
+				primaryText: "new",
+				wordType: "Adjective",
+				descriptions: [
+					"it is new",
+					"fresh snow is falling",
+					"there is new or fresh snow",
+					"new, young",
+					"first, early",
+					"young, new, fresh",
+				],
+				creeWords: ["osk-âyi", "mispon", "oski-", "oski-"],
+			},
+			{
+				primaryText: "first",
+				wordType: "Noun",
+				descriptions: [
+					"The front.",
+					"Ahead.",
+					"First.",
+					"First",
+					"ahead",
+					"before",
+				],
+				creeWords: ["nîkân", "nîkân"],
+			},
+			{
+				primaryText: "last",
+				wordType: "Noun",
+				descriptions: [
+					"oh well!, it's okay!, never mind!, think nothing of it!",
+					"so what!",
+					"so much for this!",
+					"anyway, rather",
+					"let it be!, let there be no further delay!",
+					"please",
+					"let's go then!",
+					"do so",
+					"quietly",
+					"at last",
+					"A reply, meaning - Let it be. It is all right.",
+					"last night, the previous night",
+					"Last night.",
+					"last, at last, finally",
+					"to the end, to the last, at the end of it all",
+					"the last one, the last time",
+					"youngest",
+					"The last",
+					"Final",
+					"At the end of it all.",
+				],
+				creeWords: ["kiyâm", "tipiskohk", "iskwayâc"],
+			},
+			{
+				primaryText: "long",
+				wordType: "Adjective",
+				descriptions: [
+					"forever",
+					"at all times, all the time, always",
+					"for a very long time",
+					"Always",
+					"Forever and ever.",
+					"At all times.",
+					"a long while",
+					"for a long time",
+				],
+				creeWords: ["kâkikê", "kinwêsk"],
+			},
+			{
+				primaryText: "great",
+				wordType: "Noun",
+				descriptions: [
+					"much, greatly, a great deal, a lot, lots",
+					"very, very many",
+					"very much so!",
+					"A lot.",
+					"A great amount.",
+					"Much.",
+					"lots of it",
+					"great, big",
+					"chiefest, most prominent",
+					"proper, genuine",
+					"great [see: kihci-]",
+					"great, big, important, most prominent",
+					"greatly",
+					"formally",
+				],
+				creeWords: ["mistahi", "kihci-", "kihc-", "kihc-"],
+			},
+			{
+				primaryText: "little",
+				wordType: "Adjective",
+				descriptions: [
+					"a little, a little bit",
+					"A few.",
+					"by comparison",
+					"better, more",
+					"before",
+					"instead, rather",
+					"somewhat, a little",
+					"Preferably.",
+					"a little, a little bit, a dab",
+					"a few",
+					"a little",
+					"a dab",
+					"below, further down, lower down, down low",
+					"low in the air",
+					"bottom",
+					"a little bit lower or below",
+				],
+				creeWords: ["apisîs", "nawac", "apisis", "capasis"],
+			},
+			{
+				primaryText: "own",
+				wordType: "Noun",
+				descriptions: [
+					"One's own. Immediate.",
+					"personally, in person",
+					"own, proper",
+					"biologically close",
+					"really",
+					"s/he puts his/her own mitts on",
+					"s/he is useful in such a way, s/he is used thus, s/he is of such use",
+					"He is used for another's own convenience.",
+					"That is how he is used.",
+				],
+				creeWords: ["tipiyawê", "tipiêaw", "postastisêw", "itâpatisiw"],
+			},
+			{
+				primaryText: "other",
+				wordType: "Noun",
+				descriptions: [
+					"Other.",
+					"other, others",
+					"Another.",
+					"Any or some other.",
+					"One that is different from the first or present one.",
+				],
+				creeWords: ["kotakak", "kotaka", "kotak"],
+			},
+			{
+				primaryText: "old",
+				wordType: "Adjective",
+				descriptions: [
+					"old",
+					"elder, old one, old person",
+					"the old",
+					"An Elder.",
+					"Her old man.",
+					"Her husband.",
+					"long ago, a long time ago, of old, in earlier days, in a golden age",
+					"previously, formerly",
+					"traditionally, for a long time",
+				],
+				creeWords: ["kayâsi-", "kêhtê-aya", "okisêyinîma", "kayâs"],
+			},
+			{
+				primaryText: "right",
+				wordType: "Noun",
+				descriptions: [
+					"currently, presently, right now",
+					"at the present time, for the duration",
+					"meanwhile",
+					"while, during, in the course of, in the meantime, during the time",
+					"in the midst of",
+					"ago",
+					"Presently.",
+					"Right now.",
+					"right now, at this time, as of now",
+					"in the interval",
+					"right now, right away, at once, immediately, instantly",
+					"Right away.",
+					"At once.",
+					"Immediately.",
+					"right now",
+					"immediately. (Northern). alt. semak (Plains)",
+					"right, properly, straight, correct, in good order, neatly",
+					"by rights, as ordained by the powers",
+					"honest",
+					"Right.",
+					"Properly.",
+					"It is right.",
+					"It is proper.",
+					"It is level",
+				],
+				creeWords: ["mêkwâc", "sêmâk", "kwayask"],
+			},
+			{
+				primaryText: "big",
+				wordType: "Adjective",
+				descriptions: [
+					"only, solely, exclusively",
+					"alone in its class",
+					"must, have to, it is necessary that ...",
+					"for sure, without a doubt",
+					"it is proper that ...",
+					"Have to",
+					"Must. For sure.",
+					"Only.",
+					"Solely.",
+					"Alone in its class.",
+				],
+				creeWords: ["piko", "piko", "piko", "piko"],
+			},
+			{
+				primaryText: "high",
+				wordType: "Noun",
+				descriptions: [
+					"up, up above",
+					"in the air, on high, high up",
+					"upstairs",
+					"High above",
+					"Way up.",
+					"high, elevated",
+					"advanced",
+					"s/he burns so high",
+					"s/he is burning up",
+				],
+				creeWords: ["ispimihk", "ispi-", "iskwâskisow"],
+			},
+			{
+				primaryText: "different",
+				wordType: "Noun",
+				descriptions: [
+					"only later",
+					"then, later",
+					"at a different time",
+					"different, differently",
+					"different kind",
+					"strange",
+					"all kinds of things or a variety",
+					"different kinds",
+					"from one to another",
+					"Different",
+					"differently.",
+				],
+				creeWords: ["pâtos", "pahkân", "nanâtohk", "ay-âhci"],
+			},
+			{
+				primaryText: "small",
+				wordType: "Adjective",
+				descriptions: ["small"],
+				creeWords: ["apihci-", "apihci-", "apisîsi-", "apist-"],
+			},
+			{
+				primaryText: "large",
+				wordType: "Adjective",
+				descriptions: [
+					"it is big, it is large, it is extensive",
+					"it is important, it is powerful",
+					"It is large.",
+					"it is big or large",
+					"s/he is big, s/he is large (in height or girth), s/he is tall",
+					"s/he is a big person, s/he is obese",
+					"Meaning large or big.",
+					"it is large (metal)",
+				],
+				creeWords: ["misâw", "misikitiw", "misi-", "misâpiskâw"],
+			},
+			{
+				primaryText: "next",
+				wordType: "Noun",
+				descriptions: [
+					"the night after next",
+					"next to",
+					"after",
+					"next autumn",
+					"when it's autumn",
+				],
+				creeWords: ["awasi-tipiskâki", "askoc", "takwâkiki"],
+			},
+			{
+				primaryText: "early",
+				wordType: "Noun",
+				descriptions: [
+					"soon, quickly, as soon as possible",
+					"early",
+					"Very soon.",
+					"As early as possible.",
+					"Soon. (Plains). alt. kîyipa (Northern)",
+					"in the morning, early in the morning",
+					"this past morning",
+					"soon",
+					"ahead of time, beforehand, in advance",
+					"Ahead of time.",
+				],
+				creeWords: ["wîpac", "kîkisêp", "kîpa", "mâtayak"],
+			},
+			{
+				primaryText: "young",
+				wordType: "Noun",
+				descriptions: [
+					"young man, male youth, adolescent male (about 14-15 years old)",
+					"A young man.",
+					"a youth",
+					"he is a young man, he is a male youth, he is an adolescent male (about 14-15 years old)",
+					"young one, young person, young creature",
+					"[plural:] the young",
+				],
+				creeWords: ["oskinîkiw", "oskinîkiw", "oski-aya"],
+			},
+			{
+				primaryText: "important",
+				wordType: "Noun",
+				descriptions: [
+					"great, big",
+					"chiefest, most prominent",
+					"proper, genuine",
+					"great, big, important, most prominent",
+					"greatly",
+					"formally",
+					"An important day",
+					"it is strong, it is sturdy, it is firm, it is solid, it is strongly made",
+					"it is important",
+					"it is powerful, it has supernatural power",
+					"it is hard, it is difficult",
+					"It is strong.",
+					"It is strongly made.",
+					"it is strong, solid, powerful",
+				],
+				creeWords: ["kihci-", "kihci-kîsikâw", "sôhkan"],
+			},
+			{
+				primaryText: "few",
+				wordType: "Noun",
+				descriptions: ["some", "A few.", "few", "Very few."],
+				creeWords: ["âtiht", "cikawâsis"],
+			},
+			{
+				primaryText: "public",
+				wordType: "Noun",
+				descriptions: [
+					"public discussion, public discourse",
+					"the act of mentioning something to someone",
+					"those, those ones",
+					"Those people there.",
+					"secretly, in secret, stealthily, slyly, by stealth",
+					"privately, in private",
+					"Secretly.",
+					"Slyly.",
+					"some people",
+				],
+				creeWords: ["mâmiskôtamâkêwin", "aniki", "kîmôc", "awiyakak"],
+			},
+			{
+				primaryText: "bad",
+				wordType: "Noun",
+				descriptions: [
+					"simply, indifferently",
+					"something, anything",
+					"somewhere, anywhere, at some undetermined place",
+					"anyhow",
+					"in some way",
+					"[in negative clauses:] anything",
+					"anything bad",
+					"Bad",
+					"Evil",
+					"Wicked.",
+					"[with negative presupposition:] something bad, anything bad",
+					"it is regrettable",
+					"that's too bad!, sad loss!",
+					"Unfortunately.",
+					"Too bad.",
+				],
+				creeWords: ["nânitaw", "maci-", "nânitaw", "wiyakâc"],
+			},
+			{
+				primaryText: "same",
+				wordType: "Noun",
+				descriptions: [
+					"this (previously mentioned), that one, the very one",
+					"the same one",
+					"this (previously mentioned), that one, that very one",
+					"that same one (previously mentioned)",
+					"that same one",
+					"those same ones (previously mentioned)",
+				],
+				creeWords: ["êwako", "êwako", "êwakw âna", "êwakw ânihi"],
+			},
+			{
+				primaryText: "able",
+				wordType: "Noun",
+				descriptions: [
+					"able",
+					"good at, competent, practised, experienced, doing much of, skilful at, accustomed to",
+					"expert at, known as one who does something habitually, be in the habit of",
+					"well",
+					"consistently, always",
+					"good at, competent, practised, experienced, skilful at, expert at, known as one who does something habitually",
+					"s/he has the ability to do s.t., s/he is able, s/he is competent, s/he is clever, s/he is skilful",
+					"s/he prevails",
+					"s/he escapes",
+				],
+				creeWords: ["nihtâ-", "nahtâ-", "kaskihow"],
+			},
+			{
+				primaryText: "be",
+				wordType: "Noun",
+				descriptions: [
+					"Be",
+					"It happened so.",
+					"close, close by, near, nearby, near to",
+					"Near",
+					"Nearby.",
+					"To be near.",
+					"If it will be.",
+					"If it will happen that way.",
+					"He drove there.",
+					"It got to be that way.",
+					"anyway, at any rate, in any case",
+					"despite, in spite of",
+					"whatever might be thought",
+					"no doubt it is the case",
+					"At any rate.",
+					"Anyway.",
+				],
+				creeWords: ["ispayin", "cîki", "ispayiw", "misawâc"],
+			},
+			{
+				primaryText: "have",
+				wordType: "Noun",
+				descriptions: [
+					"He owns (something).",
+					"He is there.",
+					"You can have it.",
+					"He is through",
+					"He is finished.",
+					"He can rise now after being bedridden.",
+					"you shouldn't have ...",
+					"well, you should not have",
+				],
+				creeWords: ["ayâw", "êkâ êsa"],
+			},
+			{
+				primaryText: "do",
+				wordType: "Noun",
+				descriptions: [
+					"don't",
+					"no",
+					"not [used in conjunct and imperative clauses]",
+					"Do not.",
+					"Can you?",
+					"Do you think you can?",
+					"Will you?",
+					"Go and get",
+					"Go and do",
+					"Go and act.",
+				],
+				creeWords: ["kâwiêa", "ka-kî cî", "nitaw"],
+			},
+			{
+				primaryText: "say",
+				wordType: "Noun",
+				descriptions: [
+					"oh geez!",
+					"They say to him or them.",
+					"What?",
+					"What did you say?",
+					"I wonder, I wonder if",
+					"I believe",
+					"perhaps",
+					"I don't know",
+				],
+				creeWords: ["ay say", "itêwak", "âh", "matwân cî"],
+			},
+			{
+				primaryText: "get",
+				wordType: "Noun",
+				descriptions: [
+					"He gets it for him.",
+					"go on!",
+					"go away!",
+					"get out of the way!",
+					"go on! go away! away with you! get out of the way!",
+					"Go away!",
+					"I go to get him.",
+				],
+				creeWords: ["nâtamawêw", "awasitik", "awas", "ninâtâw"],
+			},
+			{
+				primaryText: "make",
+				wordType: "Verb",
+				descriptions: [
+					"pretend, pretence",
+					"make believe",
+					"Make it soft.",
+					"Soften it.",
+					"Judge it.",
+					"Make a decision on it.",
+					"He makes him just so.",
+				],
+				creeWords: ["âhki", "yôskihtâ", "wiyasiwâta", "isîhêw"],
+			},
+			{
+				primaryText: "go",
+				wordType: "Noun",
+				descriptions: [
+					"go and, go to",
+					"engaged in",
+					"and, also",
+					"then",
+					"now",
+					"let's go!",
+					"Go.",
+					"You come along, too.",
+				],
+				creeWords: ["nitawi-", "êkwa", "niyâ"],
+			},
+			{
+				primaryText: "know",
+				wordType: "Noun",
+				descriptions: ["I don't know who", "I wonder who", "Know it."],
+				creeWords: ["awîna êtikwê", "kiskêyihta"],
+			},
+			{
+				primaryText: "take",
+				wordType: "Verb",
+				descriptions: [
+					"He takes him.",
+					"Here, take it.",
+					"s/he takes (it/them) for him/herself, s/he gets (it/them) for him/herself, s/he obtains (it/them) for him/herself",
+					"s/he steals (it/them)",
+					"s/he buys (it/them) for him/herself",
+					"He takes it for himself.",
+					"s/he unjustly appropriates it for herself/himself",
+					"easily, leisurely",
+					"taking time",
+				],
+				creeWords: ["otinêw", "nah", "otinamâsow", "wawêhtinahk"],
+			},
+			{
+				primaryText: "see",
+				wordType: "Verb",
+				descriptions: [
+					"after",
+					"another time",
+					"later",
+					"afterward",
+					"by and by",
+					"come on!, let's see! [hortatory]",
+					"let me pass!",
+					"oh! yes! [discourse particle; accepting information]",
+					"Used in repetition of a verb and denotes continuous action.",
+					"Oh!",
+					"That's it, its it?",
+					"I see.",
+					"later, see you later!",
+					"[see: asê-]",
+					"Let me pass, please.",
+				],
+				creeWords: ["mahti", "ka", "mwêstas", "âsê-"],
+			},
+			{
+				primaryText: "come",
+				wordType: "Noun",
+				descriptions: [
+					"and, also",
+					"then",
+					"now",
+					"let's go!",
+					"come!, come here!",
+					"Come here.",
+					"come and, come to",
+					"towards, approaching",
+					"hither",
+					"thence, from there on down",
+					"[towards focus]",
+					"You come along, too.",
+				],
+				creeWords: ["âstam", "âstam", "pê-", "êkwa"],
+			},
+			{
+				primaryText: "think",
+				wordType: "Noun",
+				descriptions: [
+					"truly, in truth",
+					"indeed, really, for sure, certainly",
+					"duly, in due course",
+					"True",
+					"Truly",
+					"For sure",
+					"Certainly",
+					"Really.",
+					"I think, I believe",
+					"apparently, it is apparent",
+					"perhaps, maybe, probably",
+					"surely, it's very likely, to judge by appeal",
+					"Perhaps.",
+					"It is very likely.",
+					"it is apparent",
+					"it could be",
+					"I think so",
+					"perhaps, probably",
+					"Think it to be so.",
+				],
+				creeWords: ["tâpwê", "pakahkam", "itêyihta"],
+			},
+			{
+				primaryText: "look",
+				wordType: "Noun",
+				descriptions: [
+					"s/he looks thus or there, s/he faces there, s/he takes a look",
+					"s/he takes aim thus or there",
+					"He takes a look.",
+					"I look.",
+					"It goes well with him.",
+					"It looks well.",
+					"Be careful.",
+					"Look after it.",
+				],
+				creeWords: ["itâpiw", "nitâpin", "miyopayiw", "nâkatêyihta"],
+			},
+			{
+				primaryText: "want",
+				wordType: "Noun",
+				descriptions: [
+					"s/he is hungry, s/he wants food, s/he is in need of food, s/he suffers want of food",
+					"He is hungry",
+					"want to, desire to, be determined to",
+					"lack, be short of",
+					"want, intend",
+				],
+				creeWords: ["nôhtêhkatêw", "nôhtê-", "wîto-"],
+			},
+			{
+				primaryText: "give",
+				wordType: "Verb",
+				descriptions: [
+					"That is what he is called.",
+					"He gives him a name.",
+					"Give him.",
+					"I give.",
+					"He gives him food to eat.",
+				],
+				creeWords: ["isiyihkâtêw", "miy", "nimêkin", "asâm"],
+			},
+			{
+				primaryText: "use",
+				wordType: "Noun",
+				descriptions: [
+					"He is using him or it.",
+					"usually, habitually, customarily, generally, always, continually",
+					"used to",
+					"Always.",
+					"Generally.",
+					"Usually. (Northern). alt. mâna (Plains)",
+					"s/he uses s.o., s/he makes use of s.o. (e.g. porcupine-quills), s/he finds s.o. useful",
+				],
+				creeWords: ["âpacihêw", "mâna", "âpacihêw"],
+			},
+			{
+				primaryText: "find",
+				wordType: "Noun",
+				descriptions: [
+					"I find him tasty.",
+					"I find it tasty.",
+					"besides, of course, in the actual outcome",
+					"in the end, in the event, in fact, come to find out, as it appeared",
+					"Because of.",
+				],
+				creeWords: ["niwihkistâw", "niwîhkistên", "pîhtaw"],
+			},
+			{
+				primaryText: "tell",
+				wordType: "Noun",
+				descriptions: [
+					"(you all) tell now, (you all) tell a story now",
+					"(you all) tell news now, (you all) give an account now, (you all) make a report now, (you all) inform now, (you all) narrate now",
+					"(you all) tell your own story now",
+					"(you all) told a story now. now",
+					"All of you tell a story.",
+					"I tell him something.",
+					"I tell about it.",
+					"s/he offers an invitation to s.t.",
+					"s/he makes up his/her own mind",
+					"s/he tells others what to do",
+					"He asks others to go with him.",
+					"s/he invites someone to go along",
+				],
+				creeWords: ["âcimow", "niwîhtamawâw", "niwîhtên", "wîsâwitam"],
+			},
+			{
+				primaryText: "ask",
+				wordType: "Noun",
+				descriptions: [
+					"come on!, let's see! [hortatory]",
+					"let me pass!",
+					"Let me pass, please.",
+					"Ask others to go with you.",
+					"s/he asks, s/he inquires, s/he asks people",
+					"s/he asks for s.t., s/he asks questions of people",
+					"s/he asks",
+				],
+				creeWords: ["mahti", "wîsâwita", "kakwêcihkêmow"],
+			},
+			{
+				primaryText: "seem",
+				wordType: "Noun",
+				descriptions: [
+					"like, for instance",
+					"just like, as when, as if, in the same way",
+					"it seems, seemingly, apparently, similar to",
+					"equally",
+					"Just like",
+					"As",
+					"it seems like, evidently, apparently [contrary to expectation]",
+					"it seems like",
+					"by one's sense",
+					"evidently, apparently [contrary to expectation]",
+				],
+				creeWords: ["tâpiskôc", "mâni piko", "mâniko"],
+			},
+			{
+				primaryText: "feel",
+				wordType: "Noun",
+				descriptions: [
+					"s/he feels s.o. (by hand), s/he examines s.o. by feel",
+					"s/he gropes s.o.",
+					"He feels him with the hands.",
+					"A person who feels a premonition, he may not know it but he will display behavior towards this.",
+					"He is starting to feel sick",
+					"He is starting to feel pain.",
+				],
+				creeWords: ["mîskonêw", "oyascikêw", "mâtâhpinêw"],
+			},
+			{
+				primaryText: "try",
+				wordType: "Noun",
+				descriptions: [
+					"try to, attempt to",
+					"circumstances permitting, by divine grace",
+					"Try to.",
+					"Try it.",
+					"s/he tries to go (somewhere)",
+				],
+				creeWords: ["kakwê-", "kakwe", "kocîhtâ", "itohtêw"],
+			},
+			{
+				primaryText: "leave",
+				wordType: "Noun",
+				descriptions: [
+					"s/he fetches s.o.",
+					"s/he goes for s.o., s/he goes to get s.o.",
+					"They leave to go get them.",
+					"He goes to get him.",
+					"s/he goes and gets her/him",
+					"they go away in numbers, they evacuate a place, they leave a place empty, they leave a place exhausted, they desert a place",
+					"leaving, departing, going away",
+					"starting out, commencement",
+				],
+				creeWords: ["nâtêw", "sîkawîwak", "sipwê-"],
+			},
+			{
+				primaryText: "call",
+				wordType: "Noun",
+				descriptions: [
+					"(you) call now, (you) call out now, (you) shout now, (you) yell now, (you) holler now",
+					"(you) yell loudly now",
+					"(you) call loudly now. now",
+					"Yell loudly",
+					"Call loudly.",
+					"call, calling",
+					"invitation",
+				],
+				creeWords: ["têpwêw", "natomiwêwin"],
+			},
+			{
+				primaryText: "book",
+				wordType: "Noun",
+				descriptions: [
+					"book",
+					"letter, mail",
+					"written document, report, paper",
+					"magazine",
+					"will",
+					"cheque, voucher",
+					"hymnbook, hymnal, Bible",
+					"A letter",
+					"Paper",
+					"a letter to someone",
+					"preface, foreword of a book",
+					'dictionary, bilingual dictionary [literally: "translating book"]',
+				],
+				creeWords: [
+					"masinahikan",
+					"nîkânitwêwin",
+					"itwêstamâkêwasinahikan",
+				],
+			},
+			{
+				primaryText: "house",
+				wordType: "Noun",
+				descriptions: [
+					"house, residence, wooden house",
+					"shack",
+					"building",
+					"fort",
+					"A house",
+					"inside, indoors, inside a house, tent, dwelling",
+					"Inside a house",
+					"Inside a dwelling.",
+					"the interior of a building",
+					"Our house",
+					"Our home.",
+					"s/he lives there, s/he dwells there, s/he has his/her own home (there)",
+					"He lives in a house.",
+					"s/he lives or inhabits there",
+					"s/he dwells there",
+					"s/he resides there",
+					"s/he has a home there",
+				],
+				creeWords: ["wâskahikan", "pîhtokamik", "kîkinaw", "wîkiw"],
+			},
+			{
+				primaryText: "door",
+				wordType: "Noun",
+				descriptions: [
+					"door, doorway, entrance to tipi or tent",
+					"opening in fence",
+					"car door",
+					"Porch.",
+					"s/he is knocking at s.t. (e.g. door)",
+					"it goes open (e.g. door)",
+					"A door keeper.",
+					"Goalkeeper.",
+				],
+				creeWords: [
+					"iskwâhtêm",
+					"pâhpawihtakaham",
+					"pâskihtêpaêiw",
+					"kanawêyiskwâhtawêw",
+				],
+			},
+			{
+				primaryText: "window",
+				wordType: "Noun",
+				descriptions: [
+					"A window",
+					"A small window.",
+					"s/he looks out (e.g. through a window or hole)",
+					"s/he peers out through a hole, s/he peeks out through a crack",
+					"He looks out through the window.",
+					"s/he peers at the window, i.e.: looking out or in",
+					"window",
+				],
+				creeWords: [
+					"wâsênamawin",
+					"wâsênamawinis",
+					"paspâpiw",
+					"wâsênamân",
+				],
+			},
+			{
+				primaryText: "table",
+				wordType: "Noun",
+				descriptions: [
+					"table, dining table",
+					"A table.",
+					"His table.",
+					"table fork",
+					"s/he has a table",
+					"writing table, desk",
+					"blackboard",
+				],
+				creeWords: [
+					"mîcisowinâhtik",
+					"cîstahâsêpon",
+					"omîcisowinâhtikow",
+					"masinahikêwinâhtik",
+				],
+			},
+			{
+				primaryText: "chair",
+				wordType: "Noun",
+				descriptions: [
+					"A chair.",
+					"chair, seat",
+					"saddle",
+					"baby chair, highchair",
+					"little chair",
+					"wheelchair",
+					"seat, chair",
+				],
+				creeWords: [
+					"têhtapiwin",
+					"têhtapiwin",
+					"cêhcapiwinis",
+					"apiwinis",
+				],
+			},
+			{
+				primaryText: "bed",
+				wordType: "Noun",
+				descriptions: [
+					"He rises out of bed.",
+					"s/he rises",
+					"s/he gets up out of bed",
+					"s/he gets up, s/he arises from lying, s/he gets out of bed",
+					"s/he goes to bed, s/he beds down, s/he lies down",
+					"s/he gets ready for bed",
+					"He goes to bed.",
+					"s/he retires or goes to bed",
+				],
+				creeWords: ["waniskâw", "waniskâw", "waniskâw", "kawisimow"],
+			},
+			{
+				primaryText: "room",
+				wordType: "Noun",
+				descriptions: [
+					"restaurant, café, cafeteria",
+					"dining room",
+					"a restaurant, cafe, cafeteria",
+					"come in, you are welcome!",
+					"there's room",
+					"standing room",
+					"railway station",
+					"waiting room",
+				],
+				creeWords: [
+					"mîcisowikamik",
+					"tawâw",
+					"têpikâpawiwin",
+					"pêhowikamik",
+				],
+			},
+			{
+				primaryText: "car",
+				wordType: "Noun",
+				descriptions: [
+					"s/he rides in a vehicle (e.g. wagon, car, sled), s/he drives a vehicle (e.g. wagon, car)",
+					"He rides.",
+					"He is riding (in a wagon).",
+					"s/he goes for a ride",
+					"s/he gives s.o. a ride",
+					"s/he puts s.o. on board, s/he makes s.o. board (e.g. boat, vehicle, bus, airplane), s/he puts s.o. on a sleigh, s/he gives s.o. a ride on a sleigh",
+					"s/he boards, s/he gets aboard, s/he climbs in (e.g. boat, vehicle, bus, airplane), s/he embarks, s/he is aboard",
+					"s/he rides (in a vehicle), s/he rides the train",
+					"s/he mounts (e.g. horse)",
+					"He boards.",
+				],
+				creeWords: ["otâpâsow", "pôsihêw", "pôsiw"],
+			},
+			{
+				primaryText: "street",
+				wordType: "Noun",
+				descriptions: [
+					"in a small ravine, in a narrows",
+					"on the street",
+					"across the street",
+					"across the made street",
+					"on a side street",
+					"wide road, wide street, highway",
+				],
+				creeWords: [
+					"cawâsihk",
+					"akâmi-mêskanâhkânihk",
+					"cawâscêsihk",
+					"aêakaski-mêskanaw",
+				],
+			},
+			{
+				primaryText: "city",
+				wordType: "Noun",
+				descriptions: [
+					"in town, in the city",
+					"In the city.",
+					"camp circle",
+					"town, settlement",
+					"city",
+					"person living in a town or city, citizen of a city",
+					"[plural:] townsfolk",
+				],
+				creeWords: ["ôtênâhk", "ôtênaw", "ôtênaw-iêiniw"],
+			},
+			{
+				primaryText: "food",
+				wordType: "Noun",
+				descriptions: [
+					"food, meal",
+					"food supply",
+					"ritual food",
+					"[plural:] groceries",
+					"Food.",
+					"It is good that",
+					"It is food for",
+					"s/he cooks, s/he finishes cooking",
+					"s/he cooks a feast, s/he cooks ritual food",
+					"Cood food, usually for a feast.",
+					"He cooks food.",
+				],
+				creeWords: ["mîciwin", "ê-miywâsik", "kîsitêpow"],
+			},
+			{
+				primaryText: "money",
+				wordType: "Noun",
+				descriptions: [
+					"money, wages",
+					"gold, silver",
+					"banknote, bill",
+					"Money in large quantities.",
+					"Paper money",
+					"dollars",
+					"money",
+					"change",
+					"coin",
+					"[singular:] quarter dollar, a quarter, twenty-five cents",
+					"a little money, some money",
+					"Money, in small quantities.",
+					"a piece of silver money, i.e.: a quarter",
+					"s/he owes (it) to s.o., s/he owes s.o. money, s/he is in debt to s.o.",
+					"s/he has money, s/he carries money on him/herself",
+					"s/he gets money, s/he secures a cash income",
+				],
+				creeWords: [
+					"sôniyâw",
+					"sôniyâs",
+					"masinahamawêw",
+					"osôniyâmiw",
+				],
+			},
+			{
+				primaryText: "paper",
+				wordType: "Noun",
+				descriptions: [
+					"paper",
+					"wrapping paper",
+					"wallpaper",
+					"tar paper roofing",
+					"paper bag",
+					"it is thin, it is rather thin material (e.g. cloth or paper)",
+					"It is a little thin.",
+					"it is thin",
+				],
+				creeWords: ["masinahikanêkin", "papakâsin"],
+			},
+			{
+				primaryText: "pen",
+				wordType: "Noun",
+				descriptions: [
+					"pencil, pen",
+					"a pencil",
+					"pen",
+					"s/he has a pen",
+				],
+				creeWords: [
+					"masinahikanâhtik",
+					"masinahikanâpisk",
+					"masinahikanâpiskos",
+					"omasinahikanâpiskow",
+				],
+			},
+			{
+				primaryText: "friend",
+				wordType: "Noun",
+				descriptions: [
+					"His friend.",
+					"my friend, my kinsman",
+					"my close friend",
+					"crony",
+					"brother!",
+					"male parallel cousin!",
+					"friend!",
+					"rival! [used by a male speaker only]",
+					"my companion, my partner, my buddy, my friend",
+					"my housemate",
+					"my spouse",
+				],
+				creeWords: ["otôtêma", "nitôtêm", "niciwâ!", "niwîcêwâkan"],
+			},
+			{
+				primaryText: "family",
+				wordType: "Noun",
+				descriptions: [
+					"s/he is alone with his/her family",
+					"My family member.",
+					"A blood relation",
+					"Brother or sister.",
+					"A brother",
+					"A sister.",
+					"His blood relatives.",
+					"Fineday [personal and family name]",
+					"s/he has a large family",
+				],
+				creeWords: [
+					"pêyakôtêw",
+					"-îtisân",
+					"kâ-miêokîsihkwêw",
+					"mihcêtiw",
+				],
+			},
+			{
+				primaryText: "mother",
+				wordType: "Noun",
+				descriptions: [
+					"His mother.",
+					"My first cousin. Father's brother's daughter or mother's sister's daughter.",
+					"Your mother.",
+					"My mother (in direct audience).",
+				],
+				creeWords: ["okâwiya", "niciwâmiskwêm", "kikâwiy", "nêkâ"],
+			},
+			{
+				primaryText: "father",
+				wordType: "Noun",
+				descriptions: [
+					"My father.",
+					"His father.",
+					"He is the father.",
+					"he is a father",
+				],
+				creeWords: ["nôhtâwiy", "ohtâwiya", "ohtâwîmâw", "ohtâwîmâwiw"],
+			},
+			{
+				primaryText: "brother",
+				wordType: "Noun",
+				descriptions: [
+					"my sibling",
+					"my sister, my brother, my half-sibling, my parallel cousin",
+					"my brother or my sister",
+					'sisters say "my brother". Var. for my brother, nîcisân',
+					"My nephew",
+					"My sister's son (from a male point of view) or",
+					"My brother's son (from a female point of view).",
+					"my uncle, my cross-uncle",
+					"my mother's brother, my maternal uncle",
+					"my father's sister's husband",
+					"my father-in-law",
+					"My uncle (My mother's brother).",
+					"my mother's brother or my maternal uncle",
+				],
+				creeWords: ["nîtisân", "nitihkwatim", "nisis"],
+			},
+			{
+				primaryText: "sister",
+				wordType: "Noun",
+				descriptions: [
+					"Your older sister.",
+					"[male speaker:] my sister",
+					"my female parallel cousin, the daughter of my mother's sister, the daughter of my father's brother",
+				],
+				creeWords: ["kimis", "nitawêmâw"],
+			},
+			{
+				primaryText: "tree",
+				wordType: "Noun",
+				descriptions: [
+					"top, on top (e.g. of a hill, tree, snow)",
+					"above",
+					"On the top of.",
+					"tree",
+					"white poplar [Lat. Populus sp.]",
+					"aspen, trembling aspen, quaking aspen [Lat. Populus tremuloides]",
+					"a poplar tree",
+					"in the tree",
+					"chokecherry tree [Lat. Prunus virginiana]",
+				],
+				creeWords: [
+					"tahkohc",
+					"mîtos",
+					"mîtosihk",
+					"takwahiminânâhtik",
+				],
+			},
+			{
+				primaryText: "flower",
+				wordType: "Noun",
+				descriptions: [
+					"flower",
+					"wild rose flower",
+					"white flower",
+					"a flower. (Plains). Var. nepihkân (Plains)",
+					"alt. wâpikwanew (Northern)",
+					"rose, red flower",
+					"a white flower or leaf that grows in the muskeg",
+					"an herbal tea called Labrador tea",
+					"It is blooming.",
+					"It has flowers.",
+				],
+				creeWords: [
+					"wâpikwaniy",
+					"mihkokwaniy",
+					"maskêkopak",
+					"wâpakwanîwin",
+				],
+			},
+			{
+				primaryText: "grass",
+				wordType: "Noun",
+				descriptions: [
+					"leaf",
+					"blade of grass",
+					"leafy branch",
+					"New spring grass",
+					"fresh grass",
+					"under the grass",
+				],
+				creeWords: [
+					"nîpiy",
+					"oskaskosiy",
+					"atâmaskosîwak",
+					"sîpâskosîhk",
+				],
+			},
+			{
+				primaryText: "sun",
+				wordType: "Noun",
+				descriptions: [
+					"Sun",
+					"Moon",
+					"celestial orb",
+					"month",
+					"A month. May also mean the sun or the moon, but in more specific terms.",
+					"your and our grandfather, your and our grandpa, your and our grand uncle",
+					"your and our",
+					"your and our respected male elder",
+					"your and our grandfather",
+					"your and our grandpa",
+					"your and our grand uncle",
+					"Our Grandfather, The Sun",
+					"it is sunset, the Sun sets",
+					"it is the west",
+					"The sun sets.",
+				],
+				creeWords: ["pîsim", "nimosôm", "pahkisimon", "pahkisimow"],
+			},
+			{
+				primaryText: "moon",
+				wordType: "Noun",
+				descriptions: [
+					"Flying-Up Moon",
+					"August",
+					"the flying moon or month (Northern). alt. ohpahopîsim (Plains)",
+					"Autumn Moon",
+					"September",
+					"January",
+					"Great Moon",
+					"Elder Moon",
+					"Cold Moon",
+					"January. The great moon.",
+				],
+				creeWords: ["ohpahowi-pîsim", "takwâki-pîsim", "kisê-pîsim"],
+			},
+			{
+				primaryText: "star",
+				wordType: "Noun",
+				descriptions: [
+					"star, little star",
+					"A star.",
+					"evening star",
+					"Venus (planet)",
+					"The evening star.",
+					"star, bright star",
+					"A big bright star.",
+					'Pluto (planet) [literally: "small star"]',
+				],
+				creeWords: ["acâhkos", "otâkwanacâhkos", "atâhk", "apiscatâhk"],
+			},
+			{
+				primaryText: "sky",
+				wordType: "Noun",
+				descriptions: [
+					"night, night time",
+					"night sky",
+					"Night time.",
+					"day, daylight",
+					"day sky",
+					"Day",
+					"it is a clear day, it is sunny",
+					"it is a clear sky",
+					"it is moonlight",
+					"The sky is clearing (after a storm).",
+					"it is clear weather",
+					"the sky is clear",
+					"in the sky",
+					"in heaven",
+					"In the heavens.",
+				],
+				creeWords: ["tipiskâw", "kîsikâw", "wâsêskwan", "kîsikohk"],
+			},
+			{
+				primaryText: "cloud",
+				wordType: "Noun",
+				descriptions: [
+					"it arrives across the sky (e.g. cloud)",
+					"it arrives flying",
+					"cloud",
+					"skies",
+					"it speeds along, it moves fast (e.g. bullet)",
+					"it moves fast through the sky (e.g. cloud)",
+					"it is a white sky, there are white clouds",
+				],
+				creeWords: ["takwakotêw", "waskow", "kisîkotêw", "wâpânaskwan"],
+			},
+			{
+				primaryText: "rain",
+				wordType: "Noun",
+				descriptions: [
+					"it rains, it is raining, it is rainy",
+					"It is raining.",
+					"rain",
+					"it rains a little, there is a little rain",
+					"it is drizzling",
+					"It rains a little.",
+				],
+				creeWords: ["kimiwan", "kimiwan", "kimiwasin"],
+			},
+			{
+				primaryText: "snow",
+				wordType: "Noun",
+				descriptions: [
+					"snow",
+					"it drifts, it is drifting (i.e. snow)",
+					"it is a blizzard",
+					"The snow is falling heavy.",
+				],
+				creeWords: ["kôna", "pîwan"],
+			},
+			{
+				primaryText: "fire",
+				wordType: "Noun",
+				descriptions: [
+					"campfire, bonfire, open fire",
+					"fireplace, campfire pit",
+					"A campfire.",
+					"by the fire",
+					"s/he extinguishes the fire",
+					"s/he fights fire, s/he fights forest fires, s/he is a firefighter",
+					"He puts the fire out by fighting it.",
+					"The fire is out.",
+				],
+				creeWords: ["kotawân", "cîkiskotêw", "âstawêhikêw", "âstawêw"],
+			},
+			{
+				primaryText: "river",
+				wordType: "Noun",
+				descriptions: [
+					"across the river",
+					"Across the river",
+					"little river, creek, brook, stream",
+					"a creek",
+				],
+				creeWords: ["akâmi-sîpîhk", "akâmi-sîpîhk", "sîpîsis"],
+			},
+			{
+				primaryText: "sea",
+				wordType: "Noun",
+				descriptions: ["in the sea"],
+				creeWords: ["kihcikamîhk"],
+			},
+		] as EnglishWord[]
+	).map((w) => [w.primaryText, w]),
+);

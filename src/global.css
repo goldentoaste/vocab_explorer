@@ -59,7 +59,7 @@ a {
     transition: border-color 200ms ease-out;
     background-color: transparent;
 
-    padding: 0.25rem;
+    padding: 0.2rem;
 }
 
 .iconBtn:hover {
@@ -68,7 +68,10 @@ a {
 
 .iconBtn>img {
     height: auto;
-    width: 1.25rem;
+    width: auto;
+
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .iconBtn {
