@@ -12,7 +12,7 @@
 </script>
 
 <div class="mainLayout">
-    <h1>Better <span class="mispell">Iwaina</span>?</h1>
+    <h1>Better Itwêwina</h1>
     <CreeSearchComp/>
 
     {#if !text}
