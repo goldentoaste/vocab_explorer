@@ -62,10 +62,10 @@
 
             {#each completeOptions as item (item)}
                 <button
+                    tabindex="0"
                     class="searchItem"
                     onclick={() => {
                         ItemSelected(item);
-                        // console.log(item);
                     }}
                 >
                     {item}
